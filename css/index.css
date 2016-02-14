@@ -719,6 +719,7 @@
 .nav .n-catagory,
 .nav .n-items {
   float: left;
+  margin: 0;
   height: 42px;
   overflow: hidden;
 }
