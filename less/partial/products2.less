@@ -1,31 +1,36 @@
 //商品,无价格
-.product2(@width:240px, @height:305px){
-    @padding:10px;
-    @border-width:1px;
-    
+.products2 {
+    @height: 305px;
+    @width: 240px;
+    @padding: 10px;
+    @border-width: 1px;
+
     padding: @padding;
     width: @width - 2 * @padding - @border-width;
     height: @height - 2 * @padding - @border-width;
 
-    img{
+    img {
         text-align: center;
         width: 210px;
         height: 210px;
     }
-    .pro2-title{ 
+
+    .pro2-title {
         width: @width - 2 * @padding - @border-width - 10;
         height: 15px;
-        overflow: hidden;    
+        overflow: hidden;
         line-height: 10px;
         text-align: center;
         text-indent: 10px;
         margin-top: 20px;
-        a{
-            font:14px/16px "Arial";
+
+        a {
+            font: 14px/16px "Arial";
             color: #000;
         }
     }
-    .pro2-about{
+
+    .pro2-about {
         width: @width - 2 * @padding - @border-width - 10;
         height: 17px;
         line-height: 10px;
@@ -33,12 +38,13 @@
         .text-overflow();
         text-indent: 10px;
         margin-top: 0;
-        font:12px/16px "Arial";
+        font: 12px/16px "Arial";
         color: #979798;
     }
-             &:hover{
-                 position: relative;
-             border-color: @tvc-base;
-             z-index: 20;
-         }
+
+    &:hover {
+        position: relative;
+        border-color: @tvc-base;
+        z-index: 20;
+    }
 }
