@@ -229,12 +229,19 @@ body{
      border-color: @tvc-base;
  }
 #banner{
-    background-color: #022022;
+    
     height: @banner-height;
     position: relative;
     .carousel-inner{
-    width: @container-width;
-    margin: auto;
+         margin: auto;
+         .item{
+             background-color: #022022;
+             img{
+                 display: block;
+                 width: @container-width;
+                 margin: auto;
+             }
+         }
     }
     
     .b-aside{
