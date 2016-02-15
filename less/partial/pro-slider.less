@@ -1,72 +1,77 @@
 //商品轮播图
-.pro-slider(){
+.pro-slider() {
     @tab-height: 50px;
     position: relative;
-    .pro-items{
+
+    .pro-items {
         height: 530px;
         display: none;
     }
-    .items-tab{
+
+    .items-tab {
         position: relative;
         width: 100%;
         height: @tab-height;
-        
-        ol{
-              position: absolute;
-              top: 16px;
-              left: 50%;
-              z-index: 15;
-              width: 60%;
-              height: 50px;
-              padding-left: 0;
-              margin-left: -30%;
-              text-align: center;
-              list-style: none;
-              
-              li{
-                      display: inline-block;
-                      width: 10px;
-                      height: 10px;
-                      margin: 1px;
-                      text-indent: -999px;
-                      cursor: pointer;
-                      background-color: #000 \9;
-                      background-color: rgba(0, 0, 0, 0);
-                      border: 1px solid #cdcbcb;
-                      border-radius: 10px;
-                      background-color: #cdcbcb;
-                  
 
-              }  
-                   .tab-active{
-                        background-color: @tvc-base;
-                        border-color: @tvc-base;
-                  }
-          }
+        ol {
+            position: absolute;
+            top: 16px;
+            left: 50%;
+            z-index: 15;
+            width: 60%;
+            height: 50px;
+            padding-left: 0;
+            margin-left: -30%;
+            text-align: center;
+            list-style: none;
+
+            li {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                margin: 1px;
+                text-indent: -999px;
+                cursor: pointer;
+                background-color: #000 \9;
+                background-color: rgba(0, 0, 0, 0);
+                border: 1px solid #cdcbcb;
+                border-radius: 10px;
+                background-color: #cdcbcb;
+            }
+
+            .tab-active {
+                background-color: @tvc-base;
+                border-color: @tvc-base;
+            }
+        }
     }
-    .left, .right{ 
+
+    .left, .right {
         .size(38px, 58px);
         position: absolute;
         display: block;
         z-index: 100;
         .opacity(0.4);
-        
-        &:hover{
-             border: 1px solid #eeeeee;
+
+        &:hover {
+            border: 1px solid #eeeeee;
             .opacity(1);
         }
     }
-    .left{
+
+    .left {
         top: 236px;
         left: 0;
         background: url(../images/left.jpg);
     }
-    .right{
+
+    .right {
         top: 236px;
         right: 0;
         background: url(../images/right.jpg);
     }
-    .active{
+
+    .active {
         display: block;
     }
 }

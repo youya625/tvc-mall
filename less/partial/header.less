@@ -4,19 +4,21 @@
 //网站最顶部导航
 .site-nav {
     @height: 37px;
-    
+
 
     background-color: @body-bg;
     position: relative;
     height: @height - 2;
-    
+
     ul {
         display: inline-block;
         margin: 0;
-       li{
-           float: left;
+
+        li {
+            float: left;
         }
     }
+
     a {
         .button(auto, @height - 2, #989898, transparent, 14px);
         display: inline;
@@ -26,101 +28,109 @@
             color: @tvc-base;
         }
     }
- 
-        .c-select, .d-select {
-            position: relative;
+
+    .c-select, .d-select {
+        position: relative;
+    }
+
+    .sn-left li {
+        float: left;
+        border-bottom: none;
+    }
+
+    .c-panel, .d-panel {
+        border-top: none;
+        display: none;
+        position: absolute;
+        top: @height - 2;
+        left: -1px;
+        z-index: 30;
+        background-color: @body-bg;
+
+        li {
+            border: none;
         }
-        
-        .sn-left li{
+
+        a {
+            font-size: 14px;
+            color: #000;
+        }
+    }
+
+    .c-panel {
+        width: 200px;
+    }
+
+    .d-panel {
+        display: block;
+        width: 312px;
+        .clearfix();
+        display: none;
+        z-index: 9999;
+
+        ul {
             float: left;
-            border-bottom: none;
-        }
-        .c-panel, .d-panel {
-            border-top: none;
-            display: none;
-            position: absolute;
-            top: @height - 2;
-            left: -1px;
-            z-index: 30;
-            background-color: @body-bg;
-            
-            li{
-                border: none;
-            }
-            a {
-                font-size: 14px;
-                color: #000;
-            }
-        }
-        .c-panel{
-            width: 200px;
-        }
-        .d-panel {
-            display: block;
-            width: 312px;
-            .clearfix();
-            display: none;
-            z-index: 9999;
-            ul {
-                float: left;
-                .fl{
-                    vertical-align: middle;
-                }
-            }
 
-            .curr-gj {
-                display: inline-block;
-                .size(40px, 22px);
-                background: url(../images/flg.jpg);
-            }
-        }
-        .c-select:hover {
-            .c-panel {
-                display: inline-block;
-            }
-
-            .country {
-                color: @tvc-base;
-            }
-
-            a:hover {
-                color: @tvc-base;
-            }
-
-            .icon-ctr-bottom {
-                display: inline-block;
-                .rotate();
-            }
-        }
-        .d-select:hover{
-            .d-panel {
-                display: inline-block;
-            }
-
-            .curr-code {
-                color: @tvc-base;
-            }
-
-            a:hover {
-                color: @tvc-base;
-            }
-
-            .icon-ctr-bottom {
-                display: inline-block;
-                .rotate();
+            .fl {
+                vertical-align: middle;
             }
         }
 
-        .icon-coin-dollar {
-            font-size: 25px;
+        .curr-gj {
+            display: inline-block;
+            .size(40px, 22px);
+            background: url(../images/flg.jpg);
+        }
+    }
+
+    .c-select:hover {
+        .c-panel {
+            display: inline-block;
+        }
+
+        .country {
             color: @tvc-base;
         }
 
-        .flg {
-            display: inline-block;
-            .size(40px, 22px);
-            background: url(../images/flg.jpg) center;
+        a:hover {
+            color: @tvc-base;
         }
+
+        .icon-ctr-bottom {
+            display: inline-block;
+            .rotate();
+        }
+    }
+
+    .d-select:hover {
+        .d-panel {
+            display: inline-block;
+        }
+
+        .curr-code {
+            color: @tvc-base;
+        }
+
+        a:hover {
+            color: @tvc-base;
+        }
+
+        .icon-ctr-bottom {
+            display: inline-block;
+            .rotate();
+        }
+    }
+
+    .icon-coin-dollar {
+        font-size: 25px;
+        color: @tvc-base;
+    }
+
+    .flg {
+        display: inline-block;
+        .size(40px, 22px);
+        background: url(../images/flg.jpg) center;
+    }
 
 
 
@@ -179,8 +189,8 @@
         border: 1px solid @tvc-base;
         float: left;
         text-indent: 10px;
-        
-        &:focus{
+
+        &:focus {
             outline: 0;
         }
     }
@@ -188,7 +198,8 @@
     .s-submit {
         float: left;
         .button(90px, 40px, #fff, @tvc-base);
-        &:focus{
+
+        &:focus {
             outline: 0;
         }
     }
@@ -199,7 +210,7 @@
         overflow: hidden;
 
         li:first-child {
-            .font(16px, #bfbfbe, 25px, 700); 
+            .font(16px, #bfbfbe, 25px, 700);
         }
 
         a {
@@ -247,6 +258,7 @@
         @height: 40px;
         position: relative;
         float: left;
+
         a {
             .button(@width, @height, #fff, @tvc-base);
             text-decoration: none;
@@ -258,15 +270,15 @@
                 }
             }
         }
-        .panel{
+
+        .panel {
             .size(@width - 2, 500px);
             position: absolute;
             top: @height;
             left: 0;
-            border:1px solid @tvc-base;
+            border: 1px solid @tvc-base;
             background-color: #fff;
             z-index: 100;
-            
         }
     }
 }

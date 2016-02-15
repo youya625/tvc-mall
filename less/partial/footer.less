@@ -1,27 +1,30 @@
-.f-wrap{
+.f-wrap {
     .size(100%, auto);
     margin-top: 30px;
     background-color: #fff;
 }
-.slogen{
+
+.slogen {
     //定义slogen中的图片
-    .slogen-image(){
-       display: block;    
-       .size(100%, 110px);
-       text-align: center;
-       line-height: 160px;
+    .slogen-image() {
+        display: block;
+        .size(100%, 110px);
+        text-align: center;
+        line-height: 160px;
     }
-    
+
     .size(100%, auto);
     border-bottom: 1px solid #eeeeee;
     margin: auto;
-    ul{
+
+    ul {
         .clearfix();
-        padding: 0;    
+        padding: 0;
         width: 1200px;
-        margin: auto;    
+        margin: auto;
     }
-       li{
+
+    li {
         display: block;
         float: left;
         .size(199px, 229px);
@@ -29,122 +32,144 @@
         border-right: 1px solid #eeeeee;
         margin-right: -1px;
     }
-       .a{
+
+    .a {
         .slogen-image();
         background: url(../images/footer/a.jpg) no-repeat center center;
     }
-        .b{
+
+    .b {
         .slogen-image();
         background: url(../images/footer/b.jpg) no-repeat center center;
     }
-        .c{
+
+    .c {
         .slogen-image();
         background: url(../images/footer/c.jpg) no-repeat center center;
     }
-        .d{
+
+    .d {
         .slogen-image();
         background: url(../images/footer/d.jpg) no-repeat center center;
     }
-        .e{
+
+    .e {
         .slogen-image();
         background: url(../images/footer/e.jpg) no-repeat center center;
     }
 
-        .f{
+    .f {
         .slogen-image();
         background: url(../images/footer/f.jpg) no-repeat center center;
     }
 }
-  
-.sl-name{
+
+.sl-name {
     .font(22px, #000);
     margin-top: 0;
     margin-bottom: 10px;
     text-align: center;
 }
-.sl-des{
+
+.sl-des {
     .font(14px, #a599a5);
     margin-top: 0;
     padding: 0 10px 0 10px;
     text-align: center;
     line-height: 24px;
 }
-.service{
+
+.service {
     width: 1200px;
     margin: auto;
     .clearfix();
-    .s-left{
+
+    .s-left {
         float: left;
     }
-    .s-name{
+
+    .s-name {
         .font(22px, #000);
         margin-top: 20px;
         margin-bottom: 10px;
     }
-    .sf-input{
-        input:first-child{
+
+    .sf-input {
+        input:first-child {
             .size(240px, 27px);
         }
-        input:last-child{
+
+        input:last-child {
             .button(100px, 33px, #fff, #e62e04);
             display: inline-block;
             margin-left: -9px;
             vertical-align: middle;
         }
     }
-    
-    .community{
-        a{
-              display: inline-block;
-             .size(32px, 32px);
+
+    .community {
+        a {
+            display: inline-block;
+            .size(32px, 32px);
         }
 
-        .fb{
+        .fb {
             background-image: url(../images/footer/fb.jpg);
         }
-        .tw{ 
+
+        .tw {
             background-image: url(../images/footer/tw.jpg);
         }
-        .vk{
+
+        .vk {
             background-image: url(../images/footer/vk.jpg);
         }
     }
-    .s-right{
+
+    .s-right {
         float: right;
         margin-top: 20px;
-        dl{
+
+        dl {
             float: left;
             margin-right: 35px;
-            dt{
-               .font(14px, #000);
+
+            dt {
+                .font(14px, #000);
             }
+
             dd {
                 width: 160px;
                 line-height: 16px;
                 margin-top: 10px;
-                a{
-                .font(14px, #a599a5);
+
+                a {
+                    .font(14px, #a599a5);
                 }
             }
         }
     }
 }
-.pay{
+
+.pay {
     border-top: 1px solid #eeeeee;
     text-align: center;
     padding-top: 20px;
 }
-#tvc-top{
+
+#tvc-top {
     position: fixed;
     right: 50px;
     bottom: 50px;
     font-size: 50px;
     cursor: pointer;
-    i{
+
+    i {
         display: block;
         transform: rotate(45deg);
-        &:hover{
-            color: @tvc-base;            
+
+        &:hover {
+            color: @tvc-base;
         }
     }
 }
