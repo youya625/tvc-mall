@@ -198,15 +198,17 @@
   padding-left: 14px;
   padding-right: 14px;
   background-color: transparent;
-  font: 17px "Arial";
+  font: 16px "Arial";
   line-height: 35px;
   text-align: center;
   border: none;
+  font-size: 14px;
   display: inline;
   text-decoration: none;
 }
 .site-nav a:hover {
   color: #ea511b;
+  text-decoration: none;
 }
 .site-nav .c-select,
 .site-nav .d-select {
@@ -391,7 +393,7 @@
   padding-left: 0;
   padding-right: 0;
   background-color: #ea511b;
-  font: 17px "Arial";
+  font: 16px "Arial";
   line-height: 40px;
   text-align: center;
   border: none;
@@ -406,14 +408,14 @@
 }
 .header .s-hot li:first-child {
   font: 16px Arial;
-  font-size: 16px;
+  font-size: 14px;
   color: #bfbfbe;
   line-height: 25px;
   font-weight: 700;
 }
 .header .s-hot a {
   font: 16px Arial;
-  font-size: 16px;
+  font-size: 14px;
   color: #bfbfbe;
   line-height: 30px;
   font-weight: 500;
@@ -468,7 +470,7 @@
   padding-left: 0;
   padding-right: 0;
   background-color: #ea511b;
-  font: 17px "Arial";
+  font: 16px "Arial";
   line-height: 40px;
   text-align: center;
   border: none;
@@ -633,7 +635,7 @@
   padding-left: 0;
   padding-right: 0;
   background-color: #e62e04;
-  font: 17px "Arial";
+  font: 16px "Arial";
   line-height: 33px;
   text-align: center;
   border: none;
@@ -889,7 +891,7 @@
   padding-left: 0;
   padding-right: 0;
   background-color: #eeeeee;
-  font: 17px "Arial";
+  font: 16px "Arial";
   line-height: 42px;
   text-align: center;
   border: none;
@@ -905,7 +907,7 @@
   padding-left: 15px;
   padding-right: 15px;
   background-color: #ffffff;
-  font: 17px "Arial";
+  font: 16px "Arial";
   line-height: 42px;
   text-align: center;
   border: none;
@@ -925,7 +927,7 @@
   padding-left: 0;
   padding-right: 0;
   background-color: transparent;
-  font: 17px "Arial";
+  font: 16px "Arial";
   text-align: center;
   border: none;
   font: 16px Arial;
