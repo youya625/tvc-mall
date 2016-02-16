@@ -27,7 +27,6 @@
         this.settings = $.fn.extend([], defaults, options);
 
         var $dom = this;
-        var $indicator = this.find(".items-tab li");
         var $btnLeft = this.find(".left");
         var $btnRight = this.find(".right");
         var $items = this.find(".pro-items");
@@ -55,7 +54,7 @@
             var to = currentIndex + 1;
 
             if (currentIndex == $items.length - 1 && !loop) {
-                return false;
+                return ;
             };
             if (currentIndex == $items.length - 1 && loop) {
                 to = 0;
@@ -69,7 +68,7 @@
             var to = currentIndex + 1;
 
             if (currentIndex == $items.length - 1 && !loop) {
-                return false;
+                return ;
             }
             if (currentIndex == $items.length - 1 && loop) {
                 to = 0;
