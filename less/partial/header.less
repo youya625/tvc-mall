@@ -21,7 +21,7 @@
 
     a {
         .button(auto, @height - 2, #989898, transparent, 14px);
-        font-size: 14px;
+        font-size: @top-font-size;
         display: inline;
         text-decoration: none;
 
@@ -212,11 +212,11 @@
         overflow: hidden;
 
         li:first-child {
-            .font(14px, #bfbfbe, 25px, 700);
+            .font(@Hot-font-size, #bfbfbe, 25px, 700);
         }
 
         a {
-            .font(14px, #bfbfbe, 30px);
+            .font(@Hot-font-size, #bfbfbe, 30px);
         }
     }
 

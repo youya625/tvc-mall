@@ -18,6 +18,7 @@
 
     margin: 0 auto;
     position: relative;
+    
 
     .n-catagory, .n-items {
         float: left;
@@ -29,6 +30,7 @@
 
     .n-catagory a {
         .button(223px, @nav-height, #000, #eeeeee);
+        font-size: @nav-font-size;
     }
 
     .n-items {
@@ -36,6 +38,7 @@
 
         a {
             .button(auto, @nav-height, #000, #fff, 15px);
+            font-size: @nav-font-size;
         }
     }
 
@@ -66,20 +69,19 @@
     border-top: 1px solid @border-color;
     border-bottom: 1px solid #eeeeee;
     background-color: #fff;
-    font: @tvc-font;
-    .font(25px, @color-nomal);
+    .font(@title-font-size, @color-nomal);
     line-height: 50px;
     text-indent: 27px;
     position: relative;
 
     span {
-        .font(25px, @color-nomal, 50px);
+        .font(@title-font-size, @color-nomal, 50px);
         text-indent: 27px;
     }
 
     a {
         color: #a0a0a0;
-        .font(16px, #a0a0a0, 50px);
+        .font(12px, #a0a0a0, 50px);
         position: absolute;
         right: 20px;
     }

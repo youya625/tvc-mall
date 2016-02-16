@@ -1,21 +1,9 @@
-@-webkit-keyframes icon-rotate {
-  from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(-180deg);
-            transform: rotate(-180deg);
-  }
-}
 @keyframes icon-rotate {
   from {
-    -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
-    -webkit-transform: rotate(-180deg);
-            transform: rotate(-180deg);
+    transform: rotate(-180deg);
   }
 }
 .carousel {
@@ -30,6 +18,7 @@
   display: none;
   position: relative;
   -webkit-transition: 0.6s ease-in-out left;
+  -o-transition: 0.6s ease-in-out left;
   transition: 0.6s ease-in-out left;
 }
 .carousel-inner > .item > img,
@@ -81,6 +70,7 @@
 }
 .carousel-control.left {
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0.0001) 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#80000000', endColorstr='#00000000', GradientType=1);
@@ -89,6 +79,7 @@
   left: auto;
   right: 0;
   background-image: -webkit-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
+  background-image: -o-linear-gradient(left, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-image: linear-gradient(to right, rgba(0, 0, 0, 0.0001) 0%, rgba(0, 0, 0, 0.5) 100%);
   background-repeat: repeat-x;
   filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#00000000', endColorstr='#80000000', GradientType=1);
@@ -202,7 +193,7 @@
   line-height: 35px;
   text-align: center;
   border: none;
-  font-size: 14px;
+  font-size: 12px;
   display: inline;
   text-decoration: none;
 }
@@ -277,13 +268,9 @@
 }
 .site-nav .c-select:hover .icon-ctr-bottom {
   display: inline-block;
-  -webkit-transform-origin: 50% 70%;
-      -ms-transform-origin: 50% 70%;
-          transform-origin: 50% 70%;
-  -webkit-animation: icon-rotate 0.2s;
-          animation: icon-rotate 0.2s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  transform-origin: 50% 70%;
+  animation: icon-rotate 0.2s;
+  animation-fill-mode: forwards;
 }
 .site-nav .d-select:hover .d-panel {
   display: inline-block;
@@ -296,13 +283,9 @@
 }
 .site-nav .d-select:hover .icon-ctr-bottom {
   display: inline-block;
-  -webkit-transform-origin: 50% 70%;
-      -ms-transform-origin: 50% 70%;
-          transform-origin: 50% 70%;
-  -webkit-animation: icon-rotate 0.2s;
-          animation: icon-rotate 0.2s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  transform-origin: 50% 70%;
+  animation: icon-rotate 0.2s;
+  animation-fill-mode: forwards;
 }
 .site-nav .icon-coin-dollar {
   font-size: 25px;
@@ -408,14 +391,14 @@
 }
 .header .s-hot li:first-child {
   font: 16px Arial;
-  font-size: 14px;
+  font-size: 12px;
   color: #bfbfbe;
   line-height: 25px;
   font-weight: 700;
 }
 .header .s-hot a {
   font: 16px Arial;
-  font-size: 14px;
+  font-size: 12px;
   color: #bfbfbe;
   line-height: 30px;
   font-weight: 500;
@@ -478,13 +461,9 @@
 }
 .header .finder a:hover i {
   display: inline-block;
-  -webkit-transform-origin: 50% 70%;
-      -ms-transform-origin: 50% 70%;
-          transform-origin: 50% 70%;
-  -webkit-animation: icon-rotate 0.2s;
-          animation: icon-rotate 0.2s;
-  -webkit-animation-fill-mode: forwards;
-          animation-fill-mode: forwards;
+  transform-origin: 50% 70%;
+  animation: icon-rotate 0.2s;
+  animation-fill-mode: forwards;
 }
 .header .finder .panel {
   width: 196px;
@@ -580,7 +559,7 @@
 }
 .sl-name {
   font: 16px Arial;
-  font-size: 22px;
+  font-size: 12px;
   color: #000000;
   line-height: 1em;
   font-weight: 500;
@@ -590,7 +569,7 @@
 }
 .sl-des {
   font: 16px Arial;
-  font-size: 14px;
+  font-size: 12px;
   color: #a599a5;
   line-height: 1em;
   font-weight: 500;
@@ -616,7 +595,7 @@
 }
 .service .s-name {
   font: 16px Arial;
-  font-size: 22px;
+  font-size: 12px;
   color: #000000;
   line-height: 1em;
   font-weight: 500;
@@ -667,7 +646,7 @@
 }
 .service .s-right dl dt {
   font: 16px Arial;
-  font-size: 14px;
+  font-size: 12px;
   color: #000000;
   line-height: 1em;
   font-weight: 500;
@@ -679,7 +658,7 @@
 }
 .service .s-right dl dd a {
   font: 16px Arial;
-  font-size: 14px;
+  font-size: 12px;
   color: #a599a5;
   line-height: 1em;
   font-weight: 500;
@@ -693,14 +672,12 @@
   position: fixed;
   right: 50px;
   bottom: 50px;
-  font-size: 50px;
+  font-size: 30px;
   cursor: pointer;
 }
 #tvc-top i {
   display: block;
-  -webkit-transform: rotate(45deg);
-      -ms-transform: rotate(45deg);
-          transform: rotate(45deg);
+  transform: rotate(45deg);
 }
 #tvc-top i:hover {
   color: #ea511b;
@@ -715,13 +692,10 @@
   text-align: center;
   width: 150px;
   height: 150px;
-  -webkit-transition: -webkit-transform 0.2s linear;
-          transition: transform 0.2s linear;
+  transition: transform 0.2s linear;
 }
 .products img:hover {
-  -webkit-transform: translateX(-5px);
-      -ms-transform: translateX(-5px);
-          transform: translateX(-5px);
+  transform: translateX(-5px);
 }
 .products .pro-title {
   width: 169px;
@@ -731,7 +705,7 @@
   text-align: left;
 }
 .products .pro-title a {
-  font: 14px/16px "Arial";
+  font: 12px/16px "Arial";
   color: #000;
 }
 .products .rating {
@@ -895,6 +869,7 @@
   line-height: 42px;
   text-align: center;
   border: none;
+  font-size: 16px;
 }
 .nav .n-items {
   margin-left: 25px;
@@ -911,6 +886,7 @@
   line-height: 42px;
   text-align: center;
   border: none;
+  font-size: 16px;
 }
 .nav .categories {
   z-index: 10;
@@ -942,7 +918,7 @@
   border-bottom: 1px solid #eeeeee;
   background-color: #fff;
   font: 16px Arial;
-  font-size: 25px;
+  font-size: 17px;
   color: #000000;
   line-height: 1em;
   font-weight: 500;
@@ -952,7 +928,7 @@
 }
 .title span {
   font: 16px Arial;
-  font-size: 25px;
+  font-size: 17px;
   color: #000000;
   line-height: 50px;
   font-weight: 500;
@@ -960,7 +936,7 @@
 }
 .title a {
   font: 16px Arial;
-  font-size: 16px;
+  font-size: 12px;
   color: #a0a0a0;
   line-height: 50px;
   font-weight: 500;
