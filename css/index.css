@@ -275,7 +275,7 @@
 .site-nav .c-select:hover a:hover {
   color: #ea511b;
 }
-.site-nav .c-select:hover .icon-ctrl-down {
+.site-nav .c-select:hover .icon-ctr-bottom {
   display: inline-block;
   -webkit-transform-origin: 50% 70%;
       -ms-transform-origin: 50% 70%;
@@ -294,7 +294,7 @@
 .site-nav .d-select:hover a:hover {
   color: #ea511b;
 }
-.site-nav .d-select:hover .icon-ctrl-down {
+.site-nav .d-select:hover .icon-ctr-bottom {
   display: inline-block;
   -webkit-transform-origin: 50% 70%;
       -ms-transform-origin: 50% 70%;
