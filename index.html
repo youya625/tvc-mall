@@ -21,7 +21,7 @@
                     <li class="c-select">
                         <a href="javascript: void(0);">
                             <span class="flg"></span>
-                            <span class="country">English</span> <i class="icon-ctr-bottom"></i>
+                            <span class="country">English</span> <i class="icon-ctrl-down"></i>
                         </a>
                         <ul class="c-panel list-unstyled">
                             <li>
@@ -48,7 +48,7 @@
                         <a class="curr-code" href="javascript: void(0);"> <i class="icon-coin-dollar"></i>
                             <span>Currency:</span>
                             <span>USD - $</span>
-                            <i class="icon-ctr-bottom"></i>
+                            <i class="icon-ctrl-down"></i>
                         </a>
                         <div class="d-panel">
                             <ul class="list-unstyled">
@@ -163,7 +163,7 @@
                 <div class="finder">
                     <a class="button" href="#">
                         Accessories Finder
-                        <i class="icon-ctr-bottom"></i>
+                        <i class="icon-ctrl-down"></i>
                     </a>
                     <!--<div class="panel">
                         
@@ -1376,35 +1376,35 @@
         <ul class="sur-items list-unstyled">
             <li>
                 <a href="#">
-                    <img src="images/t.jpg" alt=""></a>
+                    <img class="lazy" data-original="images/t.jpg" alt=""></a>
             </li>
             <li>
                 <a href="#">
-                    <img src="images/t.jpg" alt=""></a>
+                    <img class="lazy" data-original="images/t.jpg" alt=""></a>
             </li>
             <li>
                 <a href="#">
-                    <img src="images/t.jpg" alt=""></a>
+                   <img class="lazy" data-original="images/t.jpg" alt=""></a>
             </li>
             <li>
                 <a href="#">
-                    <img src="images/t.jpg" alt=""></a>
+                    <img class="lazy" data-original="images/t.jpg" alt=""></a>
             </li>
             <li>
                 <a href="#">
-                    <img src="images/t.jpg" alt=""></a>
+                    <img class="lazy" data-original="images/t.jpg" alt=""></a>
             </li>
             <li>
                 <a href="#">
-                    <img src="images/t.jpg" alt=""></a>
+                    <img class="lazy" data-original="images/t.jpg" alt=""></a>
             </li>
             <li>
                 <a href="#">
-                    <img src="images/t.jpg" alt=""></a>
+                    <img class="lazy" data-original="images/t.jpg" alt=""></a>
             </li>
             <li>
                 <a href="#">
-                    <img src="images/t.jpg" alt=""></a>
+                    <img class="lazy" data-original="images/t.jpg" alt=""></a>
             </li>
         </ul>
     </div>
@@ -1559,7 +1559,8 @@
         </div>
     </footer>
     <script src="js/jquery-2.1.0.js"></script>
-    <script src="js/bootstrap.js"></script>
+    <script src="js/jquery.lazyload.js"></script>
+    <script src="js/jquery.carouse.js"></script>
     <script src="js/tvc.pro-slider.js"></script>
     <script src="js/jquery.countdownTimer.min.js"></script>
     <script>
@@ -1569,6 +1570,7 @@
                $('#fea-slide').proSlider();
                $('#com-slide').proSlider();
                 
+                $("img.lazy").lazyload();
                 //滚动回到顶部 
                 $(window).scroll(function(){
                    if ($(window).scrollTop() > 0) {

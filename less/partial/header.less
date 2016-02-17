@@ -98,7 +98,7 @@
             color: @tvc-base;
         }
 
-        .icon-ctr-bottom {
+        .icon-ctrl-down {
             display: inline-block;
             .rotate();
         }
@@ -117,7 +117,7 @@
             color: @tvc-base;
         }
 
-        .icon-ctr-bottom {
+        .icon-ctrl-down {
             display: inline-block;
             .rotate();
         }
@@ -225,12 +225,15 @@
         width: 90px;
         height: 40px;
         position: relative;
+        cursor: pointer;
 
         .icon-cart {
             font-size: 30px;
             position: absolute;
             top: 10px;
             left: 10px;
+            color: @gray;
+            font-weight: initial;
         }
 
         .count {
@@ -251,6 +254,12 @@
             right: 16px;
             top: 30px;
             .font(14px, #bfbfbe);
+        }
+        
+        &:hover{
+            .icon-cart, .cart-p{
+                 color: @tvc-base;                
+            }
         }
     }
 

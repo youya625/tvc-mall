@@ -37,8 +37,10 @@
         var slideTo = function (to) {
             $tabs.removeClass("tab-active");
             $tabs.eq(to).addClass("tab-active");
-            $items.removeClass("active");
-            $items.eq(to).addClass("active");
+            // $items.removeClass("active");
+            // $items.eq(to).addClass("active");
+            $items.hide();
+            $items.eq(to).fadeIn();
         };
 
         //选项卡点击事件
