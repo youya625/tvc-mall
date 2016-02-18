@@ -9,10 +9,16 @@
     width: @width - 2 * @padding - @border-width;
     height: @height - 2 * @padding - @border-width;
 
+    
     img {
         text-align: center;
         width: 210px;
         height: 210px;
+        
+        transition: transform 0.2s linear;
+        &:hover{
+            transform: scale(1.05, 1.05);             
+        }
     }
 
     .pro2-title {
@@ -42,10 +48,11 @@
         color: #979798;
     }
 
+
     &:hover {
         position: relative;
         border-color: @product-hover-color;
         box-shadow: @product-hover-shadow;
-        z-index: 20;
+        z-index: 20;     
     }
 }

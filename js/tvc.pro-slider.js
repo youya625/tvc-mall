@@ -9,7 +9,7 @@
 +function ($) {
     "use strict";
 
-     $.fn.proSlider = function (options) {
+    $.fn.proSlider = function (options) {
         var html = "";
         var count = this.find(".pro-items").length;
         for (var i = 0; i <= count - 1; i++) {
@@ -32,8 +32,8 @@
         var $items = this.find(".pro-items");
         var $tabs = this.find("li[data-slide-to]");
         var loop = this.settings.loop;
-       
-        
+
+
         var slideTo = function (to) {
             $tabs.removeClass("tab-active");
             $tabs.eq(to).addClass("tab-active");
@@ -53,14 +53,15 @@
         //向左切换
         var leftSlide = function () {
             var currentIndex = parseInt($dom.find("li[class='tab-active']").attr("data-slide-to"));
-            var to = currentIndex + 1;
+            var to = currentIndex - 1;
 
-            if (currentIndex == $items.length - 1 && !loop) {
-                return ;
-            };
-            if (currentIndex == $items.length - 1 && loop) {
-                to = 0;
-            };
+            if (currentIndex == 0 && !loop) {
+                return;
+            }
+            if (currentIndex == 0 && loop) {
+                to = $items.length - 1;
+            }
+
             return slideTo(to);
         }
 
@@ -70,19 +71,19 @@
             var to = currentIndex + 1;
 
             if (currentIndex == $items.length - 1 && !loop) {
-                return ;
+                return;
             }
             if (currentIndex == $items.length - 1 && loop) {
                 to = 0;
             }
             return slideTo(to);
         }
- 
+
         $tabs.click(tabClick);
         $btnLeft.click(leftSlide);
         $btnRight.click(rightSlide);
     };
-}(jQuery);
+} (jQuery);
 
 
 // +function ($) {
