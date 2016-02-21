@@ -3,13 +3,14 @@
 
 //网站最顶部导航
 .site-nav {
-    @height: 37px;
-
-
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
     background-color: @body-bg;
-    position: relative;
-    height: @height - 2;
-
+    height: @site-nav-height - 2;
+    z-index: 9999;
     ul {
         display: inline-block;
         margin: 0;
@@ -20,7 +21,7 @@
     }
 
     a {
-        .button(auto, @height - 2, #989898, transparent, 14px);
+        .button(auto, @site-nav-height - 2, #989898, transparent, 14px);
         font-size: @top-font-size;
         display: inline;
         text-decoration: none;
@@ -44,7 +45,7 @@
         border-top: none;
         display: none;
         position: absolute;
-        top: @height - 2;
+        top: @site-nav-height - 2;
         left: -1px;
         z-index: 30;
         background-color: @body-bg;
@@ -178,18 +179,29 @@
     }
 
     .search {
+        @width: @search-input-width + @search-submit-width;
+        
         .clearfix();
         float: left;
-        width: 652px;
-        height: 80px;
+        width: @width;
         overflow: hidden;
+        
+        .search-form{
+            position: relative;
+            width: @width;
+            height: @search-height - 2 * @search-border;
+            border: @search-border solid @tvc-base;
+            overflow: hidden;
+        }
     }
 
     .s-input {
-        width: 558px;
-        height: 36px;
-        border: 1px solid @tvc-base;
-        float: left;
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: @search-input-width;
+        height: @search-height - 2 * @search-border;
+        border: 0;
         text-indent: 10px;
 
         &:focus {
@@ -198,9 +210,11 @@
     }
 
     .s-submit {
-        float: left;
-        .button(90px, 40px, #fff, @tvc-base);
-
+        position: absolute;
+        top: 0;
+        right: 0;
+        .button(@search-submit-width, @search-height - 2 * @search-border, #fff, @tvc-base);
+        border: 0;  
         &:focus {
             outline: 0;
         }
@@ -292,4 +306,21 @@
             z-index: 100;
         }
     }
+}
+
+.container {
+    width: @container-width;
+    .center-block();
+}
+
+.head-wrap {
+    background-color: #fff;
+    width: 100%;
+    margin-top: @site-nav-height;
+}
+
+.nav-wrap {
+    border-top: 1px solid #e5e5e5;
+    background-color: #fff;
+    width: 100%;
 }

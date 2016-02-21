@@ -11,7 +11,7 @@
 //网站导航
 .nav {
     @nav-height: 42px;
-    @categories-height: 29px;
+    @categories-height: @banner-height/@catalog-count;
     width: @container-width;
     height: @nav-height;
     margin: 0 auto;
@@ -235,21 +235,6 @@ body {
     background-color: @body-bg;
 }
 
-.container {
-    width: @container-width;
-    .center-block();
-}
-
-.head-wrap {
-    background-color: #fff;
-    width: 100%;
-}
-
-.nav-wrap {
-    border-top: 1px solid #e5e5e5;
-    background-color: #fff;
-    width: 100%;
-}
 
 .carousel-indicators li {
     background-color: #fff;
