@@ -1,0 +1,98 @@
+﻿@-webkit-keyframes icon-rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+  }
+}
+@keyframes icon-rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-180deg);
+            transform: rotate(-180deg);
+  }
+}
+.site-nav {
+  position: fixed;
+  width: 100%;
+  height: 35px;
+  background-color: #eeeeee;
+}
+.site-nav .sn-container {
+  width: 1200px;
+  height: 35px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.site-nav .sn-container .snc-left,
+.site-nav .sn-container .snc-right {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  list-style: none;
+}
+.site-nav .sn-container .snc-left a,
+.site-nav .sn-container .snc-right a {
+  position: relative;
+  display: block;
+  width: auto;
+  height: 100%;
+  font-size: 15px;
+  color: #666666;
+  line-height: 35px;
+  font-weight: 500;
+}
+.site-nav .sn-container .snc-left a .icon-coin-dollar,
+.site-nav .sn-container .snc-right a .icon-coin-dollar {
+  position: relative;
+  top: 1px;
+  color: #ea511b;
+}
+.site-nav .sn-container .snc-left a .icon-triangle-down,
+.site-nav .sn-container .snc-right a .icon-triangle-down {
+  position: relative;
+  top: 2px;
+  right: 4px;
+}
+.site-nav .sn-container .snc-left a:hover,
+.site-nav .sn-container .snc-right a:hover {
+  text-decoration: none;
+  color: #ea511b;
+}
+.site-nav .sn-container .snc-left a:hover .icon-triangle-down,
+.site-nav .sn-container .snc-right a:hover .icon-triangle-down {
+  display: inline-block;
+  -webkit-transform-origin: 50% 50%;
+          transform-origin: 50% 50%;
+  -webkit-animation: icon-rotate 0.2s;
+          animation: icon-rotate 0.2s;
+  -webkit-animation-fill-mode: forwards;
+          animation-fill-mode: forwards;
+}
+.site-nav .sn-container .snc-left {
+  width: 400px;
+  height: 35px;
+}
+.site-nav .sn-container .snc-right {
+  width: 600px;
+  height: 35px;
+}
+.site-nav .sn-container .snc-right .sncr-logout {
+  margin-left: -25px;
+}

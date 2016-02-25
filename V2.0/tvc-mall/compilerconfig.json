@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "css/mixins/commen.css",
+    "inputFile": "css/mixins/commen.less"
+  },
+  {
+    "outputFile": "css/partial/site-nav.css",
+    "inputFile": "css/partial/site-nav.less"
+  },
+  {
+    "outputFile": "css/commen/common.css",
+    "inputFile": "css/commen/common.less"
+  }
+]
