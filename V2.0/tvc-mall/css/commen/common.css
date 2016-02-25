@@ -13,7 +13,7 @@ html {
 body {
   margin: 0;
   min-width: 1200px;
-  font: 12px MyriadPro-Regular;
+  font: 12px MyriadPro-Regular, Arial;
 }
 article,
 aside,
@@ -173,26 +173,6 @@ legend {
 textarea {
   overflow: auto;
 }
-@-webkit-keyframes icon-rotate {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(-180deg);
-    transform: rotate(-180deg);
-  }
-}
-@keyframes icon-rotate {
-  from {
-    -webkit-transform: rotate(0deg);
-    transform: rotate(0deg);
-  }
-  to {
-    -webkit-transform: rotate(-180deg);
-    transform: rotate(-180deg);
-  }
-}
 optgroup {
   font-weight: bold;
 }
@@ -279,4 +259,15 @@ p {
 }
 .affix {
   position: fixed;
+}
+ul,
+li {
+  margin: 0;
+  padding: 0;
+}
+li {
+  list-style: none;
+}
+a:hover {
+  text-decoration: none;
 }

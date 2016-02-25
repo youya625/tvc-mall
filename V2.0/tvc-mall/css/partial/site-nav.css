@@ -1,25 +1,24 @@
 ﻿@-webkit-keyframes icon-rotate {
   from {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
     -webkit-transform: rotate(-180deg);
-            transform: rotate(-180deg);
+    transform: rotate(-180deg);
   }
 }
 @keyframes icon-rotate {
   from {
     -webkit-transform: rotate(0deg);
-            transform: rotate(0deg);
+    transform: rotate(0deg);
   }
   to {
     -webkit-transform: rotate(-180deg);
-            transform: rotate(-180deg);
+    transform: rotate(-180deg);
   }
 }
 .site-nav {
-  position: fixed;
   width: 100%;
   height: 35px;
   background-color: #eeeeee;
@@ -95,4 +94,11 @@
 }
 .site-nav .sn-container .snc-right .sncr-logout {
   margin-left: -25px;
+}
+.site-nav .sn-container .snc-right .icon-cart {
+  position: relative;
+  top: 2px;
+}
+.site-nav .sn-container .active a {
+  color: #ea511b;
 }

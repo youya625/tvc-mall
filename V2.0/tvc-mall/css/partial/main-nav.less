@@ -1,0 +1,116 @@
+﻿@import "../mixins/common";
+@import "../variables/common";
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(5px);
+    }
+}
+
+.nav-wrap {
+    border-top: 1px solid @nomal-bg-color;
+    margin-top: 20px;
+}
+
+.nav {
+    @nav-height: 42px;
+    @banner-height: 465px;
+    @nav-font-size: 16px;
+    @catalogs-font-size: 14px;
+    @border-left-width: 3px;
+    @categories-width: 223px;
+
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    width: @page-width;
+    height: @nav-height;
+    .center();
+
+
+
+    .n-catagory, .n-items {
+        height: @nav-height;
+    }
+
+
+    .n-catagory a {
+        .button(@nomal-font, @categories-width, @nav-height, #000, #eeeeee);
+        font-size: 18px;
+    }
+
+    .n-items {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 15px;
+
+        a {
+            .button(@nomal-font,auto, @nav-height, #000, #fff, 15px);
+            font-size: @nav-font-size;
+
+            &:hover {
+                color: @nomal-color;
+            }
+        }
+    }
+
+
+    .categories {
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 100;
+        background: rgba(0, 0, 0, 0.7);
+        min-height: @banner-height;
+        text-indent: 27px;
+
+        li {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            cursor: pointer;
+            border-left: @border-left-width solid transparent;
+
+            a {
+                .button(@nomal-font, 223px - @border-left-width, auto, #fff, transparent);
+                font-size: @catalogs-font-size;
+                text-align: left;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            &:hover {
+                background-color: #fff;
+                border-left-color: @nomal-color;
+
+                a {
+                    color: @nomal-color;
+                }
+
+                .categories-items {
+                    display: block;
+                    animation: move 0.5s normal;
+                    animation-fill-mode: forwards;
+                }
+            }
+        }
+
+        .categories-items {
+            position: absolute;
+            top: 0;
+            left: @categories-width - 5;
+            display: none;
+            z-index: 100;
+            .size(@page-width - @categories-width - @border-left-width, @banner-height);
+            background-color: #fff;
+        }
+    }
+}

@@ -1,12 +1,15 @@
-﻿//自定义动画
-@keyframes icon-rotate {
+﻿@keyframes icon-rotate {
     from {
+        -webkit-transform: rotate(0deg);
         transform: rotate(0deg);
-        }
+    }
+
     to {
+        -webkit-transform: rotate(-180deg);
         transform: rotate(-180deg);
-        }
+    }
 }
+
 //旋转
 .rotate(@origin-x:50%, @origin-y:50%, @during:0.2s){
     transform-origin: @origin-x @origin-y;
@@ -27,6 +30,11 @@
     line-height: @height;
     text-align: center;
     border: none;
+}
+
+.center(){
+  margin-left: auto;
+  margin-right: auto;
 }
 
 //块状元素居中
@@ -73,3 +81,4 @@
 .list-style(){
     list-style: none
 }
+
