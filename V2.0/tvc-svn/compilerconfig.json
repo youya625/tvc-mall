@@ -1,0 +1,34 @@
+﻿[
+  {
+    "outputFile": "css/mixins/commen.css",
+    "inputFile": "css/mixins/commen.less"
+  },
+  {
+    "outputFile": "css/partial/site-nav.css",
+    "inputFile": "css/partial/site-nav.less"
+  },
+  {
+    "outputFile": "css/commen/common.css",
+    "inputFile": "css/commen/common.less"
+  },
+  {
+    "outputFile": "css/partial/cross-aside.css",
+    "inputFile": "css/partial/cross-aside.less"
+  },
+  {
+    "outputFile": "css/partial/site-search.css",
+    "inputFile": "css/partial/site-search.less"
+  },
+  {
+    "outputFile": "css/partial/main-nav.css",
+    "inputFile": "css/partial/main-nav.less"
+  },
+  {
+    "outputFile": "css/partial/carousel.css",
+    "inputFile": "css/partial/carousel.less"
+  },
+  {
+    "outputFile": "css/partial/banner.css",
+    "inputFile": "css/partial/banner.less"
+  }
+]

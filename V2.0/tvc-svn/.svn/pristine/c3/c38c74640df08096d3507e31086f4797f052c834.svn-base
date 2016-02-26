@@ -1,0 +1,479 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="css/partial/site-nav.css" rel="stylesheet" />
+    <link href="css/partial/cross-aside.css" rel="stylesheet" />
+    <link href="css/commen/common.css" rel="stylesheet" />
+    <link href="css/commen/iconfont.css" rel="stylesheet" />
+    <link href="css/partial/site-search.css" rel="stylesheet" />
+    <link href="css/partial/main-nav.css" rel="stylesheet" />
+    <link href="css/partial/carousel.css" rel="stylesheet" />
+    <link href="css/partial/banner.css" rel="stylesheet" />
+</head>
+<body>
+    <!--顶部导航-->
+    <div class="site-nav">
+        <div class="sn-container">
+            <ul class="snc-left">
+                <li>
+                    <a href="javascript:void(0);">
+                        Add Bookmark
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        English
+                        <i class="icon-triangle-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <i class="icon-coin-dollar"></i>
+                        Currency: USD - $
+                        <i class="icon-triangle-down"></i>
+                    </a>
+                </li>
+            </ul>
+
+            <ul class="snc-right">
+                <li>
+                    <a href="javascript:void(0);">
+                        hi! Jeremy He
+                        <i class="icon-triangle-down"></i>
+                    </a>
+                </li>
+                <li class="sncr-logout active">
+                    <a href="javascript:void(0);">
+                        Logout
+                    </a>
+                </li>
+                <li class="active">
+                    <a href="javascript:void(0);">
+                        message(8)
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        <i class="icon-cart"></i>
+                        My Orders(2 items)
+                        <i class="icon-triangle-down"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        Help
+                    </a>
+                </li>
+                <li>
+                    <a href="javascript:void(0);">
+                        Live Chat
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <!--顶部广告图-->
+    <aside class="cross-aside">
+        <img src="images/top-banner.jpg" />
+    </aside>
+
+    <!--搜索-->
+    <div class="site-search">
+        <div class="logo">
+            <a href="#">
+                <img src="images/logo.png" alt="">
+            </a>
+        </div>
+        <div class="ss-right">
+            <div class="ssr-search">
+                <form class="search-form" action="">
+                    <fieldset>
+                        <legend>TVC Search</legend>
+                        <input class="s-input" placeholder="I'm shopping for..." type="text">
+                        <input class="s-submit" type="submit" value="Search">
+                    </fieldset>
+                </form>
+                <ul class="s-hot">
+                    <li>Hot Searches:</li>
+                    <li>
+                        <a href="#">balance wheel</a>
+                    </li>
+                    <li>
+                        <a href="#">galaxy s6 edge plus</a>
+                    </li>
+                    <li>
+                        <a href="#">balance wheel</a>
+                    </li>
+                    <li>
+                        <a href="#">galaxy s6 edge plus</a>
+                    </li>
+                    <li>
+                        <a href="#">balance wheel</a>
+                    </li>
+                    <li>
+                        <a href="#">galaxy s6 edge plus</a>
+                    </li>
+                    <li>
+                        <a href="#">balance wheel</a>
+                    </li>
+                    <li>
+                        <a href="#">galaxy s6 edge plus</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="finder">
+                <a class="button" href="#">
+                    Accessories Finder
+                    <i class="icon-ctrl-down"></i>
+                </a>
+                <!--<div class="panel">
+
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+    <!--导航-->
+    <div class="nav-wrap">
+        <nav class="nav">
+            <div class="n-catagory">
+                <a href="javascript:void(0)">Wholesale Categories</a>
+                <ul class="categories">
+                    <li>
+                        <a href="#">
+                            Mobile Accessories
+                        </a>
+                        <div class="categories-items nc-brand">
+                            <div class="nc-brand">
+                                <dl>
+                                    <dt>
+                                        <span class="brand-title">
+                                            Accessories by Manufacturer
+                                        </span>
+                                        <a class="brand-link">
+                                            View all Manufacturers >>
+                                        </a>
+                                    </dt>
+
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                </dl>
+
+                                <dl>
+                                    <dt>
+                                        <span class="brand-title">
+                                            Accessories by Type
+                                        </span>
+                                        <a class="brand-link">
+                                            View all Types >>
+                                        </a>
+                                    </dt>
+
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                </dl>
+
+                                <dl>
+                                    <dt>
+                                        <span class="brand-title">
+                                            Accessories by Brand
+                                        </span>
+                                        <a class="brand-link">
+                                            View all Brands >>
+                                        </a>
+                                    </dt>
+
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                    <dd>
+                                        <a href="#">
+                                            <img src="images/br.jpg" alt="" />
+                                        </a>
+                                    </dd>
+                                </dl>
+                            </div>
+
+                            <aside class="brand-aside">
+                                <a href="#">
+                                    <img src="images/vv.jpg" alt="" />
+                                </a>
+                            </aside>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">iPhone Accessories</a>
+                        <div class="categories-items">
+                            <div class="sub-catalog">
+                                <div class="sub-catalog-items">
+                                    <dl>
+                                        <dt>Other Apple Accessories</dt>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>
+                                            <a href="#">
+                                                All iPad mini 4 Accessories >
+                                            </a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Other Apple Accessories</dt>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>
+                                            <a href="#">
+                                                All iPad mini 4 Accessories >
+                                            </a>
+                                        </dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Other Apple Accessories</dt>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>
+                                            <a href="#">
+                                                All iPad mini 4 Accessories >
+                                            </a>
+                                        </dd>
+                                    </dl>
+                                </div>
+                                <div class="sub-catalog-items">
+                                    <dl>
+                                        <dt>Other Apple Accessories</dt>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Other Apple Accessories</dt>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Other Apple Accessories</dt>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                    </dl>
+                                </div>
+                                <div class="sub-catalog-items">
+                                    <dl>
+                                        <dt>Other Apple Accessories</dt>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Other Apple Accessories</dt>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                    </dl>
+                                    <dl>
+                                        <dt>Other Apple Accessories</dt>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                        <dd>Other Apple AccessXXXXX</dd>
+                                    </dl>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Other Apple Accessories</a>
+                        <div class="categories-items">
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Samsung Accessories</a>
+                        <div class="categories-items">
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Sony Accessories</a>
+                        <div class="categories-items">
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">LG Accessories</a>
+                        <div class="categories-items">
+
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#">Other Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <a href="#">Cell Phone Parts</a>
+                    </li>
+                    <li>
+                        <a href="#">Cell Phones & Tablets</a>
+                    </li>
+                    <li>
+                        <a href="#">Consumer Electronics</a>
+                    </li>
+                    <li>
+                        <a href="#">Computer & Networking</a>
+                    </li>
+                    <li>
+                        <a href="#">Hobbies & Toys</a>
+                    </li>
+                    <li>
+                        <a href="#">Security & Surveillance</a>
+                    </li>
+                    <li>
+                        <a href="#">Lights & Lighting</a>
+                    </li>
+                    <li>
+                        <a href="#">Home & Garden</a>
+                    </li>
+                    <li>
+                        <a href="#">Sports & Outdoors</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="n-items">
+                <ul class="n-items">
+                    <li>
+                        <a href="javascript:void(0)">New Arrivals</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Bestselling</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Stock Clearance</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Brand Zone</a>
+                    </li>
+                    <li>
+                        <a href="javascript:void(0)">Under $0.49</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </div>
+
+    <!--banner-->
+    <div id="banner" class="carousel slide">
+        <ol class="carousel-indicators">
+            <li data-target="#banner" data-slide-to="0" class="active"></li>
+            <li data-target="#banner" data-slide-to="1"></li>
+            <li data-target="#banner" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner">
+            <div class="item active">
+                <a href="#"><img src="images/banner.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="#"><img src="images/banner.jpg" alt=""></a>
+            </div>
+            <div class="item">
+                <a href="#"><img src="images/banner.jpg" alt=""></a>
+            </div>
+        </div>
+
+        <a class="b-aside" href="#">
+            <img src="images/b.jpg" alt="">
+        </a>
+    </div>
+
+    <script src="js/jquery-2.1.0.js"></script>
+    <script src="js/jquery.carouse.js"></script>
+    <script src="js/jquery.countdownTimer.min.js"></script>
+    <script src="js/tvc.pro-slider.js"></script>
+
+    <script>
+        $('.carousel').carousel();
+    </script>
+</body>
+</html>
