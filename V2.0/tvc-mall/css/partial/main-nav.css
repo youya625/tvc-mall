@@ -130,7 +130,6 @@
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
-  cursor: pointer;
   border-left: 3px solid transparent;
 }
 .nav .categories li a {
@@ -176,6 +175,22 @@
   height: 435px;
   background-color: #fff;
 }
+.nav .categories .brand-aside {
+  position: absolute;
+  right: -225px;
+  top: 0;
+  width: 225px;
+  height: 465px;
+}
+.nav .categories .brand-aside a {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+}
+.nav .categories .brand-aside a img {
+  width: 225px;
+  height: 465px;
+}
 .nav .categories .nc-brand dl {
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -208,11 +223,13 @@
   width: 100%;
 }
 .nav .categories .nc-brand dl dt .brand-title {
+  font-size: 17px;
   position: relative;
   left: -15px;
   text-align: left;
 }
 .nav .categories .nc-brand dl dt .brand-link {
+  color: #000;
   text-align: right;
 }
 .nav .categories .nc-brand dl dd {
@@ -234,22 +251,6 @@
 }
 .nav .categories .nc-brand dl dd a:hover {
   border: 1px solid #ea511b;
-}
-.nav .categories .nc-brand .brand-aside {
-  position: absolute;
-  right: -225px;
-  top: 0;
-  width: 225px;
-  height: 465px;
-}
-.nav .categories .nc-brand .brand-aside a {
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-}
-.nav .categories .nc-brand .brand-aside a img {
-  width: 225px;
-  height: 465px;
 }
 .nav .categories .sub-catalog {
   display: -webkit-flex;
@@ -274,21 +275,26 @@
   width: 210px;
   height: 465px;
 }
-.nav .categories .sub-catalog .sub-catalog-items a {
-  color: #000;
-}
-.nav .categories .sub-catalog .sub-catalog-items a:hover {
-  text-decoration: underline;
-}
 .nav .categories .sub-catalog .sub-catalog-items dt {
   border-bottom: 1px solid #eeeeee;
 }
 .nav .categories .sub-catalog .sub-catalog-items dt a {
+  color: #000;
   font-weight: 600;
 }
+.nav .categories .sub-catalog .sub-catalog-items dt a:hover {
+  text-decoration: underline;
+}
 .nav .categories .sub-catalog .sub-catalog-items dd a {
+  color: #000;
   font-weight: 400;
+}
+.nav .categories .sub-catalog .sub-catalog-items dd a:hover {
+  text-decoration: underline;
 }
 .nav .categories .sub-catalog .sub-catalog-items dd .more-items {
   color: #eeeeee;
+}
+.nav .categories .sub-catalog .other-catalog dd a {
+  font-weight: 600;
 }

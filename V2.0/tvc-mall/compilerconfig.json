@@ -30,5 +30,9 @@
   {
     "outputFile": "css/partial/banner.css",
     "inputFile": "css/partial/banner.less"
+  },
+  {
+    "outputFile": "css/partial/index-module.css",
+    "inputFile": "css/partial/index-module.less"
   }
 ]

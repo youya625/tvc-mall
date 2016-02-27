@@ -61,8 +61,7 @@
             }
         }
     }
-
-
+    //纵向导航
     .categories {
         position: absolute;
         top: @nav-height + @border-bottom;
@@ -79,7 +78,6 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
-            cursor: pointer;
             border-left: @border-left-width solid transparent;
 
             a {
@@ -107,7 +105,7 @@
                 }
             }
         }
-
+        //感应层公用样式
         .categories-items {
             @padding-top: 15px;
             @padding-left: 15px;
@@ -122,10 +120,23 @@
             height: @banner-height - 2 * @padding-top;
             background-color: #fff;
         }
+        //右侧广告
+        .brand-aside {
+            position: absolute;
+            right: -225px;
+            top: 0;
+            .size(225px, 465px);
+
+            a {
+                display: flex;
+
+                img {
+                    .size(225px, 465px);
+                }
+            }
+        }
         //品牌类目
         .nc-brand {
-
-
             dl {
                 display: flex;
                 justify-content: space-between;
@@ -144,12 +155,14 @@
                     width: 100%;
 
                     .brand-title {
+                        font-size: 17px;
                         position: relative;
                         left: -15px;
                         text-align: left;
                     }
 
                     .brand-link {
+                        color: #000;
                         text-align: right;
                     }
                 }
@@ -174,21 +187,6 @@
                     }
                 }
             }
-
-            .brand-aside {
-                position: absolute;
-                right: -225px;
-                top: 0;
-                .size(225px, 465px);
-
-                a {
-                    display: flex;
-
-                    img {
-                        .size(225px, 465px);
-                    }
-                }
-            }
         }
         //类目
         .sub-catalog {
@@ -203,30 +201,39 @@
                 flex-direction: column;
                 .size(210px, @banner-height);
 
-                a {
-                    color: #000;
-
-                    &:hover {
-                        text-decoration: underline;
-                    }
-                }
 
                 dt {
                     border-bottom: 1px solid @nomal-bg-color;
 
                     a {
+                        color: #000;
                         font-weight: 600;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
                     }
                 }
 
                 dd {
                     a {
+                        color: #000;
                         font-weight: 400;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
                     }
 
                     .more-items {
                         color: @nomal-bg-color;
                     }
+                }
+            }
+            //其他分类
+            .other-catalog {
+                dd a {
+                    font-weight: 600;
                 }
             }
         }

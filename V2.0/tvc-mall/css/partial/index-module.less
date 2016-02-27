@@ -1,0 +1,68 @@
+﻿@import "../mixins/common";
+@import "../variables/common";
+
+//标题
+.module-title {
+    @width: 100%;
+    width: @width;
+    height: 50px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid @nomal-bg-color;
+    background-color: #fff;
+    font: @nomal-font;
+    text-indent: 27px;
+    position: relative;
+
+    span {
+        font: @nomal-font;
+        font-size: 25px;
+        font-weight: lighter;
+        line-height: 50px;
+        text-indent: 27px;
+    }
+
+    a {
+        color: @gray-dark;
+        font: @nomal-font;
+        font-size: 17px;
+        font-weight: lighter;
+        line-height: 50px;
+        position: absolute;
+        right: 20px;
+    }
+}
+
+//编辑推荐模块
+.index-editors {
+    @height: 390px;
+
+    display: flex;
+    justify-content: space-between;
+    .size(@page-width, @height);
+    .center();
+    background-color: #fff;
+
+    .editor-left {
+        display: flex;
+        flex-wrap: wrap;
+        .size(880px, 340px);
+
+        .editor-aside {
+            .size(540px, 340px);
+        }
+
+        .editor-products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            .size(340px, 340px);
+
+            a {
+                .size(150px, 150px);
+                img {
+                    .size(100%, 100%);
+                }
+            }
+        }
+    }
+}
