@@ -1,13 +1,14 @@
 ﻿@import "../mixins/common";
 @import "../variables/common";
 
-
+//最顶部导航
 .site-nav {
     @height: 35px;
-    @left-width: 400px;
-    @right-width: 600px;
+    @left-width: 350px;
+    @right-width: 630px;
 
     .size(100%, @height);
+    border-bottom: 1px solid @gray-dark;
     background-color: @nomal-bg-color;
 
     .sn-container {
@@ -21,25 +22,9 @@
             justify-content: space-between;
             .list-style();
 
-            a {
-                position: relative;
-                display: block;
-                .size(auto, 100%);
-                .font(15px, #666666, @height);
 
-                .icon-coin-dollar {
-                    position: relative;
-                    top: 1px;
-                    color: @nomal-color;
-                }
-
-                .icon-triangle-down {
-                    position: relative;
-                    top: 2px;
-                    right: 4px;
-                }
-
-                &:hover {
+            li:hover {
+                .sn-items {
                     text-decoration: none;
                     color: @nomal-color;
 
@@ -49,18 +34,137 @@
                     }
                 }
             }
+
+            .sn-items {
+                position: relative;
+                display: block;
+                padding: 0 0 0 6px;
+                .size(auto, 100%);
+                .font(15px, #666666, @height);
+                border: 1px solid;
+                border-top: none;
+                border-color: @nomal-bg-color;
+                border-bottom-color: @gray-dark;
+                //调整图标位置
+                .icon-language {
+                    position: relative;
+                    top: 1px;
+                }
+
+                .icon-language {
+                    font-size: 18px;
+                    top: 2px;
+                }
+
+                .icon-triangle-down {
+                    position: relative;
+                    top: 1px;
+                    right: 4px;
+                }
+            }
         }
 
-
+        .hover() {
+            border-color: #fff @gray-dark;
+            background-color: #fff;
+        }
+        //感应层
+        .pannel(@width, @height, @top, @left) {
+            position: absolute;
+            top: @top;
+            left: @left;
+            .size(@width, @height);
+            border: 1px solid @gray-dark;
+            border-top: none;
+            background-color: #fff;
+            z-index: 100;
+        }
+        //左侧
         .snc-left {
             .size(@left-width, @height);
-        }
+            //语言
+            .language {
+                position: relative;
+                //语言感应列表
+                .language-items {
+                    .pannel(140px, auto, 36px, 0);
+                    display: none;
+                    flex-direction: column;
+                    justify-content: space-around;
 
+
+                    .icon-triangle-right {
+                        font-size: 18px;
+                        position: relative;
+                        top: 2px;
+                    }
+
+                    a {
+                        .font(15px, #666666);
+                        margin: 3px 5px;
+
+                        &:hover {
+                            color: @nomal-color;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .language-select {
+                        .hover();
+                    }
+
+                    .language-items {
+                        display: flex;
+                    }
+                }
+            }
+            //货币
+            .currency {
+                position: relative;
+                //货币感应层
+                .currency-items {
+                    display: none;
+                    justify-content: space-around;
+                    .pannel(330px, auto, 36px, 0);
+
+                    .curr-gj {
+                        display: inline-block;
+                        .size(40px, 22px);
+                        background: url(../../images/flg.jpg);
+                        vertical-align: middle;
+                    }
+
+                    ul {
+                        li {
+                            margin: 10px 0;
+                            a {
+                                .font(15px, #666666);
+                                &:hover {
+                                    color: @nomal-color;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                &:hover {
+                    .currency-select {
+                        .hover();
+                    }
+
+                    .currency-items {
+                        display: flex;
+                    }
+                }
+            }
+        }
+        //右侧
         .snc-right {
             .size(@right-width, @height);
 
             .sncr-logout {
-                margin-left: -25px;
+                margin-left: -15px;
             }
 
             .icon-cart {
@@ -70,7 +174,7 @@
         }
 
         .active {
-            a {
+            .sn-items {
                 color: @nomal-color;
             }
         }

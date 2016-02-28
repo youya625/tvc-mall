@@ -46,5 +46,9 @@
   {
     "outputFile": "css/partial/products-slider.css",
     "inputFile": "css/partial/products-slider.less"
+  },
+  {
+    "outputFile": "css/partial/footer.css",
+    "inputFile": "css/partial/footer.less"
   }
 ]

@@ -16,6 +16,8 @@
     <link href="css/partial/bootstrap.css" rel="stylesheet" />
     <link href="css/partial/bootstrap-select.css" rel="stylesheet" />
     <link href="css/partial/products.css" rel="stylesheet" />
+    <link href="css/partial/footer.css" rel="stylesheet" />
+
 </head>
 <body>
     <!--顶部导航-->
@@ -23,57 +25,139 @@
         <div class="sn-container">
             <ul class="snc-left">
                 <li>
-                    <a id="AddFavorite" href="javascript:void(0);">
+                    <a id="AddFavorite" class="sn-items" href="javascript:void(0);">
                         Add Bookmark
                     </a>
                 </li>
-                <li>
-                    <a href="javascript:void(0);">
+                <li class="language">
+                    <a class="language-select sn-items" href="javascript:void(0);">
+                        <i class="icon-language"></i>
                         English
                         <i class="icon-triangle-down"></i>
                     </a>
+                    <div class="language-items">
+                        <a href="http://es.tvc-mall.com/">
+                            <i class="icon-triangle-right"></i>
+                            Español
+                        </a>
+                        <a href="http://pt.tvc-mall.com/">
+                            <i class="icon-triangle-right"></i>
+                            Português
+                        </a>
+                        <a href="http://ru.tvc-mall.com/">
+                            <i class="icon-triangle-right"></i>
+                            Русский
+                        </a>
+                        <a href="http://fr.tvc-mall.com/">
+                            <i class="icon-triangle-right"></i>
+                            Français
+                        </a>
+                        <a href="http://it.tvc-mall.com/">
+                            <i class="icon-triangle-right"></i>
+                            Italiano
+                        </a>
+                        <a href="http://de.tvc-mall.com/">
+                            <i class="icon-triangle-right"></i>
+                            Deutsch
+                        </a>
+                    </div>
                 </li>
-                <li>
-                    <a href="javascript:void(0);">
+                <li class="currency">
+                    <a class="sn-items currency-select" href="javascript:void(0);">
                         <i class="icon-coin-dollar"></i>
                         Currency: USD - $
                         <i class="icon-triangle-down"></i>
                     </a>
+                    <div class="currency-items">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
                 </li>
             </ul>
 
             <ul class="snc-right">
                 <li>
-                    <a href="javascript:void(0);">
+                    <a class="sn-items" href="javascript:void(0);">
                         hi! Jeremy He
                         <i class="icon-triangle-down"></i>
                     </a>
                 </li>
                 <li class="sncr-logout active">
-                    <a href="javascript:void(0);">
+                    <a class="sn-items" href="javascript:void(0);">
                         Logout
                     </a>
                 </li>
                 <li class="active">
-                    <a href="javascript:void(0);">
+                    <a class="sn-items" href="javascript:void(0);">
                         message(8)
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0);">
+                    <a class="sn-items" href="javascript:void(0);">
                         <i class="icon-cart"></i>
                         My Orders(2 items)
                         <i class="icon-triangle-down"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0);">
+                    <a class="sn-items" href="javascript:void(0);">
+                        <i class="icon-question"></i>
                         Help
+                        <i class="icon-triangle-down"></i>
                     </a>
                 </li>
                 <li>
-                    <a href="javascript:void(0);">
+                    <a class="sn-items" href="javascript:void(0);">
+                        <i class="icon-talk"></i>
                         Live Chat
+                        <i class="icon-triangle-down"></i>
                     </a>
                 </li>
             </ul>
@@ -645,9 +729,9 @@
     </div>
 
     <!--主要内容-->
-    <div class="content" style="background-color: #eeeeee; padding-top: 30px;">
-        <!--编辑推荐模块-->
-        <div class="index-editors">
+    <div class="content" style="background-color: #eeeeee; padding: 30px 0;">
+        <!--编辑推荐-->
+        <div class="editors">
             <!--编辑模块左侧-->
             <div class="editor-left">
                 <div class="module-title">
@@ -678,33 +762,33 @@
             </div>
             <!--编辑推荐模块右侧-->
             <div class="editor-right">
-                        <div class="module-title">Spotlight Products</div>
-                        <div class="s-countdowner">
-                            <span>Ends in</span>
-                            <span class="s-time">23h 18m 36s</span>
-                        </div>
-                        <div class="s-product">
-                            <a href="#"><img src="images/pro2.jpg" alt=""></a>
-                        </div>
-                        <div class="sp-price clearfix">
-                            <div class="spp-left">
-                                <span>US $27.99</span>
-                                <span>US $69.98 / Pair</span>
-                            </div>
-                            <div class="spp-right">
-                                <span class="spp-off">60%</span>
-                                <span class="spp-off">off</span>
-                            </div>
-                        </div>
+                <div class="module-title">Spotlight Products</div>
+                <div class="s-countdowner">
+                    <span>Ends in</span>
+                    <span class="s-time">23h 18m 36s</span>
+                </div>
+                <div class="s-product">
+                    <a href="#"><img src="images/pro2.jpg" alt=""></a>
+                </div>
+                <div class="sp-price clearfix">
+                    <div class="spp-left">
+                        <span>US $27.99</span>
+                        <span>US $69.98 / Pair</span>
+                    </div>
+                    <div class="spp-right">
+                        <span class="spp-off">60%</span>
+                        <span class="spp-off">off</span>
+                    </div>
                 </div>
             </div>
+        </div>
 
         <!--广告图-->
         <aside class="cross-aside-140" style="margin-top: 20px;">
             <img src="images/c-banner.jpg" />
         </aside>
 
-        <!--Featured Products模块-->
+        <!--Featured Products-->
         <div class="featured" style="margin-top: 20px;">
             <div class="module-title ">
                 Featured Products
@@ -715,7 +799,7 @@
                 <div class="carousel-inner">
                     <!--第一个列表-->
                     <div class="item active">
-                        <div class="pro-items">
+                        <div class="products-grid">
                             <div class="products">
                                 <a target="_blank" href="#">
                                     <img src="images/pro3.jpg" alt="">
@@ -912,7 +996,7 @@
                     </div>
                     <!--第二个列表-->
                     <div class="item">
-                        <div class="pro-items">
+                        <div class="products-grid">
                             <div class="products">
                                 <a target="_blank" href="#">
                                     <img src="images/pro6.jpg" alt="">
@@ -1109,7 +1193,7 @@
                     </div>
                     <!--第三个列表-->
                     <div class="item">
-                        <div class="pro-items">
+                        <div class="products-grid">
                             <div class="products">
                                 <a target="_blank" href="#">
                                     <img src="images/pro6.jpg" alt="">
@@ -1159,7 +1243,7 @@
             <div class="indicators-content"></div>
         </div>
 
-        <!--Compare模块-->
+        <!--Compare-->
         <div class="compare">
             <div class="module-title">
                 Compare with others. Save with us.
@@ -1422,9 +1506,771 @@
             </div>
         </div>
 
-        <!--品牌墙模块-->
-  </div>
+        <!--品牌墙-->
+        <div class="brand">
+            <div class="module-title">
+                Hot Brand
+                <ul class="brand-link">
+                    <li>
+                        <a href="#">International</a>
+                    </li>
+                    <li>
+                        <a href="#">Fashion brand</a>
+                    </li>
+                    <li>
+                        <a href="#">Original</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="brand-slider">
+                <div id="brand-banner" class="carousel slide brand-banner">
+                    <ol class="carousel-indicators">
+                        <li data-target="#brand-banner" data-slide-to="0" class="active"></li>
+                        <li data-target="#brand-banner" data-slide-to="1"></li>
+                        <li data-target="#brand-banner" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <img src="images/hot.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/hot.jpg" alt="">
+                        </div>
+                        <div class="item">
+                            <img src="images/hot.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="brand-items">
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+                <div>
+                    <a href="#"><img src="images/brand.jpg" alt=""></a>
+                </div>
+            </div>
+        </div>
 
+        <!--intelligent-->
+        <div class="intelligent" style="margin-top: 20px;">
+            <div class="module-title">
+                Intelligent Hardware
+                <a href="#">View more</a>
+            </div>
+            <div id="int-banner" class="carousel slide int-banner">
+                <ol class="carousel-indicators">
+                    <li data-target="#int-banner" data-slide-to="0" class="active"></li>
+                    <li data-target="#int-banner" data-slide-to="1"></li>
+                    <li data-target="#int-banner" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active">
+                        <img src="images/pro4.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/pro4.jpg" alt="">
+                    </div>
+                    <div class="item">
+                        <img src="images/pro4.jpg" alt="">
+                    </div>
+                </div>
+                <a class="left carousel-control" href="#int-banner" data-slide="prev">&lsaquo;</a>
+                <a class="right carousel-control" href="#int-banner" data-slide="next">&rsaquo;</a>
+            </div>
+            <div class="int-items products2-grid">
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--parts-->
+        <div class="parts">
+            <div class="module-title">
+                Parts
+                <a href="#">View more</a>
+            </div>
+            <div class="parts-aside">
+                <a href="#">
+                    <img src="images/pro5.jpg" alt="">
+                </a>
+                <a href="#">
+                    <img src="images/pro6.jpg" alt="">
+                </a>
+            </div>
+            <div class="part-items products2-grid">
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--special-->
+        <div class="special">
+            <div class="module-title">
+                Special packages
+                <a href="#">View more</a>
+            </div>
+            <div class="special-items products2-grid">
+                <div class="special-aside">
+                    <a href="#">
+                        <img src="images/pro7.jpg" alt="">
+                    </a>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products2">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro2-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro2-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <!--广告图-->
+        <aside class="cross-aside-140" style="margin-top: 20px;">
+            <img src="images/c-banner.jpg" />
+        </aside>
+
+        <!--recommend-->
+        <div class="recommend">
+            <div class="module-title">
+                Recommendations for you
+                <a href="#">Try you luck</a>
+            </div>
+            <div class="r-items products3-grid">
+                <div class="products3">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro3-price">
+                        <div>US $27.99</div> <del>US $69.98 / Pair</del>
+                    </div>
+                    <div class="pro3-order">
+                        <span>36</span>
+                        <span>Orders</span>
+                    </div>
+                </div>
+                <div class="products3">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro3-price">
+                        <div>US $27.99</div> <del>US $69.98 / Pair</del>
+                    </div>
+                    <div class="pro3-order">
+                        <span>36</span>
+                        <span>Orders</span>
+                    </div>
+                </div>
+                <div class="products3">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro3-price">
+                        <div>US $27.99</div>
+                        <del>US $69.98 / Pair</del>
+                    </div>
+                    <div class="pro3-order">
+                        <span>36</span>
+                        <span>Orders</span>
+                    </div>
+                </div>
+                <div class="products3">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro3-price">
+                        <div>US $27.99</div>
+                        <del>US $69.98 / Pair</del>
+                    </div>
+                    <div class="pro3-order">
+                        <span>36</span>
+                        <span>Orders</span>
+                    </div>
+                </div>
+                <div class="products3">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro3-price">
+                        <div>US $27.99</div>
+                        <del>US $69.98 / Pair</del>
+                    </div>
+                    <div class="pro3-order">
+                        <span>36</span>
+                        <span>Orders</span>
+                    </div>
+                </div>
+                <div class="products3">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro3-price">
+                        <div>US $27.99</div>
+                        <del>US $69.98 / Pair</del>
+                    </div>
+                    <div class="pro3-order">
+                        <span>36</span>
+                        <span>Orders</span>
+                    </div>
+                </div>
+                <div class="products3">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro3-price">
+                        <div>US $27.99</div>
+                        <del>US $69.98 / Pair</del>
+                    </div>
+                    <div class="pro3-order">
+                        <span>36</span>
+                        <span>Orders</span>
+                    </div>
+                </div>
+                <div class="products3">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro3-price">
+                        <div>US $27.99</div>
+                        <del>US $69.98 / Pair</del>
+                    </div>
+                    <div class="pro3-order">
+                        <span>36</span>
+                        <span>Orders</span>
+                    </div>
+                </div>
+                <div class="products3">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro3-price">
+                        <div>US $27.99</div>
+                        <del>US $69.98 / Pair</del>
+                    </div>
+                    <div class="pro3-order">
+                        <span>36</span>
+                        <span>Orders</span>
+                    </div>
+                </div>
+                <div class="products3">
+                    <a href="#">
+                        <img src="images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro3-price">
+                        <div>US $27.99</div>
+                        <del>US $69.98 / Pair</del>
+                    </div>
+                    <div class="pro3-order">
+                        <span>36</span>
+                        <span>Orders</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--广告墙-->
+        <div class="surprised" style="margin-top: 20px;">
+            <div class="module-title">
+                Surprised
+                <a href="#">Advertisement</a>
+            </div>
+            <div class="sur-content">
+                <ul class="sur-items">
+                    <li>
+                        <a href="#">
+                            <img src="images/t.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/t.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/t.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/t.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+                <ul class="sur-items">
+                    <li>
+                        <a href="#">
+                            <img src="images/t.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/t.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/t.jpg" alt="">
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <img src="images/t.jpg" alt="">
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <!--页尾-->
+    <footer class="f-wrap">
+        <div class="slogen">
+            <ul>
+                <li>
+                    <span class="a"></span>
+                    <p class="sl-name">purchase</p>
+                    <p class="sl-des">
+                        Earn more TVC points for your next purchase Earn more TVC points.
+                    </p>
+                </li>
+                <li>
+                    <span class="b"></span>
+                    <p class="sl-name">purchase</p>
+                    <p class="sl-des">
+                        Earn more TVC points for your next purchase Earn more TVC points.
+                    </p>
+                </li>
+                <li>
+                    <span class="c"></span>
+                    <p class="sl-name">purchase</p>
+                    <p class="sl-des">
+                        Earn more TVC points for your next purchase Earn more TVC points.
+                    </p>
+                </li>
+                <li>
+                    <span class="d"></span>
+                    <p class="sl-name">purchase</p>
+                    <p class="sl-des">
+                        Earn more TVC points for your next purchase Earn more TVC points.
+                    </p>
+                </li>
+                <li>
+                    <span class="e"></span>
+                    <p class="sl-name">purchase</p>
+                    <p class="sl-des">
+                        Earn more TVC points for your next purchase Earn more TVC points.
+                    </p>
+                </li>
+                <li>
+                    <span class="f"></span>
+                    <p class="sl-name">purchase</p>
+                    <p class="sl-des">
+                        Earn more TVC points for your next purchase Earn more TVC points.
+                    </p>
+                </li>
+            </ul>
+        </div>
+        <div class="service">
+            <div class="s-left">
+                <p class="s-name">Track Your Order</p>
+                <form action="#">
+                    <div class="sf-input">
+                        <input type="text">
+                        <input type="submit" value="track">
+                    </div>
+                </form>
+                <p class="s-name">Stay Connected</p>
+                <div class="community">
+                    <a class="fb" href="#"></a>
+                    <a class="tw" href="#"></a>
+                    <a class="vk" href="#"></a>
+                </div>
+            </div>
+            <div class="s-right">
+                <dl>
+                    <dt>Order & Delivery</dt>
+                    <dd>
+                        <a href="#">Discounts & Coupons</a>
+                    </dd>
+                    <dd>
+                        <a href="#">Taxes & Duties</a>
+                    </dd>
+                    <dd>
+                        <a href="#">Checkout & Payment</a>
+                    </dd>
+                    <dd>
+                        <a href="#">Shipping & Delivery</a>
+                    </dd>
+                    <dd>
+                        <a href="#">Found problem using our site</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Customer Service</dt>
+                    <dd>
+                        <a href="#">New User Guide</a>
+                    </dd>
+                    <dd>
+                        <a href="#">FAQ</a>
+                    </dd>
+                    <dd>
+                        <a href="#">Site Map</a>
+                    </dd>
+                    <dd>
+                        <a href="#">Contact Us</a>
+                    </dd>
+                    <dd>
+                        <a href="#">Warranty, Return & Refund Policy</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>About TVC Mall</dt>
+                    <dd>
+                        <a href="#">Take a Tour</a>
+                    </dd>
+                    <dd>
+                        <a href="#">Meet Our Team</a>
+                    </dd>
+                    <dd>
+                        <a href="#">Testimonials</a>
+                    </dd>
+                    <dd>
+                        <a href="#">Press</a>
+                    </dd>
+                </dl>
+                <dl>
+                    <dt>Business with Us</dt>
+                    <dd>
+                        <a href="#">Wholesale Program</a>
+                    </dd>
+                    <dd>
+                        <a href="#">Affiliate Program</a>
+                    </dd>
+                    <dd>
+                        <a href="#">Drop Ship with Us</a>
+                    </dd>
+                    <dd>
+                        <a href="#">OEM Service</a>
+                    </dd>
+                    <dd>
+                        <a href="#">Promote Us</a>
+                    </dd>
+                    <dd>
+                        <a href="#">How to save money at TVC Mall?</a>
+                    </dd>
+                    <dd>
+                        <a href="#">TVC-Mall Index</a>
+                    </dd>
+                    <dd>
+                        <a href="#" rel="nofollow">寻求优秀合作供应商</a>
+                    </dd>
+                </dl>
+            </div>
+        </div>
+        <div class="pay">
+            <img src="images/footer/pay.jpg" alt="">
+        </div>
+        <div id="tvc-top">
+            <i class="icon-top"></i>
+        </div>
+    </footer>
     <script src="js/jquery-2.1.0.js"></script>
     <script src="js/jquery.carouse.js"></script>
     <script src="js/jquery.countdownTimer.min.js"></script>
@@ -1433,9 +2279,7 @@
     <script>
         $(function () {
             //轮播图
-            $('.carousel').carousel();
-            $('#fea-slide').proSlider();
-            $('#com-slide').proSlider();
+            $('#banner').carousel();
 
             //顽固搜索显示和隐藏
             $(".finder-button").click(function () {
@@ -1462,7 +2306,21 @@
                     alert('Please use ' + ctrl + ' + D to add');
                 }
             });
-        })
+
+            //滚动回到顶部
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 0) {
+                    $("#tvc-top").show();
+                } else {
+                    $("#tvc-top").hide();
+                }
+            });
+            $("#tvc-top").click(function () {
+                $('body,html').animate({ scrollTop: 0 }, 100);
+                return false;
+            });
+        });
+
     </script>
 </body>
 </html>

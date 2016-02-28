@@ -45,10 +45,11 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: @search-input-width;
+        width: @search-input-width + 2;
         height: @search-height - 2 * @search-border;
         border: 0;
         text-indent: 10px;
+        z-index: 50;
 
         &:focus {
             outline: 0;
@@ -101,7 +102,7 @@
         float: left;
 
         .finder-button {
-            .button(@nomal-font, @width, @height, #fff, @gray-dark);
+            .button(@nomal-font, @width, @height, #fff, @gray-darker);
             font-size: @nomal-font-size;
             text-decoration: none;
         }
@@ -121,6 +122,8 @@
             .size(@width - 2 * @border, 260px);
             background-color: @nomal-bg-color;
             z-index: 1000;
+
+            //动画
             transition: all .2s ease-in-out;
             opacity: 0;
             visibility: hidden;

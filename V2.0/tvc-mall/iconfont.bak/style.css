@@ -1,16 +1,16 @@
 @font-face {
-    font-family: 'iconfont';
+    font-family: 'tvcicon';
     src:
-        url('fonts/iconfont.ttf?b73uxu') format('truetype'),
-        url('fonts/iconfont.woff?b73uxu') format('woff'),
-        url('fonts/iconfont.svg?b73uxu#iconfont') format('svg');
+        url('fonts/tvcicon.ttf?wvq2l1') format('truetype'),
+        url('fonts/tvcicon.woff?wvq2l1') format('woff'),
+        url('fonts/tvcicon.svg?wvq2l1#tvcicon') format('svg');
     font-weight: normal;
     font-style: normal;
 }
 
-[class^="icon-"], [class*=" icon-"] {
+i {
     /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'iconfont' !important;
+    font-family: 'tvcicon' !important;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -23,6 +23,45 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-language:before {
+    content: "\e6c4";
+}
+.icon-search:before {
+    content: "\e900";
+}
+.icon-cart:before {
+    content: "\e905";
+}
+.icon-coin-dollar:before {
+    content: "\e906";
+}
+.icon-talk:before {
+    content: "\e907";
+}
+.icon-question:before {
+    content: "\e908";
+}
+.icon-info:before {
+    content: "\e909";
+}
+.icon-close:before {
+    content: "\e90a";
+}
+.icon-checkmark:before {
+    content: "\e90b";
+}
+.icon-triangle-right:before {
+    content: "\e90c";
+}
+.icon-triangle-down:before {
+    content: "\e90d";
+}
+.icon-triangle-left:before {
+    content: "\e90e";
+}
+.icon-triangle-top:before {
+    content: "\e90f";
+}
 .icon-ctrl-right:before {
     content: "\e901";
 }
@@ -35,34 +74,7 @@
 .icon-ctrl-top:before {
     content: "\e904";
 }
-.icon-cart:before {
-    content: "\e905";
-}
-.icon-coin-dollar:before {
-    content: "\e906";
-}
-.icon-plus:before {
-    content: "\e900";
-}
-.icon-minus:before {
-    content: "\e907";
-}
-.icon-cross:before {
-    content: "\e908";
-}
-.icon-checkmark:before {
-    content: "\e909";
-}
-.icon-trrangle-down:before {
-    content: "\e90a";
-}
-.icon-play-left:before {
-    content: "\e90b";
-}
-.icon-play-top:before {
-    content: "\e90c";
-}
-.icon-play-right:before {
-    content: "\e90d";
+.icon-paragraph-left:before {
+    content: "\e910";
 }
 

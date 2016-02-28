@@ -1,17 +1,13 @@
+
+
 @font-face {
-    font-family: 'iconfont';
-    src:
-        url('../../fonts/iconfont.ttf?lahwws') format('truetype'),
-        url('../../fonts/iconfont.woff?lahwws') format('woff'),
-        url('../../fonts/iconfont.svg?lahwws#iconfont') format('svg');
-    font-weight: normal;
-    font-style: normal;
+    font-family: 'tvcicon';
+    src: url('../../fonts/tvcicon.ttf') format('truetype'),url('../../fonts/tvcicon.woff') format('woff'),url('../../fonts/tvcicon.svg') format('svg');
 }
 
-
-[class^="icon-"], [class*=" icon-"] {
+i {
     /* use !important to prevent issues with browser extensions that change fonts */
-    font-family: 'iconfont' !important;
+    font-family: 'tvcicon' !important;
     speak: none;
     font-style: normal;
     font-weight: normal;
@@ -24,6 +20,39 @@
     -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-top:before {
+    content: "\e912";
+}
+.icon-coin-dollar:before {
+    content: "\e906";
+}
+.icon-talk:before {
+    content: "\e907";
+}
+.icon-question:before {
+    content: "\e908";
+}
+.icon-info:before {
+    content: "\e909";
+}
+.icon-close:before {
+    content: "\e90a";
+}
+.icon-checkmark:before {
+    content: "\e90b";
+}
+.icon-triangle-right:before {
+    content: "\e90c";
+}
+.icon-triangle-down:before {
+    content: "\e90d";
+}
+.icon-triangle-left:before {
+    content: "\e90e";
+}
+.icon-triangle-top:before {
+    content: "\e90f";
+}
 .icon-ctrl-right:before {
     content: "\e901";
 }
@@ -36,35 +65,19 @@
 .icon-ctrl-top:before {
     content: "\e904";
 }
+.icon-paragraph-left:before {
+    content: "\e910";
+}
+.icon-vertical_align_top:before {
+    content: "\e911";
+}
+.icon-language:before {
+    content: "\e6c4";
+}
+.icon-search:before {
+    content: "\e900";
+}
 .icon-cart:before {
     content: "\e905";
 }
-.icon-coin-dollar:before {
-    content: "\e906";
-}
-.icon-plus:before {
-    content: "\e900";
-}
-.icon-minus:before {
-    content: "\e907";
-}
-.icon-cross:before {
-    content: "\e908";
-}
-.icon-checkmark:before {
-    content: "\e909";
-}
-.icon-triangle-down:before {
-    content: "\e90a";
-}
-.icon-triangle-left:before {
-    content: "\e90b";
-}
-.icon-triangle-top:before {
-    content: "\e90c";
-}
-.icon-triangle-right:before {
-    content: "\e90d";
-}
-
 
