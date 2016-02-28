@@ -42,19 +42,23 @@
     }
 
 
-    .n-catagory a {
+    .n-catagory p {
         .button(@nomal-font, @categories-width, @nav-height, #000, #eeeeee);
-        font-size: 18px;
+        line-height: @nav-height + 2;
+        font-size: @nav-font-size;
+        font-weight: 600;
     }
 
     .n-items {
         display: flex;
         justify-content: flex-start;
-        margin-left: 15px;
+        margin-left: 14px;
 
         a {
             .button(@nomal-font,auto, @nav-height, #000, #fff, 15px);
+            line-height: @nav-height + 2;
             font-size: @nav-font-size;
+            font-weight: 600;
 
             &:hover {
                 color: @nomal-color;
@@ -155,7 +159,7 @@
                     width: 100%;
 
                     .brand-title {
-                        font-size: 17px;
+                        font-size: 16px;
                         position: relative;
                         left: -15px;
                         text-align: left;

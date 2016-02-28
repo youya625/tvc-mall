@@ -34,13 +34,13 @@
                     }
                 }
             }
-
+            //顶部导航选项
             .sn-items {
                 position: relative;
                 display: block;
                 padding: 0 0 0 6px;
-                .size(auto, 100%);
-                .font(15px, #666666, @height);
+                .size(auto, @height);
+                .font(14px, #666666, @height + 1px);
                 border: 1px solid;
                 border-top: none;
                 border-color: @nomal-bg-color;
@@ -50,12 +50,15 @@
                     position: relative;
                     top: 1px;
                 }
+
                 .icon-language {
-                    font-size: 18px;
+                    font-size: 16px;
                     top: 2px;
                 }
+
                 .icon-triangle-down {
                     position: relative;
+                    font-size: 14px;
                     top: 1px;
                     right: 4px;
                 }
@@ -92,13 +95,13 @@
 
 
                     .icon-triangle-right {
-                        font-size: 18px;
+                        font-size: 14px;
                         position: relative;
                         top: 2px;
                     }
 
                     a {
-                        .font(15px, #666666);
+                        .font(14px, #666666);
                         margin: 3px 5px;
 
                         &:hover {
@@ -136,8 +139,10 @@
                     ul {
                         li {
                             margin: 10px 0;
+
                             a {
-                                .font(15px, #666666);
+                                .font(14px, #666666);
+
                                 &:hover {
                                     color: @nomal-color;
                                 }

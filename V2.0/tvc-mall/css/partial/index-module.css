@@ -25,22 +25,17 @@
   border-bottom: 1px solid #eeeeee;
   background-color: #fff;
   font: 12px MyriadPro-Regular, Arial;
-  text-indent: 27px;
   position: relative;
-  font-size: 25px;
-  line-height: 50px;
-}
-.module-title span {
-  font-weight: lighter;
-  line-height: 50px;
+  font-size: 18px;
+  line-height: 52px;
   text-indent: 27px;
 }
 .module-title a {
   color: #a0a0a0;
   font: 12px MyriadPro-Regular, Arial;
-  font-size: 17px;
+  font-size: 14px;
   font-weight: lighter;
-  line-height: 50px;
+  line-height: 52px;
   position: absolute;
   right: 20px;
 }

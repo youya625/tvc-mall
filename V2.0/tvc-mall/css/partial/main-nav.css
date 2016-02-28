@@ -60,7 +60,7 @@
 .nav .n-items {
   height: 42px;
 }
-.nav .n-catagory a {
+.nav .n-catagory p {
   display: block;
   width: 223px;
   height: 42px;
@@ -72,7 +72,9 @@
   line-height: 42px;
   text-align: center;
   border: none;
-  font-size: 18px;
+  line-height: 44px;
+  font-size: 16px;
+  font-weight: 600;
 }
 .nav .n-items {
   display: -webkit-flex;
@@ -81,7 +83,7 @@
   -webkit-justify-content: flex-start;
       -ms-flex-pack: start;
           justify-content: flex-start;
-  margin-left: 15px;
+  margin-left: 14px;
 }
 .nav .n-items a {
   display: block;
@@ -95,7 +97,9 @@
   line-height: 42px;
   text-align: center;
   border: none;
+  line-height: 44px;
   font-size: 16px;
+  font-weight: 600;
 }
 .nav .n-items a:hover {
   color: #ea511b;
@@ -223,7 +227,7 @@
   width: 100%;
 }
 .nav .categories .nc-brand dl dt .brand-title {
-  font-size: 17px;
+  font-size: 16px;
   position: relative;
   left: -15px;
   text-align: left;
