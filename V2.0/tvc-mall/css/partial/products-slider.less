@@ -1,0 +1,86 @@
+﻿@import "../mixins/common";
+@import "../variables/common";
+
+//商品轮播图
+.pro-slider {
+    @tab-height: 50px;
+    position: relative;
+
+    .pro-items {
+        height: 530px;
+        display: none;
+        opacity: 0;
+        visibility: hidden;
+    }
+
+    .items-tab {
+        position: relative;
+        width: 100%;
+        height: @tab-height;
+
+        ol {
+            position: absolute;
+            top: 16px;
+            left: 50%;
+            z-index: 15;
+            width: 60%;
+            height: 50px;
+            padding-left: 0;
+            margin-left: -30%;
+            text-align: center;
+            list-style: none;
+
+            li {
+                display: inline-block;
+                width: 10px;
+                height: 10px;
+                margin: 1px;
+                text-indent: -999px;
+                cursor: pointer;
+                background-color: #000 \9;
+                background-color: rgba(0, 0, 0, 0);
+                border: 1px solid #cdcbcb;
+                border-radius: 10px;
+                background-color: #cdcbcb;
+            }
+
+            .tab-active {
+                background-color: @nomal-color;
+                border-color: @nomal-color;
+            }
+        }
+    }
+
+    .left, .right {
+        .size(38px, 58px);
+        position: absolute;
+        display: block;
+        z-index: 100;
+        opacity: 0.4;
+
+        &:hover {
+            border: 1px solid #eeeeee;
+            opacity: 1;
+        }
+    }
+
+    .left {
+        top: 236px;
+        left: 0;
+        background: url(../../images/left.jpg);
+    }
+
+    .right {
+        top: 236px;
+        right: 0;
+        background: url(../../images/right.jpg);
+    }
+
+
+    .active {
+        display: flex;
+        transition: all .2s ease-in-out;
+        opacity: 1;
+        visibility: visible;
+    }
+}

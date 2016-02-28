@@ -18,10 +18,17 @@
     transform: rotate(-180deg);
   }
 }
-aside {
+.cross-aside-80 {
   display: block;
   margin-left: auto;
   margin-right: auto;
   width: 1200px;
   height: 80px;
+}
+.cross-aside-140 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  height: 140px;
 }

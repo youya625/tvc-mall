@@ -88,48 +88,79 @@
             text-decoration: underline;
             .font(@Hot-font-size, #bfbfbe, 30px);
 
-            &:hover{
+            &:hover {
                 color: @nomal-color;
             }
         }
     }
-
-
-
-
+    //顽固搜索
     .finder {
         @width: 198px;
         @height: 40px;
         position: relative;
         float: left;
 
-        a {
-            .button(@nomal-font, @width, @height, #fff, @nomal-color);
+        .finder-button {
+            .button(@nomal-font, @width, @height, #fff, @gray-dark);
             font-size: @nomal-font-size;
             text-decoration: none;
+        }
 
-            &:hover {
-                i {
-                    display: inline-block;
-                    .rotate();
+        .finder-panel {
+            @border: 0;
+
+            position: absolute;
+            top: @height;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-top: 15px;
+            margin-top: 20px;
+            border: @border solid @nomal-bg-color;
+            .size(@width - 2 * @border, 260px);
+            background-color: @nomal-bg-color;
+            z-index: 1000;
+            transition: all .2s ease-in-out;
+            opacity: 0;
+            visibility: hidden;
+
+            .finder-title {
+                padding: 0 10px;
+                font-size: 14px;
+            }
+
+            .form-inline {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 210px;
+
+                .form-group {
+                    .center();
+                }
+            }
+
+            .dropdown-toggle, .bootstrap-select {
+                width: 180px !important;
+            }
+
+            .finder-submit {
+                .button(@nomal-font, 100%, 40px, #fff, @nomal-color);
+                font-size: 17px;
+
+                &:focus {
+                    outline: none;
                 }
             }
         }
 
-        .panel {
-            .size(@width - 2, 500px);
-            position: absolute;
-            top: @height;
-            left: 0;
-            border: 1px solid @nomal-color;
-            background-color: #fff;
-            z-index: 100;
-        }
 
-        &:hover {
-            .icon-ctrl-down {
-                .rotate(@origin-x:50%, @origin-y:70%, @during:0.2s);
-            }
+        .active {
+            opacity: 1;
+            visibility: visible;
+            margin-top: 0;
         }
+  
     }
 }

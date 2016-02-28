@@ -44,30 +44,6 @@
       line-height: 1;
       height: @banner-height;
     }
-
-    // WebKit CSS3 transforms for supported devices
-//     @media all and (transform-3d), (-webkit-transform-3d) {
-//       .transition-transform(~'0.6s ease-in-out');
-//       .backface-visibility(~'hidden');
-//       .perspective(1000px);
-// 
-//       &.next,
-//       &.active.right {
-//         .translate3d(100%, 0, 0);
-//         left: 0;
-//       }
-//       &.prev,
-//       &.active.left {
-//         .translate3d(-100%, 0, 0);
-//         left: 0;
-//       }
-//       &.next.left,
-//       &.prev.right,
-//       &.active {
-//         .translate3d(0, 0, 0);
-//         left: 0;
-//       }
-//     }
   }
 
   > .active,
@@ -249,41 +225,3 @@
     text-shadow: none; // No shadow for button elements in carousel-caption
   }
 }
-
-
-// // Scale up controls for tablets and up
-// @media screen and (min-width: @screen-sm-min) {
-// 
-//   // Scale up the controls a smidge
-//   .carousel-control {
-//     .glyphicon-chevron-left,
-//     .glyphicon-chevron-right,
-//     .icon-prev,
-//     .icon-next {
-//       width: 30px;
-//       height: 30px;
-//       margin-top: -15px;
-//       font-size: 30px;
-//     }
-//     .glyphicon-chevron-left,
-//     .icon-prev {
-//       margin-left: -15px;
-//     }
-//     .glyphicon-chevron-right,
-//     .icon-next {
-//       margin-right: -15px;
-//     }
-//   }
-// 
-//   // Show and left align the captions
-//   .carousel-caption {
-//     left: 20%;
-//     right: 20%;
-//     padding-bottom: 30px;
-//   }
-// 
-//   // Move up the indicators
-//   .carousel-indicators {
-//     bottom: 20px;
-//   }
-// }

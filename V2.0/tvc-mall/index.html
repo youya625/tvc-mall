@@ -13,6 +13,9 @@
     <link href="css/partial/carousel.css" rel="stylesheet" />
     <link href="css/partial/banner.css" rel="stylesheet" />
     <link href="css/partial/index-module.css" rel="stylesheet" />
+    <link href="css/partial/bootstrap.css" rel="stylesheet" />
+    <link href="css/partial/bootstrap-select.css" rel="stylesheet" />
+    <link href="css/partial/products.css" rel="stylesheet" />
 </head>
 <body>
     <!--顶部导航-->
@@ -20,7 +23,7 @@
         <div class="sn-container">
             <ul class="snc-left">
                 <li>
-                    <a href="javascript:void(0);">
+                    <a id="AddFavorite" href="javascript:void(0);">
                         Add Bookmark
                     </a>
                 </li>
@@ -78,7 +81,7 @@
     </div>
 
     <!--顶部广告图-->
-    <aside class="cross-aside">
+    <aside class="cross-aside-80">
         <img src="images/top-banner.jpg" />
     </aside>
 
@@ -90,6 +93,7 @@
             </a>
         </div>
         <div class="ss-right">
+            <!--搜索框-->
             <div class="ssr-search">
                 <form class="search-form" action="">
                     <fieldset>
@@ -126,14 +130,59 @@
                     </li>
                 </ul>
             </div>
+            <!--顽固搜索-->
             <div class="finder">
-                <a class="button" href="#">
+                <a class="finder-button" href="#">
                     Accessories Finder
                     <i class="icon-ctrl-down"></i>
                 </a>
-                <!--<div class="panel">
-
-                </div>-->
+                <div class="finder-panel">
+                    <p class="finder-title">Narrow it down and get what you want quickly.</p>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <select class="selectpicker" data-live-search="true" title="Select a brand">
+                                <option>Hot Doa Soda</option>
+                                <option>Burga Smile</option>
+                                <option>Suga nice</option>
+                                <option>Baby Back Ribs</option>
+                                <option>A really really</option>
+                                <option>Hoand a Soda</option>
+                                <option>Burg Smile</option>
+                                <option>Sugags nice</option>
+                                <option>Baby Back Ribs</option>
+                                <option>A really really</option>
+                                <option>Hotda</option>
+                                <option>Burgerle</option>
+                                <option>ll things nice</option>
+                                <option>Baby Back Ribs</option>
+                                <option>A really really</option>
+                                <option>Hot oda</option>
+                                <option>Burgmile</option>
+                                <option>Sugar, Spie</option>
+                                <option>Baby Back Ribs</option>
+                                <option>A really really</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="selectpicker" data-live-search="true" title="Select a model">
+                                <option>Hot D Soda</option>
+                                <option>Burgemile</option>
+                                <option>Sugar, Spi nice</option>
+                                <option>Baby ibs</option>
+                                <option>A really really</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <select class="selectpicker" data-live-search="true" title="Women's Accessories">
+                                <option>Hot Doga</option>
+                                <option>Burgengs nice</option>
+                                <option>Baby Ribs</option>
+                                <option>A rereally</option>
+                            </select>
+                        </div>
+                        <input class="finder-submit" type="submit" name="name" value="Find" />
+                    </form>
+                </div>
             </div>
         </div>
     </div>
@@ -595,7 +644,7 @@
         </a>
     </div>
 
-    <!--首页主要内容-->
+    <!--主要内容-->
     <div class="content" style="background-color: #eeeeee; padding-top: 30px;">
         <!--编辑推荐模块-->
         <div class="index-editors">
@@ -629,20 +678,790 @@
             </div>
             <!--编辑推荐模块右侧-->
             <div class="editor-right">
+                        <div class="module-title">Spotlight Products</div>
+                        <div class="s-countdowner">
+                            <span>Ends in</span>
+                            <span class="s-time">23h 18m 36s</span>
+                        </div>
+                        <div class="s-product">
+                            <a href="#"><img src="images/pro2.jpg" alt=""></a>
+                        </div>
+                        <div class="sp-price clearfix">
+                            <div class="spp-left">
+                                <span>US $27.99</span>
+                                <span>US $69.98 / Pair</span>
+                            </div>
+                            <div class="spp-right">
+                                <span class="spp-off">60%</span>
+                                <span class="spp-off">off</span>
+                            </div>
+                        </div>
+                </div>
+            </div>
 
+        <!--广告图-->
+        <aside class="cross-aside-140" style="margin-top: 20px;">
+            <img src="images/c-banner.jpg" />
+        </aside>
+
+        <!--Featured Products模块-->
+        <div class="featured" style="margin-top: 20px;">
+            <div class="module-title ">
+                Featured Products
+                <a href="#">View more</a>
+            </div>
+            <!--产品轮播-->
+            <div id="featured-banner" class="carousel slide featured-banner ">
+                <div class="carousel-inner">
+                    <!--第一个列表-->
+                    <div class="item active">
+                        <div class="pro-items">
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--第二个列表-->
+                    <div class="item">
+                        <div class="pro-items">
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro6.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro3.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro6.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro6.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro6.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!--第三个列表-->
+                    <div class="item">
+                        <div class="pro-items">
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro6.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                            <div class="products">
+                                <a target="_blank" href="#">
+                                    <img src="images/pro6.jpg" alt="">
+                                </a>
+                                <div class="pro-title">
+                                    <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                </div>
+                                <div class="rating">
+                                    <span class="start" style="width: 50%"></span>
+                                </div>
+                                <a class="c-count" href="#">888</a>
+                                <div class="price">
+                                    <span>From</span>
+                                    <span>$ 15.24</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <ol class="carousel-indicators">
+                    <li data-target="#featured-banner" data-slide-to="0" class="active"></li>
+                    <li data-target="#featured-banner" data-slide-to="1"></li>
+                    <li data-target="#featured-banner" data-slide-to="2"></li>
+                </ol>
+
+                <!--左侧切换-->
+                <a class="slide-left" href="javascript:void(0)" onclick="$('#featured-banner').carousel('prev');"></a>
+                <!--右侧切换-->
+                <a class="slide-right" type="sub" href="javascript:void(0)" onclick="$('#featured-banner').carousel('next');"></a>
+            </div>
+            <div class="indicators-content"></div>
+        </div>
+
+        <!--Compare模块-->
+        <div class="compare">
+            <div class="module-title">
+                Compare with others. Save with us.
+                <a href="#">Shop All</a>
+            </div>
+            <div id="compare-slide" class="pro-slider">
+                <div id="compare-banner" class="carousel slide featured-banner ">
+                    <div class="carousel-inner">
+                        <!--第一个列表-->
+                        <div class="item active">
+                            <div class="pro-items">
+                                <div class="products">
+                                    <a target="_blank" href="#">
+                                        <img src="images/pro3.jpg" alt="">
+                                    </a>
+                                    <div class="pro-title">
+                                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="start" style="width: 50%"></span>
+                                    </div>
+                                    <a class="c-count" href="#">888</a>
+                                    <div class="price">
+                                        <span>From</span>
+                                        <span>$ 15.24</span>
+                                    </div>
+                                </div>
+                                <div class="products">
+                                    <a target="_blank" href="#">
+                                        <img src="images/pro3.jpg" alt="">
+                                    </a>
+                                    <div class="pro-title">
+                                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="start" style="width: 50%"></span>
+                                    </div>
+                                    <a class="c-count" href="#">888</a>
+                                    <div class="price">
+                                        <span>From</span>
+                                        <span>$ 15.24</span>
+                                    </div>
+                                </div>
+                                <div class="products">
+                                    <a target="_blank" href="#">
+                                        <img src="images/pro3.jpg" alt="">
+                                    </a>
+                                    <div class="pro-title">
+                                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="start" style="width: 50%"></span>
+                                    </div>
+                                    <a class="c-count" href="#">888</a>
+                                    <div class="price">
+                                        <span>From</span>
+                                        <span>$ 15.24</span>
+                                    </div>
+                                </div>
+                                <div class="products">
+                                    <a target="_blank" href="#">
+                                        <img src="images/pro3.jpg" alt="">
+                                    </a>
+                                    <div class="pro-title">
+                                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="start" style="width: 50%"></span>
+                                    </div>
+                                    <a class="c-count" href="#">888</a>
+                                    <div class="price">
+                                        <span>From</span>
+                                        <span>$ 15.24</span>
+                                    </div>
+                                </div>
+                                <div class="products">
+                                    <a target="_blank" href="#">
+                                        <img src="images/pro3.jpg" alt="">
+                                    </a>
+                                    <div class="pro-title">
+                                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="start" style="width: 50%"></span>
+                                    </div>
+                                    <a class="c-count" href="#">888</a>
+                                    <div class="price">
+                                        <span>From</span>
+                                        <span>$ 15.24</span>
+                                    </div>
+                                </div>
+                                <div class="products">
+                                    <a target="_blank" href="#">
+                                        <img src="images/pro3.jpg" alt="">
+                                    </a>
+                                    <div class="pro-title">
+                                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="start" style="width: 50%"></span>
+                                    </div>
+                                    <a class="c-count" href="#">888</a>
+                                    <div class="price">
+                                        <span>From</span>
+                                        <span>$ 15.24</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--第二个列表-->
+                        <div class="item">
+                            <div class="pro-items">
+                                <div class="products">
+                                    <a target="_blank" href="#">
+                                        <img src="images/pro3.jpg" alt="">
+                                    </a>
+                                    <div class="pro-title">
+                                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="start" style="width: 50%"></span>
+                                    </div>
+                                    <a class="c-count" href="#">888</a>
+                                    <div class="price">
+                                        <span>From</span>
+                                        <span>$ 15.24</span>
+                                    </div>
+                                </div>
+                                <div class="products">
+                                    <a target="_blank" href="#">
+                                        <img src="images/pro3.jpg" alt="">
+                                    </a>
+                                    <div class="pro-title">
+                                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="start" style="width: 50%"></span>
+                                    </div>
+                                    <a class="c-count" href="#">888</a>
+                                    <div class="price">
+                                        <span>From</span>
+                                        <span>$ 15.24</span>
+                                    </div>
+                                </div>
+                                <div class="products">
+                                    <a target="_blank" href="#">
+                                        <img src="images/pro3.jpg" alt="">
+                                    </a>
+                                    <div class="pro-title">
+                                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="start" style="width: 50%"></span>
+                                    </div>
+                                    <a class="c-count" href="#">888</a>
+                                    <div class="price">
+                                        <span>From</span>
+                                        <span>$ 15.24</span>
+                                    </div>
+                                </div>
+                                <div class="products">
+                                    <a target="_blank" href="#">
+                                        <img src="images/pro6.jpg" alt="">
+                                    </a>
+                                    <div class="pro-title">
+                                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="start" style="width: 50%"></span>
+                                    </div>
+                                    <a class="c-count" href="#">888</a>
+                                    <div class="price">
+                                        <span>From</span>
+                                        <span>$ 15.24</span>
+                                    </div>
+                                </div>
+                                <div class="products">
+                                    <a target="_blank" href="#">
+                                        <img src="images/pro6.jpg" alt="">
+                                    </a>
+                                    <div class="pro-title">
+                                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="start" style="width: 50%"></span>
+                                    </div>
+                                    <a class="c-count" href="#">888</a>
+                                    <div class="price">
+                                        <span>From</span>
+                                        <span>$ 15.24</span>
+                                    </div>
+                                </div>
+                                <div class="products">
+                                    <a target="_blank" href="#">
+                                        <img src="images/pro6.jpg" alt="">
+                                    </a>
+                                    <div class="pro-title">
+                                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="start" style="width: 50%"></span>
+                                    </div>
+                                    <a class="c-count" href="#">888</a>
+                                    <div class="price">
+                                        <span>From</span>
+                                        <span>$ 15.24</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <!--第三个列表-->
+                        <div class="item">
+                            <div class="pro-items">
+                                <div class="products">
+                                    <a target="_blank" href="#">
+                                        <img src="images/pro6.jpg" alt="">
+                                    </a>
+                                    <div class="pro-title">
+                                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="start" style="width: 50%"></span>
+                                    </div>
+                                    <a class="c-count" href="#">888</a>
+                                    <div class="price">
+                                        <span>From</span>
+                                        <span>$ 15.24</span>
+                                    </div>
+                                </div>
+                                <div class="products">
+                                    <a target="_blank" href="#">
+                                        <img src="images/pro6.jpg" alt="">
+                                    </a>
+                                    <div class="pro-title">
+                                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                                    </div>
+                                    <div class="rating">
+                                        <span class="start" style="width: 50%"></span>
+                                    </div>
+                                    <a class="c-count" href="#">888</a>
+                                    <div class="price">
+                                        <span>From</span>
+                                        <span>$ 15.24</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <ol class="carousel-indicators">
+                        <li data-target="#compare-banner" data-slide-to="0" class="active"></li>
+                        <li data-target="#compare-banner" data-slide-to="1"></li>
+                        <li data-target="#compare-banner" data-slide-to="2"></li>
+                    </ol>
+
+                    <!--左侧切换-->
+                    <a class="slide-left" href="javascript:void(0)" onclick="$('#compare-banner').carousel('prev');"></a>
+                    <!--右侧切换-->
+                    <a class="slide-right" type="sub" href="javascript:void(0)" onclick="$('#compare-banner').carousel('next');"></a>
+                </div>
             </div>
         </div>
-    </div>
 
+        <!--品牌墙模块-->
+  </div>
 
     <script src="js/jquery-2.1.0.js"></script>
     <script src="js/jquery.carouse.js"></script>
     <script src="js/jquery.countdownTimer.min.js"></script>
     <script src="js/tvc.pro-slider.js"></script>
-
+    <script src="js/bootstrap-select.js"></script>
     <script>
         $(function () {
+            //轮播图
             $('.carousel').carousel();
+            $('#fea-slide').proSlider();
+            $('#com-slide').proSlider();
+
+            //顽固搜索显示和隐藏
+            $(".finder-button").click(function () {
+                $(".finder-panel").toggleClass("active");
+            });
+
+            //倒计时
+            $(".s-time").countdowntimer({
+                hours: 3,
+                minutes: 10,
+                seconds: 10,
+                size: "lg",
+            });
+
+            //添加收藏
+            $("#AddFavorite").click(function () {
+                var ctrl = (navigator.userAgent.toLowerCase()).indexOf('mac') != -1 ? 'Command/Cmd' : 'CTRL';
+                if (document.all) {
+                    window.external.addFavorite('http://www.tvc-mall.com/', 'TVC-Mall');
+                }
+                else if (window.sidebar) {
+                    window.sidebar.addPanel('TVC-Mall', 'http://www.tvc-mall.com/', "");
+                } else {
+                    alert('Please use ' + ctrl + ' + D to add');
+                }
+            });
         })
     </script>
 </body>

@@ -39,8 +39,8 @@
             $tabs.eq(to).addClass("tab-active");
             // $items.removeClass("active");
             // $items.eq(to).addClass("active");
-            $items.hide();
-            $items.eq(to).fadeIn();
+            $items.removeClass("active");
+            $items.eq(to).addClass("active");
         };
 
         //选项卡点击事件
