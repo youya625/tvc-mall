@@ -7,8 +7,8 @@
     .size(100%, auto);
     background-color: #fff;
 
-    a:hover{
-       text-decoration: underline; 
+    a:hover {
+        text-decoration: underline;
     }
 }
 
@@ -103,12 +103,15 @@
     }
 
     .sf-input {
+        overflow: hidden;
+
         input:first-child {
             .size(240px, 27px);
         }
 
         input:last-child {
             .button(@nomal-font,100px, 33px, #fff, #e62e04);
+            font-size: 16px;
             display: inline-block;
             margin-left: -9px;
             vertical-align: middle;
@@ -154,7 +157,7 @@
                 a {
                     .font(@footer-font-size, #a599a5);
 
-                    &:hover{
+                    &:hover {
                         color: #000;
                     }
                 }
@@ -177,7 +180,7 @@
     cursor: pointer;
     color: #000;
     opacity: 0.5;
-
+    z-index: 9999;
     i {
         display: block;
     }

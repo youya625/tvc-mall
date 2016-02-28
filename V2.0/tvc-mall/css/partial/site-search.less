@@ -41,6 +41,15 @@
         }
     }
 
+    .icon-search{
+        position: absolute;
+        top: 10px;
+        left: 8px;
+        display:block;
+        color: @gray-darker;
+        z-index: 99;
+    }
+
     .s-input {
         position: absolute;
         top: 0;
@@ -48,7 +57,7 @@
         width: @search-input-width + 2;
         height: @search-height - 2 * @search-border;
         border: 0;
-        text-indent: 10px;
+        text-indent: 30px;
         z-index: 50;
 
         &:focus {
@@ -105,6 +114,11 @@
             .button(@nomal-font, @width, @height, #fff, @gray-darker);
             font-size: @nomal-font-size;
             text-decoration: none;
+
+            .icon-ctrl-down{
+                position:relative;
+                bottom: 2px;
+            }
         }
 
         .finder-panel {
@@ -140,7 +154,8 @@
                 height: 210px;
 
                 .form-group {
-                    .center();
+                    width: 180px; //IE
+                    .center-block();
                 }
             }
 
@@ -163,6 +178,10 @@
             opacity: 1;
             visibility: visible;
             margin-top: 0;
+        }
+        .icon-rotate{
+            display: inline-block;
+            .rotate(50%, 70%, .1s);
         }
   
     }

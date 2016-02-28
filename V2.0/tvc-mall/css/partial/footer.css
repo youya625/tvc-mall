@@ -144,6 +144,9 @@
   margin-top: 20px;
   margin-bottom: 10px;
 }
+.service .sf-input {
+  overflow: hidden;
+}
 .service .sf-input input:first-child {
   width: 240px;
   height: 27px;
@@ -160,6 +163,7 @@
   line-height: 33px;
   text-align: center;
   border: none;
+  font-size: 16px;
   display: inline-block;
   margin-left: -9px;
   vertical-align: middle;
@@ -219,6 +223,7 @@
   cursor: pointer;
   color: #000;
   opacity: 0.5;
+  z-index: 9999;
 }
 #tvc-top i {
   display: block;

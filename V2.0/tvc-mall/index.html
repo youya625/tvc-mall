@@ -182,7 +182,8 @@
                 <form class="search-form" action="">
                     <fieldset>
                         <legend>TVC Search</legend>
-                        <input class="s-input" placeholder="I'm shopping for..." type="text">
+                        <i class="icon-search"></i>
+                        <input class="s-input" placeholder="Search Wholesale Products" type="search">
                         <input class="s-submit" type="submit" value="Search">
                     </fieldset>
                 </form>
@@ -216,7 +217,7 @@
             </div>
             <!--顽固搜索-->
             <div class="finder">
-                <a class="finder-button" href="#">
+                <a class="finder-button" href="javascript:void(0);">
                     Accessories Finder
                     <i class="icon-ctrl-down"></i>
                 </a>
@@ -2170,11 +2171,9 @@
         <div class="service">
             <div class="s-left">
                 <p class="s-name">Track Your Order</p>
-                <form action="#">
-                    <div class="sf-input">
+                <form action="#" class="sf-input">
                         <input type="text">
                         <input type="submit" value="track">
-                    </div>
                 </form>
                 <p class="s-name">Stay Connected</p>
                 <div class="community">
@@ -2281,8 +2280,9 @@
             //轮播图
             $('#banner').carousel();
 
-            //顽固搜索显示和隐藏
+            //顽固搜索
             $(".finder-button").click(function () {
+                $(".finder-button .icon-ctrl-down").toggleClass("icon-rotate");
                 $(".finder-panel").toggleClass("active");
             });
 
