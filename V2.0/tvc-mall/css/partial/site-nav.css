@@ -321,6 +321,12 @@
   min-width: 30%;
   overflow: hidden;
 }
+.site-nav .sn-container .snc-right .order .order-content .order-list-items .order-link {
+  color: #000;
+}
+.site-nav .sn-container .snc-right .order .order-content .order-list-items .order-link:hover {
+  color: #ea511b;
+}
 .site-nav .sn-container .snc-right .order:hover .sn-items {
   border-color: #fff #eeeeee;
   background-color: #fff;
