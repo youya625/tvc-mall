@@ -1,0 +1,15 @@
+﻿@import "../mixins/common";
+@import "../variables/common";
+
+.cross-aside(@height) {
+    .center-block();
+    .size(@page-width, @height);
+}
+
+.cross-aside-80 {
+    .cross-aside(80px)
+}
+
+.cross-aside-140 {
+    .cross-aside(140px);
+}

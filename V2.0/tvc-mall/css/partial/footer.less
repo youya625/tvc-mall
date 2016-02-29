@@ -103,10 +103,20 @@
     }
 
     .sf-input {
+        display: flex;
+        justify-content: center;
+        .size(320px, 30px);
         overflow: hidden;
+        border: 1px solid #e62e04;
 
         input:first-child {
-            .size(240px, 27px);
+            border: none;
+            text-indent: 10px;
+            .size(240px, 29px);
+            z-index: 50;
+            &:focus{
+                outline: none;
+            }
         }
 
         input:last-child {

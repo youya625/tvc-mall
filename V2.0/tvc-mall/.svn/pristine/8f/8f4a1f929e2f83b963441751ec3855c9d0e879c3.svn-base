@@ -123,25 +123,11 @@
             </ul>
 
             <ul class="snc-right">
-                <li class="user-login">
-                    <a class="user-select sn-items" href="javascript:void(0);">
+                <li>
+                    <a class="sn-items" href="javascript:void(0);">
                         hi! Jeremy He
                         <i class="icon-triangle-down"></i>
                     </a>
-                    <div class="user-option">
-                        <a href="http://es.tvc-mall.com/">
-                            My Account
-                        </a>
-                        <a href="http://pt.tvc-mall.com/">
-                            My Orders
-                        </a>
-                        <a href="http://ru.tvc-mall.com/">
-                            My Profile
-                        </a>
-                        <a href="http://fr.tvc-mall.com/">
-                            My Points & Balance
-                        </a>
-                    </div>
                 </li>
                 <li class="sncr-logout active">
                     <a class="sn-items" href="javascript:void(0);">
@@ -153,15 +139,12 @@
                         message(8)
                     </a>
                 </li>
-                <li class="order">
-                    <a class="order sn-items" href="javascript:void(0);">
+                <li>
+                    <a class="sn-items" href="javascript:void(0);">
                         <i class="icon-cart"></i>
                         My Orders(2 items)
                         <i class="icon-triangle-down"></i>
                     </a>
-                    <div class="order-content">
-
-                    </div>
                 </li>
                 <li>
                     <a class="sn-items" href="javascript:void(0);">

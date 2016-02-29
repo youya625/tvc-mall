@@ -88,7 +88,7 @@
 }
 .products:hover {
   border-color: #fff;
-  box-shadow: 0 0 15px #eeeeee;
+  box-shadow: 0 0 15px #a0a0a0;
   z-index: 20;
 }
 .products2 {
@@ -141,7 +141,7 @@
 .products2:hover {
   position: relative;
   border-color: #fff;
-  box-shadow: 0 0 15px #eeeeee;
+  box-shadow: 0 0 15px #a0a0a0;
   z-index: 20;
 }
 .products3 {
@@ -185,7 +185,7 @@
 .products3:hover {
   position: relative;
   border-color: #fff;
-  box-shadow: 0 0 15px #eeeeee;
+  box-shadow: 0 0 15px #a0a0a0;
   z-index: 20;
 }
 .products-grid {

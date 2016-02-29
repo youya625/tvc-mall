@@ -3,13 +3,13 @@
 
 //最顶部导航
 .site-nav {
-    @height: 32px;
+    @height: 35px;
     @left-width: 350px;
     @right-width: 630px;
 
     .size(100%, @height);
-    border-bottom: 1px solid @nomal-bg-color;
-    background-color: #fff;
+    border-bottom: 1px solid @gray-dark;
+    background-color: @nomal-bg-color;
 
     .sn-container {
         .size(@page-width, @height);
@@ -43,8 +43,8 @@
                 .font(14px, #666666, @height + 1px);
                 border: 1px solid;
                 border-top: none;
-                border-color: transparent;
-                border-bottom-color: @nomal-bg-color;
+                border-color: @nomal-bg-color;
+                border-bottom-color: @gray-dark;
                 //调整图标位置
                 .icon-language {
                     position: relative;
@@ -62,7 +62,7 @@
         }
 
         .hover() {
-            border-color: #fff @nomal-bg-color;
+            border-color: #fff @gray-dark;
             background-color: #fff;
         }
         //感应层
@@ -71,7 +71,7 @@
             top: @top;
             left: @left;
             .size(@width, @height);
-            border: 1px solid @nomal-bg-color;
+            border: 1px solid @gray-dark;
             border-top: none;
             background-color: #fff;
             z-index: 100;
@@ -84,7 +84,7 @@
                 position: relative;
                 //语言感应列表
                 .language-items {
-                    .pannel(140px, auto, @height + 1, 0);
+                    .pannel(140px, auto, 36px, 0);
                     display: none;
                     flex-direction: column;
                     justify-content: space-around;
@@ -123,11 +123,11 @@
                 .currency-items {
                     display: none;
                     justify-content: space-around;
-                    .pannel(260px, auto, @height + 1, 0);
+                    .pannel(330px, auto, 36px, 0);
 
                     .curr-gj {
                         display: inline-block;
-                        .size(16px, 16px);
+                        .size(40px, 22px);
                         background: url(../../images/flg.jpg);
                         vertical-align: middle;
                     }
@@ -169,51 +169,6 @@
             .icon-cart {
                 position: relative;
                 top: 2px;
-            }
-            //用户
-            .user-login {
-                position: relative;
-                //用户操作感应层
-                .user-option {
-                    .pannel(140px, auto, @height + 1, 0);
-                    display: none;
-                    flex-direction: column;
-                    justify-content: space-around;
-
-                    a {
-                        .font(14px, #666666);
-                        margin: 6px 10px;
-
-                        &:hover {
-                            color: @nomal-color;
-                        }
-                    }
-                }
-
-                &:hover {
-                    .user-select {
-                        .hover();
-                    }
-
-                    .user-option {
-                        display: flex;
-                    }
-                }
-            }
-            //订单
-            .order {
-                position: relative;
-                //订单感应层
-                .order-content {
-                    display: block;
-                    .pannel(280px, 500px, @height + 1, 0);
-                }
-
-                &:hover {
-                    .sn-items {
-                        .hover();
-                    }
-                }
             }
         }
 

@@ -145,11 +145,26 @@
   margin-bottom: 10px;
 }
 .service .sf-input {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 320px;
+  height: 30px;
   overflow: hidden;
+  border: 1px solid #e62e04;
 }
 .service .sf-input input:first-child {
+  border: none;
+  text-indent: 10px;
   width: 240px;
-  height: 27px;
+  height: 29px;
+  z-index: 50;
+}
+.service .sf-input input:first-child:focus {
+  outline: none;
 }
 .service .sf-input input:last-child {
   display: block;

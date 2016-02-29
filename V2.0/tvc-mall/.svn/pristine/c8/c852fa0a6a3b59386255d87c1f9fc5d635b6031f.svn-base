@@ -1,0 +1,34 @@
+﻿@-webkit-keyframes icon-rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+}
+@keyframes icon-rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+}
+.cross-aside-80 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  height: 80px;
+}
+.cross-aside-140 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 1200px;
+  height: 140px;
+}

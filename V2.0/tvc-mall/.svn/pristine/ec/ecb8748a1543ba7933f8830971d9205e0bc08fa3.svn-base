@@ -1,0 +1,54 @@
+﻿[
+  {
+    "outputFile": "css/mixins/commen.css",
+    "inputFile": "css/mixins/commen.less"
+  },
+  {
+    "outputFile": "css/partial/site-nav.css",
+    "inputFile": "css/partial/site-nav.less"
+  },
+  {
+    "outputFile": "css/commen/common.css",
+    "inputFile": "css/commen/common.less"
+  },
+  {
+    "outputFile": "css/partial/cross-aside.css",
+    "inputFile": "css/partial/cross-aside.less"
+  },
+  {
+    "outputFile": "css/partial/site-search.css",
+    "inputFile": "css/partial/site-search.less"
+  },
+  {
+    "outputFile": "css/partial/main-nav.css",
+    "inputFile": "css/partial/main-nav.less"
+  },
+  {
+    "outputFile": "css/partial/carousel.css",
+    "inputFile": "css/partial/carousel.less"
+  },
+  {
+    "outputFile": "css/partial/banner.css",
+    "inputFile": "css/partial/banner.less"
+  },
+  {
+    "outputFile": "css/partial/index-module.css",
+    "inputFile": "css/partial/index-module.less"
+  },
+  {
+    "outputFile": "css/partial/bs-select.css",
+    "inputFile": "css/partial/bs-select.less"
+  },
+  {
+    "outputFile": "css/partial/products.css",
+    "inputFile": "css/partial/products.less"
+  },
+  {
+    "outputFile": "css/partial/products-slider.css",
+    "inputFile": "css/partial/products-slider.less"
+  },
+  {
+    "outputFile": "css/partial/footer.css",
+    "inputFile": "css/partial/footer.less"
+  }
+]
