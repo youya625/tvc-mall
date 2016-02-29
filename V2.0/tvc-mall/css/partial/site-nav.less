@@ -48,15 +48,20 @@
                 //调整图标位置
                 .icon-language {
                     position: relative;
-                    font-size: 16px;
-                    top: 2px;
+                    top: 4px;
+                    font-size: 20px;
                 }
 
                 .icon-triangle-down {
                     position: relative;
-                    font-size: 14px;
                     top: 1px;
+                    font-size: 14px;
                     right: 4px;
+                }
+
+                .icon-cart {
+                    position: relative;
+                    top: 1px;
                 }
             }
         }
@@ -205,13 +210,116 @@
                 position: relative;
                 //订单感应层
                 .order-content {
-                    display: block;
-                    .pannel(280px, 500px, @height + 1, 0);
+                    display: none;
+                    .pannel(270px, auto, @height + 1, 0);
+                    overflow: hidden;
+                    padding-bottom: 10px;
+                    //订单信息
+                    .order-info {
+                        padding: 5px 10px;
+                        background-color: #fff;
+
+                        .order-title {
+                            .button(@nomal-font, 100%, 30px, #000, #fff, 10px);
+                            font-size: 14px;
+                            font-weight: 600;
+                            text-align: left;
+                        }
+
+                        .orange {
+                            color: @nomal-color;
+                        }
+
+                        .btn {
+                            font-size: 14px;
+                            margin-top: 5px;
+                            width: 91%;
+                        }
+                    }
+
+                    .order-items {
+                        display: flex;
+                        justify-content: space-between;
+                        font-size: 14px;
+                        margin-top: 5px;
+
+
+                        .commen() {
+                            padding: 3px 0 0 5px;
+                            width: 49%;
+                        }
+
+                        .order-items-title {
+                            .commen();
+                            background-color: @nomal-bg-color;
+                        }
+
+                        .order-items-value {
+                            .commen();
+                        }
+                    }
+
+                    .order-list-items {
+                        display: flex;
+                        justify-content: flex-start;
+                        font-size: 14px;
+                        margin-top: 5px;
+                        border-bottom: 1px dotted @gray-darker;
+
+                        .order-products-count {
+                            min-width: 30%;
+                            overflow: hidden;
+                        }
+
+                        .order-list-wrape {
+                        }
+                    }
                 }
 
                 &:hover {
                     .sn-items {
                         .hover();
+                    }
+
+                    .order-content {
+                        display: block;
+                    }
+                }
+            }
+            //帮助
+            .help {
+                position: relative;
+                //帮助感应列表
+                .help-content {
+                    .pannel(140px, auto, @height + 1, 0);
+                    display: none;
+                    flex-direction: column;
+                    justify-content: space-around;
+
+
+                    .icon-triangle-right {
+                        font-size: 14px;
+                        position: relative;
+                        top: 2px;
+                    }
+
+                    a {
+                        .font(14px, #666666);
+                        margin: 3px 5px;
+
+                        &:hover {
+                            color: @nomal-color;
+                        }
+                    }
+                }
+
+                &:hover {
+                    .help-select {
+                        .hover();
+                    }
+
+                    .help-content {
+                        display: flex;
                     }
                 }
             }

@@ -50,5 +50,9 @@
   {
     "outputFile": "css/partial/footer.css",
     "inputFile": "css/partial/footer.less"
+  },
+  {
+    "outputFile": "css/partial/bootstrap.css",
+    "inputFile": "css/partial/bootstrap.less"
   }
 ]
