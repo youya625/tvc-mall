@@ -1,0 +1,513 @@
+﻿@import "../mixins/common";
+@import "../variables/common";
+
+//标题
+.module-title {
+    @width: 100%;
+    width: @width;
+    height: 50px;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid @nomal-bg-color;
+    background-color: #fff;
+    font: @nomal-font;
+    text-indent: 27px;
+    position: relative;
+    font-size: 18px;
+    line-height: 52px;
+    text-indent: 27px;
+
+    a {
+        color: @gray-darker;
+        font: @nomal-font;
+        font-size: 14px;
+        font-weight: lighter;
+        line-height: 52px;
+        position: absolute;
+        right: 20px;
+    }
+}
+
+//编辑推荐
+.editors {
+    @height: 390px;
+
+    display: flex;
+    justify-content: space-between;
+    .size(@page-width, @height);
+    .center();
+    background-color: transparent;
+    //左侧
+    .editor-left {
+        display: flex;
+        flex-wrap: wrap;
+        .size(880px, 390px);
+        background-color: #fff;
+        overflow: hidden;
+
+        .editor-aside {
+            .size(540px, 340px);
+        }
+
+        .editor-products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            .size(340px, 340px);
+
+            a {
+                .size(150px, 150px);
+
+                img {
+                    .size(100%, 100%);
+                }
+            }
+        }
+    }
+    //右侧聚光灯产品
+    .editor-right {
+        width: 300px;
+        height: 390px;
+        background-color: #fff;
+
+        .module-title {
+            color: @nomal-color;
+            font-size: 18px;
+            line-height: 50px;
+        }
+
+        .s-product {
+            text-align: center;
+
+            img {
+                width: 230px;
+                height: 230px;
+            }
+        }
+
+        .sp-price {
+            .size(225px, 60px);
+            padding: 5px;
+            margin: auto;
+
+            .spp-left {
+                float: left;
+
+                span:first-child {
+                    display: block;
+                    font-size: 26px;
+                    color: #000;
+                }
+
+                span:last-child {
+                    display: block;
+                    font-size: 14px;
+                    color: #95989a;
+                    text-decoration: line-through;
+                }
+            }
+
+            .spp-right {
+                float: right;
+                .size(70px, 25px);
+                text-align: center;
+                color: #fff;
+                font-size: 16px;
+                line-height: 28px;
+                background-color: @nomal-color;
+            }
+        }
+    }
+    //倒计时
+    .s-countdowner {
+        width: 100%;
+        height: 45px;
+        text-align: center;
+        line-height: 55px;
+
+        span:first-child {
+            .font(26px, #000);
+        }
+
+        .s-time {
+            font-size: 26px;
+            color: #e95742;
+        }
+    }
+}
+
+//Featured Products模块
+.featured {
+    width: @page-width;
+    .center();
+    background-color: #fff;
+
+    .featured-banner {
+        height: 535px;
+
+        .carousel-indicators {
+            bottom: -45px;
+
+            li {
+                background-color: @gray-darker;
+                border-color: @gray-darker;
+            }
+
+            .active {
+                background-color: @nomal-color;
+                border-color: @nomal-color;
+            }
+        }
+        //左右切换按钮
+        .slide-left, .slide-right {
+            .size(38px, 58px);
+            position: absolute;
+            display: block;
+            z-index: 100;
+            opacity: 0.4;
+
+            &:hover {
+                border: 1px solid #eeeeee;
+                opacity: 1;
+            }
+        }
+
+        .slide-left {
+            top: 236px;
+            left: 0;
+            background: url(../../images/left.jpg);
+        }
+
+        .slide-right {
+            top: 236px;
+            right: 0;
+            background: url(../../images/right.jpg);
+        }
+    }
+
+    .indicators-content {
+        display: block;
+        border-top: 1px solid @nomal-bg-color;
+        .size(@page-width, 48px);
+    }
+}
+
+//compare模块
+.compare {
+    @compare-bg: url(../../images/pro-bg.jpg); //compare模块背景图
+    .size(@page-width, 365px);
+    .center();
+    background: @compare-bg repeat;
+
+    .module-title {
+        background-color: transparent;
+        color: #fff;
+        border: none;
+    }
+    //flex
+    .pro-items {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: 3px;
+    }
+
+    .carousel-indicators {
+        bottom: -45px;
+
+        li {
+            background-color: @gray-darker;
+            border-color: @gray-darker;
+        }
+
+        .active {
+            background-color: @nomal-color;
+            border-color: @nomal-color;
+        }
+    }
+
+    .products {
+        background-color: #fff;
+        border-radius: 10px;
+        border: none;
+        width: 153px;
+        margin: 0 8.5px;
+    }
+    //左右切换按钮
+    .slide-left, .slide-right {
+        .size(38px, 58px);
+        position: absolute;
+        display: block;
+        z-index: 100;
+        opacity: 0.4;
+
+        &:hover {
+            border: 1px solid #eeeeee;
+            opacity: 1;
+        }
+    }
+
+    .slide-left {
+        top: 106px;
+        left: 0;
+        background: url(../../images/left.jpg);
+    }
+
+    .slide-right {
+        top: 106px;
+        right: 0;
+        background: url(../../images/right.jpg);
+    }
+}
+
+//品牌墙
+.brand {
+    .center-block();
+    width: @page-width;
+    .clearfix();
+    height: auto;
+    margin-top: 20px;
+    background-color: #fff;
+
+    .module-title {
+        border-top-color: #80b512;
+
+        ul {
+            display: flex;
+            justify-content: space-between;
+            float: right;
+
+            li {
+                text-indent: 0;
+            }
+        }
+
+        a {
+            position: relative;
+            margin-left: 20px;
+        }
+    }
+
+    .brand-slider {
+        .size(440px, 440px);
+        background-color: #fff;
+        float: left;
+    }
+
+    .brand-banner {
+        .size(440px, 440px);
+    }
+
+    .brand-items {
+        .clearfix();
+        float: left;
+        width: 710px;
+        padding-left: 38px;
+        padding-top: 8px;
+
+        div {
+            @height: 98px;
+            float: left;
+            .size(170px, @height);
+            border-bottom: 1px solid @nomal-bg-color;
+            border-right: 1px solid @nomal-bg-color;
+            text-align: center;
+            line-height: @height;
+        }
+
+        div:nth-child(4), div:nth-child(8), div:nth-child(12), div:nth-child(16), {
+            border-right-color: #fff;
+        }
+
+        div:nth-child(13), div:nth-child(14), div:nth-child(15), div:nth-child(16) {
+            border-bottom-color: #fff;
+        }
+
+        img {
+            .size(85px, 85px);
+        }
+    }
+}
+
+//intelligent模块
+.intelligent {
+    width: @page-width;
+    .center-block();
+    .clearfix();
+    background-color: #fff;
+
+    .title {
+        border-top-color: @nomal-color;
+    }
+
+    .int-banner {
+        width: 240px;
+        height: 610px;
+        float: left;
+
+        .carousel-control {
+            line-height: 610px;
+            font-size: 50px;
+        }
+    }
+
+    .carousel-inner {
+        img {
+            .size(100%, 100%);
+        }
+    }
+
+    .carousel-indicators {
+        li {
+            background-color: @gray-darker;
+            border-color: @gray-darker;
+        }
+
+        .active {
+            background-color: @nomal-color;
+            border-color: @nomal-color;
+        }
+    }
+
+    .int-items {
+        .size(@page-width - 240px, auto);
+        float: left;
+        .clearfix();
+    }
+
+
+    .module-title {
+        border-top-color: #ff8074;
+    }
+}
+
+//parts模块
+.parts {
+    width: @page-width;
+    .center-block();
+    .clearfix();
+    margin-top: 20px;
+    background-color: #fff;
+
+    .module-title {
+        border-top-color: #5fdfa1;
+    }
+
+    .parts-aside {
+        width: 240px;
+        height: 610px;
+        float: left;
+
+        a {
+            display: block;
+            .size(@page-width - 240 * 4, 305px);
+            overflow: hidden;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .part-items {
+        .size(@page-width - 240px, auto);
+        float: left;
+        .clearfix();
+    }
+}
+
+//special模块
+.special {
+    width: @page-width;
+    .center-block();
+    margin-top: 20px;
+    background-color: #fff;
+
+    .module-title {
+        border-top-color: #f9bc9d;
+    }
+
+    .special-aside {
+        .size(@page-width - 240 * 3 - 1, 304px);
+        overflow: hidden;
+        float: left;
+
+        a {
+            display: block;
+            .size(100%, 100%);
+            overflow: hidden;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .special-items {
+        .size(@page-width - 480px, auto);
+        width: @page-width;
+        .center-block();
+        .clearfix();
+    }
+}
+
+//recommend模块
+.recommend {
+    width: @page-width;
+    .center-block();
+    margin-top: 20px;
+    background-color: #fff;
+
+    .module-title {
+        border-top-color: #7fd2e2;
+    }
+
+    .r-items {
+        .size(@page-width, auto);
+        width: @page-width;
+        .center-block();
+        .clearfix();
+    }
+}
+
+
+//广告墙
+.surprised {
+    width: @page-width;
+    .center();
+    background-color: #fff;
+    .size(@page-width, 530px);
+
+    .sur-content {
+        .size(@page-width, 480px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .sur-items {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: row;
+            height: 230px;
+            width: @page-width;
+            .center();
+
+
+            li {
+                display: block;
+                overflow: hidden;
+                .size(285px, 230px);
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+
+    .module-title {
+        border-top-color: #ff4c6c;
+    }
+}
