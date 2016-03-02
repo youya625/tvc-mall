@@ -1,6 +1,4 @@
-﻿@import "mixins/list-gadget.less";
-@import "mixins/list-gadget-item.less";
-@import "mixins/module-title";
+﻿@import "mixins";
 
 //编辑推荐
 .partial-home-list-1 {
@@ -18,6 +16,10 @@
         .size(880px, 390px);
         background-color: #fff;
         overflow: hidden;
+        //标题
+        .module-title {
+            .module-title();
+        }
 
         .editor-aside {
             .size(540px, 340px);
@@ -38,7 +40,6 @@
             }
         }
     }
-
     //右侧聚光灯产品
     .editor-right {
         width: 300px;
@@ -46,9 +47,8 @@
         background-color: #fff;
 
         .module-title {
-            color: @nomal-color;
-            font-size: 18px;
-            line-height: 50px;
+            //标题
+            .module-title();
         }
 
         .s-product {

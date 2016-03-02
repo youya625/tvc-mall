@@ -1,13 +1,40 @@
-﻿@import "mixins/list-gadget.less";
-@import "mixins/list-gadget-item.less";
-@import "mixins/module-title";
+﻿@import "mixins";
 
+.partial-home-list-6 {
+    width: @page-width;
+    .center-block();
+    .clearfix();
+    margin-top: 20px;
+    background-color: #fff;
 
-.partial-home-list-1 {
-    .list-gadget-1();
-    .item {
-        .list-gadget-item-1();
+    .module-title {
+        .module-title(#5fdfa1);
+    }
+
+    .parts-aside {
+        width: 240px;
+        height: 610px;
+        float: left;
+
+        a {
+            display: block;
+            .size(@page-width - 240 * 4, 305px);
+            overflow: hidden;
+        }
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    .products-grid {
+        .list-gadget-2();
+    }
+
+    .part-items {
+        .size(@page-width - 240px, auto);
+        float: left;
+        .clearfix();
     }
 }
-
-

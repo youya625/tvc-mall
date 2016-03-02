@@ -1,13 +1,49 @@
-﻿@import "mixins/list-gadget.less";
-@import "mixins/list-gadget-item.less";
-@import "mixins/module-title";
+﻿@import "mixins";
 
+.partial-home-list-5 {
+    width: @page-width;
+    .center-block();
+    .clearfix();
+    background-color: #fff;
 
-.partial-home-list-1 {
-    .list-gadget-1();
-    .item {
-        .list-gadget-item-1();
+    .module-title {
+        .module-title(#ff8074);
+    }
+
+    .products-grid {
+        .list-gadget-2();
+        width: @page-width - 240px;
+    }
+
+    .int-banner {
+        width: 239px;
+        height: 610px;
+        float: left;
+        overflow: hidden;
+
+        .carousel-control {
+            line-height: 610px;
+            font-size: 50px;
+        }
+    }
+
+    .carousel-inner {
+        overflow: hidden;
+
+        img {
+            .size(100%, 100%);
+        }
+    }
+
+    .carousel-indicators {
+        li {
+            background-color: #fff;
+            border-color: #fff;
+        }
+
+        .active {
+            background-color: @nomal-color;
+            border-color: @nomal-color;
+        }
     }
 }
-
-

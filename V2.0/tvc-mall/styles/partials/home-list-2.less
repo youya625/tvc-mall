@@ -1,22 +1,35 @@
-﻿@import "mixins/list-gadget.less";
-@import "mixins/list-gadget-item.less";
-@import "mixins/module-title";
+﻿@import "mixins";
 
 
-.partial-home- {
-   width: @page-width;
+//Featured Products
+.partial-home-list-2 {
+    width: @page-width;
     .center();
     background-color: #fff;
+    //标题
+    .module-title {
+        .module-title();
+    }
+
+    .products-grid {
+        .list-gadget-1();
+    }
+
+    .carousel-inner {
+        height: 100%;
+    }
 
     .featured-banner {
         height: 535px;
 
         .carousel-indicators {
             bottom: -45px;
+            z-index: 100;
 
             li {
-                background-color: @gray-darker;
-                border-color: @gray-darker;
+                border-color: @gray-dark;
+                background-color: @gray-dark;
+                opacity: 0.8;
             }
 
             .active {
@@ -57,5 +70,3 @@
         .size(@page-width, 48px);
     }
 }
-
-

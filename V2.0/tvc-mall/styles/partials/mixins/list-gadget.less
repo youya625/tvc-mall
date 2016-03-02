@@ -8,20 +8,40 @@
     justify-content: center;
     flex-wrap: wrap;
     margin-top: 3px;
+
+    .products {
+        .list-gadget-item-1();
+        /*border: 1px solid @nomal-bg-color;
+        margin-right: -1px;
+        margin-top: -1px;*/
+    }
 }
 
 //商品2排列
 .list-gadget-2() {
-    border: 1px solid @nomal-bg-color;
-    margin-right: -1px;
-    margin-top: -1px;
-    float: left;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    .size(100%, auto);
+
+    .products {
+        .list-gadget-item-2();
+        border: 1px solid @nomal-bg-color;
+        margin-right: -1px;
+        margin-top: -1px;
+    }
 }
 
 //商品3排列
 .list-gadget-3() {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
     border: 1px solid @nomal-bg-color;
     margin-right: -1px;
     margin-top: -1px;
-    float: left;
+
+    .products{
+        .list-gadget-item-3();
+    }
 }

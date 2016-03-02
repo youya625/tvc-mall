@@ -6,17 +6,21 @@
     @banner-aside-width: 160px; //banner侧边广告宽度
     @banner-aside-height: 420px; //banner侧边广告高度
     position: relative;
+    height: @banner-height;
 
     .carousel-inner {
         margin: auto;
+        height: 100%;
 
         .item {
             background-color: #022022;
+            height: 100%;
 
             img {
                 display: block;
                 width: @page-width;
                 margin: auto;
+                height: 100%;
             }
         }
     }
@@ -30,13 +34,22 @@
         z-index: 20;
     }
 
-    .carousel-indicators li {
-        margin-left: 15px;
-        background-color: #fff;
-    }
+    .carousel-indicators {
 
+        li {
+            width: 15px;
+            height: 15px;
+            border-radius: 11px;
+            margin-left: 10px;
+            border-color: @gray-dark;
+            background-color: @gray-dark;
+            opacity: 0.8;
+        }
 
-    .carousel-indicators .active {
-        border-color: @nomal-color;
+        .active {
+            background-color: @nomal-color;
+            border-color: @nomal-color;
+        }
     }
 }
+

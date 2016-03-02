@@ -54,5 +54,21 @@
   {
     "outputFile": "css/partial/bootstrap.css",
     "inputFile": "css/partial/bootstrap.less"
+  },
+  {
+    "outputFile": "styles/common.css",
+    "inputFile": "styles/common.less"
+  },
+  {
+    "outputFile": "styles/pages/home.css",
+    "inputFile": "styles/pages/home.less"
+  },
+  {
+    "outputFile": "styles/modules/bootstrap.css",
+    "inputFile": "styles/modules/bootstrap.less"
+  },
+  {
+    "outputFile": "styles/modules/bootstrap-select.css",
+    "inputFile": "styles/modules/bootstrap-select.less"
   }
 ]
