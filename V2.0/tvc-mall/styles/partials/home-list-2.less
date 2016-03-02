@@ -1,0 +1,61 @@
+﻿@import "mixins/list-gadget.less";
+@import "mixins/list-gadget-item.less";
+@import "mixins/module-title";
+
+
+.partial-home- {
+   width: @page-width;
+    .center();
+    background-color: #fff;
+
+    .featured-banner {
+        height: 535px;
+
+        .carousel-indicators {
+            bottom: -45px;
+
+            li {
+                background-color: @gray-darker;
+                border-color: @gray-darker;
+            }
+
+            .active {
+                background-color: @nomal-color;
+                border-color: @nomal-color;
+            }
+        }
+        //左右切换按钮
+        .slide-left, .slide-right {
+            .size(38px, 58px);
+            position: absolute;
+            display: block;
+            z-index: 100;
+            opacity: 0.4;
+
+            &:hover {
+                border: 1px solid #eeeeee;
+                opacity: 1;
+            }
+        }
+
+        .slide-left {
+            top: 236px;
+            left: 0;
+            background: url(../../images/left.jpg);
+        }
+
+        .slide-right {
+            top: 236px;
+            right: 0;
+            background: url(../../images/right.jpg);
+        }
+    }
+
+    .indicators-content {
+        display: block;
+        border-top: 1px solid @nomal-bg-color;
+        .size(@page-width, 48px);
+    }
+}
+
+

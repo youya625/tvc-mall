@@ -1,0 +1,194 @@
+﻿@import "mixins";
+
+//搜索部分
+.site-search {
+    @search-border: 2px; //搜索框边框宽度
+    @search-height: 40px; //搜索框高度
+    @search-input-width: 658px; //搜索输入框宽度
+    @search-submit-width: 90px; //搜索提交按钮宽度
+    @nomal-font-size: 12px; //普通字体大小
+    @Hot-font-size: 14px; //搜索热词字体大小
+    display: flex;
+    justify-content: space-between;
+    width: @page-width;
+    margin-top: 10px;
+    font-size: 12px;
+    .center();
+
+    .logo {
+        .size(200px, 60px);
+    }
+
+    .ss-right {
+        width: 955px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .ssr-search {
+        @width: @search-input-width + @search-submit-width;
+
+        width: @width;
+        overflow: hidden;
+
+        .search-form {
+            position: relative;
+            width: @width;
+            height: @search-height - 2 * @search-border;
+            border: @search-border solid @nomal-color;
+            overflow: hidden;
+        }
+    }
+
+    .icon-search{
+        position: absolute;
+        top: 10px;
+        left: 8px;
+        display:block;
+        color: @gray-darker;
+        z-index: 99;
+        font-size: 16px;
+    }
+
+    .s-input {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: @search-input-width + 2;
+        height: @search-height - 2 * @search-border;
+        border: 0;
+        text-indent: 30px;
+        z-index: 50;
+        font: @light-font;
+        font-size: 14px;
+
+        &:focus {
+            outline: 0;
+        }
+    }
+
+    .s-submit {
+        position: absolute;
+        top: 0;
+        right: 0;
+        .button(@nomal-font, @search-submit-width, @search-height - 2 * @search-border, #fff, @nomal-color);
+        line-height:  @search-height - 2 * @search-border + 2px;
+        font-size: 16px;
+        border: 0;
+
+        &:focus {
+            outline: 0;
+        }
+    }
+
+    .s-hot {
+        padding: 0;
+        height: 25px;
+        width: 100%;
+        overflow: hidden;
+        .list-style();
+
+        li {
+            display: inline-block;
+            margin-right: 10px;
+        }
+
+        li:first-child {
+            font: @bold-font;
+            .font(@Hot-font-size, #bfbfbe, 25px, 500);
+        }
+
+        a {
+            text-decoration: underline;
+            .font(@Hot-font-size, #bfbfbe, 30px);
+
+            &:hover {
+                color: @nomal-color;
+            }
+        }
+    }
+
+    //顽固搜索
+    .finder {
+        @width: 198px;
+        @height: 40px;
+        position: relative;
+        float: left;
+
+        .finder-button {
+            .button(@nomal-font, @width, @height, #fff, @gray-darker);
+            line-height: @height + 3;
+            font-size: 16px;
+            text-decoration: none;
+
+            .icon-ctrl-down{
+                position:relative;
+                bottom: 2px;
+            }
+        }
+
+        .finder-panel {
+            @border: 0;
+
+            position: absolute;
+            top: @height;
+            left: 0;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            padding-top: 15px;
+            margin-top: 20px;
+            border: @border solid @nomal-bg-color;
+            .size(@width - 2 * @border, 260px);
+            background-color: @nomal-bg-color;
+            z-index: 1000;
+
+            //动画
+            transition: all .2s ease-in-out;
+            opacity: 0;
+            visibility: hidden;
+
+            .finder-title {
+                padding: 0 10px;
+                font-size: 14px;
+            }
+
+            .form-inline {
+                display: flex;
+                flex-direction: column;
+                justify-content: space-between;
+                height: 210px;
+
+                .form-group {
+                    width: 180px; //IE
+                    .center-block();
+                }
+            }
+
+            .dropdown-toggle, .bootstrap-select {
+                width: 180px !important;
+            }
+
+            .finder-submit {
+                .button(@nomal-font, 100%, 40px, #fff, @nomal-color);
+                font-size: 17px;
+
+                &:focus {
+                    outline: none;
+                }
+            }
+        }
+
+
+        .active {
+            opacity: 1;
+            visibility: visible;
+            margin-top: 0;
+        }
+        .icon-rotate{
+            display: inline-block;
+            .rotate(50%, 70%, .1s);
+        }
+  
+    }
+}

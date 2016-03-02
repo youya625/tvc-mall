@@ -1,0 +1,42 @@
+﻿@import "../variables";
+@import "../common";
+
+.partial-banner {
+    @banner-height: 465px;
+    @banner-aside-width: 160px; //banner侧边广告宽度
+    @banner-aside-height: 420px; //banner侧边广告高度
+    position: relative;
+
+    .carousel-inner {
+        margin: auto;
+
+        .item {
+            background-color: #022022;
+
+            img {
+                display: block;
+                width: @page-width;
+                margin: auto;
+            }
+        }
+    }
+
+    .b-aside {
+        position: absolute;
+        width: @banner-aside-width;
+        height: @banner-aside-height;
+        right: 2px;
+        top: (@banner-height - @banner-aside-height)/2;
+        z-index: 20;
+    }
+
+    .carousel-indicators li {
+        margin-left: 15px;
+        background-color: #fff;
+    }
+
+
+    .carousel-indicators .active {
+        border-color: @nomal-color;
+    }
+}

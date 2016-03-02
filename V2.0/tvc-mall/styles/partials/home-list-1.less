@@ -1,0 +1,112 @@
+﻿@import "mixins/list-gadget.less";
+@import "mixins/list-gadget-item.less";
+@import "mixins/module-title";
+
+//编辑推荐
+.partial-home-list-1 {
+    @height: 390px;
+
+    display: flex;
+    justify-content: space-between;
+    .size(@page-width, @height);
+    .center();
+    background-color: transparent;
+    //左侧
+    .editor-left {
+        display: flex;
+        flex-wrap: wrap;
+        .size(880px, 390px);
+        background-color: #fff;
+        overflow: hidden;
+
+        .editor-aside {
+            .size(540px, 340px);
+        }
+
+        .editor-products {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            .size(340px, 340px);
+
+            a {
+                .size(150px, 150px);
+
+                img {
+                    .size(100%, 100%);
+                }
+            }
+        }
+    }
+
+    //右侧聚光灯产品
+    .editor-right {
+        width: 300px;
+        height: 390px;
+        background-color: #fff;
+
+        .module-title {
+            color: @nomal-color;
+            font-size: 18px;
+            line-height: 50px;
+        }
+
+        .s-product {
+            text-align: center;
+
+            img {
+                width: 230px;
+                height: 230px;
+            }
+        }
+
+        .sp-price {
+            .size(225px, 60px);
+            padding: 5px;
+            margin: auto;
+
+            .spp-left {
+                float: left;
+
+                span:first-child {
+                    display: block;
+                    font-size: 26px;
+                    color: #000;
+                }
+
+                span:last-child {
+                    display: block;
+                    font-size: 14px;
+                    color: #95989a;
+                    text-decoration: line-through;
+                }
+            }
+
+            .spp-right {
+                float: right;
+                .size(70px, 25px);
+                text-align: center;
+                color: #fff;
+                font-size: 16px;
+                line-height: 28px;
+                background-color: @nomal-color;
+            }
+        }
+        //倒计时
+        .s-countdowner {
+            width: 100%;
+            height: 45px;
+            text-align: center;
+            line-height: 55px;
+
+            span:first-child {
+                .font(26px, #000);
+            }
+
+            .s-time {
+                font-size: 26px;
+                color: #e95742;
+            }
+        }
+    }
+}

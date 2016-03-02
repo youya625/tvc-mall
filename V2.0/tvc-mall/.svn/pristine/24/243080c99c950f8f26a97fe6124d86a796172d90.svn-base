@@ -1,0 +1,18 @@
+﻿
+@import "mixins/list-gadget.less";
+@import "mixins/list-gadget-item.less";
+
+.partial-home-list-1
+{
+  .list-gadget();
+
+  .item
+  {
+    .list-gadget-item();
+  }
+
+  li
+  {
+    .list-gadget-item();
+  }
+}
