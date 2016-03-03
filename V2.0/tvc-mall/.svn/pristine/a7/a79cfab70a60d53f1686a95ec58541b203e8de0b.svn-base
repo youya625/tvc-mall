@@ -1,0 +1,56 @@
+﻿@-webkit-keyframes icon-rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+}
+@keyframes icon-rotate {
+  from {
+    -webkit-transform: rotate(0deg);
+    transform: rotate(0deg);
+  }
+  to {
+    -webkit-transform: rotate(-180deg);
+    transform: rotate(-180deg);
+  }
+}
+@light-font :                     (17px*@font-size-rate  Arial;
+.carousel-indicators li {
+  background-color: #fff;
+}
+.carousel-indicators .active {
+  border-color: #ea511b;
+}
+#banner {
+  height: 465px;
+  position: relative;
+}
+#banner .carousel-inner {
+  margin: auto;
+}
+#banner .carousel-inner .item {
+  background-color: #022022;
+}
+#banner .carousel-inner .item img {
+  display: block;
+  width: 1200px;
+  margin: auto;
+}
+#banner .b-aside {
+  position: absolute;
+  width: 160px;
+  height: 420px;
+  right: 2px;
+  top: 22.5px;
+  z-index: 20;
+}
+#banner .carousel-indicators li {
+  margin-left: 15px;
+}
+.carousel-inner {
+  height: 100%;
+}

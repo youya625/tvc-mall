@@ -1,0 +1,7 @@
+﻿@import "common";
+@import "../../variables";
+//横幅广告图
+.cross-aside(@height) {
+    .center-block();
+    .size(@page-width, @height);
+}

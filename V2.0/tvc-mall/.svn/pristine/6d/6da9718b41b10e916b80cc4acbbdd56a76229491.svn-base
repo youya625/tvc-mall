@@ -1,0 +1,21 @@
+﻿@import "mixins";
+
+.location {
+    margin: 16px 0;
+    .clearfix();
+    width: @page-width;
+    .center-block();
+
+    li {
+        float: left;
+        margin-left: 12px;
+
+        .l-arrow {
+            margin-left: 10px;
+        }
+    }
+
+    .active {
+        color: @nomal-color;
+    }
+}
