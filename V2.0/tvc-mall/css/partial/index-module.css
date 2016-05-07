@@ -138,19 +138,19 @@
   line-height: 28px;
   background-color: #ea511b;
 }
-.editors .s-countdowner {
+.editors .editor-right .s-countdowner {
   width: 100%;
   height: 45px;
   text-align: center;
   line-height: 55px;
 }
-.editors .s-countdowner span:first-child {
+.editors .editor-right .s-countdowner span:first-child {
   font-size: 26px;
   color: #000;
   line-height: 1em;
   font-weight: 500;
 }
-.editors .s-countdowner .s-time {
+.editors .editor-right .s-countdowner .s-time {
   font-size: 26px;
   color: #e95742;
 }
