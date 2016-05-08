@@ -147,30 +147,32 @@
 </div>
 
 <script>
-    //滚动回到顶部
-    $(window).scroll(function () {
-        if ($(window).scrollTop() > 0) {
-            $("#tvc-top").show();
-        } else {
-            $("#tvc-top").hide();
-        }
-    });
-    $("#tvc-top").click(function () {
-        $('body,html').animate({ scrollTop: 0 }, 100);
-        return false;
-    });
+        $(function () {
+            //添加收藏
+            $("#AddFavorite").click(function () {
+                var ctrl = (navigator.userAgent.toLowerCase()).indexOf('mac') != -1 ? 'Command/Cmd' : 'CTRL';
+                if (document.all) {
+                    window.external.addFavorite('http://www.tvc-mall.com/', 'TVC-Mall');
+                }
+                else if (window.sidebar) {
+                    window.sidebar.addPanel('TVC-Mall', 'http://www.tvc-mall.com/', "");
+                } else {
+                    alert('Please use ' + ctrl + ' + D to add');
+                }
+            });
 
 
-    //添加收藏
-    $("#AddFavorite").click(function () {
-        var ctrl = (navigator.userAgent.toLowerCase()).indexOf('mac') != -1 ? 'Command/Cmd' : 'CTRL';
-        if (document.all) {
-            window.external.addFavorite('http://www.tvc-mall.com/', 'TVC-Mall');
-        }
-        else if (window.sidebar) {
-            window.sidebar.addPanel('TVC-Mall', 'http://www.tvc-mall.com/', "");
-        } else {
-            alert('Please use ' + ctrl + ' + D to add');
-        }
-    });
+            //滚动回到顶部
+            $(window).scroll(function () {
+                if ($(window).scrollTop() > 0) {
+                    $("#tvc-top").show();
+                } else {
+                    $("#tvc-top").hide();
+                }
+            });
+            $("#tvc-top").click(function () {
+                $('body,html').animate({ scrollTop: 0 }, 100);
+                return false;
+            });
+        })
 </script>

@@ -1520,6 +1520,7 @@ input[type="button"].btn-block {
           flex: 1;
   width: 748px;
   overflow: hidden;
+  max-width: 850px;
 }
 .site-search .ssr-search .search-form {
   position: relative;

@@ -28,16 +28,18 @@
     flex: 1;
     margin-left: 20px;
 
-    .pagination-wrap {
-        .clearfix();
 
-        .pagination {
-            float: right;
+    .pagination-wrap {
+        display: flex;
+        justify-content: flex-end;
+
+        .page-count {
+            position: relative;
+            top: 28px;
+            right: 20px;
         }
     }
 }
-
-
 
 @media(min-width:1220px) {
     .site-top-nav .sn-container, .site-main-nav .nav, .site-search, .location, .content, .footer .service {

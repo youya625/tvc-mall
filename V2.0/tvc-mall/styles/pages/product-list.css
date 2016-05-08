@@ -1520,6 +1520,7 @@ input[type="button"].btn-block {
           flex: 1;
   width: 748px;
   overflow: hidden;
+  max-width: 850px;
 }
 .site-search .ssr-search .search-form {
   position: relative;
@@ -2880,32 +2881,18 @@ body .header {
           flex: 1;
   margin-left: 20px;
 }
-.list-view .pagination-wrap:before,
-.list-view .pagination-wrap:after {
-  content: " ";
-  display: table;
+.list-view .pagination-wrap {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: flex-end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
 }
-.list-view .pagination-wrap:after {
-  clear: both;
-}
-.list-view .pagination-wrap:before,
-.list-view .pagination-wrap:after {
-  content: " ";
-  display: table;
-}
-.list-view .pagination-wrap:after {
-  clear: both;
-}
-.list-view .pagination-wrap:before,
-.list-view .pagination-wrap:after {
-  content: " ";
-  display: table;
-}
-.list-view .pagination-wrap:after {
-  clear: both;
-}
-.list-view .pagination-wrap .pagination {
-  float: right;
+.list-view .pagination-wrap .page-count {
+  position: relative;
+  top: 28px;
+  right: 20px;
 }
 @media (min-width: 1220px) {
   .site-top-nav .sn-container,

@@ -181,6 +181,9 @@
             </div>
 
             <nav class="pagination-wrap">
+                <div class="page-count">
+                    Pages: 1 / 37
+                </div>
                 <ul class="pagination pagination-sm">
                     <li class="disabled">
                         <a href="javascript:void(0);" aria-label="Previous">
@@ -219,43 +222,24 @@
     <footer class="footer">
         <!--By Ajax-->
     </footer>
-
-
     <script src="../js/jquery-2.1.0.js"></script>
-    <script src="../js/jquery.carouse.js"></script>
-    <script src="../js/jquery.countdownTimer.min.js"></script>
-    <script src="../js/bootstrap-select.js"></script>
     <script>
 
         $(function () {
             $.get("share/header.html", function (html) {
                 $("header").html(html);
+
+                //顽固搜索
+                $(".finder-button").click(function () {
+                    $(".finder-button .icon-ctrl-down").toggleClass("icon-rotate");
+                    $(".finder-panel").toggleClass("active");
+                });
             });
 
             $.get("share/footer.html", function (html) {
                 $("footer").html(html);
             });
-
-            //轮播图
-            $('#banner').carousel();
-
-            //顽固搜索
-            $(".finder-button").click(function () {
-                $(".finder-button .icon-ctrl-down").toggleClass("icon-rotate");
-                $(".finder-panel").toggleClass("active");
-            });
-
-            //倒计时
-            $(".s-time").countdowntimer({
-                hours: 3,
-                minutes: 10,
-                seconds: 10,
-                size: "lg",
-            });
         });
-
     </script>
-
-
 </body>
 </html>

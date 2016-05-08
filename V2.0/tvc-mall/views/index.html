@@ -1433,31 +1433,33 @@
     <footer class="footer">
         <!--By Ajax-->
     </footer>
-
     <script src="../js/jquery-2.1.0.js"></script>
-    <script src="../js/jquery.carouse.js"></script>
-    <script src="../js/jquery.countdownTimer.min.js"></script>
-    <script src="../js/bootstrap-select.js"></script>
     <script>
         $(function () {
-            $(function () {
-                $.get("share/header.html", function (html) {
-                    $("header").html(html);
-                });
+            $.get("share/header.html", function (html) {
+                $("header").html(html);
 
-                $.get("share/footer.html", function (html) {
-                    $("footer").html(html);
+                //顽固搜索
+                $(".finder-button").click(function () {
+                    $(".finder-button .icon-ctrl-down").toggleClass("icon-rotate");
+                    $(".finder-panel").toggleClass("active");
                 });
-            })
+            });
+            $.get("share/footer.html", function (html) {
+                $("footer").html(html);
+            });
+        })
 
+
+    </script>
+
+    <script src="../js/jquery.carouse.js"></script>
+    <script src="../js/jquery.countdownTimer.min.js"></script>
+
+    <script>
+        $(function () {
             //轮播图
             $('#banner').carousel();
-
-            //顽固搜索
-            $(".finder-button").click(function () {
-                $(".finder-button .icon-ctrl-down").toggleClass("icon-rotate");
-                $(".finder-panel").toggleClass("active");
-            });
 
             //倒计时
             $(".s-time").countdowntimer({
@@ -1466,23 +1468,7 @@
                 seconds: 10,
                 size: "lg",
             });
-
-            //添加收藏
-            $("#AddFavorite").click(function () {
-                var ctrl = (navigator.userAgent.toLowerCase()).indexOf('mac') != -1 ? 'Command/Cmd' : 'CTRL';
-                if (document.all) {
-                    window.external.addFavorite('http://www.tvc-mall.com/', 'TVC-Mall');
-                }
-                else if (window.sidebar) {
-                    window.sidebar.addPanel('TVC-Mall', 'http://www.tvc-mall.com/', "");
-                } else {
-                    alert('Please use ' + ctrl + ' + D to add');
-                }
-            });
-
         })
-
-
     </script>
 </body>
 </html>
