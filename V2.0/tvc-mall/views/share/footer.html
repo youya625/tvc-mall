@@ -1,0 +1,176 @@
+﻿<div class="slogen">
+    <ul>
+        <li>
+            <span class="a"></span>
+            <p class="sl-name">purchase</p>
+            <p class="sl-des">
+                Earn more TVC points for your next purchase Earn more TVC points.
+            </p>
+        </li>
+        <li>
+            <span class="b"></span>
+            <p class="sl-name">purchase</p>
+            <p class="sl-des">
+                Earn more TVC points for your next purchase Earn more TVC points.
+            </p>
+        </li>
+        <li>
+            <span class="c"></span>
+            <p class="sl-name">purchase</p>
+            <p class="sl-des">
+                Earn more TVC points for your next purchase Earn more TVC points.
+            </p>
+        </li>
+        <li>
+            <span class="d"></span>
+            <p class="sl-name">purchase</p>
+            <p class="sl-des">
+                Earn more TVC points for your next purchase Earn more TVC points.
+            </p>
+        </li>
+        <li>
+            <span class="e"></span>
+            <p class="sl-name">purchase</p>
+            <p class="sl-des">
+                Earn more TVC points for your next purchase Earn more TVC points.
+            </p>
+        </li>
+        <li>
+            <span class="f"></span>
+            <p class="sl-name">purchase</p>
+            <p class="sl-des">
+                Earn more TVC points for your next purchase Earn more TVC points.
+            </p>
+        </li>
+    </ul>
+</div>
+<div class="service">
+    <div class="s-left">
+        <p class="s-name">Track Your Order</p>
+        <form action="#" class="sf-input">
+            <input type="text">
+            <input type="submit" value="track">
+        </form>
+        <p class="s-name">Stay Connected</p>
+        <div class="community">
+            <a class="fb" href="#"></a>
+            <a class="tw" href="#"></a>
+            <a class="vk" href="#"></a>
+        </div>
+    </div>
+    <div class="s-right">
+        <dl>
+            <dt>Order & Delivery</dt>
+            <dd>
+                <a href="#">Discounts & Coupons</a>
+            </dd>
+            <dd>
+                <a href="#">Taxes & Duties</a>
+            </dd>
+            <dd>
+                <a href="#">Checkout & Payment</a>
+            </dd>
+            <dd>
+                <a href="#">Shipping & Delivery</a>
+            </dd>
+            <dd>
+                <a href="#">Found problem using our site</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>Customer Service</dt>
+            <dd>
+                <a href="#">New User Guide</a>
+            </dd>
+            <dd>
+                <a href="#">FAQ</a>
+            </dd>
+            <dd>
+                <a href="#">Site Map</a>
+            </dd>
+            <dd>
+                <a href="#">Contact Us</a>
+            </dd>
+            <dd>
+                <a href="#">Warranty, Return & Refund Policy</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>About TVC Mall</dt>
+            <dd>
+                <a href="#">Take a Tour</a>
+            </dd>
+            <dd>
+                <a href="#">Meet Our Team</a>
+            </dd>
+            <dd>
+                <a href="#">Testimonials</a>
+            </dd>
+            <dd>
+                <a href="#">Press</a>
+            </dd>
+        </dl>
+        <dl>
+            <dt>Business with Us</dt>
+            <dd>
+                <a href="#">Wholesale Program</a>
+            </dd>
+            <dd>
+                <a href="#">Affiliate Program</a>
+            </dd>
+            <dd>
+                <a href="#">Drop Ship with Us</a>
+            </dd>
+            <dd>
+                <a href="#">OEM Service</a>
+            </dd>
+            <dd>
+                <a href="#">Promote Us</a>
+            </dd>
+            <dd>
+                <a href="#">How to save money at TVC Mall?</a>
+            </dd>
+            <dd>
+                <a href="#">TVC-Mall Index</a>
+            </dd>
+            <dd>
+                <a href="#" rel="nofollow">寻求优秀合作供应商</a>
+            </dd>
+        </dl>
+    </div>
+</div>
+<div class="pay">
+    <img src="../images/footer/pay.jpg" alt="">
+</div>
+<div id="tvc-top">
+    <i class="icon-top"></i>
+</div>
+
+<script>
+    //滚动回到顶部
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 0) {
+            $("#tvc-top").show();
+        } else {
+            $("#tvc-top").hide();
+        }
+    });
+    $("#tvc-top").click(function () {
+        $('body,html').animate({ scrollTop: 0 }, 100);
+        return false;
+    });
+
+
+    //添加收藏
+    $("#AddFavorite").click(function () {
+        var ctrl = (navigator.userAgent.toLowerCase()).indexOf('mac') != -1 ? 'Command/Cmd' : 'CTRL';
+        if (document.all) {
+            window.external.addFavorite('http://www.tvc-mall.com/', 'TVC-Mall');
+        }
+        else if (window.sidebar) {
+            window.sidebar.addPanel('TVC-Mall', 'http://www.tvc-mall.com/', "");
+        } else {
+            alert('Please use ' + ctrl + ' + D to add');
+        }
+    });
+</script>
