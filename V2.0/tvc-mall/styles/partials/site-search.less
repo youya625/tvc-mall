@@ -1,5 +1,7 @@
 ﻿@import "mixins";
 
+
+
 //搜索部分
 .site-search {
     @search-border: 1px; //搜索框边框宽度
@@ -16,24 +18,19 @@
     .center();
 
     .logo {
-        .size(200px, 60px);
-    }
-
-    .ss-right {
-        width: 955px;
-        display: flex;
-        justify-content: space-between;
+        .size(230px, 60px);
     }
 
     .ssr-search {
         @width: @search-input-width + @search-submit-width;
 
+        flex:1;
         width: @width;
         overflow: hidden;
 
         .search-form {
             position: relative;
-            width: @width;
+            width: 100%;
             height: @search-height - 2 * @search-border;
             border: @search-border solid @nomal-color;
             overflow: hidden;
@@ -54,7 +51,7 @@
         position: absolute;
         top: 0;
         left: 0;
-        width: @search-input-width + 2;
+        width: 80%;
         height: @search-height - 2 * @search-border;
         border: 0;
         text-indent: 30px;
@@ -112,7 +109,7 @@
         @width: 198px;
         @height: 40px;
         position: relative;
-        float: left;
+        margin-left: 10px;
 
         .finder-button {
             .button(@nomal-font, @width, @height, #fff, @gray-darker);

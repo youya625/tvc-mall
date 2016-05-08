@@ -20,8 +20,26 @@ i {
     -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-top:before {
-    content: "\e912";
+.icon-language:before {
+    content: "\e6c4";
+}
+.icon-search:before {
+    content: "\e900";
+}
+.icon-ctrl-right:before {
+    content: "\e901";
+}
+.icon-ctrl-down:before {
+    content: "\e902";
+}
+.icon-ctrl-left:before {
+    content: "\e903";
+}
+.icon-ctrl-top:before {
+    content: "\e904";
+}
+.icon-cart:before {
+    content: "\e905";
 }
 .icon-coin-dollar:before {
     content: "\e906";
@@ -53,31 +71,15 @@ i {
 .icon-triangle-top:before {
     content: "\e90f";
 }
-.icon-ctrl-right:before {
-    content: "\e901";
-}
-.icon-ctrl-down:before {
-    content: "\e902";
-}
-.icon-ctrl-left:before {
-    content: "\e903";
-}
-.icon-ctrl-top:before {
-    content: "\e904";
-}
 .icon-paragraph-left:before {
     content: "\e910";
 }
-.icon-vertical_align_top:before {
+.icon-top:before {
+    content: "\e912";
+}
+.icon-list:before {
     content: "\e911";
 }
-.icon-language:before {
-    content: "\e6c4";
+.icon-grid:before {
+    content: "\e913";
 }
-.icon-search:before {
-    content: "\e900";
-}
-.icon-cart:before {
-    content: "\e905";
-}
-

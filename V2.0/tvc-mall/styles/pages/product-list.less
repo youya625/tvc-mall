@@ -6,8 +6,11 @@
 @import "../partials/cross-aside";
 @import "../partials/location";
 @import "../partials/products-filfer-1";
+@import "../partials/start-rating";
+@import "../partials/products-list-selector";
+@import "../partials/products-list-grid";
 
-body#page-products-list {
+#page-products-list {
     header {
         padding-top: 33px;
     }
@@ -21,15 +24,25 @@ body#page-products-list {
         .filter {
             width: 220px;
         }
+    }
+}
 
-        .products-view{ 
-            width: 1090px;
+.list-view {
+    flex: 1;
+    margin-left: 20px;
+}
 
-            //评论数量
-            .products-ratings{
-                .size(100%, 50px);
-                background-color: #f7f7f7;
-            }
-        }
+
+
+@media(min-width:1220px) {
+    .site-top-nav .sn-container, .site-main-nav .nav, .site-search, .location, .content, .footer .service {
+        width: 1170px !important;
+    }
+}
+
+
+@media(min-width:1420px) {
+    .site-top-nav .sn-container, .site-main-nav .nav, .site-search, .location, .content, .footer .service {
+        width: 1400px !important;
     }
 }

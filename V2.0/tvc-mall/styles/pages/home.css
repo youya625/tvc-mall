@@ -1415,25 +1415,19 @@ input[type="button"].btn-block {
   margin-right: auto;
 }
 .site-search .logo {
-  width: 200px;
+  width: 230px;
   height: 60px;
 }
-.site-search .ss-right {
-  width: 955px;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-justify-content: space-between;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-}
 .site-search .ssr-search {
+  -webkit-flex: 1;
+      -ms-flex: 1;
+          flex: 1;
   width: 748px;
   overflow: hidden;
 }
 .site-search .ssr-search .search-form {
   position: relative;
-  width: 748px;
+  width: 100%;
   height: 38px;
   border: 1px solid #ea511b;
   overflow: hidden;
@@ -1451,7 +1445,7 @@ input[type="button"].btn-block {
   position: absolute;
   top: 0;
   left: 0;
-  width: 660px;
+  width: 80%;
   height: 38px;
   border: 0;
   text-indent: 30px;
@@ -1513,7 +1507,7 @@ input[type="button"].btn-block {
 }
 .site-search .finder {
   position: relative;
-  float: left;
+  margin-left: 10px;
 }
 .site-search .finder .finder-button {
   display: block;
@@ -1743,7 +1737,7 @@ input[type="button"].btn-block {
   line-height: auto;
   text-align: center;
   border: none;
-  font-size: 17px;
+  font-size: 15px;
   text-align: left;
 }
 .site-main-nav .nav .categories li a:hover {
