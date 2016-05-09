@@ -16,43 +16,39 @@
     }
     //标签筛选
     .tags {
-        padding: 20px 0 10px 0;
+        padding: 10px 0 10px 0;
         border-bottom: 1px solid #e0e0e0;
 
         .t-items {
             display: inline-block;
-            padding: 1px 9px;
-            line-height: 36px;
-            background-color: #f5f5f5;
-            border: 1px solid #ddd;
-            border-radius: 3px;
-            margin: 0 6px 10px 0;
-            cursor: pointer;
-            font-size: 14px;
+
+            &.select {
+                color: @nomal-color;
+                border-color: @nomal-color;
+            }
         }
     }
     //价格筛选
     .price {
         display: inline-block;
-        padding: 15px 0;
+        padding: 10px 0;
         text-indent: 8px;
 
         .p-range {
             display: inline-block;
+
+            .btn {
+                text-indent: 0;
+                font-size: 13px;
+                padding: 2px 6px;
+
+                &.select {
+                    color: @nomal-color;
+                    border-color: @nomal-color;
+                }
+            }
         }
 
-        .pr-items {
-            display: inline-block;
-            background-color: #fff;
-            border: 1px solid #c3c3c3;
-            color: #000;
-            border-radius: 3px;
-            line-height: 24px;
-            padding: 1px 7px;
-            margin-right: 10px;
-            cursor: pointer;
-            text-indent: 0;
-        }
 
         .p-inter {
             display: inline-block;
@@ -99,6 +95,24 @@
 
             &.active {
                 color: #000;
+            }
+        }
+
+        .dropdown {
+            display: inline-block;
+            text-indent: 0;
+            color: #000;
+
+
+            .btn {
+                padding: 3px 6px;
+            }
+
+            .dropdown-menu {
+                a {
+                    color: #000;
+                    font-size: 14px;
+                }
             }
         }
     }

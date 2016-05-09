@@ -86,29 +86,14 @@
                     (7085 reviews)
                 </div>
                 <ul class="tags">
-                    <li class="t-items">
-                        New Arrivals
-                        <span>
-                            (225)
-                        </span>
+                    <li class="btn btn-default t-items select">
+                        New Arrivals(225)
                     </li>
-                    <li class="t-items">
-                        New Arrivals
-                        <span>
-                            (225)
-                        </span>
+                    <li class="btn btn-default t-items">
+                        New Arrivals(225)
                     </li>
-                    <li class="t-items">
-                        New Arrivals
-                        <span>
-                            (225)
-                        </span>
-                    </li>
-                    <li class="t-items">
-                        New Arrivals
-                        <span>
-                            (225)
-                        </span>
+                    <li class="btn btn-default t-items">
+                        New Arrivals(225)
                     </li>
                 </ul>
                 <div class="price">
@@ -116,10 +101,10 @@
                         price:
                     </span>
                     <ul class="p-range">
-                        <li class="pr-items">Under $1</li>
-                        <li class="pr-items">$1-$2</li>
-                        <li class="pr-items">$2-$3</li>
-                        <li class="pr-items">$4 & Above</li>
+                        <li class="btn btn-default btn-sm">Under $1</li>
+                        <li class="btn btn-default btn-sm">$1-$2</li>
+                        <li class="btn btn-default btn-sm">$2-$3</li>
+                        <li class="btn btn-default btn-sm select">$4 & Above</li>
                     </ul>
                     <div class="p-inter">
                         <span class="flag-wrap">$</span>
@@ -138,19 +123,30 @@
                     <div class="vf-right">
                         <span class="p-count">77777</span>
                         <span class="lfp-lable">items, Per Page</span>
-                        <select>
-                            <option selected="selected">36</option>
-                            <option>56</option>
-                            <option>76</option>
-                        </select>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                36
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="#">56</a></li>
+                                <li><a href="#">76</a></li>
+                            </ul>
+                        </div>
                         <span class="vfp-lable">Sort By:</span>
-                        <select>
-                            <option value="?filters=;q=;catalogCode=&amp;sort=Default&amp;p=1" selected="selected">Best match</option>
-                            <option value="?filters=;q=;catalogCode=&amp;sort=PriceAsc&amp;p=1">Price (Lowest first)</option>
-                            <option value="?filters=;q=;catalogCode=&amp;sort=PriceDesc&amp;p=1">Price (Highest first)</option>
-                            <option value="?filters=;q=;catalogCode=&amp;sort=Views&amp;p=1">Views (Most first)</option>
-                            <option value="?filters=;q=;catalogCode=&amp;sort=DateAdded&amp;p=1">DateAdded (Newest first)</option>
-                        </select>
+
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                DateAdded (Newest first)
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+                                <li><a href="#">Price (Lowest first)</a></li>
+                                <li><a href="#">Price (Highest first)</a></li>
+                                <li><a href="#">Views (Most first)</a></li>
+                                <li><a href="#">DateAdded (Newest first)</a></li>
+                            </ul>
+                        </div>
                     </div>
                 </div>
             </div>
