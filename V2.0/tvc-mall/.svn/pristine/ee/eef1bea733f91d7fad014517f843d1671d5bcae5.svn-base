@@ -1,0 +1,55 @@
+.icon-web.icon-promotion
+{
+  background-image: url('../images/icons/iconWeb.png');
+  background-position: 0px 0px;
+  width: 59px;
+  height: 59px;
+}
+.icon-web.icon-hot {
+    background-image: url('../images/icons/iconWeb.png');
+    background-position: -59px 0px;
+    width: 59px;
+    height: 46px;
+}
+.icon-web.icon-discount
+{
+  background-image: url('../images/icons/iconWeb.png');
+  background-position: -59px -46px;
+  width: 41px;
+  height: 41px;
+}
+.icon-web.icon-color
+{
+  background-image: url('../images/icons/iconWeb.png');
+  background-position: 0px -59px;
+  width: 32px;
+  height: 32px;
+}
+.icon-web.icon-bvalue
+{
+  background-image: url('../images/icons/iconWeb.png');
+  background-position: -100px -46px;
+  width: 84px;
+  height: 23px;
+}
+.icon-web.icon-bestsale
+{
+  background-image: url('../images/icons/iconWeb.png');
+  background-position: -100px -69px;
+  width: 74px;
+  height: 19px;
+}
+.icon-web.icon-new
+{
+  background-image: url('../images/icons/iconWeb.png');
+  background-position: -118px 0px;
+  width: 41px;
+  height: 19px;
+}
+.icon-web.icon-trend
+{
+  background-image: url('../images/icons/iconWeb.png');
+  background-position: -118px -19px;
+  width: 66px;
+  height: 19px;
+}

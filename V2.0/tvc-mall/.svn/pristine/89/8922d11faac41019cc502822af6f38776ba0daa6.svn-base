@@ -1,0 +1,254 @@
+﻿@import "../mixins/common";
+@import "../variables/common";
+
+@keyframes move {
+    from {
+        transform: translateX(0);
+    }
+
+    to {
+        transform: translateX(5px);
+    }
+}
+
+@border-bottom: 2px;
+
+.nav-wrap {
+    border-top: 1px solid @nomal-bg-color;
+    border-bottom: @border-bottom solid @nomal-bg-color;
+    margin-top: 20px;
+}
+
+.nav {
+    @nav-height: 42px;
+    @banner-height: 465px;
+    @nav-font-size: 17px;
+    @catalogs-font-size: 17px;
+    @border-left-width: 3px;
+    @categories-width: 223px;
+    @aside-width: 225px;
+
+    display: flex;
+    justify-content: flex-start;
+    position: relative;
+    width: @page-width;
+    height: @nav-height;
+    .center();
+
+
+
+    .n-catagory, .n-items {
+        height: @nav-height;
+    }
+
+
+    .n-catagory p {
+        .button(@nomal-font, @categories-width, @nav-height, #000, #eeeeee);
+        line-height: @nav-height + 2;
+        font-size: @nav-font-size;
+        font-weight: 500;
+    }
+
+    .n-items {
+        display: flex;
+        justify-content: flex-start;
+        margin-left: 14px;
+
+        a {
+            .button(@nomal-font, auto, @nav-height, #000, #fff, 15px);
+            line-height: @nav-height + 2;
+            font-size: @nav-font-size;
+            font-weight: 500;
+
+            &:hover {
+                color: @nomal-color;
+            }
+        }
+    }
+    //纵向导航
+    .categories {
+        position: absolute;
+        top: @nav-height + @border-bottom;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        z-index: 100;
+        background: rgba(0, 0, 0, 0.7);
+        height: @banner-height;
+        text-indent: 27px;
+
+        li {
+            flex-grow: 1;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-left: @border-left-width solid transparent;
+
+            a {
+                .button(@light-font, 223px - @border-left-width, auto, #fff, transparent);
+                font-size: @catalogs-font-size;
+                text-align: left;
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            &:hover {
+                background-color: #fff;
+                border-left-color: @nomal-color;
+
+                a {
+                    color: @nomal-color;
+                }
+
+                .categories-items {
+                    display: block;
+                    animation: move 0.5s normal;
+                    animation-fill-mode: forwards;
+                }
+            }
+        }
+        //感应层公用样式
+        .categories-items {
+            @padding-top: 15px;
+            @padding-left: 15px;
+
+            display: none;
+            position: absolute;
+            top: 0;
+            left: @categories-width - 5;
+            z-index: 100;
+            padding: @padding-top @padding-left;
+            width: @page-width - @categories-width - @border-left-width - 2 * @padding-left - @aside-width;
+            height: @banner-height - 2 * @padding-top;
+            background-color: #fff;
+        }
+        //右侧广告
+        .brand-aside {
+            position: absolute;
+            right: -225px;
+            top: 0;
+            .size(225px, 465px);
+
+            a {
+                display: flex;
+
+                img {
+                    .size(225px, 465px);
+                }
+            }
+        }
+        //品牌类目
+        .nc-brand {
+            dl {
+                display: flex;
+                justify-content: space-between;
+                flex-wrap: wrap;
+                .clearfix();
+
+                .brand-link {
+                    font: @nomal-font;
+                    line-height: 24px;
+                    font-size: 12px;
+                    &:hover {
+                        text-decoration: underline;
+                    }
+                }
+
+                dt {
+                    display: flex;
+                    justify-content: space-between;
+                    width: 100%;
+
+                    .brand-title {
+                        font: @nomal-font;
+                        font-size: 17px;
+                        position: relative;
+                        left: -15px;
+                        text-align: left;
+                    }
+
+                    .brand-link {
+                        color: #000;
+                        text-align: right;
+                    }
+                }
+
+                dd {
+                    float: left;
+                    margin: 10px;
+
+                    a {
+                        display: flex;
+                        padding: 0;
+                        .size(85px, 85px);
+                        border: 1px solid @nomal-bg-color;
+
+                        img {
+                            .size(100%, 100%);
+                        }
+
+                        &:hover {
+                            border: 1px solid @nomal-color;
+                        }
+                    }
+                }
+            }
+        }
+        //类目
+        .sub-catalog {
+            display: flex;
+            justify-content: space-between;
+            font: @nomal-font;
+            font-size: 15px;
+
+            .sub-catalog-items {
+                display: flex;
+                justify-content: space-between;
+                flex-direction: column;
+                .size(210px, @banner-height);
+
+
+                dt {
+                    padding-bottom: 7px;
+                    border-bottom: 1px solid @nomal-bg-color;
+
+                    a {
+                        font: @nomal-font;
+                        font-size: 17px;
+                        color: #000;
+                        
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+                }
+
+                dd {
+                    a {
+                        font: @light-font;
+                        font-size: 17px;
+                        color: #000;
+
+                        &:hover {
+                            text-decoration: underline;
+                        }
+                    }
+
+                    .more-items {
+                        color: @nomal-bg-color;
+                    }
+                }
+            }
+            //其他分类
+            .other-catalog {
+                dd a {
+                    font: @nomal-font;
+                    font-size: 17px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}

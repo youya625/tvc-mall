@@ -1,0 +1,76 @@
+﻿@import "mixins";
+
+//
+.partial-home-list-3 {
+    @compare-bg: url(../../images/pro-bg.jpg); //compare模块背景图
+    .size(@page-width, 365px);
+    .center();
+    background: @compare-bg repeat;
+
+    .module-title {
+        .module-title();
+        background-color: transparent;
+        color: #fff;
+        border: none;
+    }
+
+    //flex
+    .products-grid {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+        margin-top: 3px;
+
+        //商品
+        .products {
+            .list-gadget-item-1();
+            background-color: #fff;
+            border-radius: 10px;
+            border: none;
+            width: 153px;
+            margin: 0 8.5px;
+        }
+    }
+
+    .carousel-indicators {
+        bottom: -45px;
+        z-index: 100;
+
+        li {
+                border-color: #fff;
+                background-color: #fff;
+                opacity: 0.8;
+        }
+
+        .active {
+            background-color: @nomal-color;
+            border-color: @nomal-color;
+        }
+    }
+
+    //左右切换按钮
+    .slide-left, .slide-right {
+        .size(38px, 58px);
+        position: absolute;
+        display: block;
+        z-index: 100;
+        opacity: 0.4;
+
+        &:hover {
+            border: 1px solid #eeeeee;
+            opacity: 1;
+        }
+    }
+
+    .slide-left {
+        top: 106px;
+        left: 0;
+        background: url(../../images/left.jpg);
+    }
+
+    .slide-right {
+        top: 106px;
+        right: 0;
+        background: url(../../images/right.jpg);
+    }
+}

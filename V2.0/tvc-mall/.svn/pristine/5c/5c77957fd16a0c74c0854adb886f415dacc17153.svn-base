@@ -1,4 +1,0 @@
-﻿@nomal-color:                   #ea511b;  //通用颜色
-@nomal-bg-color:                #eeeeee;  //页面背景色
-@nomal-font:                     12px MyriadPro-Regular, Arial;    //默认字体
-@page-width:                     1200px;  //页面内容宽度    

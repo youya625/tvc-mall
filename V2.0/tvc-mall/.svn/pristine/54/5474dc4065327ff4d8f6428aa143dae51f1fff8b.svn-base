@@ -1,0 +1,113 @@
+﻿@import "mixins";
+
+.products-list-selector {
+    //评论数量
+    .list-bar {
+        .size(100%, 50px);
+        line-height: 46px;
+        text-indent: 20px;
+        background-color: #f7f7f7;
+
+        .lb-lable {
+            font-size: 17px;
+            color: #000;
+            font-weight: 600;
+        }
+    }
+    //标签筛选
+    .tags {
+        padding: 20px 0 10px 0;
+        border-bottom: 1px solid #e0e0e0;
+
+        .t-items {
+            display: inline-block;
+            padding: 1px 9px;
+            line-height: 36px;
+            background-color: #f5f5f5;
+            border: 1px solid #ddd;
+            border-radius: 3px;
+            margin: 0 6px 10px 0;
+            cursor: pointer;
+            font-size: 14px;
+        }
+    }
+    //价格筛选
+    .price {
+        display: inline-block;
+        padding: 15px 0;
+        text-indent: 8px;
+
+        .p-range {
+            display: inline-block;
+        }
+
+        .pr-items {
+            display: inline-block;
+            background-color: #fff;
+            border: 1px solid #c3c3c3;
+            color: #000;
+            border-radius: 3px;
+            line-height: 24px;
+            padding: 1px 7px;
+            margin-right: 10px;
+            cursor: pointer;
+            text-indent: 0;
+        }
+
+        .p-inter {
+            display: inline-block;
+        }
+
+        .pi-input {
+            border: 1px solid #c3c3c3;
+            border-radius: 3px;
+            line-height: 20px;
+            width: 50px;
+            color: #000;
+        }
+
+        .flag-wrap {
+            padding: 0 5px;
+        }
+
+        .p-btn {
+            border: none;
+            background-color: #fc7f2b;
+            border-radius: 3px;
+            color: #fff;
+            padding: 0 6px;
+            line-height: 20px;
+            margin-left: 10px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+    }
+    //模式刷选
+    .view-filter {
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+        line-height: 40px;
+        text-indent: 20px;
+        background-color: #f7f7f7;
+
+        .icon-list, .icon-grid {
+            display: inline-block;
+            text-indent: 5px;
+            cursor: pointer;
+            color: #999a9a;
+
+            &.active {
+                color: #000;
+            }
+        }
+    }
+
+    .p-count {
+        color: #fc7f2b;
+    }
+
+    .vfp-lable {
+        padding: 5px;
+    }
+}

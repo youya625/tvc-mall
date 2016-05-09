@@ -1,0 +1,245 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../styles/common.min.css" rel="stylesheet" />
+    <link rel="icon" href="../images/favicon.ico" />
+    <link href="../styles/pages/product-list.min.css" rel="stylesheet" />
+</head>
+<body id="page-products-list">
+    <!--header-->
+    <header>
+        <!--By Ajax-->
+    </header>
+
+    <!--location-->
+    <div class="location">
+        <ol>
+            <li>
+                Your position:
+            </li>
+            <li>
+                <a href="#">Home</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a href="#">Mobile Accessories</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a href="#">Apple</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a href="#">iPhone 6s Plus 5.5-inch</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a class="active" href="#">Cases</a>
+            </li>
+        </ol>
+    </div>
+
+    <!--content-->
+    <div class="content">
+        <!--filter-->
+        <div class="filter">
+            <div class="products-filter-1">
+                <h3 class="filter-title">
+                    Browse by Categories
+                </h3>
+                <ul class="filter-items">
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--products list-->
+        <div class="list-view">
+            <div class="products-list-selector">
+                <div class="list-bar">
+                    <span class="lb-lable">
+                        Cases
+                    </span>
+                    <div class="rating">
+                        <span class="start" style="width: 50%"></span>
+                    </div>
+                    (7085 reviews)
+                </div>
+
+                <ul class="tags">
+                    <li class="t-items">
+                        New Arrivals
+                        <span>
+                            (225)
+                        </span>
+                    </li>
+                    <li class="t-items">
+                        New Arrivals
+                        <span>
+                            (225)
+                        </span>
+                    </li>
+                    <li class="t-items">
+                        New Arrivals
+                        <span>
+                            (225)
+                        </span>
+                    </li>
+                    <li class="t-items">
+                        New Arrivals
+                        <span>
+                            (225)
+                        </span>
+                    </li>
+                </ul>
+
+                <div class="price">
+                    <span>
+                        price:
+                    </span>
+                    <ul class="p-range">
+                        <li class="pr-items">Under $1</li>
+                        <li class="pr-items">$1-$2</li>
+                        <li class="pr-items">$2-$3</li>
+                        <li class="pr-items">$4 & Above</li>
+                    </ul>
+                    <div class="p-inter">
+                        <span class="flag-wrap">$</span>
+                        <input class="pi-input" type="text" name="name" value="" />
+                        <span class="flag-wrap">to $</span>
+                        <input class="pi-input" type="text" name="name" value="" />
+                        <input class="p-btn" type="button" value="Go" />
+                    </div>
+                </div>
+
+                <div class="view-filter">
+                    <div class="lf-left">
+                        View Mode:
+                        <i class="icon-list"></i>
+                        <i class="icon-grid active"></i>
+                    </div>
+                    <div class="vf-right">
+                        <span class="p-count">77777</span>
+                        <span class="lfp-lable">items, Per Page</span>
+                        <select>
+                            <option selected="selected">36</option>
+                            <option>56</option>
+                            <option>76</option>
+                        </select>
+                        <span class="vfp-lable">Sort By:</span>
+                        <select>
+                            <option value="?filters=;q=;catalogCode=&amp;sort=Default&amp;p=1" selected="selected">Best match</option>
+                            <option value="?filters=;q=;catalogCode=&amp;sort=PriceAsc&amp;p=1">Price (Lowest first)</option>
+                            <option value="?filters=;q=;catalogCode=&amp;sort=PriceDesc&amp;p=1">Price (Highest first)</option>
+                            <option value="?filters=;q=;catalogCode=&amp;sort=Views&amp;p=1">Views (Most first)</option>
+                            <option value="?filters=;q=;catalogCode=&amp;sort=DateAdded&amp;p=1">DateAdded (Newest first)</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+
+            <div class="products-list-grid">
+                <div class="product-wrap">
+
+                </div>
+                <div class="product-wrap">
+
+                </div>
+                <div class="product-wrap">
+
+                </div>
+                <div class="product-wrap">
+
+                </div>
+                <div class="product-wrap">
+
+                </div>
+                <div class="product-wrap">
+
+                </div>
+            </div>
+
+            <nav class="pagination-wrap">
+                <div class="page-count">
+                    Pages: 1 / 37
+                </div>
+                <ul class="pagination pagination-sm">
+                    <li class="disabled">
+                        <a href="javascript:void(0);" aria-label="Previous">
+                            <span aria-hidden="true">«</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="javascript:void(0);">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li class="ellipsis">
+                        <a href="javascript:void(0)">...</a>
+                    </li>
+                    <li>
+                        <a href="#">37</a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">»</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+
+    <!--footer-->
+    <footer class="footer">
+        <!--By Ajax-->
+    </footer>
+    <script src="../js/jquery-2.1.0.js"></script>
+    <script>
+
+        $(function () {
+            $.get("share/header.html", function (html) {
+                $("header").html(html);
+
+                //顽固搜索
+                $(".finder-button").click(function () {
+                    $(".finder-button .icon-ctrl-down").toggleClass("icon-rotate");
+                    $(".finder-panel").toggleClass("active");
+                });
+            });
+
+            $.get("share/footer.html", function (html) {
+                $("footer").html(html);
+            });
+        });
+    </script>
+</body>
+</html>

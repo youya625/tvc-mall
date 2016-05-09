@@ -1,0 +1,40 @@
+﻿@import "mixins";
+
+.partial-home-list-9 {
+    width: @page-width;
+    .center();
+    background-color: #fff;
+    .size(@page-width, 530px);
+
+
+    .module-title {
+        .module-title(#ff4c6c);
+    }
+
+    .sur-content {
+        .size(@page-width, 480px);
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        .sur-items {
+            display: flex;
+            justify-content: space-between;
+            height: 230px;
+            width: @page-width;
+            .center();
+
+
+            li {
+                display: block;
+                overflow: hidden;
+                .size(285px, 230px);
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                }
+            }
+        }
+    }
+}
