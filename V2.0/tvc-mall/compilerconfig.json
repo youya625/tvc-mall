@@ -74,5 +74,17 @@
   {
     "outputFile": "styles/pages/product-list.css",
     "inputFile": "styles/pages/product-list.less"
+  },
+  {
+    "outputFile": "styles/pages/categories-list.css",
+    "inputFile": "styles/pages/categories-list.less"
+  },
+  {
+    "outputFile": "styles/pages/manufacturer-list.css",
+    "inputFile": "styles/pages/manufacturer-list.less"
+  },
+  {
+    "outputFile": "styles/pages/brand-list.css",
+    "inputFile": "styles/pages/brand-list.less"
   }
 ]

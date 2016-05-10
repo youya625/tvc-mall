@@ -1,0 +1,194 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../styles/common.min.css" rel="stylesheet" />
+    <link rel="icon" href="../images/favicon.ico" />
+    <link href="../styles/pages/brand-list.min.css" rel="stylesheet" />
+    <link href="../styles/icon-web.css" rel="stylesheet" />
+    <link href="../styles/modules/bootstrap.css" rel="stylesheet" />
+</head>
+<body id="page-categories-list">
+    <!--header-->
+    <header>
+        <!--By Ajax-->
+    </header>
+    <!--location-->
+    <div class="location">
+        <ol>
+            <li>
+                Your position:
+            </li>
+            <li>
+                <a href="#">Home</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a href="#">Mobile Accessories</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a href="#">Apple</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a href="#">iPhone 6s Plus 5.5-inch</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a class="active" href="#">Cases</a>
+            </li>
+        </ol>
+    </div>
+    <!--content-->
+    <div class="content">
+        <!--filter-->
+        <div class="filter">
+            <div class="products-filter-1">
+                <h3 class="filter-title">
+                    Browse by Categories
+                </h3>
+                <ul class="filter-items">
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--products list-->
+
+        <div class="list-view">
+            <h3 class="r-title">Manufacturers List</h3>
+            <p>If you need items only for a certain brand Cell mobile phone like Samsung, or Nokia /LG/ Blackberry/iPhone, who have many different products variations, this brand list area is suggested,simply click the brand icon, hope it's easier and comfortable for your searching.</p>
+
+            <h3 class="r-title recommend">Recommended Brands</h3>
+            <div class="model-block">
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+            </div>
+
+            <h3 class="r-title hotsell">Hot Selling Products</h3>
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="footer">
+        <!--By Ajax-->
+    </footer>
+    <script src="../js/jquery-2.1.0.js"></script>
+    <script>
+
+        $(function () {
+            $.get("share/header.html", function (html) {
+                $("header").html(html);
+
+                //顽固搜索
+                $(".finder-button").click(function () {
+                    $(".finder-button .icon-ctrl-down").toggleClass("icon-rotate");
+                    $(".finder-panel").toggleClass("active");
+                });
+            });
+
+            $.get("share/footer.html", function (html) {
+                $("footer").html(html);
+            });
+        });
+    </script>
+</body>
+</html>

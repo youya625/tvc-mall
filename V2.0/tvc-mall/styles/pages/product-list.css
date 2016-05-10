@@ -570,13 +570,13 @@ input[type="button"].btn-block {
   clear: both;
   font-weight: normal;
   line-height: 1.42857143;
-  color: #CCC;
+  color: #eee;
   white-space: nowrap;
 }
 .dropdown-menu > li > a:hover,
 .dropdown-menu > li > a:focus {
   text-decoration: none;
-  color: #bfbfbf;
+  color: #e1e1e1;
   background-color: #f5f5f5;
 }
 .dropdown-menu > .active > a,
@@ -2475,6 +2475,7 @@ body .header {
 }
 .footer .service {
   width: 1200px;
+  max-width: 1200px;
   margin: auto;
 }
 .footer .service:before,
@@ -2840,7 +2841,7 @@ body .header {
   /*height: 400px;*/
   padding: 20px;
   margin-top: 20px;
-  margin-left: 15px;
+  margin-right: 25px;
 }
 .products-list-grid .product-wrap .icon-topleft {
   position: absolute;
@@ -2951,7 +2952,7 @@ body .header {
   display: block;
   border-top: none;
   border-color: #fff;
-  box-shadow: 0 8px 15px #a0a0a0;
+  box-shadow: 0 9px 10px #a0a0a0;
 }
 .products-list-grid .product-wrap .p-moreinfo {
   position: absolute;
@@ -2981,7 +2982,7 @@ body .header {
   display: inline-block;
   margin-right: 2px;
   margin-bottom: 8px;
-  border: 1px solid #CCC;
+  border: 1px solid #eee;
   width: 40px;
   height: 40px;
 }
@@ -3013,6 +3014,36 @@ body .header {
 .pagination .ellipsis a:focus,
 .pagination .ellipsis a:hover {
   background-color: transparent;
+}
+@media (max-width: 1220px) {
+  .site-top-nav .sn-container,
+  .site-main-nav .nav,
+  .site-search,
+  .location,
+  .content,
+  .footer .service {
+    width: 1120px !important;
+  }
+}
+@media (min-width: 1220px) {
+  .site-top-nav .sn-container,
+  .site-main-nav .nav,
+  .site-search,
+  .location,
+  .content,
+  .footer .service {
+    width: 1120px !important;
+  }
+}
+@media (min-width: 1420px) {
+  .site-top-nav .sn-container,
+  .site-main-nav .nav,
+  .site-search,
+  .location,
+  .content,
+  .footer .service {
+    width: 1380px !important;
+  }
 }
 #page-products-list .content {
   width: 1200px;
@@ -3046,34 +3077,4 @@ body .header {
   position: relative;
   top: 28px;
   right: 20px;
-}
-@media (max-width: 1220px) {
-  .site-top-nav .sn-container,
-  .site-main-nav .nav,
-  .site-search,
-  .location,
-  .content,
-  .footer .service {
-    width: 1080px !important;
-  }
-}
-@media (min-width: 1220px) {
-  .site-top-nav .sn-container,
-  .site-main-nav .nav,
-  .site-search,
-  .location,
-  .content,
-  .footer .service {
-    width: 1080px !important;
-  }
-}
-@media (min-width: 1420px) {
-  .site-top-nav .sn-container,
-  .site-main-nav .nav,
-  .site-search,
-  .location,
-  .content,
-  .footer .service {
-    width: 1360px !important;
-  }
 }
