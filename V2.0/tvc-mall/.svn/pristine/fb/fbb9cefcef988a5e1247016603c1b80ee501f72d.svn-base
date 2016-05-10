@@ -1,0 +1,127 @@
+﻿@import "mixins";
+
+.products-list-selector {
+    //评论数量
+    .list-bar {
+        .size(100%, 50px);
+        line-height: 46px;
+        text-indent: 20px;
+        background-color: #f7f7f7;
+
+        .lb-lable {
+            font-size: 17px;
+            color: #000;
+            font-weight: 600;
+        }
+    }
+    //标签筛选
+    .tags {
+        padding: 10px 0 10px 0;
+        border-bottom: 1px solid #e0e0e0;
+
+        .t-items {
+            display: inline-block;
+
+            &.select {
+                color: @nomal-color;
+                border-color: @nomal-color;
+            }
+        }
+    }
+    //价格筛选
+    .price {
+        display: inline-block;
+        padding: 10px 0;
+        text-indent: 8px;
+
+        .p-range {
+            display: inline-block;
+
+            .btn {
+                text-indent: 0;
+                font-size: 13px;
+                padding: 2px 6px;
+
+                &.select {
+                    color: @nomal-color;
+                    border-color: @nomal-color;
+                }
+            }
+        }
+
+
+        .p-inter {
+            display: inline-block;
+        }
+
+        .pi-input {
+            border: 1px solid #c3c3c3;
+            border-radius: 3px;
+            line-height: 20px;
+            width: 50px;
+            color: #000;
+        }
+
+        .flag-wrap {
+            padding: 0 5px;
+        }
+
+        .p-btn {
+            border: none;
+            background-color: #fc7f2b;
+            border-radius: 3px;
+            color: #fff;
+            padding: 0 6px;
+            line-height: 20px;
+            margin-left: 10px;
+            cursor: pointer;
+            font-size: 14px;
+        }
+    }
+    //模式刷选
+    .view-filter {
+        display: flex;
+        justify-content: space-between;
+        height: 40px;
+        line-height: 40px;
+        text-indent: 20px;
+        background-color: #f7f7f7;
+
+        .icon-list, .icon-grid {
+            display: inline-block;
+            text-indent: 5px;
+            cursor: pointer;
+            color: #999a9a;
+
+            &.active {
+                color: #000;
+            }
+        }
+
+        .dropdown {
+            display: inline-block;
+            text-indent: 0;
+            color: #000;
+
+
+            .btn {
+                padding: 3px 6px;
+            }
+
+            .dropdown-menu {
+                a {
+                    color: #000;
+                    font-size: 14px;
+                }
+            }
+        }
+    }
+
+    .p-count {
+        color: #fc7f2b;
+    }
+
+    .vfp-lable {
+        padding: 5px;
+    }
+}

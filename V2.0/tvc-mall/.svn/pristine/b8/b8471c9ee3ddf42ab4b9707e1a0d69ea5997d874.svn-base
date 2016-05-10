@@ -1,0 +1,31 @@
+﻿@import "../partials/site-top-nav";
+@import "../partials/site-search";
+@import "../partials/site-main-nav";
+@import "../partials/cross-aside";
+@import "../partials/home-banner";
+@import "../partials/home-list-1";
+@import "../partials/home-list-2";
+@import "../partials/home-list-3";
+@import "../partials/home-list-4.less";
+@import "../partials/home-list-5.less";
+@import "../partials/home-list-6.less";
+@import "../partials/home-list-7.less";
+@import "../partials/home-list-8.less";
+@import "../partials/home-list-9.less";
+@import "../partials/footer.less";
+
+body#page-home {
+    .header {
+        padding-top: 33px;
+
+        .nav .categories {
+            display: flex;
+            background: rgba(0, 0, 0, 0.7);
+        }
+    }
+
+    .content {
+        background-color: @nomal-bg-color;
+        padding: 30px 0;
+    }
+}

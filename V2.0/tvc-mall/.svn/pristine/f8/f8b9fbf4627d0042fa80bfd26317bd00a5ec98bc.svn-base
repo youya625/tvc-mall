@@ -1,0 +1,377 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../styles/common.min.css" rel="stylesheet" />
+    <link rel="icon" href="../images/favicon.ico" />
+    <link href="../styles/pages/manufacturer-list.min.css" rel="stylesheet" />
+    <link href="../styles/icon-web.css" rel="stylesheet" />
+    <link href="../styles/modules/bootstrap.css" rel="stylesheet" />
+</head>
+<body id="page-categories-list">
+    <!--header-->
+    <header>
+        <!--By Ajax-->
+    </header>
+    <!--location-->
+    <div class="location">
+        <ol>
+            <li>
+                Your position:
+            </li>
+            <li>
+                <a href="#">Home</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a href="#">Mobile Accessories</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a href="#">Apple</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a href="#">iPhone 6s Plus 5.5-inch</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a class="active" href="#">Cases</a>
+            </li>
+        </ol>
+    </div>
+    <!--content-->
+    <div class="content">
+        <!--filter-->
+        <div class="filter">
+            <div class="products-filter-1">
+                <h3 class="filter-title">
+                    Browse by Categories
+                </h3>
+                <ul class="filter-items">
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--products list-->
+
+        <div class="list-view">
+            <h3 class="r-title">Manufacturers List</h3>
+            <p>If you need items only for a certain brand Cell mobile phone like Samsung, or Nokia /LG/ Blackberry/iPhone, who have many different products variations, this brand list area is suggested,simply click the brand icon, hope it's easier and comfortable for your searching.</p>
+
+            <h3 class="r-title recommend">Recommended Brands</h3>
+            <div class="model-block">
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+                <div class="mb-item">
+                    <a href="#">
+                        <img src="../images/br.jpg" />
+                    </a>
+                </div>
+            </div>
+
+            <h3 class="r-title hotsell">Hot Selling Products</h3>
+            <div class="products-list-grid">
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img src="../images/pro.jpg" />
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="color-block">
+                            <a title="blue" href="#">
+                                <img src="../images/pdt-color.jpg" />
+                            </a>
+                            <a title="blue" href="#">
+                                <img src="../images/pdt-color.jpg" />
+                            </a>
+                            <a title="blue" href="#">
+                                <img src="../images/pdt-color.jpg" />
+                            </a>
+                            <a title="blue" href="#">
+                                <img src="../images/pdt-color.jpg" />
+                            </a>
+                            <a title="blue" href="#">
+                                <img src="../images/pdt-color.jpg" />
+                            </a>
+                            <a title="blue" href="#">
+                                <img src="../images/pdt-color.jpg" />
+                            </a>
+                        </div>
+                        <a href="#" class="btn btn-default btn-buy">buy in bulk ></a>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <!--折扣标签-->
+                    <div class="icon-topright icon-web icon-discount">
+                        <span class="num-wrap">
+                            88
+                        </span>
+                    </div>
+                    <!--新品标签-->
+                    <div class="icon-topleft icon-web icon-new"></div>
+                    <div class="img-wrap">
+                        <a href="#">
+                            <img src="../images/pro.jpg" />
+                        </a>
+                    </div>
+                    <div class="pro-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                    </div>
+                    <div class="rating">
+                        <span class="start" style="width: 50%"></span>
+                    </div>
+                    <a class="c-count" href="#">888</a>
+                    <div class="price">
+                        <del>30.69</del>
+                        <span class="new-price">$15.24</span>
+                    </div>
+                    <div class="p-wholesale">
+                        <span class="price">$ 88.88 </span>
+                        for Wholesale
+                    </div>
+                    <div class="icon-btm icon-web icon-bvalue"></div>
+                </div>
+                <div class="product-wrap">
+                    <!--折扣标签-->
+                    <div class="icon-topright icon-web icon-discount">
+                        <span class="num-wrap">
+                            88
+                        </span>
+                    </div>
+                    <!--新品标签-->
+                    <div class="icon-topleft icon-web icon-new"></div>
+                    <div class="img-wrap">
+                        <a href="#">
+                            <img src="../images/pro.jpg" />
+                        </a>
+                    </div>
+                    <div class="pro-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                    </div>
+                    <div class="rating">
+                        <span class="start" style="width: 50%"></span>
+                    </div>
+                    <a class="c-count" href="#">888</a>
+                    <div class="price">
+                        <del>30.69</del>
+                        <span class="new-price">$15.24</span>
+                    </div>
+                    <div class="p-wholesale">
+                        <span class="price">$ 88.88 </span>
+                        for Wholesale
+                    </div>
+                    <div class="icon-btm icon-web icon-bvalue"></div>
+                </div>
+                <div class="product-wrap">
+                    <!--折扣标签-->
+                    <div class="icon-topright icon-web icon-discount">
+                        <span class="num-wrap">
+                            88
+                        </span>
+                    </div>
+                    <!--新品标签-->
+                    <div class="icon-topleft icon-web icon-new"></div>
+                    <div class="img-wrap">
+                        <a href="#">
+                            <img src="../images/pro.jpg" />
+                        </a>
+                    </div>
+                    <div class="pro-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                    </div>
+                    <div class="rating">
+                        <span class="start" style="width: 50%"></span>
+                    </div>
+                    <a class="c-count" href="#">888</a>
+                    <div class="price">
+                        <del>30.69</del>
+                        <span class="new-price">$15.24</span>
+                    </div>
+                    <div class="p-wholesale">
+                        <span class="price">$ 88.88 </span>
+                        for Wholesale
+                    </div>
+                    <div class="icon-btm icon-web icon-bvalue"></div>
+                </div>
+                <div class="product-wrap">
+                    <!--折扣标签-->
+                    <div class="icon-topright icon-web icon-discount">
+                        <span class="num-wrap">
+                            88
+                        </span>
+                    </div>
+                    <!--新品标签-->
+                    <div class="icon-topleft icon-web icon-new"></div>
+                    <div class="img-wrap">
+                        <a href="#">
+                            <img src="../images/pro.jpg" />
+                        </a>
+                    </div>
+                    <div class="pro-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                    </div>
+                    <div class="rating">
+                        <span class="start" style="width: 50%"></span>
+                    </div>
+                    <a class="c-count" href="#">888</a>
+                    <div class="price">
+                        <del>30.69</del>
+                        <span class="new-price">$15.24</span>
+                    </div>
+                    <div class="p-wholesale">
+                        <span class="price">$ 88.88 </span>
+                        for Wholesale
+                    </div>
+                    <div class="icon-btm icon-web icon-bvalue"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="footer">
+        <!--By Ajax-->
+    </footer>
+    <script src="../js/jquery-2.1.0.js"></script>
+    <script>
+
+        $(function () {
+            $.get("share/header.html", function (html) {
+                $("header").html(html);
+
+                //顽固搜索
+                $(".finder-button").click(function () {
+                    $(".finder-button .icon-ctrl-down").toggleClass("icon-rotate");
+                    $(".finder-panel").toggleClass("active");
+                });
+            });
+
+            $.get("share/footer.html", function (html) {
+                $("footer").html(html);
+            });
+        });
+    </script>
+</body>
+</html>
