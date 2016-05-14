@@ -1551,8 +1551,6 @@ body .header {
 }
 .partial-home-list-2 .featured-banner .slide-left,
 .partial-home-list-2 .featured-banner .slide-right {
-  width: 38px;
-  height: 58px;
   position: absolute;
   display: block;
   z-index: 100;
@@ -1566,12 +1564,10 @@ body .header {
 .partial-home-list-2 .featured-banner .slide-left {
   top: 236px;
   left: 0;
-  background: url(../../images/left.jpg);
 }
 .partial-home-list-2 .featured-banner .slide-right {
   top: 236px;
   right: 0;
-  background: url(../../images/right.jpg);
 }
 .partial-home-list-2 .indicators-content {
   display: block;

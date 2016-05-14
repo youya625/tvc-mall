@@ -20,7 +20,7 @@
 
 
 
-        &.hotsell {
+        &.line {
             padding-bottom: 0;
             border-bottom: 1px solid @gray-dark;
         }
@@ -49,25 +49,51 @@
     justify-content: flex-start;
     flex-wrap: wrap;
     width: 100%;
+    margin-top: 20px;
 
     .mb-item {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        .size(19%, 220px);
+        .size(120px, 120px);
+        margin-right: 20px;
+        margin-bottom: 20px;
         border: 1px solid @gray-dark;
         text-align: center;
-        margin-bottom: -1px;
-        margin-right: -1px;
         overflow: hidden;
 
         a {
             display: inline-block;
         }
 
-
         &:hover {
             box-shadow: 0 0 10px @gray-darker;
         }
     }
+}
+
+//左右切换按钮
+.slide-left, .slide-right {
+    .size(38px, 58px);
+    position: absolute;
+    display: block;
+    z-index: 100;
+    opacity: 0.4;
+
+    &:hover {
+        border: 1px solid #eeeeee;
+        opacity: 1;
+    }
+}
+
+.slide-left {
+    top: 236px;
+    left: 0;
+    background: url(../../images/left.jpg);
+}
+
+.slide-right {
+    top: 236px;
+    right: 0;
+    background: url(../../images/right.jpg);
 }
