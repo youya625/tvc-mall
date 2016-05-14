@@ -1530,6 +1530,22 @@ body .header {
 .products-filter-1 .filter-items li a:hover {
   color: #ea511b;
 }
+.products-filter-1 .show-toggle {
+  width: 100%;
+  text-align: center;
+  color: #ea511b;
+  height: 50px;
+  line-height: 50px;
+  cursor: pointer;
+}
+.products-filter-1 .show-toggle .caret {
+  color: #000;
+  margin-left: 5px;
+}
+.products-filter-1 .show-toggle.less .caret {
+  border-bottom: 4px dashed;
+  border-top: none;
+}
 .rating {
   position: relative;
   top: 3px;
@@ -1723,6 +1739,11 @@ body .header {
   .footer .service {
     width: 1120px !important;
   }
+  #page-manufacturer-list .model-block .mb-item {
+    width: 100px;
+    height: 100px;
+    margin-right: 8px;
+  }
 }
 @media (min-width: 1220px) {
   .site-top-nav .sn-container,
@@ -1733,6 +1754,11 @@ body .header {
   .footer .service {
     width: 1120px !important;
   }
+  #page-manufacturer-list .model-block .mb-item {
+    width: 100px;
+    height: 100px;
+    margin-right: 8px;
+  }
 }
 @media (min-width: 1420px) {
   .site-top-nav .sn-container,
@@ -1742,6 +1768,11 @@ body .header {
   .content,
   .footer .service {
     width: 1380px !important;
+  }
+  #page-manufacturer-list .model-block .mb-item {
+    width: 120px;
+    height: 120px;
+    margin-right: 20px;
   }
 }
 #page-categories-list .r-title {

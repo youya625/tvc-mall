@@ -9,8 +9,9 @@
     <link href="../styles/pages/manufacturer-list.min.css" rel="stylesheet" />
     <link href="../styles/icon-web.css" rel="stylesheet" />
     <link href="../styles/modules/bootstrap.css" rel="stylesheet" />
+    
 </head>
-<body id="page-categories-list">
+<body id="page-manufacturer-list">
     <!--header-->
     <header>
         <!--By Ajax-->
@@ -51,27 +52,33 @@
                     Browse by Categories
                 </h3>
                 <ul class="filter-items">
-                    <li>
+                    <li data-type="j-toggle-item">
                         <i class="icon-triangle-right"></i>
                         <a href="#">Mobile Accessories</a>
                     </li>
-                    <li>
+                    <li data-type="j-toggle-item">
                         <i class="icon-triangle-right"></i>
                         <a href="#">Mobile Accessories</a>
                     </li>
-                    <li>
+                    <li data-type="j-toggle-item">
                         <i class="icon-triangle-right"></i>
                         <a href="#">Mobile Accessories</a>
                     </li>
-                    <li>
+                    <li data-type="j-toggle-item">
                         <i class="icon-triangle-right"></i>
                         <a href="#">Mobile Accessories</a>
                     </li>
-                    <li>
+                    <li data-type="j-toggle-item">
                         <i class="icon-triangle-right"></i>
-                        <a href="#">Mobile Accessories</a>
+                        <a href="#">Mobile Accessories Access</a>
                     </li>
                 </ul>
+                <p class="show-toggle more">
+                    View more<span class="caret"></span>
+                </p>
+                <p class="show-toggle less hide">
+                    View less<span class="caret"></span>
+                </p>
             </div>
         </div>
         <!--products list-->
@@ -355,6 +362,7 @@
         <!--By Ajax-->
     </footer>
     <script src="../js/jquery-2.1.0.js"></script>
+    <script src="../js/commen.js"></script>
     <script>
 
         $(function () {
@@ -370,6 +378,10 @@
 
             $.get("share/footer.html", function (html) {
                 $("footer").html(html);
+            });
+
+            $(".products-filter-1").filterToggle({
+                defaultCount: 3
             });
         });
     </script>

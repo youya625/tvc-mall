@@ -28,4 +28,23 @@
             }
         }
     }
+
+    .show-toggle {
+        width: 100%;
+        text-align: center;
+        color: @nomal-color;
+        height: 50px;
+        line-height: 50px;
+        cursor: pointer;
+
+        .caret {
+            color: #000;
+            margin-left: 5px;
+        }
+
+        &.less .caret {
+            border-bottom: 4px dashed;
+            border-top: none;
+        }
+    }
 }

@@ -86,5 +86,13 @@
   {
     "outputFile": "styles/pages/brand-list.css",
     "inputFile": "styles/pages/brand-list.less"
+  },
+  {
+    "outputFile": "js/jquery-2.1.0.es5.js",
+    "inputFile": "js/jquery-2.1.0.js"
+  },
+  {
+    "outputFile": "js/jquery.carouse.es5.js",
+    "inputFile": "js/jquery.carouse.js"
   }
 ]
