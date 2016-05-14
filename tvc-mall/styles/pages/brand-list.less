@@ -10,7 +10,8 @@
 @import "../responsive.less";
 
 
-#page-categories-list {
+
+#page-brand-list {
     .r-title {
         display: block;
         width: 100%;
@@ -18,12 +19,6 @@
         line-height: 50px;
         color: #000;
 
-
-
-        &.line {
-            padding-bottom: 0;
-            border-bottom: 1px solid @gray-dark;
-        }
     }
 
     .content {
@@ -36,27 +31,69 @@
             width: 220px;
         }
     }
-}
-
-.list-view {
-    flex: 1;
-    margin-left: 20px;
-}
 
 
-.model-block {
-    display: flex;
-    justify-content: flex-start;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-top: 20px;
+    .list-view {
+        flex: 1;
+        margin-left: 20px;
+    }
+
+
+    .model-block {
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width: 100%;
+        margin-top: 20px;
+    }
+    //左右切换按钮
+    .slide-left, .slide-right {
+        position: absolute;
+        top: 40%;
+        display: block;
+        z-index: 100;
+        opacity: 0.7;
+        border: 1px solid #eeeeee;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+
+    .slide-left {
+        left: 0;
+    }
+
+    .slide-right {
+        right: 0;
+    }
+
+    //品牌列表
+    .model-list {
+        .row-wrap {
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            margin-top: 20px;
+            border-bottom: 1px solid @gray-dark;
+        }
+
+        .empty:hover {
+            box-shadow: none;
+        }
+
+        &.model-list {
+            .mb-item {
+                border-color: transparent;
+            }
+        }
+    }
 
     .mb-item {
         display: flex;
         flex-direction: column;
         justify-content: center;
-        .size(120px, 120px);
-        margin-right: 20px;
+        .size(170px, 170px);
         margin-bottom: 20px;
         border: 1px solid @gray-dark;
         text-align: center;
@@ -70,30 +107,4 @@
             box-shadow: 0 0 10px @gray-darker;
         }
     }
-}
-
-//左右切换按钮
-.slide-left, .slide-right {
-    .size(38px, 58px);
-    position: absolute;
-    display: block;
-    z-index: 100;
-    opacity: 0.4;
-
-    &:hover {
-        border: 1px solid #eeeeee;
-        opacity: 1;
-    }
-}
-
-.slide-left {
-    top: 236px;
-    left: 0;
-    background: url(../../images/left.jpg);
-}
-
-.slide-right {
-    top: 236px;
-    right: 0;
-    background: url(../../images/right.jpg);
 }
