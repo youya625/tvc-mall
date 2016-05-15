@@ -1690,6 +1690,7 @@ body .header {
   background-color: #ea511b;
   color: #fff;
   border: none;
+  font-size: 17px;
 }
 @media (max-width: 1420px) {
   .site-top-nav .sn-container,

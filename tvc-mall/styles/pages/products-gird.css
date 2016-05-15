@@ -2968,6 +2968,7 @@ body .header {
   background-color: #ea511b;
   color: #fff;
   border: none;
+  font-size: 17px;
 }
 .pagination li a {
   color: #000;
