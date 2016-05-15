@@ -24,11 +24,11 @@
         text-align: center;
         width: 150px;
         height: 150px;
-        transition: transform 0.2s linear;
+        /*transition: transform 0.2s linear;
 
         &:hover {
             transform: translateX(-5px);
-        }
+        }*/
     }
 
     .pro-title {
@@ -119,11 +119,11 @@
         text-align: center;
         width: 210px;
         height: 210px;
-        transition: transform 0.2s linear;
+        /*transition: transform 0.2s linear;*/
 
-        &:hover {
+        /*&:hover {
             transform: scale(1.05, 1.05);
-        }
+        }*/
     }
 
     .pro-title {
@@ -265,13 +265,13 @@
         height: 220px;
         overflow: hidden;
 
-        img {
+        /*img {
             transition: transform 0.2s linear;
 
             &:hover {
                 transform: translateX(-5px);
             }
-        }
+        }*/
     }
 
     .pro-title {
@@ -336,12 +336,6 @@
         }
     }
 
-    &:hover {
-        border-color: @product-hover-color;
-        box-shadow: @product-hover-shadow;
-        z-index: 20;
-    }
-
     .p-wholesale {
         margin-top: 5px;
         font-size: 14px;
@@ -354,11 +348,15 @@
     }
 
     &:hover {
+        border-color: @product-hover-color;
+        box-shadow: @product-hover-shadow;
+        z-index: 20;
+
         .p-moreinfo {
             display: block;
             border-top: none;
             border-color: @product-hover-color;
-            box-shadow: 0 9px 10px @gray-darker;
+            box-shadow: 0 6px 9px @gray-darker;
         }
     }
     //隐藏商品信息
@@ -370,6 +368,7 @@
         display: none;
         margin-top: 5px;
         background-color: #fff;
+        width: 220px;
 
         .color-block {
             display: flex;
@@ -385,6 +384,35 @@
                 border: 1px solid @gray-dark;
                 width: 40px;
                 height: 40px;
+            }
+        }
+
+        .buy-wrap {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            background-color: @gray-dark;
+
+            .buy-count {
+                width: 60%;
+                line-height: 36px;
+                text-align: center;
+
+                .lable {
+                    color: #000;
+                    display: inline-block;
+                    font-weight: 600;
+                }
+
+                .bc-input {
+                    display: inline-block;
+                    width: 25px;
+                    height: 15px;
+                }
+            }
+
+            .btn-buy {
+                width: 40%;
             }
         }
     }

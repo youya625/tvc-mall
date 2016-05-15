@@ -361,7 +361,7 @@
     <footer class="footer">
         <!--By Ajax-->
     </footer>
-    <script src="../js/jquery-2.1.0.js"></script>
+    <script src="../js/jquery-2.2.3.min.js"></script>
     <script src="../js/commen.js"></script>
     <script>
 
@@ -382,6 +382,10 @@
 
             $(".products-filter-1").filterToggle({
                 defaultCount: 3
+            });
+
+            $("img.lazy").lazyload({
+                effect: "fadeIn"
             });
         });
     </script>
