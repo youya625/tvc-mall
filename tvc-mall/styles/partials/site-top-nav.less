@@ -10,7 +10,7 @@
     font: @light-font;
     .size(100%, @height);
     border-bottom: 1px solid @nomal-bg-color;
-    background-color: #fff;
+    background-color: @content-bg-color;
     z-index: 999999;
 
     .sn-container {
@@ -36,7 +36,7 @@
                     }
                 }
             }
-            //顶部导航选项
+            //顶部导航选项 
             .sn-items {
                 position: relative;
                 display: block;
@@ -52,7 +52,7 @@
                 .icon-language {
                     position: relative;
                     top: 2px;
-                    font-size: 20px;
+                    font-size: 20px; 
                 }
 
                 .icon-triangle-down {
@@ -205,7 +205,7 @@
                 }
             }
             //订单
-            .order {
+            .order { 
                 position: relative;
                 //订单感应层
                 .order-content {
@@ -217,7 +217,7 @@
                     .order-info {
                         padding: 5px 10px;
                         background-color: #fff;
-
+                         
                         .order-title {
                             .button(@nomal-font, 100%, 30px, #000, #fff, 6px);
                             font-size: 15px;
@@ -229,6 +229,9 @@
                         }
 
                         .btn {
+                            background-color: @nomal-color;
+                            border: none;
+                            color: #fff;
                             font-size: 14px;
                             margin-top: 5px;
                             width: 91%;

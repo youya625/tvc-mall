@@ -72,10 +72,6 @@
     "inputFile": "styles/modules/bootstrap-select.less"
   },
   {
-    "outputFile": "styles/pages/product-list.css",
-    "inputFile": "styles/pages/product-list.less"
-  },
-  {
     "outputFile": "styles/pages/categories-list.css",
     "inputFile": "styles/pages/categories-list.less"
   },
@@ -88,11 +84,15 @@
     "inputFile": "styles/pages/brand-list.less"
   },
   {
-    "outputFile": "js/jquery-2.1.0.es5.js",
-    "inputFile": "js/jquery-2.1.0.js"
-  },
-  {
     "outputFile": "js/jquery.carouse.es5.js",
     "inputFile": "js/jquery.carouse.js"
+  },
+  {
+    "outputFile": "styles/pages/products-gird.css",
+    "inputFile": "styles/pages/products-gird.less"
+  },
+  {
+    "outputFile": "js/jquery-2.1.0.es5.js",
+    "inputFile": "js/jquery-2.1.0.js"
   }
 ]
