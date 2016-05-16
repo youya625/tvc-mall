@@ -32,7 +32,7 @@
     "inputFile": "js/jquery.carouse.js"
   },
   {
-    "outputFile": "styles/pages/products-gird.css",
-    "inputFile": "styles/pages/products-gird.less"
+    "outputFile": "styles/pages/products-list.css",
+    "inputFile": "styles/pages/products-list.less"
   }
 ]

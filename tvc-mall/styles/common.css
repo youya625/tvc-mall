@@ -5,12 +5,6 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
 }
-body {
-  margin: 0;
-  min-width: 1200px;
-  font: 15px MyriadPro-Light, Arial;
-  color: #666666;
-}
 article,
 aside,
 details,
@@ -285,9 +279,38 @@ h3 {
   font-weight: normal;
   font-style: normal;
 }
+@-webkit-keyframes move {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px);
+  }
+}
+@keyframes move {
+  from {
+    -webkit-transform: translateX(0);
+            transform: translateX(0);
+  }
+  to {
+    -webkit-transform: translateX(5px);
+            transform: translateX(5px);
+  }
+}
 body .header {
   padding-top: 33px;
 }
 .mb-item img {
   max-width: 96%;
+}
+body {
+  margin: 0;
+  min-width: 1200px;
+  font: 15px MyriadPro-Light, Arial;
+  color: #666666;
+}
+a:hover {
+  color: #ea511b;
 }
