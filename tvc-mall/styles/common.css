@@ -5,12 +5,6 @@ html {
   -webkit-text-size-adjust: 100%;
   -webkit-font-smoothing: antialiased;
 }
-body {
-  margin: 0;
-  min-width: 1200px;
-  font: 15px MyriadPro-Light, Arial;
-  color: #666666;
-}
 article,
 aside,
 details,
@@ -290,4 +284,13 @@ body .header {
 }
 .mb-item img {
   max-width: 96%;
+}
+body {
+  margin: 0;
+  min-width: 1200px;
+  font: 15px MyriadPro-Light, Arial;
+  color: #666666;
+}
+a:hover {
+  color: #ea511b;
 }

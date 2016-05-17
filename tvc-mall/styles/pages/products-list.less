@@ -1,0 +1,46 @@
+﻿@import "../modules/bootstrap.less";
+@import "../partials/site-top-nav.less";
+@import "../partials/site-search.less";
+@import "../partials/site-main-nav.less";
+@import "../partials/footer.less";
+@import "../partials/cross-aside.less";
+@import "../partials/location.less";
+@import "../partials/products-filfer-1.less";
+@import "../partials/start-rating.less";
+@import "../partials/products-list-selector.less";
+@import "../partials/products-grid-view.less";
+@import "../partials/products-list-view.less";
+@import "../partials/pagination.less";
+@import "../responsive.less";
+
+
+#page-products-list {  
+    .content {
+        width: @page-width; 
+        .center();
+        display: flex;
+        justify-content: space-between;
+
+        .filter {
+            width: 220px;
+        }
+    }
+}
+
+.list-view {
+    flex: 1;
+    margin-left: 20px;
+
+    /*翻页*/
+    .pagination-wrap {
+        display: flex;
+        justify-content: flex-end;
+
+        .page-count {
+            position: relative;
+            top: 28px;
+            right: 20px;
+        }
+    }
+}
+
