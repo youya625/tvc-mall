@@ -11,6 +11,8 @@
 
 
 
+
+
 @font-face {
     font-family: 'MyriadPro-Regular';
     src: url('../fonts/MyriadPro-Regular.woff') format('woff');
@@ -59,9 +61,14 @@ body {
     color: #666666;
 }
 
-a:hover {
-    color: @nomal-color;
+a {
+    cursor: pointer;
+
+    &:hover {
+        color: @nomal-color;
+    }
 }
+
 
 //图片上下左右居中
 .img-fontmat {
@@ -69,4 +76,8 @@ a:hover {
     flex-flow: wrap;
     justify-content: center;
     text-align: center;
+}
+
+.modal-dialog {
+    top: 60px !important;
 }

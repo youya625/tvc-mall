@@ -44,6 +44,7 @@
         </ol>
     </div>
     <!--content-->
+
     <div class="content">
         <div class="p-property">
             <div class="p-pictures">
@@ -267,17 +268,123 @@
                     <div class="price-interval">
                         <div class="interval-tips">
                             <span class="tips-item">
-                                Buy more, save more 
+                                Buy more, save more
                             </span>
                             <span>Found lower price elsewhere?</span>
-                            <a href="javascript:void(0);">Alert Us</a>
+                            <a data-toggle="modal" data-target="#alertUsModal">Alert Us</a>
+                        </div>
+                        <div class="pi-data">
+                            <div class="data-item select">
+                                <div class="item-title">
+                                    1+ units
+                                </div>
+                                <div class="item-content">
+                                    $ 2.26
+                                </div>
+                            </div>
+                            <div class="data-item">
+                                <div class="item-title">
+                                    5+ units
+                                </div>
+                                <div class="item-content">
+                                    $ 2.26
+                                </div>
+                            </div>
+                            <div class="data-item">
+                                <div class="item-title">
+                                    8+ units
+                                </div>
+                                <div class="item-content">
+                                    $ 2.26
+                                </div>
+                            </div>
+                            <div class="data-item">
+                                <div class="item-title">
+                                    10+ units
+                                </div>
+                                <div class="item-content">
+                                    $ 2.26
+                                </div>
+                            </div>
+                            <div class="data-item">
+                                <div class="item-title">
+                                    20+ units
+                                </div>
+                                <div class="item-content delete">
+                                    $ 2.26
+                                </div>
+                            </div>
+                            <div class="data-item">
+                                <div class="item-title">
+                                    Large order
+                                </div>
+                                <div class="item-content">
+                                    <a href="#">
+                                        Inquiry
+                                    </a>
+
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
         </div>
+
+        <div class="p-info">
+            <div class="aside-left">
+
+            </div>
+            <div class="info-right">
+                <div class="tab-wrap">
+                    <ul id="info-tab" class="nav nav-pills">
+                        <li role="presentation" class="active"><a href="#main-info">Features and Specifications</a></li>
+                        <li role="presentation"><a href="#reviews-list">Reviews & Testimonials</a></li>
+                        <li role="presentation"><a href="#product-requery">Product consultation(0)</a></li>
+                    </ul>
+                </div>
+
+                <div class="tab-content">
+                    <!--1 of tabs content-->
+                    <div role="tabpanel" class="tab-pane active" id="main-info">
+                        <p class="content-title">
+                            Specifications
+                        </p>
+                        <p class="content-title">
+                            Product Description
+                        </p>
+                        <div class="detail-images-list">
+                            <img class="lazy" data-original="../images/p1.jpg" src="../images/loading.gif" />
+                            <img class="lazy" data-original="../images/p2.jpg" src="../images/loading.gif" />
+                            <img class="lazy" data-original="../images/p3.jpg" src="../images/loading.gif" />
+                            <img class="lazy" data-original="../images/p4.jpg" src="../images/loading.gif" />
+                            <img class="lazy" data-original="../images/p5.jpg" src="../images/loading.gif" />
+                        </div>
+                    </div>
+                    <!--2 of tabs content-->
+                    <div role="tabpanel" class="tab-pane" id="reviews-list">
+                        2
+                    </div>
+                    <!--3 of tabs content-->
+                    <div role="tabpanel" class="tab-pane" id="product-requery">3</div>
+                </div>
+            </div>
+
+        </div>
     </div>
     <!--footer-->
+
+    <div id="alertUsModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="gridSystemModalLabel">Found lower price elsewhere</h4>
+                </div>
+                Tell us about the lower prices you found elsewhere.
+            </div>
+        </div>
+    </div>
     <footer class="footer">
         <!--By Ajax-->
     </footer>
@@ -285,6 +392,10 @@
     <script src="../js/commen.js"></script>
     <script src="../js/jquery.jqzoom-core.js"></script>
     <script src="../js/jquery.carouse.js"></script>
+    <script src="../js/tab.js"></script>
+    <script src="../js/jquery.lazyload.min.js"></script>
+    <script src="../js/modal.js"></script>
+    <script src="../js/jquery.pin.js"></script>
     <script>
 
         $(function () {
@@ -312,6 +423,19 @@
             $('#images-slider').carousel({
                 interval: false
             });
+
+            $('#info-tab a').click(function (e) {
+                e.preventDefault()
+                $(this).tab('show')
+            })
+
+            $("img.lazy").lazyload({
+                effect: "fadeIn"
+            });
+
+            $(".tab-wrap").pin({
+                containerSelector: ".info-right"
+            })
         });
     </script>
 </body>

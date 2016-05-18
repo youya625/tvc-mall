@@ -1220,6 +1220,9 @@ body {
   font: 15px MyriadPro-Light, Arial;
   color: #666666;
 }
+a {
+  cursor: pointer;
+}
 a:hover {
   color: #ea511b;
 }
@@ -1234,6 +1237,9 @@ a:hover {
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+}
+.modal-dialog {
+  top: 60px !important;
 }
 @-webkit-keyframes icon-rotate {
   from {
@@ -1254,6 +1260,9 @@ a:hover {
     -webkit-transform: rotate(-180deg);
     transform: rotate(-180deg);
   }
+}
+.header .top-aside {
+  display: none;
 }
 .cross-aside-80 {
   display: block;
@@ -2699,6 +2708,9 @@ body#page-home .header .nav .categories {
   display: -ms-flexbox;
   display: flex;
   background: rgba(0, 0, 0, 0.7);
+}
+body#page-home .header .top-aside {
+  display: block;
 }
 body#page-home .content {
   background-color: #eeeeee;
