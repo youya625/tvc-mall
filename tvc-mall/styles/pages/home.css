@@ -1130,6 +1130,46 @@ h3 {
   margin: 0;
   padding: 0;
 }
+.location {
+  margin: 16px 0;
+  width: 1200px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.location:before,
+.location:after {
+  content: " ";
+  display: table;
+}
+.location:after {
+  clear: both;
+}
+.location li {
+  float: left;
+  margin-left: 12px;
+}
+.location li .l-arrow {
+  margin-left: 10px;
+}
+.location .active {
+  color: #ea511b;
+}
+.rating {
+  position: relative;
+  top: 3px;
+  width: 80px;
+  height: 15px;
+  display: inline-block;
+  overflow: hidden;
+  background: url(../../images/star.png) repeat-x scroll 0 -16px transparent;
+}
+.rating .start {
+  display: block;
+  height: 15px;
+  text-indent: -9999px;
+  background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+}
 @font-face {
   font-family: 'MyriadPro-Regular';
   src: url('../../fonts/MyriadPro-Regular.woff') format('woff');
@@ -1182,6 +1222,18 @@ body {
 }
 a:hover {
   color: #ea511b;
+}
+.img-fontmat {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap;
+      -ms-flex-flow: wrap;
+          flex-flow: wrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
 }
 @-webkit-keyframes icon-rotate {
   from {

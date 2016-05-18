@@ -1183,6 +1183,18 @@ body {
 a:hover {
   color: #ea511b;
 }
+.img-fontmat {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: wrap;
+      -ms-flex-flow: wrap;
+          flex-flow: wrap;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
 @-webkit-keyframes icon-rotate {
   from {
     -webkit-transform: rotate(0deg);
@@ -1622,6 +1634,12 @@ a:hover {
   text-indent: -9999px;
   background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
 }
+.products-grid-view .product-wrap .rating .start {
+  display: block;
+  height: 15px;
+  text-indent: -9999px;
+  background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+}
 .products-grid-view .product-wrap .c-count {
   display: inline-block;
   font-size: 13px;
@@ -1695,6 +1713,9 @@ a:hover {
   border: 1px solid #eee;
   width: 40px;
   height: 40px;
+}
+.products-grid-view .product-wrap .p-moreinfo .color-block a img {
+  max-width: 40px;
 }
 .products-grid-view .product-wrap .p-moreinfo .buy-wrap {
   display: -webkit-flex;

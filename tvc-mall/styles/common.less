@@ -1,7 +1,13 @@
 ﻿@import "clear";
 @import url('iconfont.css');
 @import "variables.less";
-
+@import "partials/site-top-nav.less";
+@import "partials/site-search.less";
+@import "partials/site-main-nav.less";
+@import "partials/footer.less";
+@import "partials/cross-aside.less";
+@import "partials/location.less";
+@import "partials/start-rating.less";
 
 
 
@@ -40,17 +46,27 @@ body .header {
     padding-top: 33px;
 }
 
-.mb-item{
-    img{
+.mb-item {
+    img {
         max-width: 96%;
     }
 }
+
 body {
     margin: 0;
     min-width: 1200px;
     font: 15px MyriadPro-Light, Arial;
     color: #666666;
 }
-a:hover{
+
+a:hover {
     color: @nomal-color;
+}
+
+//图片上下左右居中
+.img-fontmat {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+    text-align: center;
 }

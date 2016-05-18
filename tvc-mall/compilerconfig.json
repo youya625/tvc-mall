@@ -34,5 +34,9 @@
   {
     "outputFile": "styles/pages/products-list.css",
     "inputFile": "styles/pages/products-list.less"
+  },
+  {
+    "outputFile": "styles/pages/product-detail.css",
+    "inputFile": "styles/pages/product-detail.less"
   }
 ]
