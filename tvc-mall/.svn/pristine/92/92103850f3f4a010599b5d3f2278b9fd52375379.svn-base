@@ -1,0 +1,47 @@
+﻿@media (max-width: 1420px) {
+    .site-top-nav .sn-container, .site-main-nav .nav, .site-search, .location, .content, .footer .service {
+        width: 1120px !important;
+    }
+
+    #page-manufacturer-list {
+        .model-block .mb-item {
+            width: 100px;
+            height: 100px;
+            margin-right: 8px;
+        }
+    }
+
+
+    #page-brand-list {
+        .model-list, .model-block {
+            .mb-item {
+                width: 140px;
+                height: 140px;
+            }
+        }
+    }
+
+}
+
+@media (min-width: 1420px) {
+    .site-top-nav .sn-container, .site-main-nav .nav, .site-search, .location, .content, .footer .service {
+        width: 1380px !important;
+    }
+
+    #page-manufacturer-list {
+        .model-block .mb-item {
+            width: 120px;
+            height: 120px;
+            margin-right: 20px;
+        }
+    }
+
+    #page-brand-list {
+        .model-list, .model-block {
+            .mb-item {
+                width: 170px;
+                height: 170px;
+            }
+        }
+    }
+}

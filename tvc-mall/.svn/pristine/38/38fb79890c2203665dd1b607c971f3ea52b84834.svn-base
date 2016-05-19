@@ -1,0 +1,448 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../styles/common.min.css" rel="stylesheet" />
+    <link rel="icon" href="../images/favicon.ico" />
+    <link href="../styles/icon-web.css" rel="stylesheet" />
+    <link href="../styles/modules/bootstrap.css" rel="stylesheet" />
+    <link href="../styles/pages/product-detail.min.css" rel="stylesheet" />
+    <link href="../styles/modules/jquery.jqzoom.css" rel="stylesheet" />
+</head>
+<body id="product-detail">
+    <!--header-->
+    <header>
+        <!--By Ajax-->
+    </header>
+    <!--location-->
+    <div class="location">
+        <ol>
+            <li>
+                Your position:
+            </li>
+            <li>
+                <a href="#">Home</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a href="#">Mobile Accessories</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a href="#">Apple</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a href="#">iPhone 6s Plus 5.5-inch</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a class="active" href="#">Cases</a>
+            </li>
+        </ol>
+    </div>
+    <!--content-->
+
+    <div class="content">
+        <div class="p-property">
+            <div class="p-pictures">
+                <div class="big-pic-wrap img-fontmat">
+                    <a href="../images/big-pic.jpg" class="jqzoom">
+                        <img src="../images/big-pic.jpg">
+                    </a>
+                </div>
+                <div class="zoom-tip">
+                    <i class="icon-search"></i>
+                    Mouse over to zoom in
+                </div>
+                <div class="pics-slider-wrap">
+                    <div id="images-slider" class="carousel slide images-slider">
+                        <div class="carousel-inner">
+                            <!--first list-->
+                            <div class="item active">
+                                <div class="images-block">
+                                    <div class="ib-item">
+                                        <a href="#">
+                                            <img src="../images/br.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="ib-item select">
+                                        <a href="#">
+                                            <img src="../images/br.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="ib-item">
+                                        <a href="#">
+                                            <img src="../images/br.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="ib-item">
+                                        <a href="#">
+                                            <img src="../images/br.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="ib-item">
+                                        <a href="#">
+                                            <img src="../images/br.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="ib-item">
+                                        <a href="#">
+                                            <img src="../images/br.jpg" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <!--second list-->
+                            <div class="item">
+                                <div class="images-block">
+                                    <div class="ib-item">
+                                        <a href="#">
+                                            <img src="../images/br.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="ib-item">
+                                        <a href="#">
+                                            <img src="../images/br.jpg" />
+                                        </a>
+                                    </div>
+                                    <div class="ib-item">
+                                        <a href="#">
+                                            <img src="../images/br.jpg" />
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <!--left slide-->
+                        <a class="slide-left icon-web icon-slider-left-sm" href="javascript:void(0)" onclick="$('#images-slider').carousel('prev');"></a>
+                        <!--right slide-->
+                        <a class="slide-right icon-web icon-slider-right-sm" type="sub" href="javascript:void(0)" onclick="$('#images-slider').carousel('next');"></a>
+                    </div>
+                </div>
+                <div class="image-tips">
+                    <span>views: 19</span>
+                    <a href="#" class="view-all"> view all images</a>
+                    <span>|</span>
+                    <a class="down-images" href="#">Add to Download List</a>
+                </div>
+            </div>
+
+            <div class="pp-detail">
+                <div class="detail-header">
+                    <p class="dh-title">
+                        For Apple iPhone 6S case,ULAK Fashion Crystal CLEAR SLIM for iPhone 6/6S case
+                        3H TPU case Soft Transparent case (4.7 inch)
+                    </p>
+
+                    <div class="rating-wrap">
+                        <span class="r-lable">Rate:</span>
+                        <div class="rating">
+                            <span class="start" style="width: 90%"></span>
+                        </div>
+                        <span class="r-reviews">
+                            <a href="#">(100 reviews)</a>
+                        </span>
+                    </div>
+
+                    <div class="detail-tips">
+                        <span class="tips-item">Item NO.: 11021742D</span>
+                        <span class="tips-item">Ships in 1 - 3 days</span>
+                        <span class="tips-item">MOQ: 1</span>
+                    </div>
+                </div>
+
+                <div class="ppd-color-wrap">
+                    <span class="lable c-lable">
+                        Color:
+                    </span>
+                    <div class="color-block">
+                        <a class="select" title="blue" href="#">
+                            <img src="../images/pdt-color.jpg">
+                        </a>
+                        <a title="blue" href="#">
+                            <img src="../images/pdt-color.jpg">
+                        </a>
+                        <a title="blue" href="#">
+                            <img src="../images/pdt-color.jpg">
+                        </a>
+                        <a title="blue" href="#">
+                            <img src="../images/pdt-color.jpg">
+                        </a>
+                        <a title="blue" href="#">
+                            <img src="../images/pdt-color.jpg">
+                        </a>
+                        <a title="blue" href="#">
+                            <img src="../images/pdt-color.jpg">
+                        </a>
+                        <a title="blue" href="#">
+                            <img src="../images/pdt-color.jpg">
+                        </a>
+                        <a title="blue" href="#">
+                            <img src="../images/pdt-color.jpg">
+                        </a>
+                        <a title="blue" href="#">
+                            <img src="../images/pdt-color.jpg">
+                        </a>
+                        <a title="blue" href="#">
+                            <img src="../images/pdt-color.jpg">
+                        </a>
+                    </div>
+                </div>
+
+                <div class="other-attributes">
+                    <span class="lable">Plus:</span>
+                    <div class="attributes-list">
+                        <a class="attibutes-item" href="#">
+                            AU Plus
+                        </a>
+                        <a class="attibutes-item select" href="#">
+                            EdU Plus
+                        </a>
+                        <a class="attibutes-item" href="#">
+                            EUf Plus
+                        </a>
+                        <a class="attibutes-item" href="#">
+                            EU ePlus
+                        </a>
+                        <a class="attibutes-item" href="#">
+                            EU aPlus
+                        </a>
+                    </div>
+                </div>
+
+                <div class="btn btn-default bulk-buy-btn">
+                    Buy in bulk >
+                </div>
+
+                <div class="detail-item">
+                    <span class="lable lable-price">Price:</span>
+                    <div class="price-info">
+                        <span class="new-price">$ 39.88</span>
+                        <del class="old-price">$ 99.88</del>
+                        <span>(38% OFF)</span>
+                    </div>
+                </div>
+
+                <div class="detail-item">
+                    <span class="lable lable-count">
+                        Qty:
+                    </span>
+                    <div class="buy-count">
+                        <a href="javascript:void(0);" class="icon-web icon-dec"></a>
+                        <input class="count-input" type="text" value="1" />
+                        <a href="javascript:void(0);" class="icon-web icon-add"></a>
+                    </div>
+                </div>
+
+                <div class="ppd-buy-info">
+                    <div>
+                        <a href="#" class="btn btn-default add-cart">
+                            <i class="icon-cart"></i>
+                            Add to Cart
+                        </a>
+                        <a href="#" class="check-out">
+                            CheckOut
+                            <i class="icon-triangle-right"></i>
+                        </a>
+                    </div>
+                    <p class="ship-info">
+                        <span class="icon-web icon-air"></span>
+                        Estimated Shipping Cost:
+                        <span class="ship-price">$ 1.24</span>
+                    </p>
+                    <p>
+                        (Ship to American Samoa via Regular Mail(No tracking)
+                    </p>
+                    <p>
+                        <a href="javascript:void(0);" class="more-ship">
+                            More Shipping Options
+                        </a>
+                        )
+                    </p>
+
+
+                    <div class="price-interval">
+                        <div class="interval-tips">
+                            <span class="tips-item">
+                                Buy more, save more
+                            </span>
+                            <span>Found lower price elsewhere?</span>
+                            <a data-toggle="modal" data-target="#alertUsModal">Alert Us</a>
+                        </div>
+                        <div class="pi-data">
+                            <div class="data-item select">
+                                <div class="item-title">
+                                    1+ units
+                                </div>
+                                <div class="item-content">
+                                    $ 2.26
+                                </div>
+                            </div>
+                            <div class="data-item">
+                                <div class="item-title">
+                                    5+ units
+                                </div>
+                                <div class="item-content">
+                                    $ 2.26
+                                </div>
+                            </div>
+                            <div class="data-item">
+                                <div class="item-title">
+                                    8+ units
+                                </div>
+                                <div class="item-content">
+                                    $ 2.26
+                                </div>
+                            </div>
+                            <div class="data-item">
+                                <div class="item-title">
+                                    10+ units
+                                </div>
+                                <div class="item-content">
+                                    $ 2.26
+                                </div>
+                            </div>
+                            <div class="data-item">
+                                <div class="item-title">
+                                    20+ units
+                                </div>
+                                <div class="item-content delete">
+                                    $ 2.26
+                                </div>
+                            </div>
+                            <div class="data-item">
+                                <div class="item-title">
+                                    Large order
+                                </div>
+                                <div class="item-content">
+                                    <a href="#">
+                                        Inquiry
+                                    </a>
+
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="p-info">
+            <!--left aside-->
+            <div class="aside-left">
+                <div class="sales-contact">
+                    <p class="title">
+                        Contact Sales Manager
+                    </p>
+                </div>
+            </div>
+            <!--right info-->
+            <div class="info-right">
+                <div class="tab-wrap">
+                    <ul id="info-tab" class="nav nav-pills">
+                        <li role="presentation" class="active"><a href="#main-info">Features and Specifications</a></li>
+                        <li role="presentation"><a href="#reviews-list">Reviews & Testimonials</a></li>
+                        <li role="presentation"><a href="#product-requery">Product consultation(0)</a></li>
+                    </ul>
+                </div>
+
+                <div class="tab-content">
+                    <!--1 of tabs content-->
+                    <div role="tabpanel" class="tab-pane active" id="main-info">
+                        <p class="content-title">
+                            Specifications
+                        </p>
+                        <p class="content-title">
+                            Product Description
+                        </p>
+                        <div class="detail-images-list">
+                            <img class="lazy" data-original="../images/p1.jpg" src="../images/loading.gif" />
+                            <img class="lazy" data-original="../images/p2.jpg" src="../images/loading.gif" />
+                            <img class="lazy" data-original="../images/p3.jpg" src="../images/loading.gif" />
+                            <img class="lazy" data-original="../images/p4.jpg" src="../images/loading.gif" />
+                            <img class="lazy" data-original="../images/p5.jpg" src="../images/loading.gif" />
+                        </div>
+                    </div>
+                    <!--2 of tabs content-->
+                    <div role="tabpanel" class="tab-pane" id="reviews-list">
+                        2
+                    </div>
+                    <!--3 of tabs content-->
+                    <div role="tabpanel" class="tab-pane" id="product-requery">3</div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!--footer-->
+
+    <div id="alertUsModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                    <h4 class="modal-title" id="gridSystemModalLabel">Found lower price elsewhere</h4>
+                </div>
+                Tell us about the lower prices you found elsewhere.
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <!--By Ajax-->
+    </footer>
+    <script src="../js/jquery-2.2.3.min.js"></script>
+    <script src="../js/commen.js"></script>
+    <script src="../js/jquery.jqzoom-core.js"></script>
+    <script src="../js/jquery.carouse.js"></script>
+    <script src="../js/tab.js"></script>
+    <script src="../js/jquery.lazyload.min.js"></script>
+    <script src="../js/modal.js"></script>
+    <script src="../js/jquery.pin.js"></script>
+    <script>
+
+        $(function () {
+            $.get("share/header.html", function (html) {
+                $("header").html(html);
+
+                //顽固搜索
+                $(".finder-button").click(function () {
+                    $(".finder-button .icon-ctrl-down").toggleClass("icon-rotate");
+                    $(".finder-panel").toggleClass("active");
+                });
+            });
+
+            $.get("share/footer.html", function (html) {
+                $("footer").html(html);
+            });
+
+            $('.jqzoom').jqzoom({
+                zoomType: 'standard',
+                lens: true,
+                preloadImages: false,
+                alwaysOn: false,
+            });
+
+            $('#images-slider').carousel({
+                interval: false
+            });
+
+            $('#info-tab a').click(function (e) {
+                e.preventDefault()
+                $(this).tab('show')
+            })
+
+            $("img.lazy").lazyload({
+                effect: "fadeIn"
+            });
+
+            $(".tab-wrap").pin({
+                containerSelector: ".info-right"
+            })
+        });
+    </script>
+</body>
+</html>

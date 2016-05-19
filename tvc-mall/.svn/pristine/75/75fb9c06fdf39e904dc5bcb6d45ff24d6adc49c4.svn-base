@@ -1,0 +1,50 @@
+﻿
+@import "mixins";
+
+.products-filter-1 {
+    border: 1px solid @nomal-bg-color;
+
+    .filter-title {
+        padding: 10px 25px;
+        font: @light-font;
+        color: #000;
+        font-size: 17px;
+        background-color: #f7f7f7;
+        border-bottom: 1px solid @nomal-bg-color;
+    }
+
+    .filter-items {
+        padding-left: 22px;
+        padding-right: 15px;
+
+        li {
+            padding: 10px 0;
+            border-bottom: 1px solid @nomal-bg-color;
+
+            a {
+                &:hover {
+                    color: @nomal-color;
+                }
+            }
+        }
+    }
+
+    .show-toggle {
+        width: 100%;
+        text-align: center;
+        color: @nomal-color;
+        height: 50px;
+        line-height: 50px;
+        cursor: pointer;
+
+        .caret {
+            color: #000;
+            margin-left: 5px;
+        }
+
+        &.less .caret {
+            border-bottom: 4px dashed;
+            border-top: none;
+        }
+    }
+}

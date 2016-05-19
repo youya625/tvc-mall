@@ -1,0 +1,20 @@
+﻿@import "../variables";
+@import "../common";
+@import "mixins/common";
+
+.cross-aside(@height) {
+    .center-block();
+    .size(@page-width, @height);
+}
+
+.header .top-aside{
+    display: none;
+}
+
+.cross-aside-80 {
+    .cross-aside(80px)
+}
+
+.cross-aside-140 {
+    .cross-aside(140px);
+}

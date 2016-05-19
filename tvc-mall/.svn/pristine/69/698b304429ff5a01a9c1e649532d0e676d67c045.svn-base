@@ -1,0 +1,71 @@
+﻿@import "mixins";
+
+
+//Featured Products
+.partial-home-list-2 {
+    width: @page-width;
+    .center();
+    background-color: #fff;
+    //标题
+    .module-title {
+        .module-title();
+    }
+
+    .products-grid {
+        padding-left: 2px;
+        .list-gadget-1();
+    }
+
+    .carousel-inner {
+        height: 100%;
+    }
+
+    .featured-banner {
+        height: 535px;
+
+        .carousel-indicators {
+            bottom: -45px;
+            z-index: 100;
+
+            li {
+                border-color: @gray-dark;
+                background-color: @gray-dark;
+                opacity: 0.8;
+            }
+
+            .active {
+                background-color: @nomal-color;
+                border-color: @nomal-color;
+            }
+        }
+        //左右切换按钮
+        .slide-left, .slide-right {
+            border: 1px solid #fff;
+            position: absolute;
+            display: block;
+            z-index: 100;
+            opacity: 0.7;
+
+            &:hover {
+                border: 1px solid #eeeeee;
+                opacity: 1;
+            }
+        }
+
+        .slide-left {
+            top: 236px;
+            left: 0;
+        }
+
+        .slide-right {
+            top: 236px;
+            right: 0;
+        }
+    }
+
+    .indicators-content {
+        display: block;
+        border-top: 1px solid @nomal-bg-color;
+        .size(@page-width, 48px);
+    }
+}

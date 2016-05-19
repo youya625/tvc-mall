@@ -842,6 +842,10 @@ h3 {
   -webkit-animation-fill-mode: forwards;
           animation-fill-mode: forwards;
 }
+.site-search .finder .form-inline .bootstrap-select.btn-group .form-control {
+  width: 135px;
+  height: 20px;
+}
 .site-main-nav {
   border-top: 1px solid #eeeeee;
   border-bottom: 1px solid #eeeeee;
@@ -1498,13 +1502,16 @@ a:hover {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  -webkit-flex-flow: wrap;
-      -ms-flex-flow: wrap;
-          flex-flow: wrap;
+  -webkit-flex-flow: column;
+      -ms-flex-flow: column;
+          flex-flow: column;
   -webkit-justify-content: center;
       -ms-flex-pack: center;
           justify-content: center;
   text-align: center;
+}
+.img-fontmat img {
+  display: block;
 }
 .modal-dialog {
   top: 60px !important;

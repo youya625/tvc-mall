@@ -1,0 +1,35 @@
+.pic-pay.pic-paypal
+{
+  background-image: url('../images/icons/pic-pay.png');
+  background-position: 0px 0px;
+  width: 122px;
+  height: 205px;
+}
+.pic-pay.pic-business
+{
+  background-image: url('../images/icons/pic-pay.png');
+  background-position: 0px -205px;
+  width: 122px;
+  height: 72px;
+}
+.pic-pay.pic-norton
+{
+  background-image: url('../images/icons/pic-pay.png');
+  background-position: 0px -277px;
+  width: 122px;
+  height: 72px;
+}
+.pic-pay.pic-visa
+{
+  background-image: url('../images/icons/pic-pay.png');
+  background-position: 0px -349px;
+  width: 122px;
+  height: 66px;
+}
+.pic-pay.pic-mcard
+{
+  background-image: url('../images/icons/pic-pay.png');
+  background-position: 0px -415px;
+  width: 122px;
+  height: 62px;
+}

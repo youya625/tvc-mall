@@ -6,10 +6,6 @@
         width: @page-width;
         .center();
     }
-
-    .site-top-nav {
-        position: fixed;
-    }
     //商品属性
     .p-property {
         display: flex;
@@ -355,17 +351,182 @@
         //左侧广告
         .aside-left {
             width: 210px;
-        }
+            padding-top: 32px;
 
+            .sales-contact {
+                width: 100%;
+                border: 1px solid @gray-dark;
+                height: 144px;
+                color: #000;
+
+
+                .icon-web {
+                    display: inline-block;
+                }
+
+                .icon-tel {
+                    vertical-align: bottom;
+                }
+
+                .title {
+                    margin-top: 19px;
+                    margin-left: 12px;
+                }
+
+                .contact-link {
+                    display: block;
+                    margin-top: 15px;
+                    margin-left: 12px;
+                }
+            }
+
+            .pay-images {
+                width: 100%;
+                border: 1px solid @gray-dark;
+                margin-top: 20px;
+                padding-bottom: 20px;
+
+                .trustlink {
+                    display: block;
+                    width: 100%;
+                    margin-top: 18px;
+                    text-align: center;
+                }
+
+                .pay-img {
+                    width: 100%;
+
+                    .pic-pay {
+                        display: block;
+                        margin: 0 auto;
+                    }
+                }
+            }
+
+            .aside-link {
+                display: block;
+                margin-top: 20px;
+
+                img {
+                    max-width: 210px;
+                }
+            }
+
+            .left-products {
+                width: 100%;
+                border: 1px solid @gray-dark;
+                margin-top: 20px;
+
+                .aside-title {
+                    margin: 0;
+                    width: 100%;
+                    height: 35px;
+                    line-height: 35px;
+                    text-align: center;
+                    color: #fff;
+                    background-color: @nomal-color;
+                }
+                //左侧商品列表1
+                .left-products-list-1 {
+                    width: 140px;
+                    margin: 0 auto;
+                    font-size: 13px;
+                    padding-bottom: 20px;
+                    //商品
+                    .list-item {
+                        margin-top: 20px;
+
+                        .img-wrap {
+                            img {
+                                max-width: 140px;
+                            }
+                        }
+
+                        .item-title {
+                            display: block;
+                            margin-top: 5px;
+                            font-size: 13px;
+                            line-height: 12px;
+                            height: 25px;
+                            overflow: hidden;
+                            color: #000;
+                        }
+
+                        .item-price {
+                            margin: 2px 0;
+
+                            .price {
+                                font-size: 15px;
+                                color: @nomal-color;
+                            }
+                        }
+                    }
+                }
+
+                .left-products-list-2 {
+                    width: 175px;
+                    margin: 0 auto;
+                    font-size: 13px;
+                    padding-bottom: 20px;
+                    //商品
+                    .list-item {
+                        margin-top: 20px;
+                        display: flex;
+                        justify-content: flex-start;
+
+                        .img-wrap {
+                            img {
+                                max-width: 50px;
+                            }
+                        }
+
+                        .item-info {
+                            margin-left: 10px;
+
+                            .item-title {
+                                display: block;
+                                margin-top: 5px;
+                                font-size: 13px;
+                                line-height: 12px;
+                                height: 25px;
+                                overflow: hidden;
+                                color: #000;
+                            }
+
+                            .item-price {
+                                margin: 2px 0;
+
+                                .price {
+                                    font-size: 15px;
+                                    color: @nomal-color;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+        //右侧内容
         .info-right {
             width: 960px;
+
+            .content-title {
+                margin-top: 10px;
+                font: @nomal-font;
+                height: 35px;
+                line-height: 35px;
+                text-indent: 22px;
+                color: #000;
+                width: 100%;
+                background-color: @content-bg-color;
+            }
 
             .tab-wrap {
                 .clearfix();
                 background-color: #fff;
                 border-bottom: 2px solid @nomal-color;
                 padding-top: 32px;
-                z-index: 999;
+                z-index: 8999;
 
                 li {
                     a {
@@ -381,20 +542,7 @@
             }
 
             #main-info {
-                .content-title {
-                    margin-top: 10px;
-                    font: @nomal-font;
-                    height: 35px;
-                    line-height: 35px;
-                    text-indent: 22px;
-                    color: #000;
-                    width: 100%;
-                    background-color: @content-bg-color;
-                }
-
                 .detail-images-list {
-                    display: flex;
-                    flex-flow: wrap;
                     margin-top: 20px;
 
                     img {
@@ -403,6 +551,182 @@
                         margin: 0;
                         max-width: 960px;
                     }
+                }
+            }
+
+            #reviews-list {
+                .section {
+                    padding: 14px 8px;
+                    border-bottom: 1px solid @gray-dark;
+                    overflow: hidden;
+                }
+                //评分统计条
+                .star-number {
+                    float: right;
+                    width: 340px;
+
+                    .star-name {
+                        margin-right: 3px;
+                        color: #000;
+                        vertical-align: middle;
+                        width: 66px;
+                        display: inline-block;
+                        text-align: right;
+                    }
+
+                    .bar {
+                        display: inline-block;
+                        width: 135px;
+                        height: 14px;
+                        background: #ffebe0;
+                        vertical-align: middle;
+                    }
+
+                    .point {
+                        display: inline-block;
+                        background: #fda972;
+                        height: 14px;
+                    }
+
+                    .point-bar {
+                        margin-left: 10px;
+                        vertical-align: middle;
+                    }
+                }
+                //星星相关
+                .rating-big {
+                    color: #000;
+                    vertical-align: middle;
+                }
+
+                .star-img-big {
+                    background: url(../../images/star_big.png) 0 -20px repeat-x;
+                    width: 100px;
+                    height: 19px;
+                    display: inline-block;
+                    overflow: hidden;
+                    vertical-align: middle;
+                    margin-right: 10px;
+
+                    span {
+                        background: url(../../images/star_big.png) 0 0 repeat-x;
+                        display: block;
+                        text-indent: -9999px;
+                    }
+                }
+
+                .rev-num {
+                    vertical-align: middle;
+                }
+                //评论---------------start-------------
+                .reviews-list {
+                    .r-item {
+                        display: flex;
+                        justify-content: flex-start;
+                        margin-top: 25px;
+                        padding-bottom: 30px;
+                        border-bottom: 1px solid @gray-dark;
+                        //头像用户名等信息
+                        .user-info {
+                            margin-left: 25px;
+                            color: #000;
+
+                            .avatar {
+                                display: block;
+
+                                img {
+                                    max-width: 75px;
+                                }
+                            }
+
+                            .user-position {
+                                margin-top: 5px;
+                            }
+                        }
+                        //评论主要信息
+                        .r-info {
+                            flex: 1;
+                            margin-left: 20px;
+                            color: #000;
+
+                            .r-content {
+                                color: #000;
+                                font-size: 17px;
+                                margin-top: 5px;
+                            }
+
+                            .r-date {
+                                margin-top: 10px;
+                                color: @gray-darker;
+                            }
+                            //评论投票
+                            .r-vote {
+                                display: flex;
+                                justify-content: flex-end;
+                                width: 85%;
+
+                                .tip-sorry {
+                                    line-height: 30px;
+                                    margin-right: 10px;
+                                    color: red;
+                                }
+
+                                .tip-think {
+                                    line-height: 30px;
+                                    margin-right: 10px;
+                                    color: green;
+                                }
+
+                                span {
+                                    display: inline-block;
+                                    vertical-align: middle;
+                                }
+
+                                .btn {
+                                    font-size: 14px;
+                                    margin-right: 10px;
+                                }
+                            }
+                        }
+                    }
+                }
+
+                .all-reviews-link {
+                    display: block;
+                    text-align: right;
+                    margin-top: 15px;
+                    padding-bottom: 20px;
+                    color: #2c8ccd;
+                }
+
+                .rating-wrap {
+                    display: flex;
+                    justify-content: flex-start;
+
+                    .rating-item {
+                        margin-right: 10px;
+                    }
+                }
+                //评论---------------end----------
+            }
+
+            #product-requery {
+                .inquery-input-area {
+                    height: 300px;
+                    width: 100%;
+                    vertical-align: top;
+                    outline: none;
+                    resize: none;
+                    margin-top: 20px;
+                }
+
+                .submit-inquery {
+                    display: inline-block;
+                    float: right;
+                    margin-top: 20px;
+                    background-color: @nomal-color;
+                    color: #fff;
+                    border: none;
                 }
             }
         }

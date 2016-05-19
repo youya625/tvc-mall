@@ -72,6 +72,10 @@
     "inputFile": "styles/modules/bootstrap-select.less"
   },
   {
+    "outputFile": "styles/pages/product-list.css",
+    "inputFile": "styles/pages/product-list.less"
+  },
+  {
     "outputFile": "styles/pages/categories-list.css",
     "inputFile": "styles/pages/categories-list.less"
   },

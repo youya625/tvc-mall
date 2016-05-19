@@ -1,0 +1,1044 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../styles/common.min.css" rel="stylesheet" />
+    <link rel="icon" href="../images/favicon.ico" />
+    <link href="../styles/icon-web.css" rel="stylesheet" />
+    <link href="../styles/modules/bootstrap.min.css" rel="stylesheet" />
+    <link href="../styles/pages/products-list.min.css" rel="stylesheet" />
+</head>
+<body id="page-products-list">
+    <!--header-->
+    <header>
+        <!--By Ajax-->
+    </header>
+    <!--location-->
+    <div class="location">
+        <ol>
+            <li>
+                Your position:
+            </li>
+            <li>
+                <a href="#">Home</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a href="#">Mobile Accessories</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a href="#">Apple</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a href="#">iPhone 6s Plus 5.5-inch</a>
+                <span class="l-arrow">>></span>
+            </li>
+            <li>
+                <a class="active" href="#">Cases</a>
+            </li>
+        </ol>
+    </div>
+    <!--content-->
+    <div class="content">
+        <!--filter-->
+        <div class="filter">
+            <div class="products-filter-1">
+                <h3 class="filter-title">
+                    Browse by Categories
+                </h3>
+                <ul class="filter-items">
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Mobile Accessories</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--products list-->
+        <div class="list-view">
+            <div class="products-list-selector">
+                <div class="list-bar">
+                    <span class="lb-lable">
+                        Cases
+                    </span>
+                    <div class="rating">
+                        <span class="start" style="width: 50%"></span>
+                    </div>
+                    (7085 reviews)
+                </div>
+                <ul class="tags">
+                    <li class="btn btn-default t-items select">
+                        New Arrivals(225)
+                    </li>
+                    <li class="btn btn-default t-items">
+                        New Arrivals(225)
+                    </li>
+                    <li class="btn btn-default t-items">
+                        New Arrivals(225)
+                    </li>
+                </ul>
+                <div class="price">
+                    <span>
+                        price:
+                    </span>
+                    <ul class="p-range">
+                        <li class="btn btn-default btn-sm">Under $1</li>
+                        <li class="btn btn-default btn-sm">$1-$2</li>
+                        <li class="btn btn-default btn-sm">$2-$3</li>
+                        <li class="btn btn-default btn-sm select">$4 & Above</li>
+                    </ul>
+                    <div class="p-inter">
+                        <span class="flag-wrap">$</span>
+                        <input class="pi-input" type="text" name="name" value="" />
+                        <span class="flag-wrap">to $</span>
+                        <input class="pi-input" type="text" name="name" value="" />
+                        <input class="p-btn" type="button" value="Go" />
+                    </div>
+                </div>
+                <div class="view-filter">
+                    <div class="lf-left">
+                        View Mode:
+                        <i class="icon-list"></i>
+                        <i class="icon-grid active"></i>
+                    </div>
+                    <div class="vf-right">
+                        <span class="p-count">77777</span>
+                        <span class="lfp-lable">items, Per Page</span>
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                36
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                                <li><a href="#">56</a></li>
+                                <li><a href="#">76</a></li>
+                            </ul>
+                        </div>
+                        <span class="vfp-lable">Sort By:</span>
+
+                        <div class="dropdown">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                DateAdded (Newest first)
+                                <span class="caret"></span>
+                            </button>
+                            <ul class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenu1">
+                                <li><a href="#">Price (Lowest first)</a></li>
+                                <li><a href="#">Price (Highest first)</a></li>
+                                <li><a href="#">Views (Most first)</a></li>
+                                <li><a href="#">DateAdded (Newest first)</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="products-grid-view">
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="color-block">
+                            <a title="blue" href="#">
+                                <img src="../images/pdt-color.jpg" />
+                            </a>
+                            <a title="blue" href="#">
+                                <img src="../images/pdt-color.jpg" />
+                            </a>
+                            <a title="blue" href="#">
+                                <img src="../images/pdt-color.jpg" />
+                            </a>
+                            <a title="blue" href="#">
+                                <img src="../images/pdt-color.jpg" />
+                            </a>
+                            <a title="blue" href="#">
+                                <img src="../images/pdt-color.jpg" />
+                            </a>
+                            <a title="blue" href="#">
+                                <img src="../images/pdt-color.jpg" />
+                            </a>
+                        </div>
+                        <a href="#" class="btn btn-default btn-buy">buy in bulk ></a>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="product-wrap">
+                    <div class="p-info">
+                        <!--折扣标签-->
+                        <div class="icon-topright icon-web icon-discount">
+                            <span class="num-wrap">
+                                88
+                            </span>
+                        </div>
+                        <!--新品标签-->
+                        <div class="icon-topleft icon-web icon-new"></div>
+                        <div class="img-wrap">
+                            <a href="#">
+                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                            </a>
+                        </div>
+                        <div class="pro-title">
+                            <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 1 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass 2 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass3 BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass4</a>
+                        </div>
+                        <div class="rating">
+                            <span class="start" style="width: 50%"></span>
+                        </div>
+                        <a class="c-count" href="#">888</a>
+                        <div class="price">
+                            <del>30.69</del>
+                            <span class="new-price">$15.24</span>
+                        </div>
+                        <div class="p-wholesale">
+                            <span class="price">$ 88.88 </span>
+                            for Wholesale
+                        </div>
+                        <div class="icon-btm icon-web icon-bvalue"></div>
+                    </div>
+                    <div class="p-moreinfo">
+                        Item NO: 10010218A
+                        <div class="buy-wrap">
+                            <div class="buy-count">
+                                <span class="lable">Qty:</span>
+                                <input type="text" class="form-control bc-input" value="1">
+                            </div>
+                            <a href="#" class="btn btn-default btn-buy">
+                                Buy
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <nav class="pagination-wrap">
+                <div class="page-count">
+                    Pages: 1 / 37
+                </div>
+                <ul class="pagination pagination-sm">
+                    <li class="disabled">
+                        <a href="javascript:void(0);" aria-label="Previous">
+                            <span aria-hidden="true"><</span>
+                        </a>
+                    </li>
+                    <li class="active">
+                        <a href="javascript:void(0);">1</a>
+                    </li>
+                    <li>
+                        <a href="#">2</a>
+                    </li>
+                    <li>
+                        <a href="#">3</a>
+                    </li>
+                    <li>
+                        <a href="#">4</a>
+                    </li>
+                    <li class="ellipsis">
+                        <a href="javascript:void(0)">...</a>
+                    </li>
+                    <li>
+                        <a href="#">37</a>
+                    </li>
+                    <li>
+                        <a href="#" aria-label="Next">
+                            <span aria-hidden="true">></span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="footer">
+        <!--By Ajax-->
+    </footer>
+    <script src="../js/jquery-2.2.3.min.js"></script>
+    <script src="../js/jquery.lazyload.min.js"></script>
+    <script>
+
+        $(function () {
+            $.get("share/header.html", function (html) {
+                $("header").html(html);
+
+                //顽固搜索
+                $(".finder-button").click(function () {
+                    $(".finder-button .icon-ctrl-down").toggleClass("icon-rotate");
+                    $(".finder-panel").toggleClass("active");
+                });
+            });
+
+            $.get("share/footer.html", function (html) {
+                $("footer").html(html);
+            });
+
+            $("img.lazy").lazyload({
+                effect: "fadeIn"
+            });
+        });
+    </script>
+</body>
+</html>

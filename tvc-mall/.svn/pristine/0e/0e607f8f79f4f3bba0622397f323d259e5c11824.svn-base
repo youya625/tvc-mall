@@ -1,0 +1,34 @@
+﻿@import "mixins";
+
+.pagination {
+    li {
+        a {
+            color: #000;
+            font-size: 14px;
+            margin-left: 5px !important;
+        }
+
+        &.active {
+            a {
+                color: #fff;
+                background-color: @nomal-color;
+                border-color: @nomal-color;
+
+                &:focus, &:hover {
+                    background-color: @nomal-color;
+                    border-color: @nomal-color;
+                }
+            }
+        }
+    }
+
+    .ellipsis {
+        a {
+            cursor: default;
+            border: none;
+            &:focus, &:hover{
+                background-color: transparent;
+            }
+        }
+    }
+}

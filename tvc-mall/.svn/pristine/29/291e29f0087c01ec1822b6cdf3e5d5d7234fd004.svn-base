@@ -1,0 +1,600 @@
+﻿
+@import "../../variables";
+@import "../../common";
+@import "common";
+
+
+
+//商品1，一般商品
+.list-gadget-item-1() {
+    @product-title-size: 13px; //一般商品标题字体大小
+    @product-hover-color: #fff; //商品选择边框颜色
+    @product-hover-shadow: 0 0 10px @gray-darker; //商品选择边框阴影
+
+    @height: 265px;
+    @width: 200px;
+    @padding: 15px;
+    @border-width: 1px;
+    padding: @padding;
+    width: @width - 2 * @padding - @border-width;
+    height: @height - 2 * @padding - @border-width;
+    position: relative;
+
+    img {
+        text-align: center;
+        width: 150px;
+        height: 150px;
+        /*transition: transform 0.2s linear;
+
+        &:hover {
+            transform: translateX(-5px);
+        }*/
+    }
+
+    .pro-title {
+        width: @width - 2 * @padding - @border-width;
+        height: 33px;
+        overflow: hidden;
+        line-height: 10px;
+        text-align: left;
+
+        a {
+            font-size: @product-title-size;
+            line-height: 16px;
+            color: #000;
+        }
+    }
+
+    .rating {
+        width: 80px;
+        height: 15px;
+        display: inline-block;
+        overflow: hidden;
+        margin: 0;
+        margin: 4px 0 0 2px;
+        background: url(../../../images/star.png) repeat-x scroll 0 -16px transparent;
+
+        .start {
+            display: block;
+            height: 15px;
+            text-indent: -9999px;
+            background: url(../../../images/star.png) repeat-x scroll 0 0 transparent;
+        }
+    }
+
+    .c-count {
+        display: inline-block;
+        color: @gray-darker;
+        position: relative;
+        bottom: 3px;
+        font-size: 12px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &:before {
+            content: "( ";
+        }
+
+        &:after {
+            content: " )";
+        }
+    }
+
+    .price {
+        span:first-child {
+            font-size: 12px;
+            color: #8a8a8c;
+        }
+
+        span:last-child {
+            font-size: 14px;
+            color: @nomal-color;
+        }
+    }
+
+    &:hover {
+        border-color: @product-hover-color;
+        box-shadow: @product-hover-shadow;
+        z-index: 20;
+    }
+}
+
+//商品2，无价格
+.list-gadget-item-2() {
+    @height: 305px;
+    @width: 240px;
+    @padding: 10px;
+    @border-width: 1px;
+    @product-title-size: 13px; //一般商品标题字体大小
+    @product-hover-color: #fff; //商品选择边框颜色
+    @product-hover-shadow: 0 0 15px @gray-darker; //商品选择边框阴影
+    padding: @padding;
+    width: @width - 2 * @padding - @border-width;
+    height: @height - 2 * @padding - @border-width;
+
+
+    img {
+        text-align: center;
+        width: 210px;
+        height: 210px;
+        /*transition: transform 0.2s linear;*/
+        /*&:hover {
+            transform: scale(1.05, 1.05);
+        }*/
+    }
+
+    .pro-title {
+        width: @width - 2 * @padding - @border-width - 10;
+        height: 15px;
+        overflow: hidden;
+        line-height: 10px;
+        text-align: center;
+        text-indent: 10px;
+        margin-top: 20px;
+
+        a {
+            .font(@product-title-size, #000, 16px);
+        }
+    }
+
+    .pro-about {
+        width: @width - 2 * @padding - @border-width - 10;
+        height: 17px;
+        line-height: 10px;
+        text-align: center;
+        .text-overflow();
+        text-indent: 10px;
+        margin-top: 0;
+        .font(12px, #979798, 16px);
+    }
+
+
+    &:hover {
+        position: relative;
+        border-color: @product-hover-color;
+        box-shadow: @product-hover-shadow;
+        z-index: 20;
+    }
+}
+
+//商品3，有价格和订单数
+.list-gadget-item-3() {
+    @height: 305px;
+    @width: 240px;
+    @padding: 10px;
+    @border-width: 1px;
+    @product-title-size: 13px; //一般商品标题字体大小
+    @product-hover-color: #fff; //商品选择边框颜色
+    @product-hover-shadow: 0 0 15px @gray-darker; //商品选择边框阴影
+    padding: @padding;
+    width: @width - 2 * @padding - @border-width;
+    height: @height - 2 * @padding - @border-width;
+    position: relative;
+
+    img {
+        text-align: center;
+        width: 210px;
+        height: 210px;
+    }
+
+    .pro-price {
+        height: 60px;
+        padding: 5px;
+        margin: auto;
+        float: left;
+        width: 135px;
+        margin-top: 15px;
+
+        div:first-child {
+            font-size: 22px;
+            color: #000;
+        }
+
+        del {
+            color: #95989a;
+            font-size: 14px;
+        }
+    }
+
+    .pro-order {
+        position: relative;
+        bottom: 45px;
+        right: 5px;
+        float: right;
+        width: 100px;
+        height: 25px;
+        text-align: center;
+        font-size: 14px;
+        color: #000;
+    }
+
+    &:hover {
+        position: relative;
+        border-color: @product-hover-color;
+        box-shadow: @product-hover-shadow;
+        z-index: 20;
+    }
+}
+
+//右上角的折扣标签
+.icon-topright() {
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 10;
+
+    .num-wrap {
+        position: relative;
+        top: -3px;
+        width: 32px;
+        text-align: center;
+        display: inline-block;
+        font-size: 22px;
+        color: #fff;
+        font-weight: 600;
+    }
+}
+//商品标题
+.pro-title() {
+    padding-top: 10px;
+    width: 100%;
+    height: 55px;
+    overflow: hidden;
+    line-height: 10px;
+    text-align: left;
+
+    a {
+        font-size: 15px;
+        line-height: 18px;
+        color: #000;
+
+        &:hover {
+            color: @nomal-color;
+        }
+    }
+}
+
+//星星
+.rating() {
+    width: 80px;
+    height: 15px;
+    display: inline-block;
+    overflow: hidden;
+    margin: 4px 0 0 2px;
+    background: url(../../../images/star.png) repeat-x scroll 0 -16px transparent;
+
+    .start {
+        display: block;
+        height: 15px;
+        text-indent: -9999px;
+        background: url(../../../images/star.png) repeat-x scroll 0 0 transparent;
+    }
+}
+
+//价格
+.price() {
+    margin-top: 5px;
+    font-size: 19px;
+
+    .new-price {
+        color: @nomal-color;
+        font-weight: 600;
+    }
+}
+
+.p-wholesale() {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #000;
+
+    .price {
+        font-size: 14px;
+        color: #fc7f87;
+    }
+}
+
+.color-block() {
+    display: flex;
+    flex-flow: wrap;
+    flex-direction: row;
+    justify-content: flex-start;
+    margin-top: 5px;
+
+    a {
+        display: inline-block;
+        margin-right: 2px;
+        margin-bottom: 8px;
+        border: 1px solid @gray-dark;
+        width: 40px;
+        height: 40px;
+
+        img{
+            max-width: 40px;
+        }
+    }
+}
+//商品4，列表页商品，Gird显示
+.list-gadget-item-4() {
+    @product-hover-color: #fff; //商品选择边框颜色
+    @product-hover-shadow: 0 0 15px @gray-darker; //商品选择边框阴影
+    @padding: 20px;
+    position: relative;
+    width: 220px;
+    /*height: 400px;*/
+    padding: @padding;
+    margin-top: 20px;
+
+    .icon-topleft {
+        position: absolute;
+        top: 20px;
+        left: 0;
+        z-index: 10;
+    }
+
+    .icon-topright {
+        .icon-topright();
+    }
+
+    .icon-btm {
+        margin-top: 5px;
+    }
+
+    .img-wrap {
+        text-align: center;
+        width: 220px;
+        height: 220px;
+        overflow: hidden;
+        /*img {
+            transition: transform 0.2s linear;
+
+            &:hover {
+                transform: translateX(-5px);
+            }
+        }*/
+    }
+
+    .pro-title {
+        .pro-title();
+    }
+
+    .rating {
+        .rating();
+    }
+
+    .c-count {
+        display: inline-block;
+        font-size: 13px;
+
+        &:hover {
+            text-decoration: underline;
+        }
+
+        &:before {
+            content: "( ";
+        }
+
+        &:after {
+            content: " )";
+        }
+    }
+    //价格
+    .price {
+        .price();
+    }
+
+    .p-wholesale {
+        .p-wholesale();
+    }
+
+    &:hover {
+        border-color: @product-hover-color;
+        box-shadow: @product-hover-shadow;
+        z-index: 20;
+
+        .p-moreinfo {
+            display: block;
+            border-top: none;
+            border-color: @product-hover-color;
+            box-shadow: 0 6px 9px @gray-darker;
+        }
+    }
+    //隐藏商品信息
+    .p-moreinfo {
+        position: absolute;
+        left: 0;
+        padding: @padding;
+        padding-top: 0;
+        display: none;
+        margin-top: 5px;
+        background-color: #fff;
+        width: 220px;
+
+        .color-block {
+            .color-block();
+        }
+
+        .buy-wrap {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            background-color: @gray-dark;
+            height: 33px;
+
+            .buy-count {
+                width: 60%;
+                line-height: 33px;
+                text-align: center;
+
+                .lable {
+                    color: #000;
+                    display: inline-block;
+                    font-weight: 600;
+                }
+
+                .bc-input {
+                    display: inline-block;
+                    width: 25px;
+                    height: 15px;
+                }
+            }
+
+            .btn-buy {
+                height: 20px;
+                width: 40%;
+            }
+        }
+    }
+
+    .btn-buy {
+        display: block;
+        background-color: @nomal-color;
+        color: #fff;
+        border: none;
+        font-size: 15px;
+    }
+}
+
+//商品5，列表页商品，List显示
+.list-gadget-item-5() {
+    @product-hover-color: #fff; //商品选择边框颜色
+    @product-hover-shadow: 0 0 15px @gray-darker; //商品选择边框阴影
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 220px;
+    border-bottom: 1px solid @gray-dark;
+
+    &:hover {
+        border-color: @product-hover-color;
+        box-shadow: @product-hover-shadow;
+        z-index: 20;
+    }
+    //商品图片
+    .img-wrap {
+        position: relative;
+        text-align: center;
+        width: 220px;
+        height: 220px;
+        overflow: hidden;
+
+        .icon-topleft {
+            position: absolute;
+            top: 10px;
+            left: 0;
+        }
+
+        .icon-topright {
+            .icon-topright();
+            top: 10px;
+
+            .num-wrap {
+                right: 4px;
+            }
+        }
+    }
+    //商品信息
+    .p-info {
+        .size(35%, auto);
+        font-size: 14px;
+
+        .p-title {
+            .pro-title();
+        }
+
+        .p-icon-wrap {
+        }
+
+        .rating-wrap {
+            margin: 10px 0;
+
+            .rating {
+                .rating();
+            }
+
+            .r-reviews {
+                & a:hover {
+                    color: @nomal-color;
+                }
+            }
+        }
+    }
+    //购买相关
+    .p-buy {
+        width: 35%;
+
+        .price {
+            .price();
+        }
+
+        .p-wholesale {
+            .p-wholesale();
+            display: inline-block;
+            margin-left: 10px;
+        }
+
+        .color-block {
+            .color-block();
+            margin: 10px 0;
+
+
+        }
+
+        .btn-buy {
+            width: 40%;
+            display: block;
+            background-color: @nomal-color;
+            color: #fff;
+            border: none;
+            font-size: 15px;
+        }
+
+        .buy-wrap {
+            width: 200px;
+            height: 33px;
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+
+            .buy-count {
+                width: 60%;
+                line-height: 33px;
+                text-align: center;
+
+                .lable {
+                    color: #000;
+                    display: inline-block;
+                    font-weight: 600;
+                }
+
+                .bc-input {
+                    display: inline-block;
+                    width: 25px;
+                    height: 15px;
+                }
+            }
+
+            .btn-buy {
+                height: 20px;
+                width: 40%;
+            }
+        }
+    }
+
+    .mg10 {
+        margin-top: 3px;
+    }
+
+    .f-black {
+        color: #000;
+
+        &.link:hover {
+            color: @nomal-color;
+        }
+    }
+
+    .lable {
+        font-size: 14px;
+    }
+}
