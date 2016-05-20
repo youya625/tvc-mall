@@ -1208,6 +1208,9 @@ a:hover {
 .modal-dialog {
   top: 60px !important;
 }
+.f-weight {
+  font-weight: 600;
+}
 @-webkit-keyframes icon-rotate {
   from {
     -webkit-transform: rotate(0deg);
@@ -1611,6 +1614,9 @@ a:hover {
                 transform: translateX(-5px);
             }
         }*/
+}
+.products-grid-view .product-wrap .img-wrap img {
+  max-width: 220px;
 }
 .products-grid-view .product-wrap .pro-title {
   padding-top: 10px;

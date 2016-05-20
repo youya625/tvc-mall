@@ -9,6 +9,8 @@
     <link href="../styles/icon-web.css" rel="stylesheet" />
     <link href="../styles/modules/bootstrap.min.css" rel="stylesheet" />
     <link href="../styles/pages/products-list.min.css" rel="stylesheet" />
+    <link href="../styles/modules/icheck-orange.css" rel="stylesheet" />
+
 </head>
 <body id="page-products-list">
     <!--header-->
@@ -46,33 +48,743 @@
     <div class="content">
         <!--filter-->
         <div class="filter">
-            <div class="products-filter-1">
+            <div class="active-filter">
+                <div class="active-filter-item">
+                    <h3 class="filter-title">
+                        Categories
+                        <a class="clear-all">
+                            Clear All
+                        </a>
+                    </h3>
+                    <div class="filter-content">
+                        <div class="title-wrap" data-type='j-collapse' data-status="open">
+                            <div class="t-left">
+                                <span class="c-name">Category</span>
+                                : 2 selected
+                            </div>
+                            <div class="t-right">
+                                <i class="icon-triangle-down"></i>
+                            </div>
+                        </div>
+                        <ul class="active-items-list" data-type='j-collapse-item'>
+                            <li class="active-item">
+                                <div class="item-name">
+                                    Security & Surveillance
+                                </div>
+                                <a class="item-delete">
+                                    x
+                                </a>
+                            </li>
+                            <li class="active-item">
+                                <div class="item-name">
+                                    Security & Surveillance
+                                </div>
+                                <a class="item-delete">
+                                    x
+                                </a>
+                            </li>
+                            <li class="active-item">
+                                <div class="item-name">
+                                    Security & Surveillance
+                                </div>
+                                <a class="item-delete">
+                                    x
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="#" class="clear-section">
+                            Clear all selections
+                        </a>
+                    </div>
+                    <div class="filter-content">
+                        <div class="title-wrap" data-type='j-collapse' data-status="open">
+                            <div class="t-left">
+                                <span class="c-name">Category</span>
+                                : 2 selected
+                            </div>
+                            <div class="t-right">
+                                <i class="icon-triangle-down"></i>
+                            </div>
+                        </div>
+                        <ul class="active-items-list" data-type='j-collapse-item'>
+                            <li class="active-item">
+                                <div class="item-name">
+                                    Security & Surveillance
+                                </div>
+                                <a class="item-delete">
+                                    x
+                                </a>
+                            </li>
+                            <li class="active-item">
+                                <div class="item-name">
+                                    Security & Surveillance
+                                </div>
+                                <a class="item-delete">
+                                    x
+                                </a>
+                            </li>
+                            <li class="active-item">
+                                <div class="item-name">
+                                    Security & Surveillance
+                                </div>
+                                <a class="item-delete">
+                                    x
+                                </a>
+                            </li>
+                        </ul>
+                        <a href="#" class="clear-section">
+                            Clear all selections
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="products-filter-2">
                 <h3 class="filter-title">
                     Browse by Categories
                 </h3>
-                <ul class="filter-items">
-                    <li>
-                        <i class="icon-triangle-right"></i>
-                        <a href="#">Mobile Accessories</a>
-                    </li>
-                    <li>
-                        <i class="icon-triangle-right"></i>
-                        <a href="#">Mobile Accessories</a>
-                    </li>
-                    <li>
-                        <i class="icon-triangle-right"></i>
-                        <a href="#">Mobile Accessories</a>
-                    </li>
-                    <li>
-                        <i class="icon-triangle-right"></i>
-                        <a href="#">Mobile Accessories</a>
-                    </li>
-                    <li>
-                        <i class="icon-triangle-right"></i>
-                        <a href="#">Mobile Accessories</a>
-                    </li>
-                </ul>
+
+                <div class="filter-items-wrap" data-type="j-toggle-item">
+                    <div class="filter-item-name" data-type="j-collapse" data-status="open">
+                        Brand
+                        <i class="icon-triangle-down"></i>
+                    </div>
+                    <div class="filter-wrap" data-type="j-collapse-item">
+                        <div class="filter-item-name inner-bar">
+                            <div>
+                                Brand
+                                (<span class="select-count">0</span> selected)
+                                <a class="clear-link">Clear</a>
+                            </div>
+                            <div>
+                                <a class="close">X</a>
+                            </div>
+                        </div>
+                        <div class="filter-list-wrap">
+                            <ul class="filter-items-list">
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="filter-choice">
+                            <a href="#" class="btn btn-default btn-sm btn-apply">Apply</a>
+                            <a class="btn btn-default btn-sm btn-close">Cancel</a>
+                        </div>
+                    </div>
+
+                    <div class="filter-botom-section">
+                        (
+                        <span class="select-count">0</span> selected)
+                    </div>
+                </div>
+
+                <div class="filter-items-wrap" data-type="j-toggle-item">
+                    <div class="filter-item-name" data-type="j-collapse" data-status="open">
+                        Brand
+                        <i class="icon-triangle-down"></i>
+                    </div>
+                    <div class="filter-wrap" data-type="j-collapse-item">
+                        <div class="filter-item-name inner-bar">
+                            <div>
+                                Brand
+                                (<span class="select-count">0</span> selected)
+                                <a class="clear-link">Clear</a>
+                            </div>
+                            <div>
+                                <a class="close">X</a>
+                            </div>
+                        </div>
+                        <div class="filter-list-wrap">
+                            <ul class="filter-items-list">
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                            </ul>
+                            <ul class="filter-items-list">
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                            </ul>
+                            <ul class="filter-items-list">
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="filter-choice">
+                            <a href="#" class="btn btn-default btn-sm btn-apply">Apply</a>
+                            <a class="btn btn-default btn-sm btn-close">Cancel</a>
+                        </div>
+                    </div>
+
+                    <div class="filter-botom-section">
+                        (
+                        <span class="select-count">0</span> selected)
+                        <span class="more-link" href="#">View More>></span>
+                    </div>
+                </div>
+
+                <div class="filter-items-wrap" data-type="j-toggle-item">
+                    <div class="filter-item-name" data-type="j-collapse" data-status="open">
+                        Brand
+                        <i class="icon-triangle-down"></i>
+                    </div>
+                    <div class="filter-wrap" data-type="j-collapse-item">
+                        <div class="filter-item-name inner-bar">
+                            <div>
+                                Brand
+                                (<span class="select-count">0</span> selected)
+                                <a class="clear-link">Clear</a>
+                            </div>
+                            <div>
+                                <a class="close">X</a>
+                            </div>
+                        </div>
+                        <div class="filter-list-wrap">
+                            <ul class="filter-items-list">
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                            </ul>
+                            <ul class="filter-items-list">
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                            </ul>
+                            <ul class="filter-items-list">
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                            </ul>
+                            <ul class="filter-items-list">
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                            </ul>
+                            <ul class="filter-items-list">
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                            </ul>
+                            <ul class="filter-items-list">
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                            </ul>
+                            <ul class="filter-items-list">
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                            </ul>
+                            <ul class="filter-items-list">
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                            </ul>
+                            <ul class="filter-items-list">
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="filter-choice">
+                            <a href="#" class="btn btn-default btn-sm btn-apply">Apply</a>
+                            <a class="btn btn-default btn-sm btn-close">Cancel</a>
+                        </div>
+                    </div>
+
+                    <div class="filter-botom-section">
+                        (
+                        <span class="select-count">0</span> selected)
+                        <span class="more-link" href="#">View More>></span>
+                    </div>
+                </div>
+
+                <div class="filter-items-wrap" data-type="j-toggle-item">
+                    <div class="filter-item-name" data-type="j-collapse" data-status="open">
+                        Brand
+                        <i class="icon-triangle-down"></i>
+                    </div>
+                    <div class="filter-wrap" data-type="j-collapse-item">
+                        <div class="filter-item-name inner-bar">
+                            <div>
+                                Brand
+                                (<span class="select-count">0</span> selected)
+                                <a class="clear-link">Clear</a>
+                            </div>
+                            <div>
+                                <a class="close">X</a>
+                            </div>
+                        </div>
+                        <div class="filter-list-wrap">
+                            <ul class="filter-items-list">
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+
+                            </ul>
+                        </div>
+                        <div class="filter-choice">
+                            <a href="#" class="btn btn-default btn-sm btn-apply">Apply</a>
+                            <a class="btn btn-default btn-sm btn-close">Cancel</a>
+                        </div>
+                    </div>
+
+                    <div class="filter-botom-section">
+                        (
+                        <span class="select-count">0</span> selected)
+                        <span class="more-link" href="#">View More>></span>
+                    </div>
+                </div>
+
+                <div class="filter-items-wrap" data-type="j-toggle-item">
+                    <div class="filter-item-name" data-type="j-collapse" data-status="open">
+                        Brand
+                        <i class="icon-triangle-down"></i>
+                    </div>
+                    <div class="filter-wrap" data-type="j-collapse-item">
+                        <div class="filter-item-name inner-bar">
+                            <div>
+                                Brand
+                                (<span class="select-count">0</span> selected)
+                                <a class="clear-link">Clear</a>
+                            </div>
+                            <div>
+                                <a class="close">X</a>
+                            </div>
+                        </div>
+                        <div class="filter-list-wrap">
+                            <ul class="filter-items-list">
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                                <li class="filter-item">
+                                    <input type="checkbox">
+                                    <span class="filter-option-name">Casecube(47)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="filter-choice">
+                            <a href="#" class="btn btn-default btn-sm btn-apply">Apply</a>
+                            <a class="btn btn-default btn-sm btn-close">Cancel</a>
+                        </div>
+                    </div>
+
+                    <div class="filter-botom-section">
+                        (
+                        <span class="select-count">0</span> selected)
+                        <span class="more-link" href="#">View More>></span>
+                    </div>
+                </div>
+
+
+                <p class="show-toggle more">
+                    View more<span class="caret"></span>
+                </p>
+                <p class="show-toggle less hide">
+                    View less<span class="caret"></span>
+                </p>
             </div>
+
         </div>
         <!--products list-->
         <div class="list-view">
@@ -164,7 +876,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -221,7 +933,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -266,7 +978,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -311,7 +1023,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -356,7 +1068,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -401,7 +1113,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -446,7 +1158,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -491,7 +1203,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -536,7 +1248,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -581,7 +1293,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -626,7 +1338,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -671,7 +1383,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -716,7 +1428,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -761,7 +1473,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -806,7 +1518,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -851,7 +1563,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -896,7 +1608,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -941,7 +1653,7 @@
                         <div class="icon-topleft icon-web icon-new"></div>
                         <div class="img-wrap">
                             <a href="#">
-                                <img class="lazy" data-original="../images/pro.jpg"  src="../images/lazylogo.png"/>
+                                <img class="lazy" data-original="../images/big-pic.jpg" src="../images/lazylogo.png" />
                             </a>
                         </div>
                         <div class="pro-title">
@@ -1018,6 +1730,8 @@
     </footer>
     <script src="../js/jquery-2.2.3.min.js"></script>
     <script src="../js/jquery.lazyload.min.js"></script>
+    <script src="../js/icheck.min.js"></script>
+    <script src="../js/commen.js"></script>
     <script>
 
         $(function () {
@@ -1037,6 +1751,19 @@
 
             $("img.lazy").lazyload({
                 effect: "fadeIn"
+            });
+
+            $('input').iCheck({
+                checkboxClass: 'icheckbox_flat-orange',
+                radioClass: 'iradio_flat-orange'
+            });
+
+            $(".products-filter-2 .filter-list-wrap").each(function () {
+                $(this).atrributesFilter();
+            })
+
+            $(".products-filter-2").filterToggle({
+                defaultCount: 3
             });
         });
     </script>

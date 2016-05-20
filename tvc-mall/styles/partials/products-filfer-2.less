@@ -1,0 +1,227 @@
+﻿
+@import "mixins";
+
+.active-filter {
+    border: 1px solid @nomal-bg-color;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    color: #000;
+
+
+    .filter-title {
+        padding: 10px 25px;
+        font: @light-font;
+        color: #000;
+        font-size: 17px;
+        background-color: #f7f7f7;
+        border-bottom: 1px solid @nomal-bg-color;
+
+        .clear-all {
+            margin-top: 3px;
+            float: right;
+            font-size: 14px;
+            text-decoration: underline;
+        }
+    }
+
+    .filter-content {
+        .title-wrap {
+            display: flex;
+            justify-content: space-between;
+            margin: 5px 10px;
+
+            .c-name {
+                font-weight: 600;
+            }
+
+            .t-right {
+                width: 30px;
+                text-align: right;
+                cursor: pointer;
+            }
+        }
+
+        .clear-section {
+            display: block;
+            font-size: 14px;
+            margin-top: 5px;
+            margin-right: 20px;
+            text-align: right;
+            color: #000;
+            text-decoration: underline;
+        }
+
+        .active-items-list {
+            .active-item {
+                display: flex;
+                justify-content: space-between;
+                border-bottom: 1px dashed @gray-darker;
+                width: 90%;
+                margin: 0 auto;
+
+                .item-name {
+                    width: 140px;
+                    margin-left: 20px;
+                    .text-overflow();
+                }
+
+                .item-delete {
+                    display: block;
+                    width: 20px;
+                }
+            }
+        }
+    }
+}
+
+
+.products-filter-2 {
+    border: 1px solid @nomal-bg-color;
+
+    .filter-title {
+        padding: 10px 25px;
+        font: @light-font;
+        color: #000;
+        font-size: 17px;
+        background-color: #f7f7f7;
+        border-bottom: 1px solid @nomal-bg-color;
+    }
+
+    .filter-items-wrap {
+        padding-bottom: 5px;
+
+        .filter-item-name {
+            display: flex;
+            justify-content: space-between;
+            padding: 10px 25px;
+            font: @light-font;
+            color: #000;
+            font-size: 17px;
+            background-color: #fff;
+            border-top: 1px solid @nomal-bg-color;
+            border-bottom: 1px solid @nomal-bg-color;
+            cursor: pointer;
+
+            .clear-link {
+                color: #000;
+                text-decoration: underline;
+            }
+        }
+        //底部
+        .filter-botom-section {
+            height: 40px;
+            line-height: 30px;
+            margin-left: 20px;
+            color: #000;
+
+            .more-link {
+                cursor: pointer;
+                margin-left: 10px;
+            }
+        }
+    }
+
+    .filter-wrap {
+
+
+        .inner-bar {
+            display: none;
+        }
+
+        .filter-list-wrap {
+            display: flex;
+            justify-content: space-between;
+            flex-direction: column;
+            flex-flow: wrap;
+            max-height: 240px;
+            overflow: hidden;
+            margin-top: 10px;
+
+
+            .filter-items-list {
+                padding-left: 22px;
+                padding-right: 15px;
+                max-height: 240px;
+
+
+                .filter-item {
+                    display: block;
+                    padding: 5px 0;
+
+                    a {
+                        &:hover {
+                            color: @nomal-color;
+                        }
+                    }
+                }
+
+                .filter-option-name {
+                    display: inline-block;
+                    max-width: 81px;
+                    .text-overflow();
+                    vertical-align: middle;
+                    margin-left: 5px;
+                    color: #000;
+                }
+            }
+        }
+        //选择应用或取消
+        .filter-choice {
+            display: none;
+            border-top: 1px solid @gray-dark;
+
+            .btn {
+                margin: 5px 0 5px 20px;
+            }
+
+            .btn-apply {
+                background-color: @nomal-color;
+                border: none;
+                color: #fff;
+            }
+        }
+        //筛选框被选中
+        &.filter-select {
+            background-color: #fff;
+            box-shadow: 0 0 15px @gray-darker;
+
+            .filter-choice {
+                display: block;
+            }
+
+            .inner-bar {
+                display: flex;
+                border-top: none;
+
+                .close {
+                    display: inline-block;
+                    width: 30px;
+                    text-align: right;
+                }
+            }
+        }
+    }
+
+
+
+
+    .show-toggle {
+        width: 100%;
+        text-align: center;
+        color: @nomal-color;
+        height: 50px;
+        line-height: 50px;
+        cursor: pointer;
+        border-top: 1px solid @gray-dark;
+
+        .caret {
+            color: #000;
+            margin-left: 5px;
+        }
+
+        &.less .caret {
+            border-bottom: 4px dashed;
+            border-top: none;
+        }
+    }
+}

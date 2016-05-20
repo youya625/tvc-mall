@@ -1248,6 +1248,9 @@ a:hover {
 .modal-dialog {
   top: 60px !important;
 }
+.f-weight {
+  font-weight: 600;
+}
 @-webkit-keyframes icon-rotate {
   from {
     -webkit-transform: rotate(0deg);

@@ -398,9 +398,9 @@
     <script src="../js/commen.js"></script>
     <script src="../js/jquery.jqzoom-core.js"></script>
     <script src="../js/jquery.carouse.js"></script>
-    <script src="../js/tab.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
     <script src="../js/jquery.lazyload.min.js"></script>
-    <script src="../js/modal.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
     <script src="../js/jquery.pin.js"></script>
     <script>
 

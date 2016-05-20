@@ -1,0 +1,123 @@
+﻿@import "mixins";
+
+//产品咨询
+.product-inquery {
+    .inquery-input-area {
+        height: 200px;
+        width: 100%;
+        vertical-align: top;
+        outline: none;
+        resize: none;
+        margin-top: 20px;
+    }
+
+    .submit-inquery {
+        display: inline-block;
+        float: right;
+        margin-top: 10px;
+        background-color: @nomal-color;
+        color: #fff;
+        border: none;
+    }
+
+    .inquery-list {
+
+
+        .q-item {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 20px;
+            padding-bottom: 10px;
+            border-bottom: 1px solid @gray-dark;
+            //头像用户名等信息
+            .user-info {
+                margin-left: 25px;
+                color: #000;
+
+                .avatar {
+                    display: block;
+                    border: 1px solid @gray-dark;
+
+                    img {
+                        max-width: 75px;
+                    }
+                }
+
+                .user-position {
+                    margin-top: 5px;
+                }
+            }
+
+            .r-info {
+                margin-left: 30px;
+
+                .q-content-wrap {
+                    padding: 10px;
+                    position: relative;
+                    border: 1px solid @gray-dark;
+                    background-color: @gray-dark;
+                    color: #000;
+                    width: 790px;
+                }
+
+                .q-arrow-left {
+                    display: block;
+                    border-bottom: 10px solid transparent;
+                    border-top: 10px solid transparent;
+                    position: absolute;
+                    left: -10px;
+                    top: 10px;
+                    height: 0;
+                    width: 0;
+                    border-right: 10px solid @gray-dark;
+                }
+
+                .date-time {
+                    text-align: right;
+                }
+
+
+
+                .answer-wrap {
+                    margin-top: 10px;
+
+                    .answer-content {
+                        padding: 10px;
+                        position: relative;
+                        border: 1px solid @gray-dark;
+                        background-color: @gray-dark;
+                        color: #000;
+                        width: 680px;
+
+                        .q-arrow-right {
+                            display: block;
+                            border-bottom: 10px solid transparent;
+                            border-top: 10px solid transparent;
+                            position: absolute;
+                            right: -10px;
+                            top: 10px;
+                            height: 0;
+                            width: 0;
+                            border-left: 10px solid @gray-dark;
+                        }
+
+                        .date-time {
+                            text-align: right;
+                        }
+                    }
+
+                    display: flex;
+                    justify-content: space-between;
+
+                    .avatar-info {
+                        border: 1px solid @gray-dark;
+
+                        img {
+                            max-width: 75px;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

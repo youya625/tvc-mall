@@ -1,17 +1,11 @@
-﻿@import "../modules/bootstrap.less";
-@import "../partials/site-top-nav.less";
-@import "../partials/site-search.less";
-@import "../partials/site-main-nav.less";
-@import "../partials/footer.less";
-@import "../partials/cross-aside.less";
-@import "../partials/location.less";
-@import "../partials/products-filfer-1.less";
-@import "../partials/start-rating.less";
+﻿@import "../partials/location.less";
+@import "../partials/products-filfer-2.less";
 @import "../partials/products-list-selector.less";
 @import "../partials/products-grid-view.less";
 @import "../partials/products-list-view.less";
 @import "../partials/pagination.less";
 @import "../responsive.less";
+@import "../partials/mixins";
 
 
 #page-products-list {  
@@ -23,6 +17,7 @@
 
         .filter {
             width: 220px;
+            z-index: 99;
         }
     }
 }
