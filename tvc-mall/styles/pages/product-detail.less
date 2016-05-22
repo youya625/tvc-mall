@@ -9,6 +9,18 @@
         width: @page-width;
         .center();
     }
+
+    .add-cart {
+        .icon-cart {
+            font-size: 16px;
+        }
+
+        background-color: @nomal-color;
+        font: @nomal-font;
+        font-size: 20px;
+        color: #fff;
+        border: none;
+    }
     //商品属性
     .p-property {
         display: flex;
@@ -242,18 +254,6 @@
             margin-left: 80px;
             margin-top: 20px;
 
-            .add-cart {
-                .icon-cart {
-                    font-size: 16px;
-                }
-
-                background-color: @nomal-color;
-                font: @nomal-font;
-                font-size: 20px;
-                color: #fff;
-                border: none;
-            }
-
             .check-out {
                 margin-left: 20px;
                 vertical-align: bottom;
@@ -278,6 +278,7 @@
                 }
 
                 .ship-price {
+                    margin-left: 9px;
                     font: @nomal-font;
                     color: @nomal-color;
                 }
@@ -286,61 +287,61 @@
             .more-ship {
                 text-decoration: underline;
             }
-            //价格区间
-            .price-interval {
-                margin-top: 20px;
+        }
+    }
+    //价格区间
+    .price-interval {
+        margin-top: 20px;
 
-                .interval-tips {
+        .interval-tips {
+            color: #000;
+
+            .tips-item {
+                margin-right: 40px;
+            }
+
+            a {
+                text-decoration: underline;
+            }
+        }
+
+        .pi-data {
+            display: flex;
+            justify-content: flex-start;
+            width: 450px;
+            margin-top: 10px;
+
+
+            .data-item {
+                border: 1px solid @gray-dark;
+                margin-left: -1px;
+                flex: 1;
+
+                .item-title {
+                    height: 28px;
+                    width: 75px;
+                    line-height: 28px;
                     color: #000;
+                    border-bottom: 1px solid @gray-dark;
+                    text-align: center;
+                }
 
-                    .tips-item {
-                        margin-right: 40px;
-                    }
+                .item-content {
+                    height: 28px;
+                    line-height: 28px;
+                    width: 75px;
+                    text-align: center;
+                    color: @nomal-color;
 
-                    a {
-                        text-decoration: underline;
+
+                    &.delete {
+                        color: #000;
+                        text-decoration: line-through;
                     }
                 }
 
-                .pi-data {
-                    display: flex;
-                    justify-content: flex-start;
-                    width: 450px;
-                    margin-top: 10px;
-
-
-                    .data-item {
-                        border: 1px solid @gray-dark;
-                        margin-left: -1px;
-                        flex: 1;
-
-                        .item-title {
-                            height: 28px;
-                            width: 75px;
-                            line-height: 28px;
-                            color: #000;
-                            border-bottom: 1px solid @gray-dark;
-                            text-align: center;
-                        }
-
-                        .item-content {
-                            height: 28px;
-                            line-height: 28px;
-                            width: 75px;
-                            text-align: center;
-                            color: @nomal-color;
-
-
-                            &.delete {
-                                color: #000;
-                                text-decoration: line-through;
-                            }
-                        }
-
-                        &.select {
-                            background-color: #fffcc9;
-                        }
-                    }
+                &.select {
+                    background-color: #fffcc9;
                 }
             }
         }
@@ -555,6 +556,137 @@
                         max-width: 960px;
                     }
                 }
+            }
+        }
+    }
+    //alert us 对话框
+    #alertUsModal {
+        .data-input {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .detail-input {
+            height: 200px;
+        }
+
+        .text {
+            margin-top: 20px;
+        }
+    }
+    //运费对话框
+    #shippingModal {
+        color: #000;
+        .mg9{
+            margin-left: 9px;
+        }
+        .modal-title {
+            .text-overflow();
+        }
+
+        .data-input {
+            width: 100%;
+            margin-top: 20px;
+        }
+
+        .detail-input {
+            height: 200px;
+        }
+
+        .text {
+            margin-top: 10px;
+
+            .text-item {
+                margin-right: 30px;
+            }
+
+            .price {
+                font-size: 21px;
+            }
+        }
+
+        .item-weight {
+            color: @gray-darker !important;
+        }
+
+        .pic-ship {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .table {
+            margin-top: 10px;
+
+            td {
+                vertical-align: middle !important;
+            }
+        }
+
+        .btn-group.bootstrap-select {
+            width: 720px;
+        }
+
+        .bootstrap-select.btn-group .form-control {
+            width: 675px;
+            height: 20px;
+        }
+    }
+
+    #buyinbulkModal {
+        .text {
+            margin-top: 10px;
+
+            .text-item {
+                margin-right: 30px;
+            }
+        }
+
+        .add-cart {
+            margin-left: 20px;
+        }
+
+        .table {
+            margin-top: 10px;
+
+            th {
+                vertical-align: middle;
+            }
+
+            td {
+                vertical-align: middle !important;
+
+                .item-lable {
+                    color: #000;
+                    margin-right: 5px;
+                }
+            }
+
+            img {
+                max-width: 50px;
+            }
+
+            .item-count-input {
+                display: inline-block;
+                width: 60px;
+                height: 20px;
+            }
+        }
+
+        .mg45 {
+            margin-left: 25px;
+        }
+
+        .mg20 {
+            margin-right: 20px;
+        }
+
+        .btm-section {
+            height: 50px;
+            line-height: 50px;
+            text-align: right;
+
+            .big {
+                font-size: 21px;
             }
         }
     }

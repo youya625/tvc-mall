@@ -42,5 +42,13 @@
   {
     "outputFile": "styles/pages/product-list.css",
     "inputFile": "styles/pages/product-list.less"
+  },
+  {
+    "outputFile": "styles/pages/product-reviews-list.css",
+    "inputFile": "styles/pages/product-reviews-list.less"
+  },
+  {
+    "outputFile": "styles/pages/product-inquery-list.css",
+    "inputFile": "styles/pages/product-inquery-list.less"
   }
 ]

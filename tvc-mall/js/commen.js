@@ -33,6 +33,7 @@
             colWidth: 150
         }, data || {});
 
+
         var $dom = $(this);
         var $checkBoxs = $dom.find("input[type=checkbox]");
         var $filterWrap = $dom.parent(".filter-wrap");
@@ -51,6 +52,8 @@
         $filterWrap.show();
         //打开
         var boxShow = function () {
+
+
             $filterWrap.addClass("filter-select");
             $filterWrap.prev(".filter-item-name").hide();
             $filterWrap.next(".filter-botom-section").hide();
@@ -68,6 +71,8 @@
             $selectedCount.html(0);
         }
 
+
+
         //点击选项和更多链接时打开容器
         $checkBoxs.on('ifChecked', boxShow);
         $boxShowLink.click(boxShow);
@@ -81,29 +86,69 @@
         $checkBoxs.on('ifToggled', function (event) {
             var selectCount = $dom.find("input[type=checkbox]:checked").length;
             $selectedCount.html(selectCount);
-            console.log($selectedCount);
         });
 
         $topClose.click(boxClose);
         $bottomClose.click(boxClose);
+
+        //$(window).click(function (e) {
+        //    var _target = $(e.target);
+        //    var $parent = _target.parents("[data-type='j-collapse-item']");
+        //    if ($parent.length == 0 && _target.attr("class") != "more-link") {
+        //        boxClose();
+        //    }
+        //})
     }
 });
 
 
 $(function () {
+    //折叠
     $("[data-type='j-collapse']").click(function () {
         var $item = $(this).next("[data-type='j-collapse-item']");
 
         if ($(this).attr("data-status") == "open") {
-            $(this).find("i").attr("class", "icon-triangle-top");
+            $(this).find("i").attr("class", "icon-triangle-down");
             $(this).attr("data-status", "close");
             $item.next(".filter-botom-section").find(".more-link").hide();
             $item.hide();
         } else {
-            $(this).find("i").attr("class", "icon-triangle-down");
+            $(this).find("i").attr("class", "icon-triangle-top");
             $(this).attr("data-status", "open");
             $item.next(".filter-botom-section").find(".more-link").show();
             $item.show();
+        }
+    })
+
+    //批量购买
+    $("[data-type='bulk-all-checkbox']").on('ifToggled', function (event) {
+        if ($(this).is(':checked')) {
+            $("[data-type='bulk-item']").iCheck("check");
+        } else {
+            $("[data-type='bulk-item']").iCheck("uncheck");
+        }
+    });
+    $("[data-type='bulk-modify-all']").click(function (event) {
+        $("[data-type='bulk-item-count']").val($("[data-type='bulk-all-count']").val());
+    })
+    $("[data-type='bulk-all-count'], [data-type='bulk-item-count']").keyup(function (event) {
+        if (!RegExp(/^[1-9]\d*$/).test($(this).val())) {
+            $(this).val("");
+        }
+    })
+
+
+
+    $(window).click(function (e) {
+        var _target = $(e.target);
+        var $parent = _target.parents("[data-type='j-collapse-item']");
+        if ($parent.length == 0 && _target.attr("class") != "more-link") {
+            $(".filter-wrap").removeClass("filter-select");
+            $(".filter-wrap").width(218);
+            $(".filter-wrap").prev(".filter-item-name").show();
+            $(".filter-wrap").next(".filter-botom-section").show();
+            $("input[type=checkbox]").iCheck('uncheck');
+            $(".select-count").html(0);
         }
     })
 })

@@ -11,6 +11,8 @@
     <link href="../styles/pages/product-detail.min.css" rel="stylesheet" />
     <link href="../styles/modules/jquery.jqzoom.css" rel="stylesheet" />
     <link href="../styles/pic-pay.css" rel="stylesheet" />
+    <link href="../styles/pic-ship.css" rel="stylesheet" />
+    <link href="../styles/modules/icheck-orange.css" rel="stylesheet" />
 </head>
 <body id="product-detail">
     <!--header-->
@@ -215,9 +217,9 @@
                     </div>
                 </div>
 
-                <div class="btn btn-default bulk-buy-btn">
+                <a class="btn btn-default bulk-buy-btn" data-toggle="modal" data-target="#buyinbulkModal">
                     Buy in bulk >
-                </div>
+                </a>
 
                 <div class="detail-item">
                     <span class="lable lable-price">Price:</span>
@@ -259,7 +261,7 @@
                         (Ship to American Samoa via Regular Mail(No tracking)
                     </p>
                     <p>
-                        <a href="javascript:void(0);" class="more-ship">
+                        <a href="javascript:void(0);" class="more-ship" data-toggle="modal" data-target="#shippingModal">
                             More Shipping Options
                         </a>
                         )
@@ -802,7 +804,7 @@
                                     <div class="q-content-wrap">
                                         <span class="q-arrow-left"></span>
                                         <span class="f-weight">
-                                            Q: 
+                                            Q:
                                         </span>
                                         why so good。
                                         <p class="date-time">
@@ -813,12 +815,12 @@
                                         <div class="answer-content">
                                             <span class="q-arrow-right"></span>
                                             <span class="f-weight">
-                                                TVC: 
+                                                TVC:
                                             </span>
                                             <span class="n-color">
                                                 hehe。
                                             </span>
-                                            
+
                                             <p class="date-time">
                                                 01/06/2016
                                             </p>
@@ -916,15 +918,367 @@
         </div>
     </div>
     <!--footer-->
-
+    <!--alert us modal-->
     <div id="alertUsModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                     <h4 class="modal-title" id="gridSystemModalLabel">Found lower price elsewhere</h4>
+                    <button type="button" class="btn close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
                 </div>
-                Tell us about the lower prices you found elsewhere.
+                <p class="text">
+                    Tell us about the lower prices you found elsewhere.
+                </p>
+                <form>
+                    <p>
+                        <input type="text" class="data-input" value="" placeholder="Email">
+                    </p>
+                    <p>
+                        <input type="text" class="data-input" value="" placeholder="URL with lower price *">
+                    </p>
+                    <p>
+                        <textarea class="data-input detail-input" placeholder="More details..." maxlength="500"></textarea>
+                    </p>
+                    <p class="submit-wrap-btn">
+                        <input type="button" value="Submit" class="btn btn-default">
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <!--shipping modal-->
+    <div id="shippingModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="gridSystemModalLabel">Mercury GOOSPERY Fancy Diary Wallet Style Leather Stand Case Cover for iPhone SE 5s 5 - </h4>
+                    <button type="button" class="btn close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="text">
+                    <span class="text-item">
+                        Qty: 1
+                    </span>
+                    <span class="text-item">
+                        Gross Weight: 0.019 kgs
+                    </span>
+                    <span class="text-item">
+                        Volume Weight: 0.019 kgs
+                    </span>
+                </div>
+                <div class="text">
+                    <span class="text-item ">
+                        Country/Region:
+                    </span>
+                    <select class="selectpicker" data-live-search="true" title="Select a brand">
+                        <option>Hot Doa Soda</option>
+                        <option>Burga Smile</option>
+                        <option>Suga nice</option>
+                        <option>Baby Back Ribs</option>
+                        <option>A really really</option>
+                        <option>Hoand a Soda</option>
+                        <option>Burg Smile</option>
+                        <option>Sugags nice</option>
+                        <option>Baby Back Ribs</option>
+                        <option>A really really</option>
+                        <option>Hotda</option>
+                        <option>Burgerle</option>
+                        <option>ll things nice</option>
+                        <option>Baby Back Ribs</option>
+                        <option>A really really</option>
+                        <option>Hot oda</option>
+                        <option>Burgmile</option>
+                        <option>Sugar, Spie</option>
+                        <option>Baby Back Ribs</option>
+                        <option>A really really</option>
+                    </select>
+                </div>
+                <div class="text">
+                    <span class="text-item">
+                        Shipping Cost:
+                    </span>
+                    <span class="n-color price mg9">
+                        $ 0.80
+                    </span>
+                </div>
+                <div class="text">
+                    <span class="pic-ship RGM">
+                    </span>
+                    <span class="item-lable">
+                        Regular Mail(No tracking)
+                    </span>
+                    <span class="item-weight">
+                        (10-25 business days(NOT recommeded for order above $150.))
+                    </span>
+                </div>
+                <table class="table">
+                    <tr>
+                        <th>Shipping Method</th>
+                        <th>Shipping Cost</th>
+                        <th>Delivery Time</th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="pic-ship AEX">
+                            </span>
+                            Regular Mail(No tracking)
+                        </td>
+                        <td>
+                            <span class="n-color">
+                                $ 0.80
+                            </span>
+                        </td>
+                        <td>10-25 business days(NOT recommeded for order above $150.)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="pic-ship CNP">
+                            </span>
+                            Regular Mail(No tracking)
+                        </td>
+                        <td>
+                            <span class="n-color">
+                                $ 0.80
+                            </span>
+                        </td>
+                        <td>10-25 business days(NOT recommeded for order above $150.)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="pic-ship DHL">
+                            </span>
+                            Regular Mail(No tracking)
+                        </td>
+                        <td>
+                            <span class="n-color">
+                                $ 0.80
+                            </span>
+                        </td>
+                        <td>10-25 business days(NOT recommeded for order above $150.)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="pic-ship EMS">
+                            </span>
+                            Regular Mail(No tracking)
+                        </td>
+                        <td>
+                            <span class="n-color">
+                                $ 0.80
+                            </span>
+                        </td>
+                        <td>10-25 business days(NOT recommeded for order above $150.)</td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <span class="pic-ship EMS">
+                            </span>
+                            Regular Mail(No tracking)
+                        </td>
+                        <td>
+                            <span class="n-color">
+                                $ 0.80
+                            </span>
+                        </td>
+                        <td>10-25 business days(NOT recommeded for order above $150.)</td>
+                    </tr>
+
+                </table>
+            </div>
+        </div>
+    </div>
+
+    <!--buy in bulk modal-->
+    <div id="buyinbulkModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="gridSystemModalLabel">Glossy Protective Soft TPU Cover Shell for iPhone 6s / 6 4.7 - Grey</h4>
+                    <button type="button" class="btn close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <div class="text">
+                    <span class="text-item">
+                        L/T: 1 - 3 Days
+                    </span>
+                    <span class="text-item">
+                        MOQ: 1
+                    </span>
+                    units Price:
+                    <span class="n-color">
+                        $ 0.77
+                    </span>
+                </div>
+                <div class="price-interval">
+                    <div class="pi-data">
+                        <div class="data-item select">
+                            <div class="item-title">
+                                1+ units
+                            </div>
+                            <div class="item-content">
+                                $ 2.26
+                            </div>
+                        </div>
+                        <div class="data-item">
+                            <div class="item-title">
+                                5+ units
+                            </div>
+                            <div class="item-content">
+                                $ 2.26
+                            </div>
+                        </div>
+                        <div class="data-item">
+                            <div class="item-title">
+                                8+ units
+                            </div>
+                            <div class="item-content">
+                                $ 2.26
+                            </div>
+                        </div>
+                        <div class="data-item">
+                            <div class="item-title">
+                                10+ units
+                            </div>
+                            <div class="item-content">
+                                $ 2.26
+                            </div>
+                        </div>
+                        <div class="data-item">
+                            <div class="item-title">
+                                20+ units
+                            </div>
+                            <div class="item-content delete">
+                                $ 2.26
+                            </div>
+                        </div>
+                        <div class="data-item">
+                            <div class="item-title">
+                                Large order
+                            </div>
+                            <div class="item-content">
+                                <a href="#">
+                                    Inquiry
+                                </a>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <table class="table table-hover">
+                    <tr>
+                        <th>
+                            <input data-type="bulk-all-checkbox" type="checkbox">
+                        </th>
+                        <th>Picture</th>
+                        <th>PictureDescriptionQty</th>
+                        <th>
+                            <p>
+                                Qty
+                                <input data-type="bulk-all-count" type="text" value="1" class="item-count-input form-control" />
+                                <a data-type="bulk-modify-all" class="btn btn-default btn-sm">Modify All</a>
+                            </p>
+
+                        </th>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input data-type="bulk-item" type="checkbox">
+                        </td>
+                        <td>
+                            <img src="../images/big-pic.jpg" />
+                        </td>
+                        <td>
+                            <p>
+                                <span class="item-lable">
+                                    Item No:
+                                </span>
+
+                                I6-623B
+                            </p>
+
+                            <p>
+                                <span class="item-lable">
+                                    Color:
+                                </span>
+                                Grey
+                            </p>
+                        </td>
+                        <td>
+                            <input data-type="bulk-item-count" type="text" value="1" class="mg45 item-count-input form-control" />
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input data-type="bulk-item" type="checkbox">
+                        </td>
+                        <td>
+                            <img src="../images/big-pic.jpg" />
+                        </td>
+                        <td>
+                            <p>
+                                <span class="item-lable">
+                                    Item No:
+                                </span>
+
+                                I6-623B
+                            </p>
+
+                            <p>
+                                <span class="item-lable">
+                                    Color:
+                                </span>
+                                Grey
+                            </p>
+                        </td>
+                        <td>
+                            <input data-type="bulk-item-count" type="text" value="1" class="mg45 item-count-input form-control" />
+
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input data-type="bulk-item" type="checkbox">
+                        </td>
+                        <td>
+                            <img src="../images/big-pic.jpg" />
+                        </td>
+                        <td>
+                            <p>
+                                <span class="item-lable">
+                                    Item No:
+                                </span>
+
+                                I6-623B
+                            </p>
+
+                            <p>
+                                <span class="item-lable">
+                                    Color:
+                                </span>
+                                Grey
+                            </p>
+                        </td>
+                        <td>
+                            <input data-type="bulk-item-count" type="text" value="1" class="mg45 item-count-input form-control" />
+
+                        </td>
+                    </tr>
+                </table>
+                <div class="btm-section">
+                    Qty:
+                    <span class="n-color mg20 big">
+                        1
+                    </span>
+
+                    Total Price:
+                    <span class="n-color big">
+                        $ 0.77
+                    </span>
+                    <a href="#" class="btn btn-default add-cart">
+                        <i class="icon-cart"></i>
+                        Add to Cart
+                    </a>
+                </div>
             </div>
         </div>
     </div>
@@ -932,14 +1286,14 @@
         <!--By Ajax-->
     </footer>
     <script src="../js/jquery-2.2.3.min.js"></script>
-    <script src="../js/commen.js"></script>
     <script src="../js/jquery.jqzoom-core.js"></script>
     <script src="../js/jquery.carouse.js"></script>
     <script src="../js/bootstrap-tab.js"></script>
     <script src="../js/jquery.lazyload.min.js"></script>
     <script src="../js/bootstrap-modal.js"></script>
     <script src="../js/jquery.pin.js"></script>
-
+    <script src="../js/icheck.min.js"></script>
+    <script src="../js/commen.js"></script>
     <script>
         $(function () {
             $.get("share/header.html", function (html) {
@@ -956,12 +1310,7 @@
                 $("footer").html(html);
             });
 
-            $('.jqzoom').jqzoom({
-                zoomType: 'standard',
-                lens: true,
-                preloadImages: false,
-                alwaysOn: false,
-            });
+
 
             $('#images-slider').carousel({
                 interval: false
@@ -972,13 +1321,28 @@
                 $(this).tab('show')
             })
 
+            $(".tab-wrap").pin({
+                containerSelector: ".info-right"
+            })
+
+            //放大镜
+            $('.jqzoom').jqzoom({
+                zoomType: 'standard',
+                lens: true,
+                preloadImages: false,
+                alwaysOn: false,
+            });
+
+            //延迟加载
             $("img.lazy").lazyload({
                 effect: "fadeIn"
             });
 
-            $(".tab-wrap").pin({
-                containerSelector: ".info-right"
-            })
+            //checkbox初始化
+            $("input[type='checkbox']").iCheck({
+                checkboxClass: 'icheckbox_flat-orange',
+                radioClass: 'iradio_flat-orange'
+            });
         });
     </script>
 </body>

@@ -310,11 +310,60 @@
         width: 40px;
         height: 40px;
 
-        img{
+        img {
             max-width: 40px;
         }
     }
 }
+
+//已购买
+.purchased() {
+    //已购买
+    display: flex;
+    justify-content: flex-end;
+
+    .p-link {
+        position: relative;
+        width: 70px;
+        border: 1px solid @gray-dark;
+        color: @nomal-color;
+        cursor: pointer;
+        text-align: center;
+
+        &:hover .p-wrap {
+            display: block;
+        }
+    }
+
+    .p-wrap {
+        position: absolute;
+        bottom: 18px;
+        left: -150px;
+        display: none;
+        padding: 10px;
+        width: 366px;
+        border: 1px solid @gray-dark;
+        color: #000;
+        background-color: #fff;
+        text-align: left;
+
+        .p-items-wrap {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+
+            .p-item {
+                margin: 5px;
+
+                img {
+                    max-width: 40px;
+                    vertical-align: middle;
+                }
+            }
+        }
+    }
+}
+
 //商品4，列表页商品，Gird显示
 .list-gadget-item-4() {
     @product-hover-color: #fff; //商品选择边框颜色
@@ -347,7 +396,7 @@
         height: 220px;
         overflow: hidden;
 
-        img{
+        img {
             max-width: 220px;
         }
         /*img {
@@ -414,6 +463,10 @@
         margin-top: 5px;
         background-color: #fff;
         width: 220px;
+        //已购买
+        .purchased {
+            .purchased();
+        }
 
         .color-block {
             .color-block();
@@ -511,7 +564,7 @@
         }
 
         .rating-wrap {
-            margin: 10px 0;
+            margin: 0 0 10px 0;
 
             .rating {
                 .rating();
@@ -522,6 +575,10 @@
                     color: @nomal-color;
                 }
             }
+        }
+        //已购买
+        .purchased {
+            .purchased();
         }
     }
     //购买相关
@@ -541,8 +598,6 @@
         .color-block {
             .color-block();
             margin: 10px 0;
-
-
         }
 
         .btn-buy {

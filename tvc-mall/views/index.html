@@ -1440,6 +1440,7 @@
     <script src="../js/jquery.countdownTimer.min.js"></script>
     <script src="../js/jquery.lazyload.min.js"></script>
     <script src="../js/jquery.carouse.es5.min.js"></script>
+    <script src="../js/commen.js"></script>
     <script>
         $(function () {
             $.get("share/header.html", function (html) {
@@ -1471,12 +1472,6 @@
                 seconds: 10,
                 size: "lg",
             });
-
-            $("img.lazy").lazyload({
-                effect: "fadeIn"
-            });
-
-
             setInterval(function () { $(window).scroll(); }, 1000)
         })
 
