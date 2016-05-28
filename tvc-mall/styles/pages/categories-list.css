@@ -238,7 +238,7 @@
   padding-left: 6px;
   padding-right: 6px;
   background-color: #fff;
-  font: 14px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
   line-height: 30px;
   text-align: center;
   border: none;
@@ -406,7 +406,7 @@
   padding-left: 0;
   padding-right: 0;
   background-color: #ea511b;
-  font: 14px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
   line-height: 36px;
   text-align: center;
   border: none;
@@ -456,7 +456,7 @@
   padding-left: 0;
   padding-right: 0;
   background-color: #a0a0a0;
-  font: 14px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
   line-height: 40px;
   text-align: center;
   border: none;
@@ -523,7 +523,7 @@
   padding-left: 0;
   padding-right: 0;
   background-color: #ea511b;
-  font: 14px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
   line-height: 40px;
   text-align: center;
   border: none;
@@ -581,7 +581,7 @@
   padding-left: 0;
   padding-right: 0;
   background-color: #eeeeee;
-  font: 14px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
   line-height: 43px;
   text-align: center;
   border: none;
@@ -611,7 +611,7 @@
   padding-left: 15px;
   padding-right: 15px;
   background-color: #fff;
-  font: 14px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
   line-height: 42px;
   text-align: center;
   border: none;
@@ -720,7 +720,7 @@
   clear: both;
 }
 .site-main-nav .nav .categories .nc-brand dl .brand-link {
-  font: 14px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
   line-height: 24px;
   font-size: 12px;
 }
@@ -735,7 +735,7 @@
   width: 100%;
 }
 .site-main-nav .nav .categories .nc-brand dl dt .brand-title {
-  font: 14px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: #000;
   position: relative;
@@ -772,7 +772,7 @@
   display: flex;
   -ms-flex-pack: justify;
       justify-content: space-between;
-  font: 14px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
   font-size: 15px;
 }
 .site-main-nav .nav .categories .sub-catalog .sub-catalog-items {
@@ -790,7 +790,7 @@
   border-bottom: 1px solid #eeeeee;
 }
 .site-main-nav .nav .categories .sub-catalog .sub-catalog-items dt a {
-  font: 14px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
   font-size: 17px;
   color: #000;
 }
@@ -809,7 +809,7 @@
   color: #eeeeee;
 }
 .site-main-nav .nav .categories .sub-catalog .other-catalog dd a {
-  font: 14px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
   font-size: 17px;
   font-weight: 500;
 }
@@ -1135,7 +1135,7 @@ a:hover {
   top: 60px !important;
 }
 .f-weight {
-  font-weight: 600;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
 }
 .modal-header {
   display: -ms-flexbox;
@@ -1157,6 +1157,25 @@ a:hover {
 .bootstrap-select.btn-group .form-control {
   width: 135px;
   height: 20px;
+}
+.b-color {
+  color: deepskyblue !important;
+}
+.g-color {
+  color: #34a311 !important;
+}
+.table th {
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+}
+h2,
+h3,
+h3,
+h4 {
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+  font-size: 18px;
+}
+label {
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
 }
 @keyframes icon-rotate {
   from {
@@ -1322,7 +1341,7 @@ a:hover {
   padding-left: 0;
   padding-right: 0;
   background-color: #e62e04;
-  font: 14px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
   line-height: auto;
   text-align: center;
   border: none;
@@ -1459,6 +1478,12 @@ a:hover {
 .products-filter-1 .filter-items li a:hover {
   color: #ea511b;
 }
+.products-filter-1 .filter-items li.select {
+  color: #ea511b;
+}
+.products-filter-1 .filter-items li.select a {
+  color: #ea511b;
+}
 .products-filter-1 .show-toggle {
   width: 100%;
   text-align: center;
@@ -1521,13 +1546,37 @@ a:hover {
 }
 .products-grid-view .product-wrap .icon-topright .num-wrap {
   position: relative;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
   top: -3px;
   width: 32px;
   text-align: center;
   display: inline-block;
   font-size: 22px;
   color: #fff;
-  font-weight: 600;
+}
+.products-grid-view .product-wrap .icon-topright .p-des {
+  display: inline-block;
+  padding: 0 1px;
+  width: 58px;
+  height: 36px;
+  font-size: 13px;
+  line-height: 13px;
+  color: #fff;
+}
+.products-grid-view .product-wrap .icon-btmright {
+  position: absolute;
+  top: 180px;
+  right: 0;
+  z-index: 10;
+}
+.products-grid-view .product-wrap .icon-btmright .num-wrap {
+  position: relative;
+  top: 3px;
+  width: 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 22px;
+  color: #000;
 }
 .products-grid-view .product-wrap .icon-btm {
   margin-top: 5px;
@@ -1611,7 +1660,8 @@ a:hover {
 }
 .products-grid-view .product-wrap .price .new-price {
   color: #ea511b;
-  font-weight: 600;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+  font-size: 19px;
 }
 .products-grid-view .product-wrap .p-wholesale {
   margin-top: 5px;
@@ -1726,7 +1776,7 @@ a:hover {
 .products-grid-view .product-wrap .p-moreinfo .buy-wrap .buy-count .lable {
   color: #000;
   display: inline-block;
-  font-weight: 600;
+  font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
 }
 .products-grid-view .product-wrap .p-moreinfo .buy-wrap .buy-count .bc-input {
   display: inline-block;

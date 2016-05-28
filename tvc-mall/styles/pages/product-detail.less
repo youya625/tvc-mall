@@ -308,7 +308,7 @@
         .pi-data {
             display: flex;
             justify-content: flex-start;
-            width: 450px;
+            width: 550px;
             margin-top: 10px;
 
 
@@ -319,7 +319,6 @@
 
                 .item-title {
                     height: 28px;
-                    width: 75px;
                     line-height: 28px;
                     color: #000;
                     border-bottom: 1px solid @gray-dark;
@@ -329,7 +328,6 @@
                 .item-content {
                     height: 28px;
                     line-height: 28px;
-                    width: 75px;
                     text-align: center;
                     color: @nomal-color;
 
@@ -577,9 +575,11 @@
     //运费对话框
     #shippingModal {
         color: #000;
-        .mg9{
+
+        .mg9 {
             margin-left: 9px;
         }
+
         .modal-title {
             .text-overflow();
         }
@@ -688,6 +688,112 @@
             .big {
                 font-size: 21px;
             }
+        }
+    }
+}
+
+
+//购物车感应
+.cart-info {
+    display: none;
+    position: fixed;
+    top: 36px;
+    right: 150px;
+    width: 420px;
+    z-index: 999999;
+    background-color: #fff;
+    box-shadow: 0 0 10px @gray-darker;
+
+    .c-arrow {
+        position: absolute;
+        top: -10px;
+        left: 40%;
+        width: 0;
+        height: 0;
+        border-left: 10px solid transparent;
+        border-right: 10px solid transparent;
+        border-bottom: 10px solid @nomal-color;
+    }
+
+    .c-title {
+        font: @nomal-font;
+        width: 100%;
+        height: 30px;
+        line-height: 30px;
+        text-indent: 10px;
+        color: #fff;
+        background-color: @nomal-color;
+    }
+
+    .c-content {
+        padding: 10px;
+
+        .product-info {
+            display: flex;
+            justify-content: flex-start;
+
+            .pi-left {
+                img {
+                    max-width: 90px;
+                }
+            }
+
+            .pi-right {
+                .p-name {
+                    font: @nomal-font;
+                    color: #000;
+                }
+
+                .p-no {
+                    margin-top: 10px;
+                }
+            }
+        }
+    }
+
+    .more-toggle {
+        padding-top: 10px;
+        border-top: 1px solid @gray-dark;
+        cursor: pointer;
+        color: #000;
+    }
+
+    .more-info {
+        display: none;
+        padding: 0 10px 10px 10px;
+        color: #000;
+        border-bottom: 1px dashed @gray-dark;
+
+        .price-interval {
+            margin-top: 0 !important;
+
+            .pi-data {
+                width: 400px !important;
+            }
+        }
+
+
+        .mi-des {
+            margin-top: 10px;
+        }
+
+        .mi-list {
+            li {
+                list-style: inherit;
+                margin-left: 20px;
+            }
+        }
+    }
+
+    .btm-section {
+        display: flex;
+        justify-content: flex-end;
+        padding: 10px 0;
+
+        .btn {
+            margin-right: 10px;
+            height: 16px;
+            line-height: 16px;
         }
     }
 }

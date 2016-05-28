@@ -1,0 +1,201 @@
+﻿@import "../partials/mixins";
+
+.login-header {
+    width: 100%;
+    height: 78px;
+    background-color: @content-bg-color;
+    border-bottom: 1px solid @gray-dark;
+
+    .header-inner {
+        width: @page-width;
+        .center();
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .h-right {
+            display: flex;
+            justify-content: flex-start;
+
+            .hr-item {
+                font: @nomal-font;
+                font-size: 18px;
+                display: inline-block;
+                height: 100%;
+                line-height: 78px;
+                margin-left: 20px;
+                padding: 0 10px;
+                border-bottom: 2px solid transparent;
+
+                &:hover {
+                    color: @nomal-color;
+                    border-bottom: 2px solid @nomal-color;
+                }
+            }
+        }
+    }
+}
+
+#regist {
+    color: #000;
+
+    .bs-searchbox .form-control{
+        width: 90%;
+    }
+
+    .content {
+        display: flex;
+        justify-content: space-between;
+        width: @page-width;
+        .center();
+
+        .top-section {
+            width: 100%;
+            margin-top: 20px;
+
+            a {
+                color: @nomal-color;
+                text-decoration: underline;
+            }
+
+            h2 {
+                font: @nomal-font;
+                font-size: 26px;
+                color: #000;
+            }
+
+            .r-des {
+                a {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .main-section {
+            width: 100%;
+            display: flex;
+            justify-content: space-between;
+
+            .regist-data {
+                width: 500px;
+
+                .d-row {
+                    display: flex;
+                    justify-content: flex-start;
+                    margin-top: 10px;
+
+                    .lable {
+                        font: @nomal-font;
+                        color: #000;
+                        width: 150px;
+                        text-align: right;
+                        line-height: 35px;
+                    }
+
+                    .d-input {
+                        width: 300px;
+                        height: 20px;
+                        margin-left: 20px;
+                    }
+
+                    .d-select {
+                        width: 325px;
+                        height: 20px;
+                        margin-left: 20px;
+
+                        a {
+                            color: #000;
+                        }
+                    }
+                }
+
+                .d-sex-wrap {
+                    display: flex;
+                    justify-content: center;
+
+                    .d-sex-item {
+                        margin-left: 20px;
+
+                        .s-lable {
+                            margin-left: 3px;
+                        }
+                    }
+                }
+            }
+
+            .btm-des {
+                margin-top: 10px;
+                margin-left: 170px;
+            }
+
+            .btn-submit {
+                margin-left: 170px;
+                width: 330px;
+                margin-top: 20px;
+            }
+
+            .m-right {
+                padding: 20px;
+                width: 470px;
+                background-color: @gray-dark;
+
+                .mr-row {
+                    margin-top: 20px;
+                }
+
+                .btn-sign {
+                    background-color: #0065ba;
+                    color: #fff;
+                    text-decoration: none;
+                    border: none;
+                }
+
+                .three-login {
+                    margin-top: 20px;
+
+                    .login-des {
+                        color: #000;
+                    }
+                    //第三方登录
+                    .th-content {
+                        margin-top: 5px;
+
+                        .c-item {
+                            display: inline-block;
+                            margin-right: 5px;
+
+                            .icon-web {
+                                display: inline-block;
+                            }
+                        }
+                    }
+                }
+
+                .advantages {
+                    margin-left: 20px;
+
+                    li {
+                        margin-top: 3px;
+                        list-style: inherit;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.login-footer {
+    margin-top: 50px;
+    border-top: 1px solid @gray-darker;
+
+    .f-inner {
+        width: @page-width;
+        height: 80px;
+        text-align: right;
+        margin: 0 auto;
+    }
+}

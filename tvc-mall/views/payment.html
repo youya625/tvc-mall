@@ -1,0 +1,617 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../styles/common.min.css" rel="stylesheet" />
+    <link rel="icon" href="../images/favicon.ico" />
+    <link href="../styles/icon-web.css" rel="stylesheet" />
+    <link href="../styles/modules/bootstrap.css" rel="stylesheet" />
+    <link href="../styles/pic-pay.css" rel="stylesheet" />
+    <link href="../styles/pic-ship.css" rel="stylesheet" />
+    <link href="../styles/modules/icheck-orange.css" rel="stylesheet" />
+    <link href="../styles/pic-purchase.css" rel="stylesheet" />
+    <link href="../styles/modules/icheck-orange.css" rel="stylesheet" />
+    <link href="../styles/pages/payment.min.css" rel="stylesheet" />
+    <link href="../styles/pic-payment.css" rel="stylesheet" />
+    <link href="../styles/modules/bootstrap-datetimepicker.css" rel="stylesheet" />
+</head>
+<body id="payment">
+    <div class="order-header">
+        <div class="header-inner">
+            <a href="#" class="logo">
+                <img src="../images/logo.png" />
+            </a>
+            <div class="order-pic-info pic-purchase purchase-2"></div>
+        </div>
+    </div>
+    <div class="content">
+        <div class="order-top-info">
+            <div class="ot-left">
+                <h3>
+                    Shopping Cart
+                    <span class="n-color">
+                        (19 items, 26 Pieces)
+                    </span>
+                </h3>
+                <!--location-->
+                <div class="location">
+                    <ol>
+                        <li>
+                            <a href="#">
+                                <i class="icon-cart"></i>
+                                Account center
+                            </a>
+                            <span class="l-arrow">>></span>
+                        </li>
+                        <li>
+                            <a href="#">My orders</a>
+                            <span class="l-arrow">>></span>
+                        </li>
+                        <li>
+                            <a href="#">Order info</a>
+                            <span class="l-arrow">>></span>
+                        </li>
+                        <li>
+                            <a class="active" href="#">Payment</a>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+            <div class="ot-right">
+                <span class="order_right_icon" onclick="javascript:window.open('https://trustsealinfo.verisign.com/splash?form_file=fdf/splash.fdf&amp;dn=www.tvc-mall.com&amp;lang=en')"></span>
+                <a name="trustlink" href="http://secure.trust-guard.com/business/9582" rel="nofollow" target="_blank" onclick="var nonwin=navigator.appName!='Microsoft Internet Explorer'?'yes':'no'; window.open(this.href.replace(/https?/, 'https'),'welcome','location='+nonwin+',scrollbars=yes,width=517,height='+screen.availHeight+',menubar=no,toolbar=no'); return false;" oncontextmenu="var d = new Date(); alert('Copying Prohibited by Law - This image and all included logos are copyrighted by trust-guard \251 '+d.getFullYear()+'.'); return false;">
+                    <img name="trustseal" alt="Business Seals" style="border: 0; margin-left: 10px;" src="//dw26xg4lubooo.cloudfront.net/seals/business/9582-large.gif" width="100" height="65">
+                </a>
+            </div>
+        </div>
+
+        <table class="table order-detail">
+            <tr>
+                <th>Order NO.</th>
+                <th>Subtotal</th>
+                <th>Amount</th>
+                <th>Gross Weight</th>
+                <th>Volume Weight</th>
+                <th></th>
+            </tr>
+            <tr>
+                <td>
+                    <span class="n-color">V16031000002</span>
+                </td>
+                <td>
+                    <span class="n-color">$ 1240.19</span>
+                </td>
+                <td>
+                    <span class="n-color">$ 895.21</span>
+                </td>
+                <td>24.354 kgs</td>
+                <td>21.603 kgs</td>
+                <td>
+                    <span class="btn btn-danger">Buy more</span>
+                    <span class="btn btn-success">Bulk Buy with SKUs</span>
+                </td>
+            </tr>
+        </table>
+
+        <div class="order-address">
+            <h3 class="section-title">
+                Shipping Address (*)
+            </h3>
+            <div class="oa-inner">
+                <p class="oa-info">
+                    sfda fasdfasdf, asdfasdf , asdfas , Malta (Contact Person: Rob sun, Mobile: , PostCode: 234254)
+                    <a id="changeAddress" aria-controls="collapse" role="button" data-toggle="collapse" href="#userAddress" aria-expanded="false" style="text-decoration: underline; color: #FC7F2B">[change]</a>
+                </p>
+                <p class="oa-tips">
+                    <i class="icon-info"></i>
+                    The shipping address of this order is now different from the original one in your shipping list. You can either use the current address or choose a new one from your address list.
+                </p>
+                <!--选择地址-->
+
+                <div id="addressInfo" class="order-address-wrap" style="display: none;">
+                    <div class="order-address-change">
+                        <div class="address-item">
+                            <span>22, 22 , 11 , Malta (Contact Person: 222, Telephone: 3123, PostCode: 22)</span>
+                            <div class="btm-bar">
+                                <span class="address-edit">[edit]</span>
+                            </div>
+                        </div>
+                        <div class="address-item select">
+                            <span>22, 22 , 11 , Malta (Contact Person: 222, Telephone: 3123, PostCode: 22)</span>
+                            <div class="btm-bar">
+                                <span class="address-edit">[edit]</span>
+                            </div>
+                        </div>
+                        <div class="address-item">
+                            <span>22, 22 , 11 , Malta (Contact Person: 222, Telephone: 3123, PostCode: 22)</span>
+                            <div class="btm-bar">
+                                <span class="address-edit">[edit]</span>
+                            </div>
+                        </div>
+                        <div class="address-item">
+                            <span>22, 22 , 11 , Malta (Contact Person: 222, Telephone: 3123, PostCode: 22)</span>
+                            <div class="btm-bar">
+                                <span class="address-edit">[edit]</span>
+                            </div>
+                        </div>
+                        <div class="address-item">
+                            <span>22, 22 , 11 , Malta (Contact Person: 222, Telephone: 3123, PostCode: 22)</span>
+                            <div class="btm-bar">
+                                <span class="address-edit">[edit]</span>
+                            </div>
+                        </div>
+                        <div class="address-item">
+                            <span>22, 22 , 11 , Malta (Contact Person: 222, Telephone: 3123, PostCode: 22)</span>
+                            <div class="btm-bar">
+                                <span class="address-edit">[edit]</span>
+                            </div>
+                        </div>
+                        <div class="address-item">
+                            <span>22, 22 , 11 , Malta (Contact Person: 222, Telephone: 3123, PostCode: 22)</span>
+                            <div class="btm-bar">
+                                <span class="address-edit">[edit]</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="oa-bar">
+                        <div class="btn btn-success btn-add"  data-toggle="modal" data-target="#userAddressInfo">
+                            <span class="add">+</span>
+                            New Address
+                        </div>
+                    </div>
+                </div>
+                
+
+            </div>
+        </div>
+
+        <div class="order-ship">
+            <h3 class="section-title">
+                Shipping Method (*)
+            </h3>
+            <table class="table table-hover">
+                <tr>
+                    <th>Shipping Method</th>
+                    <th>Shipping Cost</th>
+                    <th>Remark</th>
+                    <th></th>
+                </tr>
+                <tr>
+                    <td>
+                        <input name="shipMethod" type="radio" value="" checked />
+                        <span class="pic-ship AEX"></span>
+                        <span>China Post</span>
+                    </td>
+                    <td>
+                        <span class="n-color">$ 9.10</span>
+                    </td>
+                    <td>10-25 business days</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input name="shipMethod" type="radio" value="" />
+                        <span class="pic-ship CNP"></span>
+                        <span>China Post</span>
+                    </td>
+                    <td>
+                        <span class="n-color">$ 9.10</span>
+                    </td>
+                    <td>10-25 business days</td>
+                    <td>
+                        <a class="remote_areas" href="http://raslist.dhl.com/jsp/first.jsp" target="_blank" style="color: #0094ff;"><span>Remote Areas Surcharge Check. </span></a>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input name="shipMethod" type="radio" value="" />
+                        <span class="pic-ship DHL"></span>
+                        <span>China Post</span>
+                    </td>
+                    <td>
+                        <span class="n-color">$ 9.10</span>
+                    </td>
+                    <td>10-25 business days</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input name="shipMethod" type="radio" value="" />
+                        <span class="pic-ship EMS"></span>
+                        <span>China Post</span>
+                    </td>
+                    <td>
+                        <span class="n-color">$ 9.10</span>
+                    </td>
+                    <td>10-25 business days</td>
+                    <td></td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input name="shipMethod" type="radio" value="" />
+                        <span class="pic-ship FDX"></span>
+                        <span>China Post</span>
+                    </td>
+                    <td>
+                        <span class="n-color">$ 9.10</span>
+                    </td>
+                    <td>10-25 business days</td>
+                    <td></td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="order-payment">
+            <h3 class="section-title">
+                Payment Method (*)
+            </h3>
+            <div class="op-bar">
+                <div class="ob-lable">
+                    Change Currency:
+                </div>
+                <div class="select-currency">
+                    USD - $
+                    <i class="icon-triangle-down"></i>
+                    <div class="currency-items">
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                        </ul>
+                        <ul>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                            <li>
+                                <a href="#">
+                                    <span class="curr-gj"></span> British Pound
+                                </a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="methods-wrap">
+                <div class="p-item pic-payment alipay select">
+                    <div class="method-select pic-payment payment-select"></div>
+                </div>
+                <div class="p-item pic-payment astropay">
+                    <div class="method-select pic-payment payment-select"></div>
+                </div>
+                <div class="p-item pic-payment creditcard disabled" data-able="false">
+                    <div class="disabled-wrap">
+                        <p>Not available for the current currency.</p>
+                    </div>
+                    <div class="method-select pic-payment payment-select"></div>
+                </div>
+
+                <div class="p-item pic-payment poli">
+                    <div class="method-select pic-payment payment-select"></div>
+                </div>
+                <div class="p-item pic-payment webmoney">
+                    <div class="method-select pic-payment payment-select"></div>
+                </div>
+                <div class="p-item pic-payment wu" data-payment="wu">
+                    <div class="method-select pic-payment payment-select"></div>
+                </div>
+                <div class="p-item pic-payment hsbc" data-payment="tt">
+                    <div class="method-select pic-payment payment-select"></div>
+                </div>
+                <div class="p-item pic-payment mg" data-payment="mg">
+                    <div class="method-select pic-payment payment-select"></div>
+                </div>
+                <div class="p-item pic-payment po" data-payment="po">
+                    <div class="method-select pic-payment payment-select"></div>
+                </div>
+            </div>
+
+            <div class="payment-content">
+                <div class="payment-inner" data-payform="tt">
+                    <form class="tt-form">
+                        <p class="p-des">Beneficiary Name:TVC-TECH Group Limited</p>
+                        <p class="p-des">Account No:509704995838</p>
+                        <p class="p-des">Swift Code: HSBCHKHHHKH</p>
+                        <p class="p-des">Bank Name: HSBC Hong Kong</p>
+                        <p class="p-des">Bank Code: 004</p>
+                        <p class="p-des">Address: Units 1818-19,18/F Landmark North 39 Lung Sum Avenue, Sheung Shui, New Territories</p>
+                        <div class="alert alert-warning alert-dismissible fade in" role="alert">
+                            Notice: Please provide all below informations for us to process your order.（* Indicates required fields）
+                        </div>
+                        <div class="form-group">
+                            <label for="TTPrice">
+                                *How much you paid?:
+                                USD -<span class="n-color"> $ 31.5 </span>is required
+                            </label>
+                            <input type="number" class="form-control" id="TTPrice" placeholder="Amount">
+                        </div>
+                        <div class="form-group">
+                            <label for="TTPubDate">*Payment time:</label>
+                            <input type="text" class="form-control" id="TTPubDate" readonly>
+                            <p class="help-block">MM/DD/YYYY</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="TTUpImg">*The T/T copy:</label>
+                            <input type="file" id="TTUpImg">
+                            <p class="help-block">file type: .jpeg .gif .png .bmp .jpg .doc .xls .xlsx .docx .pdf</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="TTContent">
+                                Additional Information:
+                            </label>
+                            <input type="text" class="form-control" id="TTContent" placeholder="Amount">
+                        </div>
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </form>
+                </div>
+                <div class="payment-inner" data-payform="mg">
+                    <form class="mg-form">
+                        <p class="p-des">First name: HongBing</p>
+                        <p class="p-des">Last name: Yu</p>
+                        <br />
+                        <p class="p-des">City: Shenzhen , China</p>
+                        <div class="alert alert-warning alert-dismissible fade in" role="alert">
+                            Notice: Please provide all below informations for us to process your order.（* Indicates required fields）
+                        </div>
+                        <div class="form-group">
+                            <label for="MGPrice">
+                                *How much you paid?:
+                                USD -<span class="n-color"> $ 31.5 </span>is required
+                            </label>
+                            <input type="number" class="form-control" id="MGPrice" placeholder="Amount">
+                        </div>
+                        <div class="form-group">
+                            <label for="MGNO">*The reference number:</label>
+                            <input type="text" class="form-control" id="MGNO">
+                            <p class="help-block">Pls input only the 8 Arabic numbers(e.g.:39845267)</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="MGFirstName">
+                                *The sender's first Name:
+                            </label>
+                            <input type="text" class="form-control" id="MGFirstName" placeholder="Amount">
+                        </div>
+                        <div class="form-group">
+                            <label for="MgLastName">
+                                *Last Name:
+                            </label>
+                            <input type="text" class="form-control" id="MgLastName" placeholder="Amount">
+                        </div>
+                        <div class="form-group">
+                            <label for="MGPubDate">*Payment time:</label>
+                            <input type="text" class="form-control" id="MGPubDate" readonly>
+                            <p class="help-block">MM/DD/YYYY</p>
+                        </div>
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </form>
+                </div>
+                <div class="payment-inner" data-payform="wu">
+                    <form class="wu-form">
+                        <p class="p-des">First name : BiRong</p>
+                        <p class="p-des">Last name : Chen</p>
+                        <br />
+                        <p class="p-des">City:Shenzhen , China</p>
+                        <div class="alert alert-warning alert-dismissible fade in" role="alert">
+                            Notice: Please provide all below informations for us to process your order.（* Indicates required fields）
+                        </div>
+                        <div class="form-group">
+                            <label for="WUPrice">
+                                *How much you paid?:
+                                USD -<span class="n-color"> $ 31.5 </span>is required
+                            </label>
+                            <input type="number" class="form-control" id="WUPrice" placeholder="Amount">
+                        </div>
+                        <div class="form-group">
+                            <label for="WUNO">*The western union number(MTCN):</label>
+                            <input type="text" class="form-control" id="WUNO">
+                            <p class="help-block">Pls input only the 8 Arabic numbers(e.g.:39845267)</p>
+                        </div>
+                        <div class="form-group">
+                            <label for="WUFirstName">
+                                *The sender's first Name:
+                            </label>
+                            <input type="text" class="form-control" id="WUFirstName" placeholder="Amount">
+                        </div>
+                        <div class="form-group">
+                            <label for="WULastName">
+                                *Last Name:
+                            </label>
+                            <input type="text" class="form-control" id="WULastName" placeholder="Amount">
+                        </div>
+                        <div class="form-group">
+                            <label for="WUCountryName">
+                                * Country/Region you've paied:
+                            </label>
+                            <div>
+                                <select class="selectpicker" data-live-search="true" title="Please choose...">
+                                    <option>Hot Doa Soda</option>
+                                    <option>Burga Smile</option>
+                                    <option>Suga nice</option>
+                                    <option>Baby Back Ribs</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label for="WUCountryName">
+                                Country/Region you've paied:
+                            </label>
+                            <input type="text" class="form-control" id="WUCountryName" placeholder="Amount">
+                        </div>
+                        <div class="form-group">
+                            <label for="MGPubDate">*Payment time:</label>
+                            <input type="text" class="form-control" id="MGPubDate" readonly>
+                            <p class="help-block">MM/DD/YYYY</p>
+                        </div>
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </form>
+                </div>
+                <div class="payment-inner" data-payform="po">
+                    <form class="po-form">
+                        <p>If you choose Pay Offline, please inform your related account manager of the remittance information, or fill in detailed remittance information below, so that we can check and confirm the payment.</p>
+                        <br />
+                        <div class="form-group">
+                            <textarea id="POContent" class="form-control remark-input" rows="5"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-danger">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <!--bottom section-->
+        <div class="order-bottom-price">
+            <div class="obp-item">
+                <div class="f-weight p-lable">Subtotal(20 items , 37 Pieces):</div>
+                <div class="p-content">
+                    USD - $
+                    <span class="n-color f-weight">1240.19</span>
+                </div>
+            </div>
+            <div class="obp-item">
+                <div class="f-weight p-lable">Promotion:</div>
+                <div class="p-content">
+                    USD - $
+                    <span class="n-color f-weight">- 344.98</span>
+                </div>
+            </div>
+            <div class="obp-item">
+                <div class="f-weight p-lable amount-lable">Amount: </div>
+                <div class="p-content">
+                    USD - $
+                    <span class="n-color order-amount f-weight">88344.98</span>
+                </div>
+            </div>
+            <div class="place-wrap">
+                <a href="#" class="btn btn-danger">Place Your Order</a>
+            </div>
+        </div>
+    </div>
+
+    <div id="userAddressInfo" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="gridSystemModalLabel">New Address</h4>
+                    <button type="button" class="btn close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <p class="text">
+                    Tell us about the lower prices you found elsewhere.
+                </p>
+                <form class="address-data">
+                    <div class="form-group">
+                        <label for="Concats">*Contact Person:</label>
+                        <input type="text" class="form-control" id="Concats" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label>*Country/Region:	</label>
+                        <div>
+                            <select class="selectpicker" data-live-search="true" title="Please choose...">
+                                <option>Hot Doa Soda</option>
+                                <option>Burga Smile</option>
+                                <option>Suga nice</option>
+                                <option>Baby Back Ribs</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtProvince">*Province/State:</label>
+                        <input type="text" class="form-control" id="txtProvince" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="txtProvince">*Province/State:</label>
+                        <input type="text" class="form-control" id="txtProvince" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="City">*City:</label>
+                        <input type="text" class="form-control" id="City" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="Address">*Address:</label>
+                        <textarea id="Address" rows="3" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="PostCode">*PostCode:</label>
+                        <input type="text" class="form-control" id="PostCode" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="Telephone">Telephone:</label>
+                        <input type="tel" class="form-control" id="Telephone" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="Telephone">Mobile:</label>
+                        <input type="tel" class="form-control" id="Mobile" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="Telephone">Fax:</label>
+                        <input type="tel" class="form-control" id="Fax" placeholder="">
+                    </div>
+                    <button type="submit" class="btn btn-danger">Save and Ship to This Address</button>
+                    <input type="button" class="btn btn-default" value="Cancle" />
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <div class="order-footer">
+        <div class="f-inner">
+            © 2016 Shenzhen TVC-TECH Limited All Rights Reserved.
+        </div>
+        <div id="tvc-top">
+            <i class="icon-top"></i>
+        </div>
+    </div>
+
+
+
+    <script src="../js/jquery-2.2.3.min.js"></script>
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
+    <script src="../js/jquery.pin.js"></script>
+    <script src="../js/common.js"></script>
+    <script src="../js/alert.js"></script>
+    <script src="../js/icheck.min.js"></script>
+    <script src="../js/pages/payment.js"></script>
+    <script src="../js/bootstrap-datetimepicker.js"></script>
+    <script src="../js/bootstrap-select.js"></script>
+    <script src="../js/bootstrap-collapse.js"></script>
+</body>
+</html>

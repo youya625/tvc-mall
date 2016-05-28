@@ -50,5 +50,29 @@
   {
     "outputFile": "styles/pages/product-inquery-list.css",
     "inputFile": "styles/pages/product-inquery-list.less"
+  },
+  {
+    "outputFile": "styles/pages/order-info.css",
+    "inputFile": "styles/pages/order-info.less"
+  },
+  {
+    "outputFile": "styles/pages/payment.css",
+    "inputFile": "styles/pages/payment.less"
+  },
+  {
+    "outputFile": "styles/pages/payment-success.css",
+    "inputFile": "styles/pages/payment-success.less"
+  },
+  {
+    "outputFile": "styles/pages/login.css",
+    "inputFile": "styles/pages/login.less"
+  },
+  {
+    "outputFile": "styles/pages/regist.css",
+    "inputFile": "styles/pages/regist.less"
+  },
+  {
+    "outputFile": "styles/pages/user-balance.css",
+    "inputFile": "styles/pages/user-balance.less"
   }
 ]

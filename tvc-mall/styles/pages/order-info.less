@@ -1,0 +1,529 @@
+﻿@import "../partials/mixins";
+
+#order-info {
+    color: #000;
+
+    .mg10 {
+        margin-top: 10px;
+    }
+
+    .order-detail {
+        background-color: #fff;
+        box-shadow: 0 0 10px @gray-darker;
+        z-index: 99;
+    }
+
+    .order-header {
+        width: 100%;
+        border-bottom: 5px solid @nomal-color;
+
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px auto;
+            width: @page-width;
+        }
+
+        .logo {
+            display: block;
+            width: 200px;
+        }
+    }
+
+    .content {
+        width: @page-width;
+        margin: 0 auto;
+
+        .order-top-info {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 20px;
+
+            .ot-left {
+                width: 70%;
+
+                h3 {
+                    font: @nomal-font;
+                    font-size: 21px;
+                }
+
+                .location ol {
+                    padding: 0;
+                }
+            }
+
+
+            .ot-right {
+            }
+        }
+
+        .table {
+            td {
+                vertical-align: middle;
+            }
+        }
+    }
+
+    .order-list-wrap {
+        .i-no {
+            width: 28px;
+        }
+
+        .i-img {
+            width: 70px;
+        }
+
+        .i-des {
+            width: 380px;
+        }
+
+        .i-price {
+            width: 40px;
+        }
+
+        .i-q {
+            width: 75px;
+        }
+
+        .i-g {
+            width: 78px;
+        }
+
+        .i-v {
+            width: 92px;
+        }
+
+        .i-a {
+            width: 60px;
+        }
+
+        .order-list-header {
+            display: flex;
+            justify-content: space-around;
+            background-color: @gray-dark;
+            border-top: 1px solid #000;
+
+            .h-item {
+                font: @nomal-font;
+                text-align: center;
+                height: 39px;
+                line-height: 39px;
+                font-size: 17px;
+            }
+        }
+
+        .order-update-option {
+            display: flex;
+            justify-content: flex-end;
+            margin: 10px 0;
+
+            .update-des {
+                margin-right: 10px;
+                line-height: 30px;
+            }
+
+            .item-update-count {
+                margin-right: 10px;
+            }
+
+            .btn-revoke {
+                margin-right: 10px;
+            }
+        }
+    }
+
+    .show-toggle {
+        width: 100%;
+        text-align: center;
+        color: @nomal-color;
+        height: 50px;
+        line-height: 50px;
+        cursor: pointer;
+        background-color: @gray-dark;
+
+        .caret {
+            color: #000;
+            margin-left: 5px;
+        }
+
+        &.less .caret {
+            border-bottom: 4px dashed;
+            border-top: none;
+        }
+    }
+    //订单商品列表
+    .order-list {
+        border-left: 1px solid @gray-dark;
+        border-right: 1px solid @gray-dark;
+
+        .mg20 {
+            margin-top: 20px;
+        }
+
+        li {
+            border-bottom: 1px solid @gray-dark;
+        }
+
+
+        .no-border-bottom {
+            border-bottom: none !important;
+        }
+
+        .list-item {
+            display: flex;
+            justify-content: space-around;
+            margin-top: 20px;
+            padding-bottom: 5px;
+
+            &.removed-item {
+                .price, .gross, .volume, .i-no, .i-des, .i-q {
+                    text-decoration: line-through;
+                }
+
+                .delete-item {
+                    text-decoration: none !important;
+                }
+            }
+
+            .i-img {
+                img {
+                    max-width: 70px;
+                }
+            }
+
+            .i-q {
+                input {
+                    width: 60px;
+                    height: 14px;
+                }
+            }
+
+            .i-des {
+                .item-no {
+                    margin-top: 10px;
+                }
+            }
+
+            .i-price {
+                font-size: 21px;
+
+                .price {
+                    margin-top: 1px;
+                    display: inline-block;
+                    font: @nomal-font;
+                    font-size: 21px;
+                }
+            }
+
+            .i-no {
+                line-height: 30px;
+            }
+
+            .gross {
+                display: inline-block;
+                margin-top: 5px;
+                margin-left: 3px;
+            }
+
+            .volume {
+                display: inline-block;
+                margin-top: 5px;
+                margin-left: 3px;
+            }
+        }
+
+        .icon-select {
+            display: inline-block;
+            vertical-align: middle;
+            margin-left: 10px;
+        }
+        //购物车列表的批量商品
+        .bulk-items-wrap {
+            display: flex;
+            justify-content: flex-start;
+
+            .bi-left {
+                display: flex;
+                justify-content: center;
+                flex-flow: column;
+                width: 75px;
+
+                .close, .open {
+                    display: block;
+                    font-size: 60px;
+                    border: 2px solid;
+                    width: 18px;
+                    height: 18px;
+                    line-height: 11px;
+                    margin-left: 50px;
+                }
+
+                .open {
+                    font-size: 30px;
+                    line-height: 15px;
+                }
+            }
+
+            .bi-right {
+                flex: 1;
+
+                &.si-wrap {
+                    display: flex;
+                    justify-content: flex-start;
+                    flex-wrap: wrap;
+
+                    .bi-small {
+                        display: flex;
+                        justify-content: flex-start;
+                        margin-left: 32px;
+
+                        a {
+                            display: inline-block;
+
+                            img {
+                                max-width: 40px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+
+        .items-count {
+            display: inline-block;
+            margin-top: 5px;
+            margin-left: 10px;
+        }
+
+        .remark-input {
+            width: 200px;
+            border: none;
+            border-bottom: 1px solid @gray-darker;
+            outline: none;
+        }
+
+        .product-link {
+            color: #000;
+
+            &:hover {
+                color: @nomal-color;
+            }
+        }
+
+        .delete-item {
+            font-size: 25px;
+            cursor: pointer;
+            color: @gray-darker;
+
+            &:hover {
+                color: #000;
+            }
+        }
+    }
+
+    .section-title {
+        height: 40px;
+        width: 100%;
+        line-height: 40px;
+        text-indent: 20px;
+        background-color: @gray-dark;
+    }
+
+    .order-option {
+        margin-top: 20px;
+        border-top: 1px solid #000;
+
+        .order-option-item {
+            padding: 10px;
+            border-bottom: 1px solid @gray-dark;
+
+            h4 {
+                margin: 5px 0;
+            }
+        }
+    }
+
+    .order-coupon {
+        border-top: 1px solid #000;
+        margin-top: 20px;
+
+        .promotion-1 {
+            padding: 10px 10px;
+            border-bottom: 1px solid @gray-dark;
+        }
+
+        .promotion-2 {
+            display: flex;
+            justify-content: flex-start;
+            padding: 10px 10px;
+            border-bottom: 1px solid @gray-dark;
+
+            .p-left {
+                display: flex;
+                justify-content: flex-start;
+                width: 400px;
+
+                .coupon-input {
+                    width: 200px;
+                    height: 20px;
+                }
+
+                .pl-apply {
+                    margin-left: 10px;
+                    width: 70px;
+                    height: 20px;
+                }
+            }
+
+            .p-right {
+                .pr-des {
+                    width: 700px;
+                }
+            }
+        }
+
+        table {
+            margin-top: 10px;
+
+            .product-title {
+                max-width: 800px;
+            }
+
+            .product-img {
+                max-width: 100px;
+            }
+        }
+    }
+
+
+    .order-remark {
+        margin-top: 20px;
+
+        .or-des {
+            margin: 10px;
+        }
+
+        .remark-input {
+            width: 1170px;
+        }
+    }
+
+    .order-bottom-price {
+        .obp-item {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0 10px 0;
+
+            .p-lable {
+                width: 1000px;
+                text-align: right;
+            }
+
+            .p-content {
+                margin-left: 20px;
+            }
+        }
+
+        .order-amount {
+            font-size: 21px;
+        }
+
+        .amount-lable {
+            line-height: 26px;
+        }
+    }
+
+    .place-wrap {
+        margin-top: 10px;
+        text-align: right;
+
+        .btn {
+            width: 160px;
+        }
+    }
+
+    .order-footer {
+        margin-top: 50px;
+        border-top: 1px solid @gray-darker;
+
+        .f-inner {
+            width: @page-width;
+            height: 80px;
+            text-align: right;
+            margin: 0 auto;
+        }
+
+
+        #tvc-top {
+            position: fixed;
+            right: 50px;
+            bottom: 50px;
+            font-size: 30px;
+            cursor: pointer;
+            color: #000;
+            opacity: 0.5;
+            z-index: 9999;
+
+            i {
+                display: block;
+            }
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+
+    #pickGiftModal {
+        .gift-list {
+            display: flex;
+            justify-content: flex-start;
+            flex-wrap: wrap;
+            margin-top: 20px;
+
+            .gift-item {
+                margin-left: 20px;
+                width: 100px;
+
+                img {
+                    max-width: 100px;
+                    border: 1px solid @gray-dark;
+                }
+            }
+        }
+    }
+
+    #applyDiscountModal {
+        .inner-wrap {
+            padding: 10px 10px;
+            border-bottom: 1px solid @gray-dark;
+
+            #inputDiscount {
+                width: 50px;
+                height: 20px;
+            }
+
+            .discount-input {
+                width: 130px;
+            }
+
+            .apply-wrap {
+                display: flex;
+                justify-content: flex-end;
+            }
+
+            .policy-link {
+                margin-top: 18px;
+                margin-left: 10px;
+            }
+
+            .btn-apply {
+                margin-top: 10px;
+            }
+
+            .remark-input {
+                width: 820px;
+            }
+        }
+    }
+}

@@ -1,0 +1,100 @@
+﻿@import "../partials/mixins";
+
+#paymentSuccess {
+    color: #000;
+
+    .mg10 {
+        margin-top: 10px;
+    }
+    //订单顶部
+    .order-header {
+        width: 100%;
+        border-bottom: 5px solid @nomal-color;
+
+        .header-inner {
+            display: flex;
+            justify-content: space-between;
+            margin: 20px auto;
+            width: @page-width;
+        }
+
+        .logo {
+            display: block;
+            width: 200px;
+        }
+    }
+
+    .content {
+        margin: 0 auto;
+        width: @page-width;
+
+        .order-complete {
+            display: flex;
+            justify-content: center;
+            margin-top: 70px;
+
+            .icon-checkmark2 {
+                font-size: 70px;
+                color: #34be1d;
+            }
+
+            .oc-right {
+                margin-top: -10px;
+                margin-left: 20px;
+            }
+        }
+
+        table {
+            margin-top: 20px;
+
+            .bg-grey {
+                width: 20%;
+                font: @nomal-font;
+                line-height: 20px;
+                background-color: @gray-dark;
+            }
+        }
+    }
+
+
+
+    .section-title {
+        height: 40px;
+        width: 100%;
+        line-height: 40px;
+        text-indent: 20px;
+        background-color: @gray-dark;
+    }
+    //订单页脚
+    .order-footer {
+        margin-top: 50px;
+        border-top: 1px solid @gray-darker;
+
+        .f-inner {
+            width: @page-width;
+            height: 80px;
+            text-align: right;
+            margin: 0 auto;
+        }
+
+
+        #tvc-top {
+            position: fixed;
+            right: 50px;
+            bottom: 50px;
+            font-size: 30px;
+            cursor: pointer;
+            color: #000;
+            opacity: 0.5;
+            z-index: 9999;
+
+            i {
+                display: block;
+            }
+
+            &:hover {
+                opacity: 1;
+            }
+        }
+    }
+}

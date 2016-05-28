@@ -139,16 +139,31 @@ $(function () {
 
 
 
-    $(window).click(function (e) {
-        var _target = $(e.target);
-        var $parent = _target.parents("[data-type='j-collapse-item']");
-        if ($parent.length == 0 && _target.attr("class") != "more-link") {
-            $(".filter-wrap").removeClass("filter-select");
-            $(".filter-wrap").width(218);
-            $(".filter-wrap").prev(".filter-item-name").show();
-            $(".filter-wrap").next(".filter-botom-section").show();
-            $("input[type=checkbox]").iCheck('uncheck');
-            $(".select-count").html(0);
+    //滚动回到顶部
+    $(window).scroll(function () {
+        if ($(window).scrollTop() > 0) {
+            $("#tvc-top").show();
+        } else {
+            $("#tvc-top").hide();
         }
+    });
+    $("#tvc-top").click(function () {
+        $('body,html').animate({ scrollTop: 0 }, 100);
+        return false;
+    });
+
+    //购物车感应
+    $(".cart-info").on("click", "[data-type='cart-more-toggle']", function (event) {
+        $(this).next("[data-type='cart-more-panel']").toggle();
+    })
+    $(".cart-info").on("mouseover", "[data-type='cart-more-toggle']", function (event) {
+        $(this).next("[data-type='cart-more-panel']").show();
+        $(this).off(event);
+    })
+    $("body").on("click", ".add-cart", function () {
+        $(".cart-info").fadeIn();
+    })
+    $("body").on("click", ".btn-continue-shop", function () {
+        $(this).parents(".cart-info").hide();
     })
 })

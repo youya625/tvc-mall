@@ -1,0 +1,154 @@
+﻿@import "../partials/mixins";
+
+.login-header {
+    width: 100%;
+    height: 78px;
+    background-color: @content-bg-color;
+    border-bottom: 1px solid @gray-dark;
+
+    .header-inner {
+        width: @page-width;
+        .center();
+        display: flex;
+        justify-content: space-between;
+
+        .logo {
+            display: inline-block;
+            margin-top: 10px;
+        }
+
+        .h-right {
+            display: flex;
+            justify-content: flex-start;
+
+            .hr-item {
+                font: @nomal-font;
+                font-size: 18px;
+                display: inline-block;
+                height: 100%;
+                line-height: 78px;
+                margin-left: 20px;
+                padding: 0 10px;
+                border-bottom: 2px solid transparent;
+
+                &:hover {
+                    color: @nomal-color;
+                    border-bottom: 2px solid @nomal-color;
+                }
+            }
+        }
+    }
+}
+
+#login {
+    .content {
+        display: flex;
+        justify-content: space-between;
+        width: @page-width;
+        .center();
+
+        .c-left {
+        }
+
+        .c-right {
+            width: 540px;
+
+            h2 {
+                font: @nomal-font;
+                font-size: 26px;
+                color: #000;
+                border-bottom: 2px solid @gray-darker;
+                margin-top: 50px;
+            }
+
+            .login-info {
+                margin-top: 10px;
+                padding-bottom: 20px;
+                padding-left: 20px;
+                background-color: @content-bg-color;
+
+                .login-data {
+                    display: block;
+                    padding-top: 10px;
+                    width: 360px;
+
+                    .d-item {
+                        width: 332px;
+                        height: 26px;
+                        margin-top: 10px;
+                    }
+
+                    .btn-submit {
+                        width: 360px;
+                        height: 40px;
+                        line-height: 20px;
+                        font-size: 20px;
+                        margin-top: 10px;
+                        border: none;
+                        color: #fff;
+                        background-color: #0065ba;
+                    }
+                }
+
+                .f-password {
+                    display: inline-block;
+                    margin-top: 10px;
+                    text-decoration: underline;
+                }
+
+                .login-des {
+                    color: #000;
+                }
+                //第三方登录
+                .th-content {
+                    margin-top: 5px;
+
+                    .c-item {
+                        margin-right: 5px;
+
+                        .icon-web {
+                            display: inline-block;
+                        }
+                    }
+                }
+
+                .regist {
+                    display: inline-block;
+                    font: @nomal-font;
+                    margin-top: 10px;
+                    color: #34be1d;
+                    font-size: 16px;
+                    text-decoration: underline;
+                }
+            }
+
+            .btm-section {
+                display: flex;
+                justify-content: flex-start;
+                margin-top: 20px;
+
+                dl {
+                    color: #000;
+                    margin-right: 40px;
+
+                    dt {
+                        font: @nomal-font;
+                        font-size: 16px;
+                    }
+                }
+            }
+        }
+    }
+}
+
+.login-footer {
+    margin-top: 50px;
+    border-top: 1px solid @gray-darker;
+
+    .f-inner {
+        width: @page-width;
+        height: 80px;
+        text-align: right;
+        margin: 0 auto;
+    }
+}

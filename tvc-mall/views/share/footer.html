@@ -162,17 +162,6 @@
             });
 
 
-            //滚动回到顶部
-            $(window).scroll(function () {
-                if ($(window).scrollTop() > 0) {
-                    $("#tvc-top").show();
-                } else {
-                    $("#tvc-top").hide();
-                }
-            });
-            $("#tvc-top").click(function () {
-                $('body,html').animate({ scrollTop: 0 }, 100);
-                return false;
-            });
+
         })
 </script>

@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <title></title>
+    <meta charset="utf-8" />
+    <link href="../styles/common.min.css" rel="stylesheet" />
+    <link rel="icon" href="../images/favicon.ico" />
+    <link href="../styles/icon-web.css" rel="stylesheet" />
+    <link href="../styles/modules/bootstrap.css" rel="stylesheet" />
+    <link href="../styles/pages/user-balance.min.css" rel="stylesheet" />
+</head>
+<body id="userBalance">
+    <!--header-->
+    <header>
+        <!--By Ajax-->
+    </header>
+
+    <!--content-->
+    <div class="content">
+        <!--filter-->
+        <div class="filter">
+            <div class="products-filter-1">
+                <h3 class="filter-title">
+                    My Account
+                </h3>
+                <ul class="filter-items">
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">My Account</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">My Orders</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">My Profile</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">My Designs</a>
+                    </li>
+                    <li class="select">
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">My Points & Balance</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Change password</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Items Out Of Stock</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">My Download List</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Update Record List</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">My Reviews</a>
+                    </li>
+                    <li>
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Message</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <!--products list-->
+
+        <div class="list-view">
+
+        </div>
+    </div>
+    <!--footer-->
+    <footer class="footer">
+        <!--By Ajax-->
+    </footer>
+    <script src="../js/jquery-2.2.3.min.js"></script>
+
+    <script>
+
+        $(function () {
+            $.get("share/header.html", function (html) {
+                $("header").html(html);
+
+                //顽固搜索
+                $(".finder-button").click(function () {
+                    $(".finder-button .icon-ctrl-down").toggleClass("icon-rotate");
+                    $(".finder-panel").toggleClass("active");
+                });
+            });
+
+            $.get("share/footer.html", function (html) {
+                $("footer").html(html);
+            });
+        });
+    </script>
+</body>
+</html>

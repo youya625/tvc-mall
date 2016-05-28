@@ -130,7 +130,7 @@
                     <span>views: 19</span>
                     <a href="#" class="view-all"> view all images</a>
                     <span>|</span>
-                    <a class="down-images" href="#">Add to Download List</a>
+                    <a class="down-images">Add to Download List</a>
                 </div>
             </div>
 
@@ -243,7 +243,7 @@
 
                 <div class="ppd-buy-info">
                     <div>
-                        <a href="#" class="btn btn-default add-cart">
+                        <a class="btn btn-default add-cart">
                             <i class="icon-cart"></i>
                             Add to Cart
                         </a>
@@ -931,19 +931,110 @@
                 </p>
                 <form>
                     <p>
-                        <input type="text" class="data-input" value="" placeholder="Email">
+                        <input type="text" class="data-input form-control" value="" placeholder="Email">
                     </p>
                     <p>
-                        <input type="text" class="data-input" value="" placeholder="URL with lower price *">
+                        <input type="text" class="data-input form-control" value="" placeholder="URL with lower price *">
                     </p>
                     <p>
-                        <textarea class="data-input detail-input" placeholder="More details..." maxlength="500"></textarea>
+                        <textarea class="data-input detail-input form-control" placeholder="More details..." maxlength="500"></textarea>
                     </p>
                     <p class="submit-wrap-btn">
                         <input type="button" value="Submit" class="btn btn-default">
                     </p>
                 </form>
             </div>
+        </div>
+    </div>
+
+
+    <!--cart-->
+    <div class="cart-info">
+        <div class="c-arrow"></div>
+        <div class="c-title">
+            You already bought (3 Pieces)
+        </div>
+        <div class="c-content">
+            <div class="product-info">
+                <div class="pi-left">
+                    <img src="../images/big-pic.jpg" />
+                </div>
+                <div class="pi-right">
+                    <p class="p-name">
+                        Lenovo A396 Smartphone SC7730 Quad
+                        core 1.2GHz 4.0 Inch WiFi OTA
+                        Android 2.3 -
+                    </p>
+                    <p class="p-no">
+                        Item No: I5-2012A
+                    </p>
+                    <p>
+                        Price:
+                        <span class="n-color">$ 6.52</span>
+                        x
+                        <span class="g-color">3</span>
+                        =
+                        <span class="n-color">$ 45.29</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <p class="more-toggle" data-type="cart-more-toggle"><i class="icon-triangle-down"></i>  Buy <span class="g-color">3</span> more items, the unit price will as low as <span class="n-color">$ 3.01</span> </p>
+        <div class="more-info" data-type="cart-more-panel">
+            <div class="price-interval">
+                <div class="pi-data">
+                    <div class="data-item select">
+                        <div class="item-title">
+                            1+ units
+                        </div>
+                        <div class="item-content">
+                            $ 2.26
+                        </div>
+                    </div>
+                    <div class="data-item">
+                        <div class="item-title">
+                            5+ units
+                        </div>
+                        <div class="item-content">
+                            $ 2.26
+                        </div>
+                    </div>
+                    <div class="data-item">
+                        <div class="item-title">
+                            8+ units
+                        </div>
+                        <div class="item-content">
+                            $ 2.26
+                        </div>
+                    </div>
+                    <div class="data-item">
+                        <div class="item-title">
+                            10+ units
+                        </div>
+                        <div class="item-content">
+                            $ 2.26
+                        </div>
+                    </div>
+                    <div class="data-item">
+                        <div class="item-title">
+                            20+ units
+                        </div>
+                        <div class="item-content delete">
+                            $ 2.26
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <p class="mi-des">TomTom Runner PinkBrand NewIncludes One Year Warranty The TomTom Runner</p>
+            <ul class="mi-list">
+                <li>Amout > $1223 and quantity > 10</li>
+                <li>Quantity > 300</li>
+            </ul>
+            <a href="http://www.tvc-mall.com/HelpCenter/Support/discountscoupons.shtml" class="b-color">See discount policy >></a>
+        </div>
+        <div class="btm-section">
+            <a class="btn btn-default btn-continue-shop">Continue Shopping</a>
+            <a href="#" class="btn btn-danger">View Cart & Checkout</a>
         </div>
     </div>
 
@@ -1204,7 +1295,6 @@
                         </td>
                         <td>
                             <input data-type="bulk-item-count" type="text" value="1" class="mg45 item-count-input form-control" />
-
                         </td>
                     </tr>
                     <tr>
@@ -1274,7 +1364,7 @@
                     <span class="n-color big">
                         $ 0.77
                     </span>
-                    <a href="#" class="btn btn-default add-cart">
+                    <a class="btn btn-default add-cart">
                         <i class="icon-cart"></i>
                         Add to Cart
                     </a>
@@ -1293,7 +1383,7 @@
     <script src="../js/bootstrap-modal.js"></script>
     <script src="../js/jquery.pin.js"></script>
     <script src="../js/icheck.min.js"></script>
-    <script src="../js/commen.js"></script>
+    <script src="../js/common.js"></script>
     <script>
         $(function () {
             $.get("share/header.html", function (html) {
@@ -1308,6 +1398,18 @@
 
             $.get("share/footer.html", function (html) {
                 $("footer").html(html);
+                //滚动回到顶部
+                $(window).scroll(function () {
+                    if ($(window).scrollTop() > 0) {
+                        $("#tvc-top").show();
+                    } else {
+                        $("#tvc-top").hide();
+                    }
+                });
+                $("#tvc-top").click(function () {
+                    $('body,html').animate({ scrollTop: 0 }, 100);
+                    return false;
+                });
             });
 
 
@@ -1316,6 +1418,7 @@
                 interval: false
             });
 
+            //选项卡
             $('#info-tab a').click(function (e) {
                 e.preventDefault()
                 $(this).tab('show')
@@ -1343,6 +1446,7 @@
                 checkboxClass: 'icheckbox_flat-orange',
                 radioClass: 'iradio_flat-orange'
             });
+
         });
     </script>
 </body>
