@@ -78,6 +78,11 @@ $(function () {
         } else {
             return;
         }
-    })
 
+    })
+    //提示信息
+    $('#placeOrder').on('click', function (e) {
+        e.preventDefault();
+        $.scojs_message('This is an info message', $.scojs_message.TYPE_OK);
+    });
 })

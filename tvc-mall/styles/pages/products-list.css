@@ -1,4 +1,5 @@
 ﻿@import url('../iconfont.css');
+@import url('../modules/sco.message.css');
 .location {
   margin: 16px 0;
   width: 1200px;
@@ -1799,6 +1800,9 @@ h4 {
 }
 label {
   font: 15px MyriadPro-Regular, Arial, Helvetica, sans-serif;
+}
+.btn-danger {
+  background-color: #ea511b !important;
 }
 .products-grid-view {
   display: -ms-flexbox;
