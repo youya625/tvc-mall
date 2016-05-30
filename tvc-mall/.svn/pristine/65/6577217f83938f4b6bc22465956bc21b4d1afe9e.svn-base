@@ -54,13 +54,13 @@
         .slide-left {
             top: 236px;
             left: 0;
-            background: url(../../images/left.jpg);
+            background: url(../../content/images/left.jpg);
         }
 
         .slide-right {
             top: 236px;
             right: 0;
-            background: url(../../images/right.jpg);
+            background: url(../../content/images/right.jpg);
         }
     }
 

@@ -134,7 +134,7 @@
                     .curr-gj {
                         display: inline-block;
                         .size(16px, 12px);
-                        background: url(../../images/flg.jpg);
+                        background: url(../../content/images/flg.jpg);
                     }
 
                     ul {

@@ -2,7 +2,7 @@
 
 //
 .partial-home-list-3 {
-    @compare-bg: url(../../images/pro-bg.jpg); //compare模块背景图
+    @compare-bg: url(../../content/images/pro-bg.jpg); //compare模块背景图
     .size(@page-width, 365px);
     .center();
     background: @compare-bg repeat;
@@ -65,12 +65,12 @@
     .slide-left {
         top: 106px;
         left: 0;
-        background: url(../../images/left.jpg);
+        background: url(../../content/images/left.jpg);
     }
 
     .slide-right {
         top: 106px;
         right: 0;
-        background: url(../../images/right.jpg);
+        background: url(../../content/images/right.jpg);
     }
 }

@@ -6,12 +6,12 @@
     height: 15px;
     display: inline-block;
     overflow: hidden;
-    background: url(../../images/star.png) repeat-x scroll 0 -16px transparent;
+    background: url(../../content/images/star.png) repeat-x scroll 0 -16px transparent;
 
     .start {
         display: block;
         height: 15px;
         text-indent: -9999px;
-        background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+        background: url(../../content/images/star.png) repeat-x scroll 0 0 transparent;
     }
 }

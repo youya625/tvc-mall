@@ -4,11 +4,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
     <meta charset="utf-8" />
-    <link href="../styles/common.min.css" rel="stylesheet" />
-    <link rel="icon" href="../images/favicon.ico" />
-    <link href="../styles/icon-web.css" rel="stylesheet" />
-    <link href="../styles/modules/bootstrap.css" rel="stylesheet" />
-    <link href="../styles/pages/product-reviews-list.min.css" rel="stylesheet" />
+    <link href="../content/styles/common.min.css" rel="stylesheet" />
+    <link rel="icon" href="../content/images/favicon.ico" />
+    <link href="../content/styles/icon-web.css" rel="stylesheet" />
+    <link href="../content/styles/modules/bootstrap.css" rel="stylesheet" />
+    <link href="../content/styles/pages/product-reviews-list.min.css" rel="stylesheet" />
 </head>
 <body id="product-reviews-list">
     <!--header-->
@@ -48,7 +48,7 @@
             <!--left aside-->
             <div class="aside-left">
                 <a href="#" class="img-wrap img-fontmat">
-                    <img src="../images/big-pic.jpg" />
+                    <img src="../content/images/big-pic.jpg" />
                 </a>
                 <a href="#">
                     2.5D Glass Tempered Explosion-proof Screen Protector Film for iPhone 6 4.7 inch / 6s (Arc Edge)
@@ -84,7 +84,7 @@
                         <li class="r-item">
                             <div class="user-info">
                                 <a href="#" class="avatar">
-                                    <img src="../images/t.jpg" />
+                                    <img src="../content/images/t.jpg" />
                                 </a>
                                 <p class="user-name">cos***</p>
                                 <p class="user-position">yidali</p>
@@ -112,7 +112,7 @@
                         <li class="r-item">
                             <div class="user-info">
                                 <a href="#" class="avatar">
-                                    <img src="../images/t.jpg" />
+                                    <img src="../content/images/t.jpg" />
                                 </a>
                                 <p class="user-name">cos***</p>
                                 <p class="user-position">yidali</p>
@@ -140,7 +140,7 @@
                         <li class="r-item">
                             <div class="user-info">
                                 <a href="#" class="avatar">
-                                    <img src="../images/t.jpg" />
+                                    <img src="../content/images/t.jpg" />
                                 </a>
                                 <p class="user-name">cos***</p>
                                 <p class="user-position">yidali</p>
@@ -209,15 +209,10 @@
     <footer class="footer">
         <!--By Ajax-->
     </footer>
-    <script src="../js/jquery-2.2.3.min.js"></script>
-    <script src="../js/common.js"></script>
-    <script src="../js/jquery.jqzoom-core.js"></script>
-    <script src="../js/jquery.carouse.js"></script>
-    <script src="../js/bootstrap-tab.js"></script>
-    <script src="../js/jquery.lazyload.min.js"></script>
-    <script src="../js/bootstrap-modal.js"></script>
-    <script src="../js/jquery.pin.js"></script>
-    <script src="../js/icheck.min.js"></script>
+    <script src="../content/js/modules/jquery-2.2.3.min.js"></script>
+    <script src="../content/js/common.js"></script>
+    <script src="../content/js/modules/jquery.lazyload.min.js"></script>
+    <script src="../content/js/modules/jquery.pin.js"></script>
     <script>
         $(function () {
             $.get("share/header.html", function (html) {
@@ -234,33 +229,8 @@
                 $("footer").html(html);
             });
 
-            $('.jqzoom').jqzoom({
-                zoomType: 'standard',
-                lens: true,
-                preloadImages: false,
-                alwaysOn: false,
-            });
-
-            $('#images-slider').carousel({
-                interval: false
-            });
-
-            $('#info-tab a').click(function (e) {
-                e.preventDefault()
-                $(this).tab('show')
-            })
-
             $("img.lazy").lazyload({
                 effect: "fadeIn"
-            });
-
-            $(".tab-wrap").pin({
-                containerSelector: ".info-right"
-            })
-
-            $("input[type='checkbox']").iCheck({
-                checkboxClass: 'icheckbox_flat-orange',
-                radioClass: 'iradio_flat-orange'
             });
 
             $(".aside-left").pin({

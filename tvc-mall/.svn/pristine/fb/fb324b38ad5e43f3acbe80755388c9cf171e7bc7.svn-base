@@ -167,7 +167,7 @@
   display: inline-block;
   width: 16px;
   height: 12px;
-  background: url(../../images/flg.jpg);
+  background: url(../../content/images/flg.jpg);
 }
 .site-nav .sn-container .snc-left .currency .currency-items ul li {
   margin: 2px 0;

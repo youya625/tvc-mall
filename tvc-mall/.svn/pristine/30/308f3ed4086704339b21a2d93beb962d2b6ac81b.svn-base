@@ -191,12 +191,12 @@
 .featured .featured-banner .slide-left {
   top: 236px;
   left: 0;
-  background: url(../../images/left.jpg);
+  background: url(../../content/images/left.jpg);
 }
 .featured .featured-banner .slide-right {
   top: 236px;
   right: 0;
-  background: url(../../images/right.jpg);
+  background: url(../../content/images/right.jpg);
 }
 .featured .indicators-content {
   display: block;
@@ -209,7 +209,7 @@
   height: 365px;
   margin-left: auto;
   margin-right: auto;
-  background: url(../../images/pro-bg.jpg) repeat;
+  background: url(../../content/images/pro-bg.jpg) repeat;
 }
 .compare .module-title {
   background-color: transparent;
@@ -263,12 +263,12 @@
 .compare .slide-left {
   top: 106px;
   left: 0;
-  background: url(../../images/left.jpg);
+  background: url(../../content/images/left.jpg);
 }
 .compare .slide-right {
   top: 106px;
   right: 0;
-  background: url(../../images/right.jpg);
+  background: url(../../content/images/right.jpg);
 }
 .brand {
   display: block;

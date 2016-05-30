@@ -432,7 +432,7 @@ h3 {
   display: inline-block;
   width: 16px;
   height: 12px;
-  background: url(../../images/flg.jpg);
+  background: url(../../content/images/flg.jpg);
 }
 .site-top-nav .sn-container .snc-left .currency .currency-items ul li {
   margin: 2px 0;
@@ -1193,7 +1193,7 @@ h3 {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/a.jpg) no-repeat center center;
+  background: url(../../content/images/footer/a.jpg) no-repeat center center;
 }
 .footer .slogen .b {
   display: block;
@@ -1201,7 +1201,7 @@ h3 {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/b.jpg) no-repeat center center;
+  background: url(../../content/images/footer/b.jpg) no-repeat center center;
 }
 .footer .slogen .c {
   display: block;
@@ -1209,7 +1209,7 @@ h3 {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/c.jpg) no-repeat center center;
+  background: url(../../content/images/footer/c.jpg) no-repeat center center;
 }
 .footer .slogen .d {
   display: block;
@@ -1217,7 +1217,7 @@ h3 {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/d.jpg) no-repeat center center;
+  background: url(../../content/images/footer/d.jpg) no-repeat center center;
 }
 .footer .slogen .e {
   display: block;
@@ -1225,7 +1225,7 @@ h3 {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/e.jpg) no-repeat center center;
+  background: url(../../content/images/footer/e.jpg) no-repeat center center;
 }
 .footer .slogen .f {
   display: block;
@@ -1233,7 +1233,7 @@ h3 {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/f.jpg) no-repeat center center;
+  background: url(../../content/images/footer/f.jpg) no-repeat center center;
 }
 .footer .sl-name {
   font-size: 18px;
@@ -1324,13 +1324,13 @@ h3 {
   height: 32px;
 }
 .footer .service .community .fb {
-  background-image: url(../../images/footer/fb.jpg);
+  background-image: url(../../content/images/footer/fb.jpg);
 }
 .footer .service .community .tw {
-  background-image: url(../../images/footer/tw.jpg);
+  background-image: url(../../content/images/footer/tw.jpg);
 }
 .footer .service .community .vk {
-  background-image: url(../../images/footer/vk.jpg);
+  background-image: url(../../content/images/footer/vk.jpg);
 }
 .footer .service .s-right {
   float: right;
@@ -1430,13 +1430,13 @@ h3 {
   height: 15px;
   display: inline-block;
   overflow: hidden;
-  background: url(../../images/star.png) repeat-x scroll 0 -16px transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 -16px transparent;
 }
 .rating .start {
   display: block;
   height: 15px;
   text-indent: -9999px;
-  background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 0 transparent;
 }
 @font-face {
   font-family: 'MyriadPro-Regular';
@@ -1623,25 +1623,25 @@ a:hover {
   display: inline-block;
   overflow: hidden;
   margin: 4px 0 0 2px;
-  background: url(../../images/star.png) repeat-x scroll 0 -16px transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 -16px transparent;
 }
 #product-detail .p-property .pp-detail .detail-header .rating-wrap .rating .start {
   display: block;
   height: 15px;
   text-indent: -9999px;
-  background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 0 transparent;
 }
 #product-detail .p-property .pp-detail .detail-header .rating-wrap .rating .start {
   display: block;
   height: 15px;
   text-indent: -9999px;
-  background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 0 transparent;
 }
 #product-detail .p-property .pp-detail .detail-header .rating-wrap .rating .start {
   display: block;
   height: 15px;
   text-indent: -9999px;
-  background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 0 transparent;
 }
 #product-detail .p-property .pp-detail .detail-header .rating-wrap .r-reviews a:hover {
   color: #ea511b;
@@ -1984,7 +1984,7 @@ a:hover {
   vertical-align: middle;
 }
 #product-detail .p-info .info-right #reviews-list .star-img-big {
-  background: url(../../images/star_big.png) 0 -20px repeat-x;
+  background: url(../../content/images/star_big.png) 0 -20px repeat-x;
   width: 100px;
   height: 19px;
   display: inline-block;
@@ -1993,7 +1993,7 @@ a:hover {
   margin-right: 10px;
 }
 #product-detail .p-info .info-right #reviews-list .star-img-big span {
-  background: url(../../images/star_big.png) 0 0 repeat-x;
+  background: url(../../content/images/star_big.png) 0 0 repeat-x;
   display: block;
   text-indent: -9999px;
 }

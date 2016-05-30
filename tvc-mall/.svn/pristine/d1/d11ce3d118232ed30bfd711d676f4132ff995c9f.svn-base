@@ -150,7 +150,7 @@
   display: inline-block;
   width: 16px;
   height: 12px;
-  background: url(../../images/flg.jpg);
+  background: url(../../content/images/flg.jpg);
 }
 .site-top-nav .sn-container .snc-left .currency .currency-items ul li {
   margin: 2px 0;
@@ -1492,13 +1492,13 @@ body .header {
   overflow: hidden;
   margin: 0;
   margin: 4px 0 0 2px;
-  background: url(../../images/star.png) repeat-x scroll 0 -16px transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 -16px transparent;
 }
 .partial-home-list-2 .products-grid .products .rating .start {
   display: block;
   height: 15px;
   text-indent: -9999px;
-  background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 0 transparent;
 }
 .partial-home-list-2 .products-grid .products .c-count {
   display: inline-block;
@@ -1565,12 +1565,12 @@ body .header {
 .partial-home-list-2 .featured-banner .slide-left {
   top: 236px;
   left: 0;
-  background: url(../../images/left.jpg);
+  background: url(../../content/images/left.jpg);
 }
 .partial-home-list-2 .featured-banner .slide-right {
   top: 236px;
   right: 0;
-  background: url(../../images/right.jpg);
+  background: url(../../content/images/right.jpg);
 }
 .partial-home-list-2 .indicators-content {
   display: block;
@@ -1583,7 +1583,7 @@ body .header {
   height: 365px;
   margin-left: auto;
   margin-right: auto;
-  background: url(../../images/pro-bg.jpg) repeat;
+  background: url(../../content/images/pro-bg.jpg) repeat;
 }
 .partial-home-list-3 .module-title {
   position: relative;
@@ -1665,13 +1665,13 @@ body .header {
   overflow: hidden;
   margin: 0;
   margin: 4px 0 0 2px;
-  background: url(../../images/star.png) repeat-x scroll 0 -16px transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 -16px transparent;
 }
 .partial-home-list-3 .products-grid .products .rating .start {
   display: block;
   height: 15px;
   text-indent: -9999px;
-  background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 0 transparent;
 }
 .partial-home-list-3 .products-grid .products .c-count {
   display: inline-block;
@@ -1732,12 +1732,12 @@ body .header {
 .partial-home-list-3 .slide-left {
   top: 106px;
   left: 0;
-  background: url(../../images/left.jpg);
+  background: url(../../content/images/left.jpg);
 }
 .partial-home-list-3 .slide-right {
   top: 106px;
   right: 0;
-  background: url(../../images/right.jpg);
+  background: url(../../content/images/right.jpg);
 }
 .partial-home-list-4 {
   display: block;
@@ -2541,7 +2541,7 @@ body .header {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/a.jpg) no-repeat center center;
+  background: url(../../content/images/footer/a.jpg) no-repeat center center;
 }
 .footer .slogen .b {
   display: block;
@@ -2549,7 +2549,7 @@ body .header {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/b.jpg) no-repeat center center;
+  background: url(../../content/images/footer/b.jpg) no-repeat center center;
 }
 .footer .slogen .c {
   display: block;
@@ -2557,7 +2557,7 @@ body .header {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/c.jpg) no-repeat center center;
+  background: url(../../content/images/footer/c.jpg) no-repeat center center;
 }
 .footer .slogen .d {
   display: block;
@@ -2565,7 +2565,7 @@ body .header {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/d.jpg) no-repeat center center;
+  background: url(../../content/images/footer/d.jpg) no-repeat center center;
 }
 .footer .slogen .e {
   display: block;
@@ -2573,7 +2573,7 @@ body .header {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/e.jpg) no-repeat center center;
+  background: url(../../content/images/footer/e.jpg) no-repeat center center;
 }
 .footer .slogen .f {
   display: block;
@@ -2581,7 +2581,7 @@ body .header {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/f.jpg) no-repeat center center;
+  background: url(../../content/images/footer/f.jpg) no-repeat center center;
 }
 .footer .sl-name {
   font-size: 18px;
@@ -2680,13 +2680,13 @@ body .header {
   height: 32px;
 }
 .footer .service .community .fb {
-  background-image: url(../../images/footer/fb.jpg);
+  background-image: url(../../content/images/footer/fb.jpg);
 }
 .footer .service .community .tw {
-  background-image: url(../../images/footer/tw.jpg);
+  background-image: url(../../content/images/footer/tw.jpg);
 }
 .footer .service .community .vk {
-  background-image: url(../../images/footer/vk.jpg);
+  background-image: url(../../content/images/footer/vk.jpg);
 }
 .footer .service .s-right {
   float: right;

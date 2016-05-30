@@ -2091,7 +2091,7 @@ select[multiple].input-lg {
   display: inline-block;
   width: 16px;
   height: 12px;
-  background: url(../../images/flg.jpg);
+  background: url(../../content/images/flg.jpg);
 }
 .site-top-nav .sn-container .snc-left .currency .currency-items ul li {
   margin: 2px 0;
@@ -3236,7 +3236,7 @@ a:hover {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/a.jpg) no-repeat center center;
+  background: url(../../content/images/footer/a.jpg) no-repeat center center;
 }
 .footer .slogen .b {
   display: block;
@@ -3244,7 +3244,7 @@ a:hover {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/b.jpg) no-repeat center center;
+  background: url(../../content/images/footer/b.jpg) no-repeat center center;
 }
 .footer .slogen .c {
   display: block;
@@ -3252,7 +3252,7 @@ a:hover {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/c.jpg) no-repeat center center;
+  background: url(../../content/images/footer/c.jpg) no-repeat center center;
 }
 .footer .slogen .d {
   display: block;
@@ -3260,7 +3260,7 @@ a:hover {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/d.jpg) no-repeat center center;
+  background: url(../../content/images/footer/d.jpg) no-repeat center center;
 }
 .footer .slogen .e {
   display: block;
@@ -3268,7 +3268,7 @@ a:hover {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/e.jpg) no-repeat center center;
+  background: url(../../content/images/footer/e.jpg) no-repeat center center;
 }
 .footer .slogen .f {
   display: block;
@@ -3276,7 +3276,7 @@ a:hover {
   height: 110px;
   text-align: center;
   line-height: 160px;
-  background: url(../../images/footer/f.jpg) no-repeat center center;
+  background: url(../../content/images/footer/f.jpg) no-repeat center center;
 }
 .footer .sl-name {
   font-size: 18px;
@@ -3375,13 +3375,13 @@ a:hover {
   height: 32px;
 }
 .footer .service .community .fb {
-  background-image: url(../../images/footer/fb.jpg);
+  background-image: url(../../content/images/footer/fb.jpg);
 }
 .footer .service .community .tw {
-  background-image: url(../../images/footer/tw.jpg);
+  background-image: url(../../content/images/footer/tw.jpg);
 }
 .footer .service .community .vk {
-  background-image: url(../../images/footer/vk.jpg);
+  background-image: url(../../content/images/footer/vk.jpg);
 }
 .footer .service .s-right {
   float: right;
@@ -3527,13 +3527,13 @@ a:hover {
   height: 15px;
   display: inline-block;
   overflow: hidden;
-  background: url(../../images/star.png) repeat-x scroll 0 -16px transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 -16px transparent;
 }
 .rating .start {
   display: block;
   height: 15px;
   text-indent: -9999px;
-  background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 0 transparent;
 }
 .products-list-selector .list-bar {
   width: 100%;
@@ -3722,25 +3722,25 @@ a:hover {
   display: inline-block;
   overflow: hidden;
   margin: 4px 0 0 2px;
-  background: url(../../images/star.png) repeat-x scroll 0 -16px transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 -16px transparent;
 }
 .products-grid-view .product-wrap .rating .start {
   display: block;
   height: 15px;
   text-indent: -9999px;
-  background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 0 transparent;
 }
 .products-grid-view .product-wrap .rating .start {
   display: block;
   height: 15px;
   text-indent: -9999px;
-  background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 0 transparent;
 }
 .products-grid-view .product-wrap .rating .start {
   display: block;
   height: 15px;
   text-indent: -9999px;
-  background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 0 transparent;
 }
 .products-grid-view .product-wrap .c-count {
   display: inline-block;
@@ -3948,25 +3948,25 @@ a:hover {
   display: inline-block;
   overflow: hidden;
   margin: 4px 0 0 2px;
-  background: url(../../images/star.png) repeat-x scroll 0 -16px transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 -16px transparent;
 }
 .products-list-view .product-wrap .p-info .rating-wrap .rating .start {
   display: block;
   height: 15px;
   text-indent: -9999px;
-  background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 0 transparent;
 }
 .products-list-view .product-wrap .p-info .rating-wrap .rating .start {
   display: block;
   height: 15px;
   text-indent: -9999px;
-  background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 0 transparent;
 }
 .products-list-view .product-wrap .p-info .rating-wrap .rating .start {
   display: block;
   height: 15px;
   text-indent: -9999px;
-  background: url(../../images/star.png) repeat-x scroll 0 0 transparent;
+  background: url(../../content/images/star.png) repeat-x scroll 0 0 transparent;
 }
 .products-list-view .product-wrap .p-info .rating-wrap .r-reviews a:hover {
   color: #ea511b;

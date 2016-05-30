@@ -4,12 +4,12 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
     <meta charset="utf-8" />
-    <link href="../styles/common.min.css" rel="stylesheet" />
-    <link rel="icon" href="../images/favicon.ico" />
-    <link href="../styles/icon-web.css" rel="stylesheet" />
-    <link href="../styles/modules/bootstrap.css" rel="stylesheet" />
-    <link href="../styles/pages/product-detail.min.css" rel="stylesheet" />
-    <link href="../styles/modules/jquery.jqzoom.css" rel="stylesheet" />
+    <link href="../content/styles/common.min.css" rel="stylesheet" />
+    <link rel="icon" href="../content/images/favicon.ico" />
+    <link href="../content/styles/icon-web.css" rel="stylesheet" />
+    <link href="../content/styles/modules/bootstrap.css" rel="stylesheet" />
+    <link href="../content/styles/pages/product-detail.min.css" rel="stylesheet" />
+    <link href="../content/styles/modules/jquery.jqzoom.css" rel="stylesheet" />
 </head>
 <body id="product-detail">
     <!--header-->
@@ -49,8 +49,8 @@
         <div class="p-property">
             <div class="p-pictures">
                 <div class="big-pic-wrap img-fontmat">
-                    <a href="../images/big-pic.jpg" class="jqzoom">
-                        <img src="../images/big-pic.jpg">
+                    <a href="../content/images/big-pic.jpg" class="jqzoom">
+                        <img src="../content/images/big-pic.jpg">
                     </a>
                 </div>
                 <div class="zoom-tip">
@@ -65,32 +65,32 @@
                                 <div class="images-block">
                                     <div class="ib-item">
                                         <a href="#">
-                                            <img src="../images/br.jpg" />
+                                            <img src="../content/images/br.jpg" />
                                         </a>
                                     </div>
                                     <div class="ib-item select">
                                         <a href="#">
-                                            <img src="../images/br.jpg" />
+                                            <img src="../content/images/br.jpg" />
                                         </a>
                                     </div>
                                     <div class="ib-item">
                                         <a href="#">
-                                            <img src="../images/br.jpg" />
+                                            <img src="../content/images/br.jpg" />
                                         </a>
                                     </div>
                                     <div class="ib-item">
                                         <a href="#">
-                                            <img src="../images/br.jpg" />
+                                            <img src="../content/images/br.jpg" />
                                         </a>
                                     </div>
                                     <div class="ib-item">
                                         <a href="#">
-                                            <img src="../images/br.jpg" />
+                                            <img src="../content/images/br.jpg" />
                                         </a>
                                     </div>
                                     <div class="ib-item">
                                         <a href="#">
-                                            <img src="../images/br.jpg" />
+                                            <img src="../content/images/br.jpg" />
                                         </a>
                                     </div>
                                 </div>
@@ -100,17 +100,17 @@
                                 <div class="images-block">
                                     <div class="ib-item">
                                         <a href="#">
-                                            <img src="../images/br.jpg" />
+                                            <img src="../content/images/br.jpg" />
                                         </a>
                                     </div>
                                     <div class="ib-item">
                                         <a href="#">
-                                            <img src="../images/br.jpg" />
+                                            <img src="../content/images/br.jpg" />
                                         </a>
                                     </div>
                                     <div class="ib-item">
                                         <a href="#">
-                                            <img src="../images/br.jpg" />
+                                            <img src="../content/images/br.jpg" />
                                         </a>
                                     </div>
                                 </div>
@@ -161,34 +161,34 @@
                     </span>
                     <div class="color-block">
                         <a class="select" title="blue" href="#">
-                            <img src="../images/pdt-color.jpg">
+                            <img src="../content/images/pdt-color.jpg">
                         </a>
                         <a title="blue" href="#">
-                            <img src="../images/pdt-color.jpg">
+                            <img src="../content/images/pdt-color.jpg">
                         </a>
                         <a title="blue" href="#">
-                            <img src="../images/pdt-color.jpg">
+                            <img src="../content/images/pdt-color.jpg">
                         </a>
                         <a title="blue" href="#">
-                            <img src="../images/pdt-color.jpg">
+                            <img src="../content/images/pdt-color.jpg">
                         </a>
                         <a title="blue" href="#">
-                            <img src="../images/pdt-color.jpg">
+                            <img src="../content/images/pdt-color.jpg">
                         </a>
                         <a title="blue" href="#">
-                            <img src="../images/pdt-color.jpg">
+                            <img src="../content/images/pdt-color.jpg">
                         </a>
                         <a title="blue" href="#">
-                            <img src="../images/pdt-color.jpg">
+                            <img src="../content/images/pdt-color.jpg">
                         </a>
                         <a title="blue" href="#">
-                            <img src="../images/pdt-color.jpg">
+                            <img src="../content/images/pdt-color.jpg">
                         </a>
                         <a title="blue" href="#">
-                            <img src="../images/pdt-color.jpg">
+                            <img src="../content/images/pdt-color.jpg">
                         </a>
                         <a title="blue" href="#">
-                            <img src="../images/pdt-color.jpg">
+                            <img src="../content/images/pdt-color.jpg">
                         </a>
                     </div>
                 </div>
@@ -360,11 +360,11 @@
                             Product Description
                         </p>
                         <div class="detail-images-list">
-                            <img class="lazy" data-original="../images/p1.jpg" src="../images/loading.gif" />
-                            <img class="lazy" data-original="../images/p2.jpg" src="../images/loading.gif" />
-                            <img class="lazy" data-original="../images/p3.jpg" src="../images/loading.gif" />
-                            <img class="lazy" data-original="../images/p4.jpg" src="../images/loading.gif" />
-                            <img class="lazy" data-original="../images/p5.jpg" src="../images/loading.gif" />
+                            <img class="lazy" data-original="../content/images/p1.jpg" src="../content/images/loading.gif" />
+                            <img class="lazy" data-original="../content/images/p2.jpg" src="../content/images/loading.gif" />
+                            <img class="lazy" data-original="../content/images/p3.jpg" src="../content/images/loading.gif" />
+                            <img class="lazy" data-original="../content/images/p4.jpg" src="../content/images/loading.gif" />
+                            <img class="lazy" data-original="../content/images/p5.jpg" src="../content/images/loading.gif" />
                         </div>
                     </div>
                     <!--2 of tabs content-->
@@ -394,14 +394,14 @@
     <footer class="footer">
         <!--By Ajax-->
     </footer>
-    <script src="../js/jquery-2.2.3.min.js"></script>
-    <script src="../js/common.js"></script>
-    <script src="../js/jquery.jqzoom-core.js"></script>
-    <script src="../js/jquery.carouse.js"></script>
-    <script src="../js/bootstrap-tab.js"></script>
-    <script src="../js/jquery.lazyload.min.js"></script>
-    <script src="../js/bootstrap-modal.js"></script>
-    <script src="../js/jquery.pin.js"></script>
+    <script src="../content/js/modules/jquery-2.2.3.min.js"></script>
+    <script src="../content/js/common.js"></script>
+    <script src="../content/js/modules/jquery.jqzoom-core.js"></script>
+    <script src="../content/js/modules/jquery.carouse.js"></script>
+    <script src="../content/js/modules/bootstrap-tab.js"></script>
+    <script src="../content/js/modules/jquery.lazyload.min.js"></script>
+    <script src="../content/js/modules/bootstrap-modal.js"></script>
+    <script src="../content/js/modules/jquery.pin.js"></script>
     <script>
 
         $(function () {

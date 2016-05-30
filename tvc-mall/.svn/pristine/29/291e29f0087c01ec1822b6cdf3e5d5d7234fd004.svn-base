@@ -52,13 +52,13 @@
         overflow: hidden;
         margin: 0;
         margin: 4px 0 0 2px;
-        background: url(../../../images/star.png) repeat-x scroll 0 -16px transparent;
+        background: url(../../../content/images/star.png) repeat-x scroll 0 -16px transparent;
 
         .start {
             display: block;
             height: 15px;
             text-indent: -9999px;
-            background: url(../../../images/star.png) repeat-x scroll 0 0 transparent;
+            background: url(../../../content/images/star.png) repeat-x scroll 0 0 transparent;
         }
     }
 
@@ -263,13 +263,13 @@
     display: inline-block;
     overflow: hidden;
     margin: 4px 0 0 2px;
-    background: url(../../../images/star.png) repeat-x scroll 0 -16px transparent;
+    background: url(../../../content/images/star.png) repeat-x scroll 0 -16px transparent;
 
     .start {
         display: block;
         height: 15px;
         text-indent: -9999px;
-        background: url(../../../images/star.png) repeat-x scroll 0 0 transparent;
+        background: url(../../../content/images/star.png) repeat-x scroll 0 0 transparent;
     }
 }
 

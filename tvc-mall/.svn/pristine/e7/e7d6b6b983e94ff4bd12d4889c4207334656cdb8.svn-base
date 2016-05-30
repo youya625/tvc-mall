@@ -230,14 +230,14 @@
     <!--site navigation-->
     <!--top banner-->
     <aside class="cross-aside-80 top-aside">
-        <img src="../images/top-banner.jpg" />
+        <img src="../content/images/top-banner.jpg" />
     </aside>
 
     <!--site-search-->
     <div class="site-search">
         <div class="logo">
             <a href="#">
-                <img src="../images/logo.png" alt="">
+                <img src="../content/images/logo.png" alt="">
             </a>
         </div>
         <!--search form-->
@@ -361,32 +361,32 @@
 
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                 </dl>
@@ -403,32 +403,32 @@
 
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                 </dl>
@@ -445,32 +445,32 @@
 
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                     <dd>
                                         <a href="#">
-                                            <img src="../images/br.jpg" alt="" />
+                                            <img src="../content/images/br.jpg" alt="" />
                                         </a>
                                     </dd>
                                 </dl>
@@ -479,7 +479,7 @@
                             <!--aside-->
                             <aside class="brand-aside">
                                 <a href="#">
-                                    <img src="../images/vv.jpg" alt="" />
+                                    <img src="../content/images/vv.jpg" alt="" />
                                 </a>
                             </aside>
                         </div>
@@ -680,7 +680,7 @@
                             <!--aside-->
                             <aside class="brand-aside">
                                 <a href="#">
-                                    <img src="../images/vv.jpg" alt="" />
+                                    <img src="../content/images/vv.jpg" alt="" />
                                 </a>
                             </aside>
                         </div>
@@ -763,7 +763,7 @@
         </nav>
     </div>
 </div>
-<script src="../../js/bootstrap-select.js"></script>
+<script src="../../content/js/modules/bootstrap-select.js"></script>
 <script type="text/javascript">
 
 </script>

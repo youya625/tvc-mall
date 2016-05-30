@@ -1,102 +1,98 @@
 ﻿[
   {
-    "outputFile": "styles/common.css",
-    "inputFile": "styles/common.less"
+    "outputFile": "content/styles/common.css",
+    "inputFile": "content/styles/common.less"
   },
   {
-    "outputFile": "styles/pages/home.css",
-    "inputFile": "styles/pages/home.less"
+    "outputFile": "content/styles/pages/home.css",
+    "inputFile": "content/styles/pages/home.less"
   },
   {
-    "outputFile": "styles/modules/bootstrap.css",
-    "inputFile": "styles/modules/bootstrap.less"
+    "outputFile": "content/styles/modules/bootstrap.css",
+    "inputFile": "content/styles/modules/bootstrap.less"
   },
   {
-    "outputFile": "styles/modules/bootstrap-select.css",
-    "inputFile": "styles/modules/bootstrap-select.less"
+    "outputFile": "content/styles/modules/bootstrap-select.css",
+    "inputFile": "content/styles/modules/bootstrap-select.less"
   },
   {
-    "outputFile": "styles/pages/categories-list.css",
-    "inputFile": "styles/pages/categories-list.less"
+    "outputFile": "content/styles/pages/categories-list.css",
+    "inputFile": "content/styles/pages/categories-list.less"
   },
   {
-    "outputFile": "styles/pages/manufacturer-list.css",
-    "inputFile": "styles/pages/manufacturer-list.less"
+    "outputFile": "content/styles/pages/manufacturer-list.css",
+    "inputFile": "content/styles/pages/manufacturer-list.less"
   },
   {
-    "outputFile": "styles/pages/brand-list.css",
-    "inputFile": "styles/pages/brand-list.less"
+    "outputFile": "content/styles/pages/brand-list.css",
+    "inputFile": "content/styles/pages/brand-list.less"
   },
   {
-    "outputFile": "js/jquery.carouse.es5.js",
-    "inputFile": "js/jquery.carouse.js"
+    "outputFile": "content/styles/pages/products-list.css",
+    "inputFile": "content/styles/pages/products-list.less"
   },
   {
-    "outputFile": "styles/pages/products-list.css",
-    "inputFile": "styles/pages/products-list.less"
+    "outputFile": "content/styles/pages/product-detail.css",
+    "inputFile": "content/styles/pages/product-detail.less"
   },
   {
-    "outputFile": "styles/pages/product-detail.css",
-    "inputFile": "styles/pages/product-detail.less"
+    "outputFile": "content/styles/pages/product-reviews-list.css",
+    "inputFile": "content/styles/pages/product-reviews-list.less"
   },
   {
-    "outputFile": "styles/pages/product-list.css",
-    "inputFile": "styles/pages/product-list.less"
+    "outputFile": "content/styles/pages/product-inquery-list.css",
+    "inputFile": "content/styles/pages/product-inquery-list.less"
   },
   {
-    "outputFile": "styles/pages/product-reviews-list.css",
-    "inputFile": "styles/pages/product-reviews-list.less"
+    "outputFile": "content/styles/pages/order-info.css",
+    "inputFile": "content/styles/pages/order-info.less"
   },
   {
-    "outputFile": "styles/pages/product-inquery-list.css",
-    "inputFile": "styles/pages/product-inquery-list.less"
+    "outputFile": "content/styles/pages/payment.css",
+    "inputFile": "content/styles/pages/payment.less"
   },
   {
-    "outputFile": "styles/pages/order-info.css",
-    "inputFile": "styles/pages/order-info.less"
+    "outputFile": "content/styles/pages/payment-success.css",
+    "inputFile": "content/styles/pages/payment-success.less"
   },
   {
-    "outputFile": "styles/pages/payment.css",
-    "inputFile": "styles/pages/payment.less"
+    "outputFile": "content/styles/pages/login.css",
+    "inputFile": "content/styles/pages/login.less"
   },
   {
-    "outputFile": "styles/pages/payment-success.css",
-    "inputFile": "styles/pages/payment-success.less"
+    "outputFile": "content/styles/pages/regist.css",
+    "inputFile": "content/styles/pages/regist.less"
   },
   {
-    "outputFile": "styles/pages/login.css",
-    "inputFile": "styles/pages/login.less"
+    "outputFile": "content/styles/pages/user-balance.css",
+    "inputFile": "content/styles/pages/user-balance.less"
   },
   {
-    "outputFile": "styles/pages/regist.css",
-    "inputFile": "styles/pages/regist.less"
+    "outputFile": "content/styles/pages/user-orders.css",
+    "inputFile": "content/styles/pages/user-orders.less"
   },
   {
-    "outputFile": "styles/pages/user-balance.css",
-    "inputFile": "styles/pages/user-balance.less"
+    "outputFile": "content/styles/pages/user-account.css",
+    "inputFile": "content/styles/pages/user-account.less"
   },
   {
-    "outputFile": "styles/pages/user-orders.css",
-    "inputFile": "styles/pages/user-orders.less"
+    "outputFile": "content/styles/pages/user-update.css",
+    "inputFile": "content/styles/pages/user-update.less"
   },
   {
-    "outputFile": "styles/pages/user-account.css",
-    "inputFile": "styles/pages/user-account.less"
+    "outputFile": "content/styles/pages/user-designs.css",
+    "inputFile": "content/styles/pages/user-designs.less"
   },
   {
-    "outputFile": "styles/pages/user-update.css",
-    "inputFile": "styles/pages/user-update.less"
+    "outputFile": "content/styles/pages/user-password.css",
+    "inputFile": "content/styles/pages/user-password.less"
   },
   {
-    "outputFile": "styles/pages/user-designs.css",
-    "inputFile": "styles/pages/user-designs.less"
+    "outputFile": "content/styles/pages/user-profile.css",
+    "inputFile": "content/styles/pages/user-profile.less"
   },
   {
-    "outputFile": "styles/pages/user-password.css",
-    "inputFile": "styles/pages/user-password.less"
-  },
-  {
-    "outputFile": "styles/pages/user-profile.css",
-    "inputFile": "styles/pages/user-profile.less"
+    "outputFile": "content/js/modules/bootstrap.es5.js",
+    "inputFile": "content/js/modules/bootstrap.js"
   }
 ]

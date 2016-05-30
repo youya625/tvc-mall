@@ -1,0 +1,159 @@
+﻿@import "mixins";
+
+
+//商品评论
+.product-reviews {
+    .section {
+        padding: 14px 8px;
+        border-bottom: 1px solid @gray-dark;
+        overflow: hidden;
+    }
+    //评分统计条
+    .star-number {
+        float: right;
+        width: 340px;
+
+        .star-name {
+            margin-right: 3px;
+            color: #000;
+            vertical-align: middle;
+            width: 66px;
+            display: inline-block;
+            text-align: right;
+        }
+
+        .bar {
+            display: inline-block;
+            width: 135px;
+            height: 14px;
+            background: #ffebe0;
+            vertical-align: middle;
+        }
+
+        .point {
+            display: inline-block;
+            background: #fda972;
+            height: 14px;
+        }
+
+        .point-bar {
+            margin-left: 10px;
+            vertical-align: middle;
+        }
+    }
+    //星星相关
+    .rating-big {
+        color: #000;
+        vertical-align: middle;
+    }
+
+    .star-img-big {
+        background: url(../../content/images/star_big.png) 0 -20px repeat-x;
+        width: 100px;
+        height: 19px;
+        display: inline-block;
+        overflow: hidden;
+        vertical-align: middle;
+        margin-right: 10px;
+
+        span {
+            background: url(../../content/images/star_big.png) 0 0 repeat-x;
+            display: block;
+            text-indent: -9999px;
+        }
+    }
+
+    .rev-num {
+        vertical-align: middle;
+    }
+    //评论---------------start-------------
+    .reviews-list {
+        .r-item {
+            display: flex;
+            justify-content: flex-start;
+            margin-top: 25px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid @gray-dark;
+            //头像用户名等信息
+            .user-info {
+                margin-left: 25px;
+                color: #000;
+
+                .avatar {
+                    display: block;
+
+                    img {
+                        max-width: 75px;
+                    }
+                }
+
+                .user-position {
+                    margin-top: 5px;
+                }
+            }
+            //评论主要信息
+            .r-info {
+                flex: 1;
+                margin-left: 20px;
+                color: #000;
+
+                .r-content {
+                    color: #000;
+                    font-size: 17px;
+                    margin-top: 5px;
+                }
+
+                .r-date {
+                    margin-top: 10px;
+                    color: @gray-darker;
+                }
+                //评论投票
+                .r-vote {
+                    display: flex;
+                    justify-content: flex-end;
+                    width: 85%;
+
+                    .tip-sorry {
+                        line-height: 30px;
+                        margin-right: 10px;
+                        color: red;
+                    }
+
+                    .tip-think {
+                        line-height: 30px;
+                        margin-right: 10px;
+                        color: green;
+                    }
+
+                    span {
+                        display: inline-block;
+                        vertical-align: middle;
+                    }
+
+                    .btn {
+                        font-size: 14px;
+                        margin-right: 10px;
+                    }
+                }
+            }
+        }
+    }
+
+    .all-reviews-link {
+        display: block;
+        text-align: right;
+        margin-top: 15px;
+        padding-bottom: 20px;
+        color: #2c8ccd;
+    }
+
+    .rating-wrap {
+        display: flex;
+        justify-content: flex-start;
+
+        .rating-item {
+            margin-right: 10px;
+        }
+    }
+    //评论---------------end----------
+}

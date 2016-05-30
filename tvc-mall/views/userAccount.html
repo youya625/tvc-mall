@@ -4,11 +4,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
     <meta charset="utf-8" />
-    <link href="../styles/common.min.css" rel="stylesheet" />
-    <link rel="icon" href="../images/favicon.ico" />
-    <link href="../styles/icon-web.css" rel="stylesheet" />
-    <link href="../styles/modules/bootstrap.css" rel="stylesheet" />
-    <link href="../styles/pages/user-account.min.css" rel="stylesheet" />
+    <link href="../content/styles/common.min.css" rel="stylesheet" />
+    <link rel="icon" href="../content/images/favicon.ico" />
+    <link href="../content/styles/icon-web.css" rel="stylesheet" />
+    <link href="../content/styles/modules/bootstrap.min.css" rel="stylesheet" />
+    <link href="../content/styles/pages/user-account.min.css" rel="stylesheet" />
 </head>
 <body id="userAccount">
     <!--header-->
@@ -92,7 +92,7 @@
                 <div class="user-account-content">
                     <div class="a-left">
                         <div class="avatar-wrap">
-                            <img src="../images/lazylogo.png" />
+                            <img src="../content/images/lazylogo.png" />
                         </div>
                     </div>
                     <div class="a-right">
@@ -415,8 +415,8 @@
     <footer class="footer">
         <!--By Ajax-->
     </footer>
-    <script src="../js/jquery-2.2.3.min.js"></script>
-    <script src="../js/bootstrap-alert.js"></script>
+    <script src="../content/js/modules/jquery-2.2.3.min.js"></script>
+    <script src="../content/js/modules/bootstrap.js"></script>
     <script>
 
         $(function () {
@@ -433,6 +433,7 @@
             $.get("share/footer.html", function (html) {
                 $("footer").html(html);
             });
+
         });
     </script>
 </body>

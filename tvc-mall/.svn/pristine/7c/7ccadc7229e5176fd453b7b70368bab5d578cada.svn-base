@@ -4,11 +4,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
     <meta charset="utf-8" />
-    <link href="../styles/common.min.css" rel="stylesheet" />
-    <link href="../styles/pages/home.min.css" rel="stylesheet" />
-    <link rel="icon" href="../images/favicon.ico" />
-    <link href="../styles/modules/bootstrap.css" rel="stylesheet" />
-    <link href="../styles/icon-web.css" rel="stylesheet" />
+    <link href="../content/styles/common.min.css" rel="stylesheet" />
+    <link href="../content/styles/pages/home.min.css" rel="stylesheet" />
+    <link rel="icon" href="../content/images/favicon.ico" />
+    <link href="../content/styles/modules/bootstrap.css" rel="stylesheet" />
+    <link href="../content/styles/icon-web.css" rel="stylesheet" />
 </head>
 <body id="page-home">
     <!--header-->
@@ -25,18 +25,18 @@
         </ol>
         <div class="carousel-inner">
             <div class="item active">
-                <a href="#"><img src="../images/banner.jpg" alt=""></a>
+                <a href="#"><img src="../content/images/banner.jpg" alt=""></a>
             </div>
             <div class="item">
-                <a href="#"><img src="../images/banner.jpg" alt=""></a>
+                <a href="#"><img src="../content/images/banner.jpg" alt=""></a>
             </div>
             <div class="item">
-                <a href="#"><img src="../images/banner.jpg" alt=""></a>
+                <a href="#"><img src="../content/images/banner.jpg" alt=""></a>
             </div>
         </div>
 
         <a class="b-aside" href="#">
-            <img src="../images/b.jpg" alt="">
+            <img src="../content/images/b.jpg" alt="">
         </a>
     </div>
 
@@ -54,21 +54,21 @@
                 </div>
                 <div class="editor-aside">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro1.jpg" alt="Alternate Text" />
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro1.jpg" alt="Alternate Text" />
                     </a>
                 </div>
                 <div class="editor-products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="Alternate Text" />
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="Alternate Text" />
                     </a>
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="Alternate Text" />
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="Alternate Text" />
                     </a>
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="Alternate Text" />
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="Alternate Text" />
                     </a>
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="Alternate Text" />
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="Alternate Text" />
                     </a>
                 </div>
             </div>
@@ -80,7 +80,7 @@
                     <span class="s-time">23h 18m 36s</span>
                 </div>
                 <div class="s-product">
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt=""></a>
                 </div>
                 <div class="sp-price clearfix">
                     <div class="spp-left">
@@ -97,7 +97,7 @@
 
         <!--aside-->
         <aside class="cross-aside-140" style="margin-top: 20px;">
-            <img class="lazy" src="../images/lazylogo.png" data-original="../images/c-banner.jpg" />
+            <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/c-banner.jpg" />
         </aside>
 
         <!--2. Featured Products-->
@@ -114,7 +114,7 @@
                         <div class="products-grid">
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -130,7 +130,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -146,7 +146,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -162,7 +162,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -178,7 +178,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -194,7 +194,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -210,7 +210,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -226,7 +226,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -242,7 +242,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -258,7 +258,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -274,7 +274,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -290,7 +290,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -311,7 +311,7 @@
                         <div class="products-grid">
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro6.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro6.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -327,7 +327,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -343,7 +343,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -359,7 +359,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -375,7 +375,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -391,7 +391,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -407,7 +407,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -423,7 +423,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -439,7 +439,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -455,7 +455,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro6.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro6.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -471,7 +471,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro6.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro6.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -487,7 +487,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro6.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro6.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -508,7 +508,7 @@
                         <div class="products-grid">
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro6.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro6.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -524,7 +524,7 @@
                             </div>
                             <div class="products">
                                 <a target="_blank" href="#">
-                                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro6.jpg" alt="">
+                                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro6.jpg" alt="">
                                 </a>
                                 <div class="pro-title">
                                     <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -569,7 +569,7 @@
                             <div class="products-grid">
                                 <div class="products">
                                     <a target="_blank" href="#">
-                                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                     </a>
                                     <div class="pro-title">
                                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -585,7 +585,7 @@
                                 </div>
                                 <div class="products">
                                     <a target="_blank" href="#">
-                                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                     </a>
                                     <div class="pro-title">
                                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -601,7 +601,7 @@
                                 </div>
                                 <div class="products">
                                     <a target="_blank" href="#">
-                                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                     </a>
                                     <div class="pro-title">
                                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -617,7 +617,7 @@
                                 </div>
                                 <div class="products">
                                     <a target="_blank" href="#">
-                                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                     </a>
                                     <div class="pro-title">
                                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -633,7 +633,7 @@
                                 </div>
                                 <div class="products">
                                     <a target="_blank" href="#">
-                                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                     </a>
                                     <div class="pro-title">
                                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -649,7 +649,7 @@
                                 </div>
                                 <div class="products">
                                     <a target="_blank" href="#">
-                                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                     </a>
                                     <div class="pro-title">
                                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -670,7 +670,7 @@
                             <div class="products-grid">
                                 <div class="products">
                                     <a target="_blank" href="#">
-                                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                     </a>
                                     <div class="pro-title">
                                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -686,7 +686,7 @@
                                 </div>
                                 <div class="products">
                                     <a target="_blank" href="#">
-                                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                     </a>
                                     <div class="pro-title">
                                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -702,7 +702,7 @@
                                 </div>
                                 <div class="products">
                                     <a target="_blank" href="#">
-                                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro3.jpg" alt="">
+                                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro3.jpg" alt="">
                                     </a>
                                     <div class="pro-title">
                                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -718,7 +718,7 @@
                                 </div>
                                 <div class="products">
                                     <a target="_blank" href="#">
-                                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro6.jpg" alt="">
+                                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro6.jpg" alt="">
                                     </a>
                                     <div class="pro-title">
                                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -734,7 +734,7 @@
                                 </div>
                                 <div class="products">
                                     <a target="_blank" href="#">
-                                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro6.jpg" alt="">
+                                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro6.jpg" alt="">
                                     </a>
                                     <div class="pro-title">
                                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -750,7 +750,7 @@
                                 </div>
                                 <div class="products">
                                     <a target="_blank" href="#">
-                                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro6.jpg" alt="">
+                                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro6.jpg" alt="">
                                     </a>
                                     <div class="pro-title">
                                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -771,7 +771,7 @@
                             <div class="products-grid">
                                 <div class="products">
                                     <a target="_blank" href="#">
-                                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro6.jpg" alt="">
+                                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro6.jpg" alt="">
                                     </a>
                                     <div class="pro-title">
                                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -787,7 +787,7 @@
                                 </div>
                                 <div class="products">
                                     <a target="_blank" href="#">
-                                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro6.jpg" alt="">
+                                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro6.jpg" alt="">
                                     </a>
                                     <div class="pro-title">
                                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -843,65 +843,65 @@
                     </ol>
                     <div class="carousel-inner">
                         <div class="item active">
-                            <img class="lazy" src="../images/lazylogo.png" data-original="../images/hot.jpg" alt="">
+                            <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/hot.jpg" alt="">
                         </div>
                         <div class="item">
-                            <img class="lazy" src="../images/lazylogo.png" data-original="../images/hot.jpg" alt="">
+                            <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/hot.jpg" alt="">
                         </div>
                         <div class="item">
-                            <img class="lazy" src="../images/lazylogo.png" data-original="../images/hot.jpg" alt="">
+                            <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/hot.jpg" alt="">
                         </div>
                     </div>
                 </div>
             </div>
             <div class="brand-items">
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
                 <div>
-                    <a href="#"><img class="lazy" src="../images/lazylogo.png" data-original="../images/brand.jpg" alt=""></a>
+                    <a href="#"><img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/brand.jpg" alt=""></a>
                 </div>
             </div>
         </div>
@@ -920,13 +920,13 @@
                 </ol>
                 <div class="carousel-inner">
                     <div class="item active">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro4.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro4.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro4.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro4.jpg" alt="">
                     </div>
                     <div class="item">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro4.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro4.jpg" alt="">
                     </div>
                 </div>
                 <a class="left carousel-control" href="#int-banner" data-slide="prev">&lsaquo;</a>
@@ -935,7 +935,7 @@
             <div class="products-grid">
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -946,7 +946,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -957,7 +957,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -968,7 +968,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -979,7 +979,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -990,7 +990,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1001,7 +1001,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1012,7 +1012,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1032,16 +1032,16 @@
             </div>
             <div class="parts-aside">
                 <a href="#">
-                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro5.jpg" alt="">
+                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro5.jpg" alt="">
                 </a>
                 <a href="#">
-                    <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro6.jpg" alt="">
+                    <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro6.jpg" alt="">
                 </a>
             </div>
             <div class="part-items products-grid">
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1052,7 +1052,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1063,7 +1063,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1074,7 +1074,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1085,7 +1085,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1096,7 +1096,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1107,7 +1107,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1118,7 +1118,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1139,23 +1139,12 @@
             <div class="products-grid">
                 <div class="special-aside">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro7.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro7.jpg" alt="">
                     </a>
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
-                    </a>
-                    <div class="pro-title">
-                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
-                    </div>
-                    <p class="pro-about">
-                        Can you listen to can say, mobile, Can you listen to can say, mobile
-                    </p>
-                </div>
-                <div class="products">
-                    <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1166,7 +1155,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1177,7 +1166,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1188,7 +1177,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1199,7 +1188,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1210,7 +1199,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1221,7 +1210,18 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
+                    </a>
+                    <div class="pro-title">
+                        <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
+                    </div>
+                    <p class="pro-about">
+                        Can you listen to can say, mobile, Can you listen to can say, mobile
+                    </p>
+                </div>
+                <div class="products">
+                    <a href="#">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-title">
                         <a target="_blank" href="#" title="BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass">BASEUS for iPad Pro 12.9 inch 9H 0.4mm Tempered Glass</a>
@@ -1235,7 +1235,7 @@
 
         <!--aside-->
         <aside class="cross-aside-140" style="margin-top: 20px;">
-            <img class="lazy" src="../images/lazylogo.png" data-original="../images/c-banner.jpg" />
+            <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/c-banner.jpg" />
         </aside>
 
         <!--8. recommend-->
@@ -1247,7 +1247,7 @@
             <div class="r-items products-grid">
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-price">
                         <div>US $27.99</div> <del>US $69.98 / Pair</del>
@@ -1259,7 +1259,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-price">
                         <div>US $27.99</div> <del>US $69.98 / Pair</del>
@@ -1271,7 +1271,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-price">
                         <div>US $27.99</div>
@@ -1284,7 +1284,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-price">
                         <div>US $27.99</div>
@@ -1297,7 +1297,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-price">
                         <div>US $27.99</div>
@@ -1310,7 +1310,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-price">
                         <div>US $27.99</div>
@@ -1323,7 +1323,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-price">
                         <div>US $27.99</div>
@@ -1336,7 +1336,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-price">
                         <div>US $27.99</div>
@@ -1349,7 +1349,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-price">
                         <div>US $27.99</div>
@@ -1362,7 +1362,7 @@
                 </div>
                 <div class="products">
                     <a href="#">
-                        <img class="lazy" src="../images/lazylogo.png" data-original="../images/pro2.jpg" alt="">
+                        <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/pro2.jpg" alt="">
                     </a>
                     <div class="pro-price">
                         <div>US $27.99</div>
@@ -1386,44 +1386,44 @@
                 <ul class="sur-items">
                     <li>
                         <a href="#">
-                            <img class="lazy" src="../images/lazylogo.png" data-original="../images/t.jpg" alt="">
+                            <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/t.jpg" alt="">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img class="lazy" src="../images/lazylogo.png" data-original="../images/t.jpg" alt="">
+                            <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/t.jpg" alt="">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img class="lazy" src="../images/lazylogo.png" data-original="../images/t.jpg" alt="">
+                            <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/t.jpg" alt="">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img class="lazy" src="../images/lazylogo.png" data-original="../images/t.jpg" alt="">
+                            <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/t.jpg" alt="">
                         </a>
                     </li>
                 </ul>
                 <ul class="sur-items">
                     <li>
                         <a href="#">
-                            <img class="lazy" src="../images/lazylogo.png" data-original="../images/t.jpg" alt="">
+                            <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/t.jpg" alt="">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img class="lazy" src="../images/lazylogo.png" data-original="../images/t.jpg" alt="">
+                            <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/t.jpg" alt="">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img class="lazy" src="../images/lazylogo.png" data-original="../images/t.jpg" alt="">
+                            <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/t.jpg" alt="">
                         </a>
                     </li>
                     <li>
                         <a href="#">
-                            <img class="lazy" src="../images/lazylogo.png" data-original="../images/t.jpg" alt="">
+                            <img class="lazy" src="../content/images/lazylogo.png" data-original="../content/images/t.jpg" alt="">
                         </a>
                     </li>
                 </ul>
@@ -1436,10 +1436,10 @@
         <!--By Ajax-->
     </footer>
 
-    <script src="../js/jquery-2.2.3.min.js"></script>
-    <script src="../js/jquery.countdownTimer.min.js"></script>
-    <script src="../js/jquery.lazyload.min.js"></script>
-    <script src="../js/jquery.carouse.es5.min.js"></script>
+    <script src="../content/js/modules/jquery-2.2.3.min.js"></script>
+    <script src="../content/js/modules/jquery.countdownTimer.min.js"></script>
+    <script src="../content/js/modules/jquery.lazyload.min.js"></script>
+    <script src="../content/js/modules/jquery.carouse.es5.min.js"></script>
     <script>
         $(function () {
             $.get("share/header.html", function (html) {

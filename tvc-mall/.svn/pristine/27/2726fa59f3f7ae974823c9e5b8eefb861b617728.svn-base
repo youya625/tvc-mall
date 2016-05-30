@@ -4,11 +4,11 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
     <title></title>
     <meta charset="utf-8" />
-    <link href="../styles/common.min.css" rel="stylesheet" />
-    <link rel="icon" href="../images/favicon.ico" />
-    <link href="../styles/pages/brand-list.min.css" rel="stylesheet" />
-    <link href="../styles/icon-web.css" rel="stylesheet" />
-    <link href="../styles/modules/bootstrap.css" rel="stylesheet" />
+    <link href="../content/styles/common.min.css" rel="stylesheet" />
+    <link rel="icon" href="../content/images/favicon.ico" />
+    <link href="../content/styles/pages/brand-list.min.css" rel="stylesheet" />
+    <link href="../content/styles/icon-web.css" rel="stylesheet" />
+    <link href="../content/styles/modules/bootstrap.css" rel="stylesheet" />
 </head>
 <body id="page-categories-list">
     <!--header-->
@@ -84,82 +84,82 @@
             <div class="model-block">
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
                 <div class="mb-item">
                     <a href="#">
-                        <img src="../images/br.jpg" />
+                        <img src="../content/images/br.jpg" />
                     </a>
                 </div>
             </div>
@@ -171,7 +171,7 @@
     <footer class="footer">
         <!--By Ajax-->
     </footer>
-    <script src="../js/jquery-2.1.0.js"></script>
+    <script src="../content/js/modules/jquery-2.1.0.js"></script>
     <script>
 
         $(function () {
