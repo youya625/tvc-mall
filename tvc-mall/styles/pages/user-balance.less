@@ -1,6 +1,7 @@
 ﻿@import "../partials/products-filfer-1.less";
 @import "../partials/start-rating.less";
 @import "../partials/products-grid-view.less";
+@import "../partials/user-section";
 
 
 #userBalance {
@@ -15,7 +16,7 @@
     .content {
         width: @page-width;
         .center();
-        margin-top: 40px;
+        margin-top: 20px;
         display: flex;
         justify-content: space-between;
 
@@ -34,70 +35,6 @@
         flex: 1;
         margin-left: 20px;
 
-
-        .user-section {
-           
-            .s-title {
-                font: @nomal-font;
-                height: 30px;
-                line-height: 30px;
-                text-indent: 18px;
-                border-bottom: 2px solid @nomal-color;
-            }
-        }
-    }
-    //选项卡
-    .tab-pane {
-        display: none;
-
-        &.active {
-            display: block;
-        }
-
-        .top-section {
-            display: flex;
-            justify-content: space-between;
-            height: 45px;
-            line-height: 45px;
-            background-color: @gray-dark;
-
-            .ts-des-left {
-                margin-left: 10px;
-            }
-
-            .ts-des-right {
-                margin-right: 10px;
-            }
-        }
-
-        .top-bar{
-            text-indent: 10px;
-            margin: 10px 0 10px 10px;
-            .form-control{
-                display: inline-block;
-                width: 200px;
-                height: 20px;
-            }
-        }
     }
 
-    .tab-wrap {
-        .clearfix();
-        background-color: #fff;
-        border-bottom: 2px solid @nomal-color;
-        padding-top: 32px;
-        z-index: 8999;
-
-        li {
-            a {
-                border-radius: 0;
-            }
-
-            &.active {
-                a {
-                    background-color: @nomal-color;
-                }
-            }
-        }
-    }
 }

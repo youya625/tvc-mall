@@ -1,0 +1,62 @@
+﻿//选择地址
+.user-address {
+    .order-address-change {
+        display: flex;
+        justify-content: flex-start;
+        flex-wrap: wrap;
+
+        .address-item {
+            display: block;
+            position: relative;
+            margin: 20px 20px 0px 20px;
+            padding: 12px;
+            width: 216px;
+            height: 138px;
+            background-image: url('../../images/postAddr.png');
+            cursor: pointer;
+
+            .btm-bar {
+                position: absolute;
+                bottom: 0;
+                left: 0;
+                display: none;
+                justify-content: flex-end;
+                width: 240px;
+                height: 30px;
+                line-height: 30px;
+                background-color: RGBA(0, 0, 0, 0.6);
+
+                .address-edit {
+                    text-decoration: underline;
+                    margin-right: 10px;
+                    color: #fff;
+                }
+            }
+
+            &:hover {
+                background-position: 0 -164px;
+
+                .btm-bar {
+                    display: flex;
+                }
+            }
+
+            &.select {
+                background-position: 0 -164px;
+            }
+        }
+    }
+
+    .oa-bar {
+        .btn-add {
+            margin-top: 20px;
+            margin-left: 20px;
+            height: 20px;
+            line-height: 15px;
+        }
+
+        .add {
+            font-size: 21px;
+        }
+    }
+}

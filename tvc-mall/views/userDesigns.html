@@ -8,9 +8,10 @@
     <link rel="icon" href="../images/favicon.ico" />
     <link href="../styles/icon-web.css" rel="stylesheet" />
     <link href="../styles/modules/bootstrap.css" rel="stylesheet" />
-    <link href="../styles/pages/user-balance.min.css" rel="stylesheet" />
+    <link href="../styles/pages/user-designs.min.css" rel="stylesheet" />
+    <link href="../styles/modules/lightbox.css" rel="stylesheet" />
 </head>
-<body id="userBalance">
+<body id="userDesigns">
     <!--header-->
     <header>
         <!--By Ajax-->
@@ -37,11 +38,11 @@
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Profile</a>
                     </li>
-                    <li>
+                    <li class="select">
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Designs</a>
                     </li>
-                    <li class="select">
+                    <li>
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Points & Balance</a>
                     </li>
@@ -75,7 +76,133 @@
         <!--products list-->
 
         <div class="list-view">
-
+            <div class="user-section">
+                <div class="s-title">
+                        My Designs
+                </div>
+                <p class="top-des">
+                    Now you can design your new products:Check all products which can be customized.
+                </p>
+                <table class="table table-bordered">
+                    <tr>
+                        <th>No.</th>
+                        <th>Picture</th>
+                        <th>Details</th>
+                        <th>Price</th>
+                        <th>Actions</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>
+                            <img class="design-img" src="../images/big-pic.jpg" />
+                            <a href="../images/big-pic.jpg" class="preview b-color" data-lightbox="image">Preview</a>
+                        </td>
+                        <td>
+                            <p class="product-name">ROCK 5V 8A 6-Port Pocket Desktop Charger Adapter for Smartphone and Tablet - White</p>
+                            <p>Item NO.:10160056B$00036</p>
+                            <p>Date of Saving:03/30/2016</p>
+                        </td>
+                        <td>
+                            <span class="n-color">$ 20.08</span>
+                        </td>
+                        <td>
+                            <ul class="options">
+                                <li>
+                                    <a href="#" class="b-color">Edit</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="b-color">Delete</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>
+                            <img class="design-img" src="../images/big-pic.jpg" />
+                            <a href="../images/big-pic.jpg" class="preview b-color" data-lightbox="image">Preview</a>
+                        </td>
+                        <td>
+                            <p class="product-name">ROCK 5V 8A 6-Port Pocket Desktop Charger Adapter for Smartphone and Tablet - White</p>
+                            <p>Item NO.:10160056B$00036</p>
+                            <p>Date of Saving:03/30/2016</p>
+                        </td>
+                        <td>
+                            <span class="n-color">$ 20.08</span>
+                        </td>
+                        <td>
+                            <ul class="options">
+                                <li>
+                                    <a href="#" class="b-color">Edit</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="b-color">Delete</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>
+                            <img class="design-img" src="../images/big-pic.jpg" />
+                            <a href="../images/big-pic.jpg" class="preview b-color" data-lightbox="image">Preview</a>
+                        </td>
+                        <td>
+                            <p class="product-name">ROCK 5V 8A 6-Port Pocket Desktop Charger Adapter for Smartphone and Tablet - White</p>
+                            <p>Item NO.:10160056B$00036</p>
+                            <p>Date of Saving:03/30/2016</p>
+                        </td>
+                        <td>
+                            <span class="n-color">$ 20.08</span>
+                        </td>
+                        <td>
+                            <ul class="options">
+                                <li>
+                                    <a href="#" class="b-color">Edit</a>
+                                </li>
+                                <li>
+                                    <a href="#" class="b-color">Delete</a>
+                                </li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+                <nav class="pagination-wrap pagination-right">
+                    <div class="page-count">
+                        Pages: 1 / 37
+                    </div>
+                    <ul class="pagination pagination-sm">
+                        <li class="disabled">
+                            <a href="javascript:void(0);" aria-label="Previous">
+                                <span aria-hidden="true"><</span>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="javascript:void(0);">1</a>
+                        </li>
+                        <li>
+                            <a href="#">2</a>
+                        </li>
+                        <li>
+                            <a href="#">3</a>
+                        </li>
+                        <li>
+                            <a href="#">4</a>
+                        </li>
+                        <li class="ellipsis">
+                            <a href="javascript:void(0)">...</a>
+                        </li>
+                        <li>
+                            <a href="#">37</a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
     <!--footer-->
@@ -83,7 +210,7 @@
         <!--By Ajax-->
     </footer>
     <script src="../js/jquery-2.2.3.min.js"></script>
-
+    <script src="../js/lightbox-2.6.min.js"></script>
     <script>
 
         $(function () {

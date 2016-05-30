@@ -1,9 +1,9 @@
 ﻿@import "../partials/products-filfer-1.less";
 @import "../partials/start-rating.less";
-@import "../partials/products-grid-view.less";
+@import "../partials/user-section";
+@import "../partials/user-orders-list";
 
-
-#userBalance {
+#userAccount {
     .r-title {
         display: block;
         width: 100%;
@@ -15,7 +15,8 @@
     .content {
         width: @page-width;
         .center();
-        margin-top: 40px;
+        margin-top: 20px;
+        padding-bottom: 50px;
         display: flex;
         justify-content: space-between;
 
@@ -33,6 +34,217 @@
     .list-view {
         flex: 1;
         margin-left: 20px;
+        //用户账户
+        .user-account-content {
+            display: flex;
+            justify-content: flex-start;
+            padding: 5px;
+            margin-top: 10px;
+            background-color: #fcf8e3;
+            border: 1px solid #faebcc;
 
+            .a-left {
+                .avatar-wrap {
+                    margin: 20px 10px 0 10px;
+                    border: 1px solid #f9df99;
+                    background-color: #fff;
+
+                    img {
+                        max-width: 120px;
+                    }
+                }
+            }
+
+            .a-right {
+                border-left: 1px solid #f9df99;
+                padding: 5px 10px 5px 10px;
+                width: 100%;
+
+                .icon-web {
+                    display: inline-block;
+                }
+
+                .a-title {
+                    margin-top: 10px;
+
+                    .username {
+                        font: @nomal-font;
+                        font-size: 19px;
+                        color: #000;
+                    }
+                }
+
+                .user-info {
+                    width: 100%;
+                    margin-top: 10px;
+                    border: 1px solid #f9df99;
+
+                    .i-title {
+                        width: 100%;
+                        background-color: #f9df99;
+                        height: 30px;
+                        line-height: 30px;
+                        text-indent: 10px;
+
+                        .icon-web {
+                            display: inline-block;
+                            vertical-align: middle;
+                        }
+                    }
+
+                    .border-bottom {
+                        border-bottom: 1px solid @gray-dark;
+                    }
+
+                    .i-item {
+                        display: flex;
+                        justify-content: flex-start;
+                        height: 48px;
+                        line-height: 48px;
+                        background-color: #fff;
+
+                        .item-content {
+                            margin-left: 10px;
+                            min-width: 200px;
+                        }
+
+                        .btn {
+                            margin-left: 10px;
+                            height: 20px;
+                            line-height: 20px;
+                            margin-top: 8px;
+                        }
+                    }
+                }
+
+                .account-info {
+                    display: flex;
+                    justify-content: flex-start;
+                    width: 100%;
+                    margin-top: 10px;
+                    border: 1px solid #f9df99;
+                    background-color: #fff;
+                    height: 40px;
+                    line-height: 40px;
+
+                    .account-left {
+                        text-indent: 10px;
+                        width: 30%;
+                    }
+
+                    .account-right {
+                        text-indent: 10px;
+                        border-left: 1px solid @gray-dark;
+                    }
+                }
+            }
+        }
+    }
+
+    .user-recont-order {
+        margin-top: 20px;
+
+        .s-title {
+            display: flex;
+            justify-content: space-between;
+        }
+    }
+
+    .user-section {
+
+
+        .btn-success {
+            margin-bottom: 2px;
+            line-height: 16px;
+            text-indent: 0;
+        }
+
+        .ro-btm-section {
+            width: 100%;
+            text-align: right;
+
+            .m-link {
+                text-decoration: underline;
+            }
+        }
+    }
+
+    .working-calendar {
+        margin-top: 20px;
+
+        .calendar-des {
+            margin: 10px 0;
+        }
+
+        .calendars-wrap {
+            display: flex;
+            justify-content: space-around;
+            margin: 10px 0;
+            //日历
+            .calendar {
+                width: 390px;
+                height: 320px;
+                display: inline-block;
+
+                .calendar-title {
+                    width: 380px;
+                    height: 60px;
+                    background-color: #fce3b1;
+
+                    .calendar-title-name {
+                        font: @nomal-font;
+                        font-size: 18px;
+                        line-height: 35px;
+                        border-bottom: 1px solid #fc5900;
+                        text-align: center;
+                        color: #fc5900;
+                    }
+                }
+
+                .calender-title-week li {
+                    font: @nomal-font;
+                    width: 51px;
+                    line-height: 28px;
+                    height: 28px;
+                    display: inline-block;
+                    list-style: none;
+                    text-align: center;
+                    color: #fc5900;
+                    
+                }
+
+                .calendar-body {
+                    width: 380.5px;
+                    height: 260px;
+                    margin-top: 8px;
+                    overflow: hidden;
+                    font-size: 0;
+
+                    li {
+                        font: @nomal-font;
+                        width: 53px;
+                        line-height: 50px;
+                        height: 50px;
+                        display: inline-block;
+                        list-style: none;
+                        text-align: center;
+                        color: #555;
+                        border: 1px solid #dcdcdc;
+                        border-right: 1px solid #dcdcdc;
+                        font-size: 16px;
+                        margin-right: -1px;
+                        margin-bottom: -1px;
+                    }
+
+                    .calendar-disable {
+                        color: #dcdcdc;
+                    }
+
+                    .calendar-active {
+                        color: red;
+                    }
+                }
+            }
+        }
     }
 }

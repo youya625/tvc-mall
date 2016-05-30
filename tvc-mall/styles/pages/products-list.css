@@ -2378,6 +2378,15 @@ label {
 .pagination .ellipsis a:hover {
   background-color: transparent;
 }
+.pagination-wrap.pagination-right {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: end;
+      justify-content: flex-end;
+}
+.pagination-wrap.pagination-right .page-count {
+  line-height: 75px;
+}
 @media (max-width: 1420px) {
   .site-top-nav .sn-container,
   .site-main-nav .nav,

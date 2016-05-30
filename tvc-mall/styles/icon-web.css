@@ -43,140 +43,280 @@
 .icon-web.icon-discount
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -150px -48px;
+  background-position: -257px 0px;
   width: 41px;
   height: 41px;
 }
 .icon-web.icon-color
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: 0px -59px;
+  background-position: -150px -48px;
   width: 32px;
   height: 32px;
 }
 .icon-web.icon-ms
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -32px -59px;
+  background-position: -182px -48px;
   width: 32px;
   height: 32px;
 }
 .icon-web.icon-paypal
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -64px -58px;
+  background-position: -214px -46px;
   width: 32px;
   height: 32px;
 }
 .icon-web.icon-select
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -96px -58px;
+  background-position: -246px -46px;
   width: 32px;
   height: 32px;
 }
 .icon-web.icon-slider-left-sm
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -128px -58px;
+  background-position: -278px -41px;
   width: 20px;
   height: 32px;
 }
 .icon-web.icon-slider-right-sm
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -191px -48px;
+  background-position: -298px 0px;
   width: 20px;
   height: 32px;
 }
 .icon-web.icon-yh
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -211px -46px;
+  background-position: -298px -32px;
   width: 32px;
   height: 32px;
 }
 .icon-web.icon-fb
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -243px -46px;
+  background-position: -318px 0px;
   width: 30px;
   height: 31px;
+}
+.icon-web.order-status-paid
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -330px -31px;
+  width: 25px;
+  height: 29px;
+}
+.icon-web.order-status-pending
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -348px 0px;
+  width: 30px;
+  height: 29px;
+}
+.icon-web.order-status-done
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -355px -29px;
+  width: 25px;
+  height: 26px;
+}
+.icon-web.order-status-in-process
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -355px -55px;
+  width: 30px;
+  height: 25px;
+}
+.icon-web.order-status-shipped
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -378px 0px;
+  width: 32px;
+  height: 24px;
 }
 .icon-web.icon-bvalue
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -257px 0px;
+  background-position: -59px -58px;
   width: 84px;
   height: 23px;
+}
+.icon-web.order-traking
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -380px -24px;
+  width: 23px;
+  height: 23px;
+}
+.icon-web.order-bulk
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: 0px -59px;
+  width: 23px;
+  height: 22px;
+}
+.icon-web.order-chekout
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -23px -59px;
+  width: 23px;
+  height: 22px;
+}
+.icon-web.order-comment-view
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -385px -47px;
+  width: 23px;
+  height: 22px;
+}
+.icon-web.order-comment-write
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -403px -24px;
+  width: 23px;
+  height: 22px;
+}
+.icon-web.order-contact
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -408px -46px;
+  width: 23px;
+  height: 22px;
+}
+.icon-web.order-continue
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -410px 0px;
+  width: 23px;
+  height: 22px;
+}
+.icon-web.order-copy
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -426px -22px;
+  width: 23px;
+  height: 22px;
+}
+.icon-web.order-done
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -431px -44px;
+  width: 23px;
+  height: 22px;
+}
+.icon-web.order-download-images
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -433px 0px;
+  width: 23px;
+  height: 22px;
+}
+.icon-web.order-export
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -449px -22px;
+  width: 23px;
+  height: 22px;
+}
+.icon-web.order-remove
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -454px -44px;
+  width: 23px;
+  height: 22px;
+}
+.icon-web.order-split
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -456px 0px;
+  width: 23px;
+  height: 22px;
 }
 .icon-web.icon-tel
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -257px -23px;
+  background-position: -330px -60px;
   width: 20px;
+  height: 20px;
+}
+.icon-web.user-account
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -472px -22px;
+  width: 17px;
   height: 20px;
 }
 .icon-web.icon-bestsale
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -273px -43px;
+  background-position: -477px -42px;
   width: 74px;
   height: 19px;
 }
 .icon-web.icon-new
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -273px -62px;
+  background-position: -477px -61px;
   width: 41px;
   height: 19px;
 }
 .icon-web.icon-trend
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -277px -23px;
+  background-position: -479px 0px;
   width: 66px;
   height: 19px;
 }
 .icon-web.icon-add
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -314px -62px;
+  background-position: -489px -19px;
   width: 20px;
   height: 18px;
 }
 .icon-web.icon-dec
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -334px -62px;
+  background-position: -509px -19px;
   width: 20px;
+  height: 18px;
+}
+.icon-web.user-select
+{
+  background-image: url('../images/icons/icon-web.png');
+  background-position: -518px -61px;
+  width: 19px;
   height: 18px;
 }
 .icon-web.icon-air
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -341px 0px;
+  background-position: -298px -64px;
   width: 16px;
   height: 16px;
 }
 .icon-web.icon-praise
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -211px -78px;
+  background-position: -46px -59px;
   width: 13px;
   height: 13px;
 }
 .icon-web.icon-tread
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -224px -78px;
+  background-position: -314px -64px;
   width: 13px;
   height: 13px;
 }
 .icon-web.icon-mail
 {
   background-image: url('../images/icons/icon-web.png');
-  background-position: -237px -78px;
+  background-position: -385px -69px;
   width: 18px;
   height: 12px;
 }

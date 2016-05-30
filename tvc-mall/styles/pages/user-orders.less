@@ -1,28 +1,32 @@
 ﻿@import "../partials/products-filfer-1.less";
 @import "../partials/start-rating.less";
-@import "../partials/products-grid-view.less";
+@import "../partials/user-section";
+@import "../partials/pagination";
+@import "../partials/user-orders-list";
 
 
-#userBalance {
+
+#userOrder {
     .r-title {
         display: block;
         width: 100%;
         height: 50px;
         line-height: 50px;
         color: #000;
-
     }
 
     .content {
         width: @page-width;
         .center();
-        margin-top: 40px;
+        margin-top: 20px;
         display: flex;
         justify-content: space-between;
+        padding-bottom: 80px;
 
         .filter {
             width: 220px;
         }
+
         .filter-title {
             color: #fff;
             background-color: @nomal-color;
@@ -33,6 +37,88 @@
     .list-view {
         flex: 1;
         margin-left: 20px;
-    }
 
+        .top-des {
+            margin: 10px 0 10px 17px;
+
+            a {
+                color: @nomal-color;
+
+                &:hover {
+                    text-decoration: underline;
+                }
+            }
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+
+            .tb-left {
+                .btn {
+                    margin-right: 10px;
+                }
+            }
+
+            .tb-right {
+                display: flex;
+                justify-content: space-between;
+
+                .r-item {
+                    margin-left: 10px;
+                }
+
+                .search-input {
+                    height: 20px;
+                }
+
+                .btn-danger {
+                    height: 33px;
+                }
+            }
+        }
+
+        .icon-info {
+            color: @nomal-color;
+        }
+
+        .tab-wrap {
+            display: flex;
+            justify-content: flex-start;
+
+            .order-sort {
+                line-height: 38px;
+                margin-left: 100px;
+                .form-control {
+                    display: inline-block;
+                    width: 200px;
+                }
+            }
+        }
+
+
+
+
+
+        .order-status-list {
+            margin-top: 20px;
+
+            li {
+                margin-top: 5px;
+            }
+
+            .icon-status-wrap {
+                display: inline-block;
+                width: 30px;
+                text-align: right;
+                margin-right: 10px;
+            }
+
+            .icon-web {
+                display: inline-block;
+                vertical-align: middle;
+            }
+        }
+    }
 }

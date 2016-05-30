@@ -74,5 +74,29 @@
   {
     "outputFile": "styles/pages/user-balance.css",
     "inputFile": "styles/pages/user-balance.less"
+  },
+  {
+    "outputFile": "styles/pages/user-orders.css",
+    "inputFile": "styles/pages/user-orders.less"
+  },
+  {
+    "outputFile": "styles/pages/user-account.css",
+    "inputFile": "styles/pages/user-account.less"
+  },
+  {
+    "outputFile": "styles/pages/user-update.css",
+    "inputFile": "styles/pages/user-update.less"
+  },
+  {
+    "outputFile": "styles/pages/user-designs.css",
+    "inputFile": "styles/pages/user-designs.less"
+  },
+  {
+    "outputFile": "styles/pages/user-password.css",
+    "inputFile": "styles/pages/user-password.less"
+  },
+  {
+    "outputFile": "styles/pages/user-profile.css",
+    "inputFile": "styles/pages/user-profile.less"
   }
 ]

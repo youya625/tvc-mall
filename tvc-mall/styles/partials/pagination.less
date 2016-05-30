@@ -26,9 +26,21 @@
         a {
             cursor: default;
             border: none;
-            &:focus, &:hover{
+
+            &:focus, &:hover {
                 background-color: transparent;
             }
         }
+    }
+
+}
+
+.pagination-wrap.pagination-right {
+    display: flex;
+    justify-content: flex-end;
+
+
+    .page-count {
+        line-height: 75px;
     }
 }

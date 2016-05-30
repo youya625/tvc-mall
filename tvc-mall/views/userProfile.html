@@ -8,9 +8,10 @@
     <link rel="icon" href="../images/favicon.ico" />
     <link href="../styles/icon-web.css" rel="stylesheet" />
     <link href="../styles/modules/bootstrap.css" rel="stylesheet" />
-    <link href="../styles/pages/user-balance.min.css" rel="stylesheet" />
+    <link href="../styles/pages/user-profile.min.css" rel="stylesheet" />
+    <link href="../styles/modules/icheck-orange.css" rel="stylesheet" />
 </head>
-<body id="userBalance">
+<body id="userProfile">
     <!--header-->
     <header>
         <!--By Ajax-->
@@ -33,7 +34,7 @@
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Orders</a>
                     </li>
-                    <li>
+                    <li class="select">
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Profile</a>
                     </li>
@@ -41,7 +42,7 @@
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Designs</a>
                     </li>
-                    <li class="select">
+                    <li>
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Points & Balance</a>
                     </li>
@@ -75,7 +76,316 @@
         <!--products list-->
 
         <div class="list-view">
+            <div class="user-section">
+                <div class="s-title">
+                    Personal Info
+                </div>
 
+                <div class="tab-wrap">
+                    <!--3 tabs-->
+                    <ul id="info-tab" class="nav nav-pills">
+                        <li role="presentation" class="active">
+                            <a href="#personalInfo">Personal Info</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#businessInfo">Business Info</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#myAddress">My Address</a>
+                        </li>
+                    </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane active" id="personalInfo">
+                    <div class="info-left">
+                        <form>
+                            <p class="f-weight">Your Email: 60000000@qq.com</p>
+                            <div class="form-group">
+                                <label>
+                                    *Full Name:
+                                </label>
+                                <input type="text" class="form-control" placeholder="66@qq.com">
+                            </div>
+                            <div class="form-group">
+                                <label>*Gender:</label>
+                                <div class="gender-wrap">
+                                    <div class="g-item">
+                                        <input name="gender" type="radio" value="female" checked />
+                                        Female
+                                    </div>
+                                    <div class="g-item">
+                                        <input name="gender" type="radio" value="male" />
+                                        Male
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    Secondary Email:
+                                </label>
+                                <input type="text" class="form-control" placeholder="6666888@qq.com">
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    *How you know us:
+                                </label>
+                                <select class="form-control f-select">
+                                    <option value="">Please choose...</option>
+                                    <option selected="selected" value="Friends">Friends</option>
+                                    <option value="Google">Google</option>
+                                    <option value="Yahoo">Yahoo</option>
+                                    <option value="Bing">Bing</option>
+                                    <option value="Facebook">Facebook</option>
+                                    <option value="Twitter">Twitter</option>
+                                    <option value="Alibaba">Alibaba</option>
+                                    <option value="Globalsources">Globalsources</option>
+                                    <option value="Windowlive">Windowlive</option>
+                                    <option value="Others">Others</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    *Country/Region:
+                                </label>
+                                <div>
+                                    <select class="selectpicker country-select" data-live-search="true" title="Please choose...">
+                                        <option>Hot Doa Soda</option>
+                                        <option>Burga Smile</option>
+                                        <option>Suga nice</option>
+                                        <option>Baby Back Ribs</option>
+                                    </select>
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    *Position in Company:
+                                </label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    Years in business:
+                                </label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    Hobbies:
+                                </label>
+                                <input type="text" class="form-control">
+                            </div>
+                            <div class="form-group">
+                                <label>
+                                    Impression of products made in China:
+                                </label>
+                                <textarea cols="3" class="form-control text-impression"></textarea>
+                            </div>
+                            <input type="submit" value="Submit" class="btn btn-danger" />
+
+                        </form>
+
+                    </div>
+                    <div class="info-right">
+                        <div class="avatar-wrap">
+                            <img src="../images/big-pic.jpg" />
+                        </div>
+                        <a class="avatar-modify">Modify</a>
+                    </div>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="businessInfo">
+                    <form>
+                        <div class="form-group">
+                            <label>
+                                *Business Name:
+                            </label>
+                            <input type="text" class="form-control" placeholder="66@qq.com">
+                        </div>
+                        <div class="form-group">
+                            <label>*Business Type:</label>
+                            <select class="form-control f-select ">
+                                <option value="">Please choose...</option>
+                                <option selected="selected" value="Trader">Trader</option>
+                                <option value="Reseller">Reseller</option>
+                                <option value="Agency">Agency</option>
+                                <option value="Dropshipper">Dropshipper</option>
+                                <option value="Wholesaler">Wholesaler</option>
+                                <option value="Specify">Specify</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>You mainly sell via:</label>
+                            <select class="form-control f-select ">
+                                <option value="Online">Online store</option>
+                                <option value="Physical">Physical store</option>
+                                <option selected="selected" value="Online,Physical">Both</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                *You business website/Shop URL:
+                            </label>
+                            <input type="text" class="form-control" placeholder="www.tvc-mall.com">
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                Monthly Sales Amount:
+                            </label>
+                            <div class="input-group">
+                                <div class="input-group-addon" style="width: 26px;">USD</div>
+                                <input type="text" class="form-control" placeholder="88" style="width: 350px;">
+                            </div>
+                        </div>
+                        <div class="form-group">
+                            <label>Number of Suppliers in China:</label>
+                            <select class="form-control f-select ">
+                                <option value="0-5">below 5</option>
+                                <option value="5-10">5-10</option>
+                                <option value="10-20">10-20</option>
+                                <option selected="selected" value="20+">above 20</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                * Products/Categories you are currently very interested in:
+                            </label>
+                            <input type="text" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <label>
+                                You usually find suppliers from:
+                            </label>
+                            <select class="form-control f-select ">
+                                <option value="Friends">Friends</option>
+                                <option value="Google">Google</option>
+                                <option value="B2B Portals">B2B Portals (Alibaba, e.g.)</option>
+                                <option selected="selected" value="Specify">Specify</option>
+                            </select>
+                        </div>
+                        <input type="submit" value="Submit" class="btn btn-danger" />
+
+                    </form>
+                </div>
+                <div role="tabpanel" class="tab-pane user-address" id="myAddress">
+                    <div class="order-address-change">
+                        <div class="address-item">
+                            <span>22, 22 , 11 , Malta (Contact Person: 222, Telephone: 3123, PostCode: 22)</span>
+                            <div class="btm-bar">
+                                <span class="address-edit">[edit]</span>
+                                <span class="address-edit">[delete]</span>
+                                <span class="address-edit">set default</span>
+                            </div>
+                        </div>
+                        <div class="address-item select">
+                            <span>22, 22 , 11 , Malta (Contact Person: 222, Telephone: 3123, PostCode: 22)</span>
+                            <div class="btm-bar">
+                                <span class="address-edit">[edit]</span>
+                            </div>
+                        </div>
+                        <div class="address-item">
+                            <span>22, 22 , 11 , Malta (Contact Person: 222, Telephone: 3123, PostCode: 22)</span>
+                            <div class="btm-bar">
+                                <span class="address-edit">[edit]</span>
+                            </div>
+                        </div>
+                        <div class="address-item">
+                            <span>22, 22 , 11 , Malta (Contact Person: 222, Telephone: 3123, PostCode: 22)</span>
+                            <div class="btm-bar">
+                                <span class="address-edit">[edit]</span>
+                            </div>
+                        </div>
+                        <div class="address-item">
+                            <span>22, 22 , 11 , Malta (Contact Person: 222, Telephone: 3123, PostCode: 22)</span>
+                            <div class="btm-bar">
+                                <span class="address-edit">[edit]</span>
+                            </div>
+                        </div>
+                        <div class="address-item">
+                            <span>22, 22 , 11 , Malta (Contact Person: 222, Telephone: 3123, PostCode: 22)</span>
+                            <div class="btm-bar">
+                                <span class="address-edit">[edit]</span>
+                            </div>
+                        </div>
+                        <div class="address-item">
+                            <span>22, 22 , 11 , Malta (Contact Person: 222, Telephone: 3123, PostCode: 22)</span>
+                            <div class="btm-bar">
+                                <span class="address-edit">[edit]</span>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="oa-bar">
+                        <div class="btn btn-success btn-add" data-toggle="modal" data-target="#userAddressInfo">
+                            <span class="add">+</span>
+                            New Address
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="userAddressInfo" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="gridSystemModalLabel">New Address</h4>
+                    <button type="button" class="btn close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+                <p class="text">
+                    Tell us about the lower prices you found elsewhere.
+                </p>
+                <form class="address-data">
+                    <div class="form-group">
+                        <label for="Concats">*Contact Person:</label>
+                        <input type="text" class="form-control" id="Concats" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label>*Country/Region:	</label>
+                        <div>
+                            <select class="selectpicker" data-live-search="true" title="Please choose...">
+                                <option>Hot Doa Soda</option>
+                                <option>Burga Smile</option>
+                                <option>Suga nice</option>
+                                <option>Baby Back Ribs</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="txtProvince">*Province/State:</label>
+                        <input type="text" class="form-control" id="txtProvince" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="txtProvince">*Province/State:</label>
+                        <input type="text" class="form-control" id="txtProvince" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="City">*City:</label>
+                        <input type="text" class="form-control" id="City" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="Address">*Address:</label>
+                        <textarea id="Address" rows="3" class="form-control"></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label for="PostCode">*PostCode:</label>
+                        <input type="text" class="form-control" id="PostCode" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="Telephone">Telephone:</label>
+                        <input type="tel" class="form-control" id="Telephone" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="Telephone">Mobile:</label>
+                        <input type="tel" class="form-control" id="Mobile" placeholder="">
+                    </div>
+                    <div class="form-group">
+                        <label for="Telephone">Fax:</label>
+                        <input type="tel" class="form-control" id="Fax" placeholder="">
+                    </div>
+                    <button type="submit" class="btn btn-danger">Submit</button>
+                    <input  data-dismiss="modal" aria-label="Close" type="button" class="btn btn-default" value="Cancle" />
+                </form>
+            </div>
         </div>
     </div>
     <!--footer-->
@@ -83,7 +393,10 @@
         <!--By Ajax-->
     </footer>
     <script src="../js/jquery-2.2.3.min.js"></script>
-
+    <script src="../js/bootstrap-tab.js"></script>
+    <script src="../js/jquery.pin.js"></script>
+    <script src="../js/icheck.min.js"></script>
+    <script src="../js/bootstrap-modal.js"></script>
     <script>
 
         $(function () {
@@ -99,6 +412,21 @@
 
             $.get("share/footer.html", function (html) {
                 $("footer").html(html);
+            });
+
+            $('#info-tab a').click(function (e) {
+                e.preventDefault()
+                $(this).tab('show')
+            });
+
+            //checkbox初始化
+            $("input[type='checkbox'], input[type='radio']").iCheck({
+                checkboxClass: 'icheckbox_flat-orange',
+                radioClass: 'iradio_flat-orange'
+            });
+
+            $(".tab-wrap").pin({
+                containerSelector: ".user-section"
             });
         });
     </script>

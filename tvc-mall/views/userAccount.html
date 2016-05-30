@@ -8,9 +8,9 @@
     <link rel="icon" href="../images/favicon.ico" />
     <link href="../styles/icon-web.css" rel="stylesheet" />
     <link href="../styles/modules/bootstrap.css" rel="stylesheet" />
-    <link href="../styles/pages/user-balance.min.css" rel="stylesheet" />
+    <link href="../styles/pages/user-account.min.css" rel="stylesheet" />
 </head>
-<body id="userBalance">
+<body id="userAccount">
     <!--header-->
     <header>
         <!--By Ajax-->
@@ -25,7 +25,7 @@
                     My Account
                 </h3>
                 <ul class="filter-items">
-                    <li>
+                    <li class="select">
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Account</a>
                     </li>
@@ -41,7 +41,7 @@
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Designs</a>
                     </li>
-                    <li class="select">
+                    <li>
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Points & Balance</a>
                     </li>
@@ -75,7 +75,340 @@
         <!--products list-->
 
         <div class="list-view">
+            <div class="alert alert-warning alert-dismissible fade in" role="alert">
+                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">×</span></button>
+                <p class="f-weight">Updated on 11/27/2015</p>
+                <p class="f-weight">Item: System Updates of TVC Mall(20151127)</p>
+                <p class="f-weight">Detail:</p>
+                <p>1. For specific customers, there will be information about whether customers have bought products on the product list or not.</p>
+                <p>2. Optimized sort and display of the list of New Arrivals and Bestselling.</p>
+                <p>3. Optimized the display of comments reply.</p>
+            </div>
 
+            <div class="user-section">
+                <div class="s-title">
+                    My Account
+                </div>
+                <div class="user-account-content">
+                    <div class="a-left">
+                        <div class="avatar-wrap">
+                            <img src="../images/lazylogo.png" />
+                        </div>
+                    </div>
+                    <div class="a-right">
+                        <p class="a-title">
+                            <span class="icon-web user-account"></span>
+                            <span class="username">625521669@qq.com</span>
+                            , Welcome!
+                        </p>
+                        <p>
+                            Email address unconfirmed (Didn't received the email,
+                            <a href="#" class="b-color">send email again</a>
+                            )
+                        </p>
+                        <p>
+                            Activate your tvc-mall account will help you receive promotions information!
+                            <a href="#" class="b-color">Activate Now</a>
+                        </p>
+                        <div class="user-info">
+                            <div class="i-title">
+                                <span class="icon-web user-select"></span>
+                                Uncompleted
+                            </div>
+                            <div class="i-item border-bottom">
+                                <div class="item-content">
+                                    <span class="n-color f-weight">3</span>
+                                    Pending orders
+                                </div>
+                                <a href="#" class="btn btn-success">To deal with >></a>
+                            </div>
+                            <div class="i-item">
+                                <div class="item-content">
+                                    <span class="n-color f-weight">3</span>
+                                    Orders not reviewed yet
+                                </div>
+                                <a href="#" class="btn btn-danger">Write reviews >></a>
+                            </div>
+                        </div>
+                        <div class="account-info">
+                            <div class="account-left">
+                                My Balance: USD
+                                <span class="n-color f-weight">8800</span>
+                            </div>
+                            <div class="account-right">
+                                My Points:
+                                <span class="f-weight">0</span>
+                                points (= USD
+                                <span class="f-weight">0</span>
+                                )
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="user-section user-recont-order">
+                <div class="s-title">
+                    <div>
+                        Recent order
+                    </div>
+                    <a href="#" class="btn btn-success">
+                        <i class="icon-triangle-right"></i>
+                        Create new order
+                    </a>
+                </div>
+                <table class="table table-condensed user-orders-list">
+                    <tr>
+                        <th>No.</th>
+                        <th>State</th>
+                        <th>Date</th>
+                        <th>Order No.</th>
+                        <th>Total Price</th>
+                        <th>Actions</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Pending</td>
+                        <td>05/21/2016</td>
+                        <td>
+                            <a href="#">
+                                V16052100185
+                            </a>
+                            <i class="icon-info"></i>
+                        </td>
+                        <td>
+                            USD
+                            <span class="n-color">
+                                458988.86
+                            </span>
+                        </td>
+                        <td>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-bulk" title="Bulk Buy with SKUs"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-chekout" title="Checkout"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-continue" title="Continue shopping"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-remove" title="Remove this order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-export" title="Export the order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-copy" title="Copy Order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-download-images" title="Download pictures"></span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Pending</td>
+                        <td>05/21/2016</td>
+                        <td>
+                            <a href="#">
+                                V16052100185
+                            </a>
+                            <i class="icon-info"></i>
+                        </td>
+                        <td>
+                            USD
+                            <span class="n-color">
+                                458988.86
+                            </span>
+                        </td>
+                        <td>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-bulk" title="Bulk Buy with SKUs"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-chekout" title="Checkout"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-continue" title="Continue shopping"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-remove" title="Remove this order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-export" title="Export the order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-copy" title="Copy Order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-download-images" title="Download pictures"></span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Pending</td>
+                        <td>05/21/2016</td>
+                        <td>
+                            <a href="#">
+                                V16052100185
+                            </a>
+                            <i class="icon-info"></i>
+                        </td>
+                        <td>
+                            USD
+                            <span class="n-color">
+                                458988.86
+                            </span>
+                        </td>
+                        <td>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-bulk" title="Bulk Buy with SKUs"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-chekout" title="Checkout"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-continue" title="Continue shopping"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-remove" title="Remove this order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-export" title="Export the order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-copy" title="Copy Order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-download-images" title="Download pictures"></span>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
+                <div class="ro-btm-section">
+                    <a href="#" class="b-color m-link">more orders</a>
+                </div>
+            </div>
+
+            <div class="user-section working-calendar">
+                <div class="s-title">
+                    <div>
+                        Working Day Calendar
+                    </div>
+                </div>
+                <p class="calendar-des">Our working time is from 9:30 AM to 18:30 PM.</p>
+                <div class="calendars-wrap">
+                    <div class="calendar">
+                        <div class="calendar-title">
+                            <div class="calendar-title-name">
+                                April 2016
+                            </div>
+                            <ul class="calender-title-week">
+                                <li>MON</li>
+                                <li>TUE</li>
+                                <li>WED</li>
+                                <li>THU</li>
+                                <li>FRI</li>
+                                <li>SAT</li>
+                                <li>SUN</li>
+                            </ul>
+                        </div>
+                        <ul class="calendar-body">
+                            <li class="calendar-disable">28</li>
+                            <li class="calendar-disable">29</li>
+                            <li class="calendar-disable">30</li>
+                            <li class="calendar-disable">31</li>
+                            <li class="calendar-active">1</li>
+                            <li class="calendar-active">2</li>
+                            <li class="calendar-active">3</li>
+                            <li class="calendar-active">4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li class="calendar-active">10</li>
+                            <li>11</li>
+                            <li>12</li>
+                            <li>13</li>
+                            <li>14</li>
+                            <li>15</li>
+                            <li class="calendar-active">16</li>
+                            <li class="calendar-active">17</li>
+                            <li>18</li>
+                            <li>19</li>
+                            <li>20</li>
+                            <li>21</li>
+                            <li>22</li>
+                            <li>23</li>
+                            <li class="calendar-active">24</li>
+                            <li>25</li>
+                            <li>26</li>
+                            <li>27</li>
+                            <li>28</li>
+                            <li>29</li>
+                            <li class="calendar-active">30</li>
+                            <li class="calendar-disable">1</li>
+                        </ul>
+                    </div>
+                    <div class="calendar">
+                        <div class="calendar-title">
+                            <div class="calendar-title-name">
+                                April 2016
+                            </div>
+                            <ul class="calender-title-week">
+                                <li>MON</li>
+                                <li>TUE</li>
+                                <li>WED</li>
+                                <li>THU</li>
+                                <li>FRI</li>
+                                <li>SAT</li>
+                                <li>SUN</li>
+                            </ul>
+                        </div>
+                        <ul class="calendar-body">
+                            <li class="calendar-disable">28</li>
+                            <li class="calendar-disable">29</li>
+                            <li class="calendar-disable">30</li>
+                            <li class="calendar-disable">31</li>
+                            <li class="calendar-active">1</li>
+                            <li class="calendar-active">2</li>
+                            <li class="calendar-active">3</li>
+                            <li class="calendar-active">4</li>
+                            <li>5</li>
+                            <li>6</li>
+                            <li>7</li>
+                            <li>8</li>
+                            <li>9</li>
+                            <li class="calendar-active">10</li>
+                            <li>11</li>
+                            <li>12</li>
+                            <li>13</li>
+                            <li>14</li>
+                            <li>15</li>
+                            <li class="calendar-active">16</li>
+                            <li class="calendar-active">17</li>
+                            <li>18</li>
+                            <li>19</li>
+                            <li>20</li>
+                            <li>21</li>
+                            <li>22</li>
+                            <li>23</li>
+                            <li class="calendar-active">24</li>
+                            <li>25</li>
+                            <li>26</li>
+                            <li>27</li>
+                            <li>28</li>
+                            <li>29</li>
+                            <li class="calendar-active">30</li>
+                            <li class="calendar-disable">1</li>
+                        </ul>
+                    </div>
+                </div>
+                <p class="calendar-des">*Dates marked with red are our off days.</p>
+            </div>
         </div>
     </div>
     <!--footer-->
@@ -83,7 +416,7 @@
         <!--By Ajax-->
     </footer>
     <script src="../js/jquery-2.2.3.min.js"></script>
-
+    <script src="../js/bootstrap-alert.js"></script>
     <script>
 
         $(function () {

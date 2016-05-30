@@ -8,9 +8,9 @@
     <link rel="icon" href="../images/favicon.ico" />
     <link href="../styles/icon-web.css" rel="stylesheet" />
     <link href="../styles/modules/bootstrap.css" rel="stylesheet" />
-    <link href="../styles/pages/user-balance.min.css" rel="stylesheet" />
+    <link href="../styles/pages/user-orders.min.css" rel="stylesheet" />
 </head>
-<body id="userBalance">
+<body id="userOrder">
     <!--header-->
     <header>
         <!--By Ajax-->
@@ -29,7 +29,7 @@
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Account</a>
                     </li>
-                    <li>
+                    <li class="select">
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Orders</a>
                     </li>
@@ -41,7 +41,7 @@
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Designs</a>
                     </li>
-                    <li class="select">
+                    <li>
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Points & Balance</a>
                     </li>
@@ -75,7 +75,281 @@
         <!--products list-->
 
         <div class="list-view">
+            <div class="user-section">
+                <div class="s-title">
+                    My Points & Balance
+                </div>
+                <p class="top-des">
+                    TVC Mall Points/Scores system is available,
+                    <a href="#">click here for details</a>.
+                </p>
+            </div>
+            <div class="user-section user-order-content">
+                <div class="tab-wrap">
+                    <!--3 tabs-->
+                    <ul id="info-tab" class="nav nav-pills">
+                        <li role="presentation" class="active">
+                            <a href="#">All(888)</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">Pending(77)</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">Paid(77)</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">In Process(77)</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">Shipped(77)</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#">Done(77)</a>
+                        </li>
+                    </ul>
+                    <div class="order-sort">
+                        Sort By:
+                        <select class="form-control">
+                            <option value="?sort=created">
+                                Order Created (Newest First)
+                            </option>
+                            <option value="?sort=modified" selected="selected">
+                                Order Modification (Latest First)
+                            </option>
+                        </select>
+                    </div>
+                </div>
+                <div class="top-bar">
+                    <div class="tb-left">
+                        <a href="#" class="btn btn-info">
+                            <i class="icon-triangle-right"></i>
+                            Combine orders
+                        </a>
+                        <a href="#" class="btn btn-success">
+                            <i class="icon-triangle-right"></i>
+                            Create new order
+                        </a>
+                    </div>
+                    <div class="tb-right">
+                        <select class="form-control r-item">
+                            <option value="all">All orders</option>
+                            <option value="past">Orders in past 30 days</option>
+                        </select>
+                        <input type="text" value="" class="form-control r-item search-input" />
+                        <input type="button" value="Search" class="btn btn-danger r-item" />
+                    </div>
+                </div>
+                <table class="table table-condensed user-orders-list ">
+                    <tr>
+                        <th>No.</th>
+                        <th>State</th>
+                        <th>Date</th>
+                        <th>Order No.</th>
+                        <th>Total Price</th>
+                        <th>Actions</th>
+                    </tr>
+                    <tr>
+                        <td>1</td>
+                        <td>Pending</td>
+                        <td>05/21/2016</td>
+                        <td>
+                            <a href="#">
+                                V16052100185
+                            </a>
+                            <i class="icon-info"></i>
+                        </td>
+                        <td>
+                            USD
+                            <span class="n-color">
+                                458988.86
+                            </span>
+                        </td>
+                        <td>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-bulk" title="Bulk Buy with SKUs"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-chekout" title="Checkout"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-continue" title="Continue shopping"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-remove" title="Remove this order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-export" title="Export the order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-copy" title="Copy Order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-download-images" title="Download pictures"></span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Pending</td>
+                        <td>05/21/2016</td>
+                        <td>
+                            <a href="#">
+                                V16052100185
+                            </a>
+                            <i class="icon-info"></i>
+                        </td>
+                        <td>
+                            USD
+                            <span class="n-color">
+                                458988.86
+                            </span>
+                        </td>
+                        <td>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-bulk" title="Bulk Buy with SKUs"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-chekout" title="Checkout"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-continue" title="Continue shopping"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-remove" title="Remove this order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-export" title="Export the order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-copy" title="Copy Order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-download-images" title="Download pictures"></span>
+                            </a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Pending</td>
+                        <td>05/21/2016</td>
+                        <td>
+                            <a href="#">
+                                V16052100185
+                            </a>
+                            <i class="icon-info"></i>
+                        </td>
+                        <td>
+                            USD
+                            <span class="n-color">
+                                458988.86
+                            </span>
+                        </td>
+                        <td>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-bulk" title="Bulk Buy with SKUs"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-chekout" title="Checkout"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-continue" title="Continue shopping"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-remove" title="Remove this order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-export" title="Export the order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-copy" title="Copy Order"></span>
+                            </a>
+                            <a href="#" class="order-action">
+                                <span class="icon-web order-download-images" title="Download pictures"></span>
+                            </a>
+                        </td>
+                    </tr>
+                </table>
 
+                <nav class="pagination-wrap pagination-right">
+                    <div class="page-count">
+                        Pages: 1 / 37
+                    </div>
+                    <ul class="pagination pagination-sm">
+                        <li class="disabled">
+                            <a href="javascript:void(0);" aria-label="Previous">
+                                <span aria-hidden="true"><</span>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="javascript:void(0);">1</a>
+                        </li>
+                        <li>
+                            <a href="#">2</a>
+                        </li>
+                        <li>
+                            <a href="#">3</a>
+                        </li>
+                        <li>
+                            <a href="#">4</a>
+                        </li>
+                        <li class="ellipsis">
+                            <a href="javascript:void(0)">...</a>
+                        </li>
+                        <li>
+                            <a href="#">37</a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+
+                <div class="btm-section">
+                    <p>Once you select any item, an order number will be generated, make sure you take note of this number for our further communications </p>
+                    <p>
+                        <span class="n-color">The 5 status of the orders</span>.
+                    </p>
+                    <ul class="order-status-list">
+                        <li>
+                            <div class="icon-status-wrap">
+                                <span class="icon-web order-status-pending"></span>
+                            </div>
+                            <span class="f-weight">Pending: </span>
+                            The order was not paid or confirmed;
+                        </li>
+                        <li>
+                            <div class="icon-status-wrap">
+                                <span class="icon-web order-status-paid"></span>
+                            </div>
+                            <span class="f-weight">Paid: </span>
+                            Payment information was sent, we will check and confirm;
+                        </li>
+                        <li>
+                            <div class="icon-status-wrap">
+                                <span class="icon-web order-status-in-process"></span>
+                            </div>
+                            <span class="f-weight">In process: </span>
+                            Order is in process;
+                        </li>
+                        <li>
+                            <div class="icon-status-wrap">
+                                <span class="icon-web order-status-shipped"></span>
+                            </div>
+                            <span class="f-weight">Shipped: </span>
+                            Your order was shipped, you should have received the tracking details already;
+                        </li>
+                        <li>
+                            <div class="icon-status-wrap">
+                                <span class="icon-web order-status-done"></span>
+                            </div>
+                            <span class="f-weight">Done: </span>
+                            Receipt of the order was confirmed.
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </div>
     </div>
     <!--footer-->
@@ -83,7 +357,7 @@
         <!--By Ajax-->
     </footer>
     <script src="../js/jquery-2.2.3.min.js"></script>
-
+    <script src="../js/jquery.pin.js"></script>
     <script>
 
         $(function () {
@@ -99,6 +373,22 @@
 
             $.get("share/footer.html", function (html) {
                 $("footer").html(html);
+                //滚动回到顶部
+                $(window).scroll(function () {
+                    if ($(window).scrollTop() > 0) {
+                        $("#tvc-top").show();
+                    } else {
+                        $("#tvc-top").hide();
+                    }
+                });
+                $("#tvc-top").click(function () {
+                    $('body,html').animate({ scrollTop: 0 }, 100);
+                    return false;
+                });
+            });
+
+            $(".tab-wrap").pin({
+                containerSelector: ".user-order-content"
             });
         });
     </script>

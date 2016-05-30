@@ -1,0 +1,70 @@
+﻿
+@import "mixins";
+
+.user-section {
+    .s-title {
+        font: @nomal-font;
+        font-size: 19px;
+        color: #000;
+        height: 30px;
+        line-height: 30px;
+        text-indent: 18px;
+        border-bottom: 2px solid @nomal-color;
+    }
+    //选项卡
+    .tab-pane {
+        display: none;
+
+        &.active {
+            display: block;
+        }
+
+        .top-section {
+            display: flex;
+            justify-content: space-between;
+            height: 45px;
+            line-height: 45px;
+            background-color: @gray-dark;
+
+            .ts-des-left {
+                margin-left: 10px;
+            }
+
+            .ts-des-right {
+                margin-right: 10px;
+            }
+        }
+
+        .top-bar {
+            text-indent: 10px;
+            margin: 10px 0 10px 10px;
+
+            .form-control {
+                display: inline-block;
+                width: 200px;
+                height: 20px;
+            }
+        }
+    }
+
+    .tab-wrap {
+        .clearfix();
+        background-color: #fff;
+        border-bottom: 2px solid @nomal-color;
+        padding-top: 32px;
+        z-index: 8999;
+
+        li {
+            a {
+                font: @nomal-font;
+                border-radius: 0;
+            }
+
+            &.active {
+                a {
+                    background-color: @nomal-color;
+                }
+            }
+        }
+    }
+}
