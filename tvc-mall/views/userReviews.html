@@ -7,10 +7,10 @@
     <link href="../content/styles/common.min.css" rel="stylesheet" />
     <link rel="icon" href="../content/images/favicon.ico" />
     <link href="../content/styles/icon-web.css" rel="stylesheet" />
-    <link href="../content/styles/modules/bootstrap.css" rel="stylesheet" />
-    <link href="../content/styles/pages/user-balance.min.css" rel="stylesheet" />
+    <link href="../content/styles/modules/bootstrap.min.css" rel="stylesheet" />
+    <link href="../content/styles/pages/user-reviews.min.css" rel="stylesheet" />
 </head>
-<body id="userBalance">
+<body id="userReviews">
     <!--header-->
     <header>
         <!--By Ajax-->
@@ -41,7 +41,7 @@
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Designs</a>
                     </li>
-                    <li class="select">
+                    <li>
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Points & Balance</a>
                     </li>
@@ -61,7 +61,7 @@
                         <i class="icon-triangle-right"></i>
                         <a href="#">Update Record List</a>
                     </li>
-                    <li>
+                    <li class="select">
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Reviews</a>
                     </li>
@@ -75,7 +75,332 @@
         <!--products list-->
 
         <div class="list-view">
-
+            <div class="user-section">
+                <div class="s-title">
+                    My Reviews
+                </div>
+                <div class="tab-wrap">
+                    <ul id="info-tab" class="nav nav-pills">
+                        <li role="presentation" class="active">
+                            <a href="#pandingList">Pending List</a>
+                        </li>
+                        <li role="presentation">
+                            <a href="#reviewedList">Reviewed List</a>
+                        </li>
+                    </ul>
+                </div>
+                <div role="tabpanel" class="tab-pane active" id="pandingList">
+                    <div class="top-des">
+                        Note: Only orders and products bought within 3 months can be reviewed. Each order can acquire max 1.5 points.
+                    </div>
+                    <table class="table pedding-list">
+                        <tr>
+                            <th>Order No.</th>
+                            <th>Product List</th>
+                            <th>Date</th>
+                            <th>Status</th>
+                            <th>Review</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    <a href="#" class="order-no">V16032400003</a>
+                                </p>
+                                <p>(1 items, 1 Pieces)</p>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="../content/images/big-pic.jpg" alt="" class="product-img" />
+                                </a>
+                            </td>
+                            <td>03/24/2016</td>
+                            <td>Not Reviewed Yet</td>
+                            <td>
+                                <a href="#" class="btn btn-danger">Write Reviews >></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    <a href="#" class="order-no">V16032400003</a>
+                                </p>
+                                <p>(1 items, 1 Pieces)</p>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="../content/images/big-pic.jpg" alt="" class="product-img" />
+                                </a>
+                            </td>
+                            <td>03/24/2016</td>
+                            <td>Not Reviewed Yet</td>
+                            <td>
+                                <a href="#" class="btn btn-danger">Write Reviews >></a>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    <a href="#" class="order-no">V16032400003</a>
+                                </p>
+                                <p>(1 items, 1 Pieces)</p>
+                            </td>
+                            <td>
+                                <a href="#">
+                                    <img src="../content/images/big-pic.jpg" alt="" class="product-img" />
+                                </a>
+                            </td>
+                            <td>03/24/2016</td>
+                            <td>Not Reviewed Yet</td>
+                            <td>
+                                <a href="#" class="btn btn-danger">Write Reviews >></a>
+                            </td>
+                        </tr>
+                    </table>
+                    <nav class="pagination-wrap pagination-right">
+                        <div class="page-count">
+                            Pages: 1 / 37
+                        </div>
+                        <ul class="pagination pagination-sm">
+                            <li class="disabled">
+                                <a href="javascript:void(0);" aria-label="Previous">
+                                    <span aria-hidden="true"><</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="javascript:void(0);">1</a>
+                            </li>
+                            <li>
+                                <a href="#">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">4</a>
+                            </li>
+                            <li class="ellipsis">
+                                <a href="javascript:void(0)">...</a>
+                            </li>
+                            <li>
+                                <a href="#">37</a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div role="tabpanel" class="tab-pane" id="reviewedList">
+                    <div class="top-des">
+                        Note: Only orders and products bought within 3 months can be reviewed. Each order can acquire max 1.5 points.
+                    </div>
+                    <table class="table reviewed-list">
+                        <tr>
+                            <th>Order</th>
+                            <th>Review Content</th>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    <a href="#" class="order-no">V15112700001</a>
+                                </p>
+                                <p>
+                                    (4 items, 4 Pieces)
+                                </p>
+                                <div class="product-imgs-box">
+                                    <img src="../content/images/big-pic.jpg" alt=""/>
+                                    <img src="../content/images/big-pic.jpg" alt="" />
+                                    <img src="../content/images/big-pic.jpg" alt="" />
+                                    <div style="line-height: 60px;">...</div>
+                                </div>
+                            </td>
+                            <td class="reviewed-main">
+                                <div class="rating-bar">
+                                    <div class="r-item">
+                                        <span class="f-weight">
+                                            Service:
+                                        </span>
+                                        <div class="rating">
+                                            <span class="start" style="width: 50%"></span>
+                                        </div>
+                                    </div>
+                                    <div class="r-item">
+                                        <span class="f-weight">
+                                            Delivery:
+                                        </span>
+                                        <div class="rating">
+                                            <span class="start" style="width: 50%"></span>
+                                        </div>
+                                    </div>
+                                    <div class="r-item">
+                                        <span class="f-weight">
+                                            Product:
+                                        </span>
+                                        <div class="rating">
+                                            <span class="start" style="width: 50%"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="r-content">
+                                    You will get 0.9 points for this review.You will get 0.9 points for this review.You will get 0.9 points for this review.You will get 0.9 points for this review.You will get 0.9 points for this rev...
+                                    <a href="#" class="b-color">detail >></a>
+                                </p>
+                                <p class="btm-section">
+                                    12/14/2015
+                                    <span class="r-more f-weight">
+                                        Approved
+                                    </span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    <a href="#" class="order-no">V15112700001</a>
+                                </p>
+                                <p>
+                                    (4 items, 4 Pieces)
+                                </p>
+                                <div class="product-imgs-box">
+                                    <img src="../content/images/big-pic.jpg" alt="" />
+                                    <img src="../content/images/big-pic.jpg" alt="" />
+                                    <img src="../content/images/big-pic.jpg" alt="" />
+                                    <div style="line-height: 60px;">...</div>
+                                </div>
+                            </td>
+                            <td class="reviewed-main">
+                                <div class="rating-bar">
+                                    <div class="r-item">
+                                        <span class="f-weight">
+                                            Service:
+                                        </span>
+                                        <div class="rating">
+                                            <span class="start" style="width: 50%"></span>
+                                        </div>
+                                    </div>
+                                    <div class="r-item">
+                                        <span class="f-weight">
+                                            Delivery:
+                                        </span>
+                                        <div class="rating">
+                                            <span class="start" style="width: 50%"></span>
+                                        </div>
+                                    </div>
+                                    <div class="r-item">
+                                        <span class="f-weight">
+                                            Product:
+                                        </span>
+                                        <div class="rating">
+                                            <span class="start" style="width: 50%"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="r-content">
+                                    You will get 0.9 points for this review.You will get 0.9 points for this review.You will get 0.9 points for this review.You will get 0.9 points for this review.You will get 0.9 points for this rev...
+                                    <a href="#" class="b-color">detail >></a>
+                                </p>
+                                <p class="btm-section">
+                                    12/14/2015
+                                    <span class="r-more f-weight">
+                                        Approved
+                                    </span>
+                                </p>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+                                <p>
+                                    <a href="#" class="order-no">V15112700001</a>
+                                </p>
+                                <p>
+                                    (4 items, 4 Pieces)
+                                </p>
+                                <div class="product-imgs-box">
+                                    <img src="../content/images/big-pic.jpg" alt="" />
+                                    <img src="../content/images/big-pic.jpg" alt="" />
+                                    <img src="../content/images/big-pic.jpg" alt="" />
+                                    <div style="line-height: 60px;">...</div>
+                                </div>
+                            </td>
+                            <td class="reviewed-main">
+                                <div class="rating-bar">
+                                    <div class="r-item">
+                                        <span class="f-weight">
+                                            Service:
+                                        </span>
+                                        <div class="rating">
+                                            <span class="start" style="width: 50%"></span>
+                                        </div>
+                                    </div>
+                                    <div class="r-item">
+                                        <span class="f-weight">
+                                            Delivery:
+                                        </span>
+                                        <div class="rating">
+                                            <span class="start" style="width: 50%"></span>
+                                        </div>
+                                    </div>
+                                    <div class="r-item">
+                                        <span class="f-weight">
+                                            Product:
+                                        </span>
+                                        <div class="rating">
+                                            <span class="start" style="width: 50%"></span>
+                                        </div>
+                                    </div>
+                                </div>
+                                <p class="r-content">
+                                    You will get 0.9 points for this review.You will get 0.9 points for this review.You will get 0.9 points for this review.You will get 0.9 points for this review.You will get 0.9 points for this rev...
+                                    <a href="#" class="b-color">detail >></a>
+                                </p>
+                                <p class="btm-section">
+                                    12/14/2015
+                                    <span class="r-more f-weight">
+                                        Approved
+                                    </span>
+                                </p>
+                            </td>
+                        </tr>
+                    </table>
+                    <nav class="pagination-wrap pagination-right">
+                        <div class="page-count">
+                            Pages: 1 / 37
+                        </div>
+                        <ul class="pagination pagination-sm">
+                            <li class="disabled">
+                                <a href="javascript:void(0);" aria-label="Previous">
+                                    <span aria-hidden="true"><</span>
+                                </a>
+                            </li>
+                            <li class="active">
+                                <a href="javascript:void(0);">1</a>
+                            </li>
+                            <li>
+                                <a href="#">2</a>
+                            </li>
+                            <li>
+                                <a href="#">3</a>
+                            </li>
+                            <li>
+                                <a href="#">4</a>
+                            </li>
+                            <li class="ellipsis">
+                                <a href="javascript:void(0)">...</a>
+                            </li>
+                            <li>
+                                <a href="#">37</a>
+                            </li>
+                            <li>
+                                <a href="#" aria-label="Next">
+                                    <span aria-hidden="true">></span>
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
         </div>
     </div>
     <!--footer-->
@@ -83,7 +408,7 @@
         <!--By Ajax-->
     </footer>
     <script src="../content/js/modules/jquery-2.2.3.min.js"></script>
-
+    <script src="../content/js/modules/bootstrap.min.js"></script>
     <script>
 
         $(function () {
@@ -99,6 +424,11 @@
 
             $.get("share/footer.html", function (html) {
                 $("footer").html(html);
+            });
+
+            $('#info-tab a').click(function (e) {
+                e.preventDefault()
+                $(this).tab('show')
             });
         });
     </script>

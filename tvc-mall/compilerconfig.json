@@ -94,5 +94,25 @@
   {
     "outputFile": "content/js/modules/bootstrap.es5.js",
     "inputFile": "content/js/modules/bootstrap.js"
+  },
+  {
+    "outputFile": "content/styles/pages/user-stock.css",
+    "inputFile": "content/styles/pages/user-stock.less"
+  },
+  {
+    "outputFile": "content/styles/pages/user-message.css",
+    "inputFile": "content/styles/pages/user-message.less"
+  },
+  {
+    "outputFile": "content/styles/pages/user-reviews.css",
+    "inputFile": "content/styles/pages/user-reviews.less"
+  },
+  {
+    "outputFile": "content/styles/pages/user-download.css",
+    "inputFile": "content/styles/pages/user-download.less"
+  },
+  {
+    "outputFile": "content/styles/pages/user-purchasing.css",
+    "inputFile": "content/styles/pages/user-purchasing.less"
   }
 ]

@@ -1,17 +1,37 @@
-﻿
-.rating {
+﻿.rating {
     position: relative;
     top: 3px;
     width: 80px;
     height: 15px;
     display: inline-block;
     overflow: hidden;
-    background: url(../../content/images/star.png) repeat-x scroll 0 -16px transparent;
+    background: url(../../images/icons/star.png) repeat-x scroll 0 -16px transparent;
 
     .start {
         display: block;
         height: 15px;
         text-indent: -9999px;
-        background: url(../../content/images/star.png) repeat-x scroll 0 0 transparent;
+        background: url(../../images/icons/star.png) repeat-x scroll 0 0 transparent;
+    }
+}
+
+.rating-big {
+    color: #000;
+    vertical-align: middle;
+}
+
+.star-img-big {
+    background: url(../../images/icons/star_big.png) 0 -20px repeat-x;
+    width: 100px;
+    height: 19px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin-right: 10px;
+
+    span {
+        background: url(../../images/icons/star_big.png) 0 0 repeat-x;
+        display: block;
+        text-indent: -9999px;
     }
 }

@@ -1,28 +1,27 @@
 ﻿@import "../partials/products-filfer-1.less";
-@import "../partials/start-rating.less";
-@import "../partials/products-grid-view.less";
+@import "../partials/user-section.less";
+@import "../partials/pagination.less";
 
-
-#userBalance {
+#userDownload {
     .r-title {
         display: block;
         width: 100%;
         height: 50px;
         line-height: 50px;
         color: #000;
-
     }
 
     .content {
         width: @page-width;
         .center();
-        margin-top: 40px;
+        margin-top: 20px;
         display: flex;
         justify-content: space-between;
 
         .filter {
             width: 220px;
         }
+
         .filter-title {
             color: #fff;
             background-color: @nomal-color;
@@ -33,6 +32,86 @@
     .list-view {
         flex: 1;
         margin-left: 20px;
+
+        .top-des {
+            margin-top: 10px;
+            padding-left: 10px;
+            height: 40px;
+            line-height: 40px;
+            border: 1px solid @gray-dark;
+        }
+
+        .top-bar {
+            display: flex;
+            justify-content: space-between;
+            margin: 10px 0;
+
+            .b-left {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .b-lable {
+                margin-top: 8px;
+                margin-right: 10px;
+            }
+
+            .form-control {
+                margin-right: 10px;
+                width: 200px;
+            }
+
+            .no-input {
+                height: 20px;
+                width: 250px;
+            }
+        }
+
+        .icon-web {
+            display: inline-block;
+            vertical-align: middle;
+        }
+
+        .icon-info {
+            display: inline-block;
+            color: @nomal-color;
+        }
+
+        .table {
+            td {
+                vertical-align: middle;
+            }
+
+            .btn-operation {
+                height: 22px;
+                line-height: 10px;
+            }
+        }
     }
 
+    #bulkyUploadModal {
+        .top-bar {
+            display: flex;
+            justify-content: flex-start;
+            margin: 10px 0;
+
+            .b-item {
+                margin-right: 20px;
+            }
+        }
+
+        .main {
+            display: flex;
+            justify-content: flex-start;
+
+            .m-left {
+                width: 60%;
+            }
+
+
+        }
+        .btn-submit{
+            margin-top: 10px;
+        }
+    }
 }

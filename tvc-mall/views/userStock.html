@@ -9,8 +9,9 @@
     <link href="../content/styles/icon-web.css" rel="stylesheet" />
     <link href="../content/styles/modules/bootstrap.min.css" rel="stylesheet" />
     <link href="../content/styles/pages/user-balance.min.css" rel="stylesheet" />
+    <link href="../content/styles/pages/user-stock.min.css" rel="stylesheet" />
 </head>
-<body id="userBalance">
+<body id="userStock">
     <!--header-->
     <header>
         <!--By Ajax-->
@@ -41,7 +42,7 @@
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Designs</a>
                     </li>
-                    <li class="select">
+                    <li>
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Points & Balance</a>
                     </li>
@@ -49,7 +50,7 @@
                         <i class="icon-triangle-right"></i>
                         <a href="#">Change password</a>
                     </li>
-                    <li>
+                    <li class="select">
                         <i class="icon-triangle-right"></i>
                         <a href="#">Items Out Of Stock</a>
                     </li>
@@ -75,7 +76,125 @@
         <!--products list-->
 
         <div class="list-view">
-
+            <div class="user-section">
+                <div class="s-title">
+                    Items Out Of Stock
+                </div>
+                <div class="top-bar">
+                    <form class="search-data">
+                        <select class="form-control">
+                            <option value="false">All</option>
+                            <option value="true" selected="selected">Purchased</option>
+                        </select>
+                        <select class="form-control">
+                            <option value="" selected="selected">All Types</option>
+                            <option value="C0049">Apple</option>
+                            <option value="C0041">Samsung</option>
+                            <option value="C0060">Sony</option>
+                        </select>
+                        <select class="form-control">
+                            <option value="" selected="selected">All Brands</option>
+                            <option value="A0023">ASUS</option>
+                            <option value="A0031">Acer</option>
+                        </select>
+                        <select class="form-control">
+                            <option value="7">One Week</option>
+                            <option value="30">One Month</option>
+                            <option value="90" selected="selected">Three Month</option>
+                        </select>
+                        <input type="text" value="" class="form-control item-no-input" placeholder="Item No or Keyword" />
+                        <input type="submit" class="btn btn-danger" value="Search" />
+                    </form>
+                </div>
+                <table class="table table-hover">
+                    <tr>
+                        <th>Date</th>
+                        <th>Picture</th>
+                        <th>Title</th>
+                        <th>Item No</th>
+                    </tr>
+                    <tr>
+                        <td>04/05/2016</td>
+                        <td>
+                            <a href="#">
+                                <img src="../content/images/big-pic.jpg" alt="" class="product-img" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#" class="product-name">Double-sided Matte Glossy Edge TPU Case for LG G3 S D725 - White</a>
+                            <p>Color:White</p>
+                        </td>
+                        <td>
+                            EPC-G3MINI-02A
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>04/05/2016</td>
+                        <td>
+                            <a href="#">
+                                <img src="../content/images/big-pic.jpg" alt="" class="product-img" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#" class="product-name">Double-sided Matte Glossy Edge TPU Case for LG G3 S D725 - White</a>
+                            <p>Color:White</p>
+                        </td>
+                        <td>
+                            EPC-G3MINI-02A
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>04/05/2016</td>
+                        <td>
+                            <a href="#">
+                                <img src="../content/images/big-pic.jpg" alt="" class="product-img" />
+                            </a>
+                        </td>
+                        <td>
+                            <a href="#" class="product-name">Double-sided Matte Glossy Edge TPU Case for LG G3 S D725 - White</a>
+                            <p>Color:White</p>
+                        </td>
+                        <td>
+                            EPC-G3MINI-02A
+                        </td>
+                    </tr>
+                </table>
+                <nav class="pagination-wrap pagination-right">
+                    <div class="page-count">
+                        Pages: 1 / 37
+                    </div>
+                    <ul class="pagination pagination-sm">
+                        <li class="disabled">
+                            <a href="javascript:void(0);" aria-label="Previous">
+                                <span aria-hidden="true"><</span>
+                            </a>
+                        </li>
+                        <li class="active">
+                            <a href="javascript:void(0);">1</a>
+                        </li>
+                        <li>
+                            <a href="#">2</a>
+                        </li>
+                        <li>
+                            <a href="#">3</a>
+                        </li>
+                        <li>
+                            <a href="#">4</a>
+                        </li>
+                        <li class="ellipsis">
+                            <a href="javascript:void(0)">...</a>
+                        </li>
+                        <li>
+                            <a href="#">37</a>
+                        </li>
+                        <li>
+                            <a href="#" aria-label="Next">
+                                <span aria-hidden="true">></span>
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
         </div>
     </div>
     <!--footer-->

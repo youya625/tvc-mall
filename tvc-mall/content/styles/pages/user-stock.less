@@ -1,28 +1,27 @@
 ﻿@import "../partials/products-filfer-1.less";
-@import "../partials/start-rating.less";
-@import "../partials/products-grid-view.less";
+@import "../partials/user-section.less";
+@import "../partials//pagination.less";
 
-
-#userBalance {
+#userStock {
     .r-title {
         display: block;
         width: 100%;
         height: 50px;
         line-height: 50px;
         color: #000;
-
     }
 
     .content {
         width: @page-width;
         .center();
-        margin-top: 40px;
+        margin-top: 20px;
         display: flex;
         justify-content: space-between;
 
         .filter {
             width: 220px;
         }
+
         .filter-title {
             color: #fff;
             background-color: @nomal-color;
@@ -33,6 +32,47 @@
     .list-view {
         flex: 1;
         margin-left: 20px;
-    }
+        color: #000;
 
+        .top-bar {
+            margin-top: 10px;
+
+            .search-data {
+                display: flex;
+                justify-content: space-between;
+            }
+
+            .form-control {
+                margin-right: 10px;
+            }
+
+            .item-no-input {
+                height: 20px;
+            }
+        }
+
+        .table {
+            margin-top: 10px;
+
+            td {
+                vertical-align: middle;
+            }
+
+            .product-img {
+                max-width: 80px;
+                border: 1px solid @gray-dark;
+            }
+
+            .product-name {
+                display: block;
+                color: #000;
+                text-decoration: underline;
+                margin-bottom: 5px;
+
+                &:hover {
+                    color: @nomal-color;
+                }
+            }
+        }
+    }
 }

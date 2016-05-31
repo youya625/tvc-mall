@@ -8,10 +8,9 @@
     <link rel="icon" href="../content/images/favicon.ico" />
     <link href="../content/styles/icon-web.css" rel="stylesheet" />
     <link href="../content/styles/modules/bootstrap.min.css" rel="stylesheet" />
-    <link href="../content/styles/pages/user-update.min.css" rel="stylesheet" />
-
+    <link href="../content/styles/pages/user-purchasing.min.css" rel="stylesheet" />
 </head>
-<body id="userUpdate">
+<body id="userPurchasing">
     <!--header-->
     <header>
         <!--By Ajax-->
@@ -58,7 +57,7 @@
                         <i class="icon-triangle-right"></i>
                         <a href="#">My Download List</a>
                     </li>
-                    <li class="select">
+                    <li>
                         <i class="icon-triangle-right"></i>
                         <a href="#">Update Record List</a>
                     </li>
@@ -70,6 +69,10 @@
                         <i class="icon-triangle-right"></i>
                         <a href="#">Message</a>
                     </li>
+                    <li class="select">
+                        <i class="icon-triangle-right"></i>
+                        <a href="#">Purchasing Statements</a>
+                    </li>
                 </ul>
             </div>
         </div>
@@ -78,76 +81,48 @@
         <div class="list-view">
             <div class="user-section">
                 <div class="s-title">
-                    <div>
-                        Update Record List
+                    Purchasing Statements
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!--shipping modal-->
+    <div id="bulkyUploadModal" class="modal fade bs-example-modal-lg" tabindex="-1" role="dialog" aria-labelledby="myLargeModalLabel">
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h4 class="modal-title" id="gridSystemModalLabel">Upload bulk SKUs</h4>
+                    <button type="button" class="btn close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                </div>
+
+                <div class="top-bar">
+                    <div class="b-item">
+                        Available Quota:
+                        <span class="n-color">No limits</span>
+                    </div>
+                    <div class="b-item">
+                        number of SKU entered:
+                        <span class="n-color">0</span>
                     </div>
                 </div>
-                <table class="table table-condensed table-bordered">
-                    <tr>
-                        <th>Date</th>
-                        <th>Item</th>
-                        <th>Detail</th>
-                    </tr>
-                    <tr>
-                        <td>08/20/2015</td>
-                        <td>System Updates of TVC Mall(20150820)</td>
-                        <td>
-                            1. Optimization of the toolbar on top of the pages;2. Unification of the date and time formats in website;3. Optimization of the usage of account balance;4. Optimization of product detail pages;4.1. S...
-                            <a href="#" class="b-color">More details</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>08/20/2015</td>
-                        <td>System Updates of TVC Mall(20150820)</td>
-                        <td>
-                            1. Optimization of the toolbar on top of the pages;2. Unification of the date and time formats in website;3. Optimization of the usage of account balance;4. Optimization of product detail pages;4.1. S...
-                            <a href="#" class="b-color">More details</a>
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>08/20/2015</td>
-                        <td>System Updates of TVC Mall(20150820)</td>
-                        <td>
-                            1. Optimization of the toolbar on top of the pages;2. Unification of the date and time formats in website;3. Optimization of the usage of account balance;4. Optimization of product detail pages;4.1. S...
-                            <a href="#" class="b-color">More details</a>
-                        </td>
-                    </tr>
-                </table>
-                <nav class="pagination-wrap pagination-right">
-                    <div class="page-count">
-                        Pages: 1 / 37
+
+                <div class="main">
+                    <div class="m-left">
+                        <textarea rows="8" class="form-control" placeholder="For Example:&#10;10130511A&#10;10110214A&#10;10170319A"></textarea>
                     </div>
-                    <ul class="pagination pagination-sm">
-                        <li class="disabled">
-                            <a href="javascript:void(0);" aria-label="Previous">
-                                <span aria-hidden="true"><</span>
-                            </a>
-                        </li>
-                        <li class="active">
-                            <a href="javascript:void(0);">1</a>
-                        </li>
-                        <li>
-                            <a href="#">2</a>
-                        </li>
-                        <li>
-                            <a href="#">3</a>
-                        </li>
-                        <li>
-                            <a href="#">4</a>
-                        </li>
-                        <li class="ellipsis">
-                            <a href="javascript:void(0)">...</a>
-                        </li>
-                        <li>
-                            <a href="#">37</a>
-                        </li>
-                        <li>
-                            <a href="#" aria-label="Next">
-                                <span aria-hidden="true">></span>
-                            </a>
-                        </li>
-                    </ul>
-                </nav>
+                    <div class="m-right">
+                        <ol>
+                            <li>1. Please input SKU only.</li>
+                            <li>2. Maximum 200 SKUs can be added.</li>
+                        </ol>
+                    </div>
+                </div>
+
+                <a href="#" class="btn btn-danger btn-submit">
+                    <i class="icon-triangle-right"></i>
+                    Submit
+                </a>
             </div>
         </div>
     </div>
@@ -156,7 +131,7 @@
         <!--By Ajax-->
     </footer>
     <script src="../content/js/modules/jquery-2.2.3.min.js"></script>
-
+    <script src="../content/js/modules/bootstrap.min.js"></script>
     <script>
 
         $(function () {

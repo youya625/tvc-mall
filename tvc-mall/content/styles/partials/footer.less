@@ -7,7 +7,7 @@
 
 .footer {
     @footer-title-size: 18px; //底部标题字体大小
-    @footer-font-size: 12px; //底部字体大小
+    @footer-font-size: 13px; //底部字体大小
     .size(100%, auto);
     background-color: #fff;
     border-top: 1px solid @nomal-bg-color;
@@ -137,20 +137,9 @@
 
         .community {
             a {
-                display: inline-block;
-                .size(32px, 32px);
-            }
-
-            .fb {
-                background-image: url(../../content/images/footer/fb.jpg);
-            }
-
-            .tw {
-                background-image: url(../../content/images/footer/tw.jpg);
-            }
-
-            .vk {
-                background-image: url(../../content/images/footer/vk.jpg);
+                .icon-web{
+                    display: inline-block;
+                }
             }
         }
 
@@ -172,7 +161,7 @@
                     margin-top: 10px;
 
                     a {
-                        .font(@footer-font-size, #a599a5);
+                        .font(@footer-font-size, #555);
 
                         &:hover {
                             color: #000;
